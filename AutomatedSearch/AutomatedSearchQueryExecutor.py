@@ -11,7 +11,7 @@ def get_file_path():
     for i, file in enumerate(available_files):
         print(f"{i+1}. {file}")
     choice = int(input("Choose a file by number: ")) - 1
-    return "jsons/" + available_files[choice]
+    return "AutomatedSearch/jsons/" + available_files[choice]
 
 def get_delay_setting():
     print("Choose a delay setting: bard (60 seconds), bing (2 minutes), or custom.")
