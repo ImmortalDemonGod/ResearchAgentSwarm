@@ -31,19 +31,26 @@ def get_search_box_coordinates():
     print(f"Please move your cursor to the search box within the next 5 seconds.")
     time.sleep(5)  # Wait for the specified delay
     return pyautogui.position()
+def get_search_enter_coordinates():
+    print(f"Please move your cursor to the enter button within the next 5 seconds.")
+    time.sleep(5)  # Wait for the specified delay
+    return pyautogui.position()
+def perform_searches(queries, search_box, search_button, delay):
 
-def perform_searches(queries, coordinates, delay):
-    x, y = coordinates
     for i, query in enumerate(queries):
         if i > 0 and i % 25 == 0:
+            playsound.playsound('AutomatedSearch/done_sound.mp3')
             print("Pause for user input. Press any key to continue...")
             input()
-        pyautogui.click(x, y)
+        pyautogui.click(search_box)
         pyautogui.typewrite(query)
         pyautogui.press('enter')
         print(f"Searching for: {query}")
         time.sleep(2)
-        pyautogui.press('enter')  
+        pyautogui.press('enter')
+        time.sleep(2)
+        pyautogui.press('enter')   
+        pyautogui.click(search_button) # can be redundant but just in case
         time.sleep(delay)  # Wait for the search to complete
     print("All searches are complete.")
     playsound.playsound('AutomatedSearch/done_sound.mp3')
@@ -71,8 +78,9 @@ def main():
         hours, remainder = divmod(total_time, 3600)
         minutes, seconds = divmod(remainder, 60)
         print(f"Estimated completion time (including buffer): {hours} hours, {minutes} minutes, and {seconds} seconds.")
-        coordinates = get_search_box_coordinates()
-        perform_searches(queries, coordinates,delay)
+        search_box = get_search_box_coordinates()
+        search_button = get_search_enter_coordinates()
+        perform_searches(queries, search_box, search_button, delay)
     except FileNotFoundError:
         print(f"No file found at {file_path}")
     except json.JSONDecodeError:
