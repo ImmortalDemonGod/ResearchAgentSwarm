@@ -32,16 +32,12 @@ def get_search_box_coordinates():
     time.sleep(5)  # Wait for the specified delay
     return pyautogui.position()
 
-def get_user_input():
-    return input("Do you want to continue? (yes/no): ")
-
 def perform_searches(queries, coordinates, delay):
     x, y = coordinates
     for i, query in enumerate(queries):
         if i > 0 and i % 25 == 0:
-            user_input = get_user_input()
-            if user_input.lower() != 'yes':
-                break
+            print("Pause for user input. Press any key to continue...")
+            input()
         pyautogui.click(x, y)
         pyautogui.typewrite(query)
         pyautogui.press('enter')
