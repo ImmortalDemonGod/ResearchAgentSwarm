@@ -1,0 +1,16 @@
+
+1. Challenges in text data preprocessing. The text discusses issues like data quality, language variations, word ambiguity, representative samples, and dynamic data. Our notes do not highlight these challenges. 
+
+2. Data validation techniques. The text emphasizes the importance of quality checks and control measures. Our notes mention validation but do not provide specific techniques.
+
+3. Considerations for sensitive data. The text references ethical guidelines and privacy regulations when handling personal/sensitive information. Our notes lack this perspective.  
+
+4. Text augmentation techniques. The text lists methods like synonym replacement and back translation to increase model training data variety. Our notes skip text augmentation.
+
+5. Handling class imbalance. The text suggests resampling and cost-sensitive learning to address uneven class distribution. Our notes omit this.
+
+6. Feature engineering for text data. The text references techniques like n-grams and sentiment analysis to construct additional useful features. Our notes do not cover this topic.
+
+7. Storage and handling considerations. The text advises on choosing appropriate storage formats and considering data privacy. Our notes currently lack this operational perspective.
+
+8. Additional best practices. The text provides general guidelines like collaboration, continuous improvement, and documentation which can be incorporated.
