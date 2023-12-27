@@ -1,0 +1,1126 @@
+[
+    {
+        "citation": "User Line number 339, Message number 9, Document: ChatGPT_history, (Word Count: 1243):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 394, Message number 11, Document: ChatGPT_history, (Word Count: 22):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 866, Message number 27, Document: ChatGPT_history, (Word Count: 26):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 1301, Message number 39, Document: ChatGPT_history, (Word Count: 29):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 1518, Message number 49, Document: ChatGPT_history, (Word Count: 41):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 1572, Message number 51, Document: ChatGPT_history, (Word Count: 9):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 1665, Message number 55, Document: ChatGPT_history, (Word Count: 42):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 1783, Message number 65, Document: ChatGPT_history, (Word Count: 1):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 1886, Message number 71, Document: ChatGPT_history, (Word Count: 22):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 3442, Message number 83, Document: ChatGPT_history, (Word Count: 5133):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 5118, Message number 87, Document: ChatGPT_history, (Word Count: 9388):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 6125, Message number 91, Document: ChatGPT_history, (Word Count: 4806):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 7180, Message number 93, Document: ChatGPT_history, (Word Count: 5133):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 8190, Message number 117, Document: ChatGPT_history, (Word Count: 826):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 8511, Message number 123, Document: ChatGPT_history, (Word Count: 1099):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 9395, Message number 140, Document: ChatGPT_history, (Word Count: 2387):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 9614, Message number 146, Document: ChatGPT_history, (Word Count: 1142):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 9827, Message number 148, Document: ChatGPT_history, (Word Count: 1901):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 10298, Message number 165, Document: ChatGPT_history, (Word Count: 33):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 11258, Message number 198, Document: ChatGPT_history, (Word Count: 1153):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 12614, Message number 228, Document: ChatGPT_history, (Word Count: 1365):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 12839, Message number 235, Document: ChatGPT_history, (Word Count: 10):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 14665, Message number 280, Document: ChatGPT_history, (Word Count: 1368):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 15338, Message number 293, Document: ChatGPT_history, (Word Count: 529):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 17275, Message number 336, Document: ChatGPT_history, (Word Count: 115):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 17419, Message number 340, Document: ChatGPT_history, (Word Count: 248):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 17724, Message number 348, Document: ChatGPT_history, (Word Count: 249):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 19165, Message number 398, Document: ChatGPT_history, (Word Count: 57):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 20210, Message number 422, Document: ChatGPT_history, (Word Count: 8732):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 20817, Message number 439, Document: ChatGPT_history, (Word Count: 879):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 21794, Message number 441, Document: ChatGPT_history, (Word Count: 12443):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 22903, Message number 462, Document: ChatGPT_history, (Word Count: 3605):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 23622, Message number 490, Document: ChatGPT_history, (Word Count: 472):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 26925, Message number 546, Document: ChatGPT_history, (Word Count: 159):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 27133, Message number 556, Document: ChatGPT_history, (Word Count: 25):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 32121, Message number 643, Document: ChatGPT_history, (Word Count: 594):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 33499, Message number 660, Document: ChatGPT_history, (Word Count: 40):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 35681, Message number 682, Document: ChatGPT_history, (Word Count: 5141):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 36847, Message number 696, Document: ChatGPT_history, (Word Count: 198):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 38118, Message number 710, Document: ChatGPT_history, (Word Count: 2586):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 39219, Message number 719, Document: ChatGPT_history, (Word Count: 2133):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 39737, Message number 725, Document: ChatGPT_history, (Word Count: 950):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 40075, Message number 727, Document: ChatGPT_history, (Word Count: 1906):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 41022, Message number 736, Document: ChatGPT_history, (Word Count: 654):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 43630, Message number 771, Document: ChatGPT_history, (Word Count: 904):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 44107, Message number 773, Document: ChatGPT_history, (Word Count: 2157):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 44608, Message number 775, Document: ChatGPT_history, (Word Count: 2902):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 45165, Message number 785, Document: ChatGPT_history, (Word Count: 1197):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 45423, Message number 790, Document: ChatGPT_history, (Word Count: 1050):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 45701, Message number 796, Document: ChatGPT_history, (Word Count: 529):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 45864, Message number 803, Document: ChatGPT_history, (Word Count: 131):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 45910, Message number 805, Document: ChatGPT_history, (Word Count: 174):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 45935, Message number 807, Document: ChatGPT_history, (Word Count: 10):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 45981, Message number 811, Document: ChatGPT_history, (Word Count: 24):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 46316, Message number 820, Document: ChatGPT_history, (Word Count: 1197):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 46734, Message number 826, Document: ChatGPT_history, (Word Count: 3131):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 46959, Message number 827, Document: ChatGPT_history, (Word Count: 4284):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 47030, Message number 829, Document: ChatGPT_history, (Word Count: 251):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 47145, Message number 831, Document: ChatGPT_history, (Word Count: 497):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 47667, Message number 837, Document: ChatGPT_history, (Word Count: 2259):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 47918, Message number 839, Document: ChatGPT_history, (Word Count: 2204):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 48247, Message number 845, Document: ChatGPT_history, (Word Count: 281):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 48343, Message number 848, Document: ChatGPT_history, (Word Count: 617):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 48495, Message number 853, Document: ChatGPT_history, (Word Count: 635):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 48557, Message number 855, Document: ChatGPT_history, (Word Count: 417):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 48580, Message number 857, Document: ChatGPT_history, (Word Count: 222):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 49497, Message number 859, Document: ChatGPT_history, (Word Count: 6452):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 49985, Message number 865, Document: ChatGPT_history, (Word Count: 3048):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 50668, Message number 889, Document: ChatGPT_history, (Word Count: 268):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 50734, Message number 892, Document: ChatGPT_history, (Word Count: 292):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 51078, Message number 903, Document: ChatGPT_history, (Word Count: 27):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 51246, Message number 917, Document: ChatGPT_history, (Word Count: 16):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 51462, Message number 935, Document: ChatGPT_history, (Word Count: 21):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 51583, Message number 945, Document: ChatGPT_history, (Word Count: 25):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 51683, Message number 953, Document: ChatGPT_history, (Word Count: 23):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 51784, Message number 961, Document: ChatGPT_history, (Word Count: 25):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 51809, Message number 963, Document: ChatGPT_history, (Word Count: 33):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 51833, Message number 965, Document: ChatGPT_history, (Word Count: 27):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 51857, Message number 967, Document: ChatGPT_history, (Word Count: 22):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 52093, Message number 985, Document: ChatGPT_history, (Word Count: 59):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 52323, Message number 995, Document: ChatGPT_history, (Word Count: 286):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 53297, Message number 1024, Document: ChatGPT_history, (Word Count: 8):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 53532, Message number 1036, Document: ChatGPT_history, (Word Count: 1):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 54564, Message number 1066, Document: ChatGPT_history, (Word Count: 195):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 55340, Message number 1084, Document: ChatGPT_history, (Word Count: 3252):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 55933, Message number 1107, Document: ChatGPT_history, (Word Count: 166):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 55980, Message number 1110, Document: ChatGPT_history, (Word Count: 20):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 55999, Message number 1112, Document: ChatGPT_history, (Word Count: 19):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 56298, Message number 1120, Document: ChatGPT_history, (Word Count: 2202):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 56473, Message number 1121, Document: ChatGPT_history, (Word Count: 1645):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 56632, Message number 1122, Document: ChatGPT_history, (Word Count: 1664):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 56719, Message number 1124, Document: ChatGPT_history, (Word Count: 476):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 56997, Message number 1130, Document: ChatGPT_history, (Word Count: 1223):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 57171, Message number 1132, Document: ChatGPT_history, (Word Count: 1164):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 57329, Message number 1134, Document: ChatGPT_history, (Word Count: 1149):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 57365, Message number 1136, Document: ChatGPT_history, (Word Count: 17):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 57552, Message number 1138, Document: ChatGPT_history, (Word Count: 1416):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 58315, Message number 1156, Document: ChatGPT_history, (Word Count: 86):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 58735, Message number 1166, Document: ChatGPT_history, (Word Count: 2475):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 59189, Message number 1176, Document: ChatGPT_history, (Word Count: 2688):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 59801, Message number 1182, Document: ChatGPT_history, (Word Count: 2835):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 59923, Message number 1186, Document: ChatGPT_history, (Word Count: 37):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 60344, Message number 1200, Document: ChatGPT_history, (Word Count: 15):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 60782, Message number 1220, Document: ChatGPT_history, (Word Count: 16):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 61176, Message number 1228, Document: ChatGPT_history, (Word Count: 873):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 61674, Message number 1250, Document: ChatGPT_history, (Word Count: 1010):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 62014, Message number 1260, Document: ChatGPT_history, (Word Count: 968):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 62145, Message number 1263, Document: ChatGPT_history, (Word Count: 1067):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 62290, Message number 1267, Document: ChatGPT_history, (Word Count: 300):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 62818, Message number 1273, Document: ChatGPT_history, (Word Count: 1079):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 63354, Message number 1294, Document: ChatGPT_history, (Word Count: 405):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 63568, Message number 1299, Document: ChatGPT_history, (Word Count: 1547):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 64269, Message number 1306, Document: ChatGPT_history, (Word Count: 3966):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 64924, Message number 1314, Document: ChatGPT_history, (Word Count: 1495):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 65266, Message number 1317, Document: ChatGPT_history, (Word Count: 1495):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 65416, Message number 1327, Document: ChatGPT_history, (Word Count: 13):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 65609, Message number 1334, Document: ChatGPT_history, (Word Count: 53):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 66074, Message number 1347, Document: ChatGPT_history, (Word Count: 496):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 67199, Message number 1375, Document: ChatGPT_history, (Word Count: 1326):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 67417, Message number 1385, Document: ChatGPT_history, (Word Count: 345):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 67716, Message number 1393, Document: ChatGPT_history, (Word Count: 2539):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 68074, Message number 1405, Document: ChatGPT_history, (Word Count: 1173):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 68110, Message number 1407, Document: ChatGPT_history, (Word Count: 9):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 69107, Message number 1417, Document: ChatGPT_history, (Word Count: 3821):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 69313, Message number 1425, Document: ChatGPT_history, (Word Count: 1):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 70775, Message number 1454, Document: ChatGPT_history, (Word Count: 3229):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 70882, Message number 1456, Document: ChatGPT_history, (Word Count: 53):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 71730, Message number 1468, Document: ChatGPT_history, (Word Count: 2900):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 71820, Message number 1470, Document: ChatGPT_history, (Word Count: 529):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 73071, Message number 1486, Document: ChatGPT_history, (Word Count: 3821):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 73193, Message number 1494, Document: ChatGPT_history, (Word Count: 42):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 73458, Message number 1510, Document: ChatGPT_history, (Word Count: 44):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 73481, Message number 1513, Document: ChatGPT_history, (Word Count: 68):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 73705, Message number 1520, Document: ChatGPT_history, (Word Count: 1059):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 73887, Message number 1526, Document: ChatGPT_history, (Word Count: 55):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 74509, Message number 1538, Document: ChatGPT_history, (Word Count: 1684):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 74564, Message number 1540, Document: ChatGPT_history, (Word Count: 36):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 75203, Message number 1562, Document: ChatGPT_history, (Word Count: 1372):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 75799, Message number 1568, Document: ChatGPT_history, (Word Count: 8045):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 75834, Message number 1570, Document: ChatGPT_history, (Word Count: 18):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 76062, Message number 1580, Document: ChatGPT_history, (Word Count: 548):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 77061, Message number 1627, Document: ChatGPT_history, (Word Count: 37):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 78166, Message number 1711, Document: ChatGPT_history, (Word Count: 638):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 78367, Message number 1724, Document: ChatGPT_history, (Word Count: 1):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 78743, Message number 1749, Document: ChatGPT_history, (Word Count: 1):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 78933, Message number 1762, Document: ChatGPT_history, (Word Count: 1):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 79315, Message number 1776, Document: ChatGPT_history, (Word Count: 1596):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 79352, Message number 1778, Document: ChatGPT_history, (Word Count: 1970):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 79623, Message number 1793, Document: ChatGPT_history, (Word Count: 268):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 79687, Message number 1795, Document: ChatGPT_history, (Word Count: 11):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 81100, Message number 1819, Document: ChatGPT_history, (Word Count: 1358):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 81429, Message number 1829, Document: ChatGPT_history, (Word Count: 939):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 81921, Message number 1843, Document: ChatGPT_history, (Word Count: 512):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 82250, Message number 1853, Document: ChatGPT_history, (Word Count: 1052):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 82630, Message number 1860, Document: ChatGPT_history, (Word Count: 510):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 82727, Message number 1862, Document: ChatGPT_history, (Word Count: 639):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 83782, Message number 1877, Document: ChatGPT_history, (Word Count: 3580):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 84069, Message number 1880, Document: ChatGPT_history, (Word Count: 3175):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 84121, Message number 1882, Document: ChatGPT_history, (Word Count: 33):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 84417, Message number 1886, Document: ChatGPT_history, (Word Count: 2770):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 84789, Message number 1902, Document: ChatGPT_history, (Word Count: 490):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 84836, Message number 1905, Document: ChatGPT_history, (Word Count: 79):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 84961, Message number 1909, Document: ChatGPT_history, (Word Count: 89):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 85287, Message number 1917, Document: ChatGPT_history, (Word Count: 565):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 85471, Message number 1921, Document: ChatGPT_history, (Word Count: 758):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 85572, Message number 1923, Document: ChatGPT_history, (Word Count: 549):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 85710, Message number 1929, Document: ChatGPT_history, (Word Count: 338):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 86188, Message number 1939, Document: ChatGPT_history, (Word Count: 4593):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 86645, Message number 1959, Document: ChatGPT_history, (Word Count: 1226):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 86870, Message number 1961, Document: ChatGPT_history, (Word Count: 1486):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 87019, Message number 1967, Document: ChatGPT_history, (Word Count: 659):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 87277, Message number 1977, Document: ChatGPT_history, (Word Count: 62):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 87905, Message number 2013, Document: ChatGPT_history, (Word Count: 772):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 88143, Message number 2031, Document: ChatGPT_history, (Word Count: 431):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 88428, Message number 2043, Document: ChatGPT_history, (Word Count: 290):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 88523, Message number 2051, Document: ChatGPT_history, (Word Count: 8):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 88587, Message number 2055, Document: ChatGPT_history, (Word Count: 1):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 89175, Message number 2093, Document: ChatGPT_history, (Word Count: 310):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 89384, Message number 2101, Document: ChatGPT_history, (Word Count: 1130):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 89983, Message number 2133, Document: ChatGPT_history, (Word Count: 475):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 90126, Message number 2137, Document: ChatGPT_history, (Word Count: 528):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 90265, Message number 2141, Document: ChatGPT_history, (Word Count: 1050):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 90565, Message number 2164, Document: ChatGPT_history, (Word Count: 0):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 91222, Message number 2168, Document: ChatGPT_history, (Word Count: 3309):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 91968, Message number 2204, Document: ChatGPT_history, (Word Count: 2419):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 92006, Message number 2206, Document: ChatGPT_history, (Word Count: 19):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 92308, Message number 2221, Document: ChatGPT_history, (Word Count: 6):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 92390, Message number 2227, Document: ChatGPT_history, (Word Count: 9):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 92769, Message number 2247, Document: ChatGPT_history, (Word Count: 41):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 93053, Message number 2258, Document: ChatGPT_history, (Word Count: 35):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 93103, Message number 2260, Document: ChatGPT_history, (Word Count: 19):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 93133, Message number 2262, Document: ChatGPT_history, (Word Count: 15):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 93173, Message number 2264, Document: ChatGPT_history, (Word Count: 47):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 93765, Message number 2284, Document: ChatGPT_history, (Word Count: 182):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 93804, Message number 2286, Document: ChatGPT_history, (Word Count: 276):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 93938, Message number 2294, Document: ChatGPT_history, (Word Count: 318):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 93975, Message number 2296, Document: ChatGPT_history, (Word Count: 249):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 94056, Message number 2300, Document: ChatGPT_history, (Word Count: 286):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 96168, Message number 2351, Document: ChatGPT_history, (Word Count: 2496):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 96510, Message number 2365, Document: ChatGPT_history, (Word Count: 628):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 96556, Message number 2367, Document: ChatGPT_history, (Word Count: 22):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 96976, Message number 2389, Document: ChatGPT_history, (Word Count: 752):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 97432, Message number 2393, Document: ChatGPT_history, (Word Count: 5866):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 97469, Message number 2395, Document: ChatGPT_history, (Word Count: 203):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 97502, Message number 2397, Document: ChatGPT_history, (Word Count: 222):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 97557, Message number 2399, Document: ChatGPT_history, (Word Count: 524):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 97962, Message number 2419, Document: ChatGPT_history, (Word Count: 1236):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 98341, Message number 2431, Document: ChatGPT_history, (Word Count: 300):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 98629, Message number 2433, Document: ChatGPT_history, (Word Count: 4011):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 99341, Message number 2476, Document: ChatGPT_history, (Word Count: 220):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 99387, Message number 2478, Document: ChatGPT_history, (Word Count: 170):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 99571, Message number 2484, Document: ChatGPT_history, (Word Count: 1080):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 99748, Message number 2486, Document: ChatGPT_history, (Word Count: 1318):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 99792, Message number 2488, Document: ChatGPT_history, (Word Count: 206):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 100228, Message number 2500, Document: ChatGPT_history, (Word Count: 8600):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 100382, Message number 2506, Document: ChatGPT_history, (Word Count: 4331):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 100498, Message number 2512, Document: ChatGPT_history, (Word Count: 31):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 100574, Message number 2516, Document: ChatGPT_history, (Word Count: 8):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 100611, Message number 2518, Document: ChatGPT_history, (Word Count: 2):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 100715, Message number 2522, Document: ChatGPT_history, (Word Count: 300):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 100945, Message number 2534, Document: ChatGPT_history, (Word Count: 240):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 101064, Message number 2536, Document: ChatGPT_history, (Word Count: 7194):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 101095, Message number 2538, Document: ChatGPT_history, (Word Count: 38):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 101257, Message number 2549, Document: ChatGPT_history, (Word Count: 24):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 101759, Message number 2569, Document: ChatGPT_history, (Word Count: 102):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 101995, Message number 2577, Document: ChatGPT_history, (Word Count: 757):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 102007, Message number 2578, Document: ChatGPT_history, (Word Count: 193):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 102111, Message number 2580, Document: ChatGPT_history, (Word Count: 815):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 102204, Message number 2589, Document: ChatGPT_history, (Word Count: 9):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 102246, Message number 2591, Document: ChatGPT_history, (Word Count: 18):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 102286, Message number 2593, Document: ChatGPT_history, (Word Count: 20):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 102674, Message number 2600, Document: ChatGPT_history, (Word Count: 41):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 102726, Message number 2602, Document: ChatGPT_history, (Word Count: 26):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 102898, Message number 2606, Document: ChatGPT_history, (Word Count: 396):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 103319, Message number 2610, Document: ChatGPT_history, (Word Count: 3350):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 103628, Message number 2620, Document: ChatGPT_history, (Word Count: 1345):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 103708, Message number 2624, Document: ChatGPT_history, (Word Count: 34):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 103786, Message number 2628, Document: ChatGPT_history, (Word Count: 24):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 103933, Message number 2630, Document: ChatGPT_history, (Word Count: 964):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 104574, Message number 2655, Document: ChatGPT_history, (Word Count: 39):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 104665, Message number 2657, Document: ChatGPT_history, (Word Count: 448):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 104986, Message number 2667, Document: ChatGPT_history, (Word Count: 42):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 105167, Message number 2673, Document: ChatGPT_history, (Word Count: 395):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 105193, Message number 2675, Document: ChatGPT_history, (Word Count: 15):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 105230, Message number 2679, Document: ChatGPT_history, (Word Count: 15):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 105268, Message number 2683, Document: ChatGPT_history, (Word Count: 15):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 105306, Message number 2687, Document: ChatGPT_history, (Word Count: 15):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 105878, Message number 2707, Document: ChatGPT_history, (Word Count: 170):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 105968, Message number 2711, Document: ChatGPT_history, (Word Count: 350):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 106510, Message number 2721, Document: ChatGPT_history, (Word Count: 1115):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 106851, Message number 2725, Document: ChatGPT_history, (Word Count: 3147):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 107261, Message number 2726, Document: ChatGPT_history, (Word Count: 5250):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 107372, Message number 2728, Document: ChatGPT_history, (Word Count: 627):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 107427, Message number 2730, Document: ChatGPT_history, (Word Count: 57):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 107641, Message number 2732, Document: ChatGPT_history, (Word Count: 1750):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 107837, Message number 2734, Document: ChatGPT_history, (Word Count: 2191):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 108070, Message number 2736, Document: ChatGPT_history, (Word Count: 2463):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 108101, Message number 2738, Document: ChatGPT_history, (Word Count: 10):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 109473, Message number 2782, Document: ChatGPT_history, (Word Count: 3977):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 110049, Message number 2786, Document: ChatGPT_history, (Word Count: 1206):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 110315, Message number 2788, Document: ChatGPT_history, (Word Count: 2806):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 110863, Message number 2802, Document: ChatGPT_history, (Word Count: 1837):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 110894, Message number 2804, Document: ChatGPT_history, (Word Count: 41):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 110922, Message number 2806, Document: ChatGPT_history, (Word Count: 14):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 111197, Message number 2810, Document: ChatGPT_history, (Word Count: 1781):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 112260, Message number 2826, Document: ChatGPT_history, (Word Count: 2373):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 112585, Message number 2830, Document: ChatGPT_history, (Word Count: 3155):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 113041, Message number 2834, Document: ChatGPT_history, (Word Count: 5256):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 114191, Message number 2845, Document: ChatGPT_history, (Word Count: 2395):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 114478, Message number 2853, Document: ChatGPT_history, (Word Count: 192):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 114516, Message number 2855, Document: ChatGPT_history, (Word Count: 39):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 114731, Message number 2859, Document: ChatGPT_history, (Word Count: 13):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 114909, Message number 2873, Document: ChatGPT_history, (Word Count: 193):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 115407, Message number 2891, Document: ChatGPT_history, (Word Count: 1993):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 115635, Message number 2903, Document: ChatGPT_history, (Word Count: 4):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 116134, Message number 2923, Document: ChatGPT_history, (Word Count: 1271):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 116622, Message number 2947, Document: ChatGPT_history, (Word Count: 489):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 116901, Message number 2957, Document: ChatGPT_history, (Word Count: 366):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 117093, Message number 2963, Document: ChatGPT_history, (Word Count: 766):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 117206, Message number 2967, Document: ChatGPT_history, (Word Count: 1180):",
+        "error": "cannot unpack non-iterable NoneType object"
+    },
+    {
+        "citation": "User Line number 118440, Message number 3012, Document: ChatGPT_history, (Word Count: 2138):",
+        "error": "cannot unpack non-iterable NoneType object"
+    }
+]
