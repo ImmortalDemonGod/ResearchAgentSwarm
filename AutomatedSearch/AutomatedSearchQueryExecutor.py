@@ -5,13 +5,13 @@ import time
 import playsound
 
 def get_file_path():
-    json_files = [f for f in os.listdir("/home/epas/Programming/Story_to_Content/jsons/") if f.endswith('.json')]
-    text_files = [f for f in os.listdir("/home/epas/Programming/Story_to_Content/jsons/") if f.endswith('.txt')]
+    json_files = [f for f in os.listdir("AutomatedSearch/jsons/") if f.endswith('.json')]
+    text_files = [f for f in os.listdir("AutomatedSearch/jsons/") if f.endswith('.txt')]
     available_files = [file for file in json_files if file.replace('.json', '.txt') not in text_files]
     for i, file in enumerate(available_files):
         print(f"{i+1}. {file}")
     choice = int(input("Choose a file by number: ")) - 1
-    return "/home/epas/Programming/Story_to_Content/jsons/" + available_files[choice]
+    return "jsons/" + available_files[choice]
 
 def get_delay_setting():
     print("Choose a delay setting: bard (60 seconds), bing (2 minutes), or custom.")
@@ -43,7 +43,7 @@ def perform_searches(queries, coordinates,delay):
         pyautogui.press('enter')  
         time.sleep(delay)  # Wait for the search to complete
     print("All searches are complete.")
-    playsound.playsound('/home/epas/Programming/Story_to_Content/done_sound.mp3')
+    playsound.playsound('AutomatedSearch/done_sound.mp3')
 
 def read_queries_from_file(file_path):
     with open(file_path, 'r') as file:
