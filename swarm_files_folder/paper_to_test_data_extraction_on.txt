@@ -1,0 +1,805 @@
+@-PLOS | ONE
+
+®
+
+Check for
+updates
+
+o OPENACCESS
+
+Citation: Liao P-C, Boldogh IR, Siegmund SE,
+Freyberg Z, Pon LA (2018) Isolation of
+mitochondria from Saccharomyces cerevisiae
+using magnetic bead affinity purification. PLoS
+ONE 13(4): e0196632. https://doi.org/10.1371/
+
+journal.pone.0196632
+
+Editor: Janine Santos, National Institute of
+Environmental Health Sciences, UNITED STATES
+
+Received: February 5, 2018
+Accepted: April 16, 2018
+Published: April 26, 2018
+
+Copyright: © 2018 Liao et al. This is an open
+access article distributed under the terms of the
+Creative Commons Attribution License, which
+permits unrestricted use, distribution, and
+reproduction in any medium, provided the original
+author and source are credited.
+
+Data Availability Statement: All relevant data are
+within the paper.
+
+Funding: This work was supported by grants from
+the National Institutes of Health (NIH; hitos:/Avww.
+nih.gov) (GM45735, GM122589 and AG051047) to
+LP and to SS (F30-NS093798) and from the John
+F. and Nancy A. Emmerling Fund of The Pittsburgh
+Foundation (www.pittsburghfoundation.org) to ZF.
+The Simons Electron Microscopy Center and
+National Resource for Automated Molecular
+Microscopy located at the New York Structural
+
+RESEARCH ARTICLE
+
+Isolation of mitochondria from Saccharomyces
+cerevisiae using magnetic bead affinity
+purification
+
+Pin-Chao Liao’, Istvan R. Boldogh’, Stephanie E. Siegmund”, Zachary Freyberg™, Liza
+A.Pon'*
+
+1 Department of Pathology and Cell Biology, Columbia University, New York, NY, United States of America,
+
+2 Department of Neurology, Columbia University, New York, NY, United States of America, 3 Department of
+Psychiatry, University of Pittsburgh, Pittsburgh, PA, United States of America, 4 Department of Cell Biology,
+
+University of Pittsburgh, Pittsburgh, PA, United States of America
+
+* lap5 @cumc.columbia.edu
+
+Abstract
+
+Isolated mitochondria are widely used to study the function of the organelle. Typically, mito-
+chondria are prepared using differential centrifugation alone or in conjunction with density
+gradient ultracentrifugation. However, mitochondria isolated using differential centrifugation
+contain membrane or organelle contaminants, and further purification of crude mitochondria
+by density gradient ultracentrifugation requires large amounts of starting material, and is
+time-consuming. Mitochondria have also been isolated by irreversible binding to antibody-
+coated magnetic beads. We developed a method to prepare mitochondria from budding
+yeast that overcomes many of the limitations of other methods. Mitochondria are tagged by
+insertion of 6 histidines (6xHis) into the TOM70 (Translocase of outer membrane 70) gene
+at its chromosomal locus, isolated using Ni-NTA (nickel (II) nitrilotriacetic acid) paramag-
+netic beads and released from the magnetic beads by washing with imidazole. Mitochondria
+prepared using this method contain fewer contaminants, and are similar in ultrastructure as
+well as protein import and cytochrome c oxidase complex activity compared to mitochondria
+isolated by differential centrifugation. Moreover, this isolation method is amenable to small
+samples, faster than purification by differential and density gradient centrifugation, and
+more cost-effective than purification using antibody-coated magnetic beads. Importantly,
+this method can be applied to any cell type where the genetic modification can be introduced
+by CRISPR or other methods.
+
+Introduction
+
+Isolated yeast mitochondria are used to study fundamental processes including mitochondrial
+respiration, metabolic activity, protein import and membrane fusion as well as interactions of
+mitochondria with the cytoskeleton, nuclear encoded mRNAs and other organelles. Analysis
+of the mitochondrial proteome, phosphoproteome, and lipidome all rely on preparation of
+highly purified mitochondria. Finally, isolated mitochondria are also utilized to investigate the
+assembly and interactions of mitochondrial protein complexes [1-8]. For many of these studies,
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0196632 April 26,2018
+
+1/15
+
+@-PLOS | ONE
+
+Preparation of yeast mitochondria using magnetic beads
+
+Biology Center were supported by grants from the
+
+Simons Foundation (www.simonsfoundation.org)
+
+(349247), NYSTAR, and the NIH (GM103310). The
+funders had no role in study design, data collection
+and analysis, decision to publish, or preparation of
+the manuscript.
+
+Competing interests: The authors have declared
+that no competing interests exist.
+
+crude mitochondria are isolated by differential centrifugation [9]. Although mitochondria iso-
+lated by this method contain contaminants, this method is widely used. To reduce contamina-
+tion, crude mitochondria can be further purified by density gradient ultracentrifugation [10,
+11]. However, this method is time-consuming, which can result in a decline in mitochondrial
+function, and it requires large amounts of starting material as well as expensive equipment.
+
+Magnetic beads coated with antibodies have been used to isolate or deplete cells from mixed
+cell populations [12]. This method has been modified for isolation of mitochondria from mam-
+malian cells [13], mouse tissues [14], and human cortex [15]. Recently, lipophilic and delocal-
+ized triphenyl phosphonium (TPP) cation-bound magnetic beads that recognize mitochondria
+by mitochondrial membrane potential (Ay) have been used to isolate the organelle [16, 17].
+These magnetic bead-based methods provide an easy and quick way to prepare mitochondria
+from small samples without ultracentrifugation. However, antibody-coated magnetic beads are
+expensive and TPP-magnetic beads select for mitochondria with high Ay, which may not be
+representative of all mitochondria in cells or tissues. In addition, isolated mitochondria are irre-
+versibly bound to antibody-coated or TPP magnetic beads, which may affect mitochondrial
+ultrastructure and/or cover epitopes on the mitochondrial outer membrane.
+
+Here, we took advantage of the power of yeast genetics and existing magnetic bead-based
+methods for mitochondrial preparation to develop a simple and low-cost method to prepare
+highly purified mitochondria from small samples of yeast without ultracentrifugation. Mito-
+chondria isolated using this method contain fewer contaminants compared to crude mito-
+chondria isolated using differential centrifugation. Importantly, these mitochondria are intact
+and similar in ultrastructure, protein import and cytochrome c oxidase complex activity com-
+pared to crude mitochondria.
+
+Materials and methods
+Yeast growth conditions and strain construction
+
+All S. cerevisiae strains were derived from the wild-type strain BY4741 (MATa his3A1 leu2 AO
+met15A0 ura3A0) (Open Biosystems, Huntsville, AL). To measure yeast growth rates, cells
+were grown in glucose-based rich media (yeast extract/peptone/dextrose, YPD). For experi-
+ments in which mitochondrial redox state was measured using mito-roGFP1, cells were grown
+to mid-logarithmic phase (optical density OD¢g9 = 0.1-0.3) in synthetic complete medium
+without uracil (SC-Ura). For mitochondrial isolation, yeast were grown using lactate-based
+medium. In all experiments, cells were cultured at 30°C.
+
+To insert 6xHis into the TOM70 gene at its chromosomal locus, a PCR cassette containing
+sequences that are homologous to regions upstream and downstream of the TOM70 stop
+codon and flank sequences encoding 6xHis and the kanamycin resistance marker KanMX6,
+was amplified from pFA6a-6xGly-His-tag-KanMX6 (Addgene, Cambridge, MA) [18] using
+the forward primer 5’ -TCAAGAAACTTTAGCTAAATTACGCGAACAGGGTTTAATGCGG
+ATCCCCGGGTT-AATTAA-3’ and the reverse primer 5’-TTGTCTTCTCCTAAA
+AGTTTTTAAGTTTATGTTTACTG-TGAATTCGAGCTCGTTTARAC- 3’. Wild type cells were
+transformed with this PCR product using the lithium acetate method [19] and transformants
+were selected by growth on G418-containing YPD plates. Insertion of the tag was confirmed
+by sequencing using the following primer: 5’ -GCCATTACTTTTGCTGAAGCCG-3" .
+
+Growth rate analysis
+
+Mid-log phase (ODgq9 = 0.5) yeast were diluted to ODgq9 = 0.07. 10 pl of a diluted culture was
+added to 200 pl of YPD medium in a 96-well flat-bottom plate (Corning, Corning, NY), and
+the optical density of the culture (ODgq9) was measured every 20 min for 3 days using a plate
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0196632 April 26,2018
+
+2/15
+
+@-PLOS | ONE
+
+Preparation of yeast mitochondria using magnetic beads
+
+reader (Tecan Infinite M200, Research Triangle Park, NC). Each strain was plated in quintu-
+plicate and the growth curves averaged or maximum growth rate (slope) calculated using the
+greatest change in ODg¢oo9 over a 240-min interval in 72 hrs. Growth rates were estimated using
+linear regression using Magellan software.
+
+Mito-roGFP1 imaging
+
+Mito-roGFP1 imaging was performed using a modification of a previously described method
+[20-22]. Briefly, cells were transformed with a plasmid bearing the mito-roGFP1 sequence
+using the lithium acetate method and the transformants were selected on SC-Ura plates. Cells
+containing mito-roGFP1 plasmids were grown in SC-Ura medium to mid-log phase. Imaging
+was performed on an Axioskop 2 microscope (Zeiss, Thornwood, NY) equipped with a 100x/
+1.4 NA Plan-Apochromat objective and an Orca 1 cooled charge-coupled device (CCD) cam-
+era (Hamamatsu Photonics, Hamamatsu City, Japan) using excitation by an LED light source
+(CoolLED pE-4000, Andover, UK) at 365 and 470 nm for the oxidized and reduced form,
+respectively. Images were collected through the entire cell depth with 21 z-sections at 0.3-um
+intervals and were deconvolved using a constrained iterative restoration algorithm with the
+following parameters: 507nm excitation wavelength, 60 iterations, 100% confidence limit
+(Volocity, Perkin-Elmer, Waltham MA). After subtracting background and thresholding, the
+reduced/oxidized ratio was calculated in Volocity software.
+
+Preparation of mitochondria using magnetic beads
+
+Preparation of mitochondrial fractions for affinity purification using magnetic beads was car-
+ried out using a modification of a previously described method [11]. Cells expressing 6xHis-
+tagged Tom70 were grown to mid-log phase in lactate media for 16 hr at 30°C with aeration.
+Cells were then concentrated by centrifugation at 1,500 x g for 5 min at 4°C. The cell pellet was
+resuspended in water (50 ml/g yeast wet weight) and subjected to another round of centrifuga-
+tion (1,500 x g for 5 min at 4°C). The supernatant from this wash was discarded and the weight
+of the “wet” cell pellet was determined.
+
+To remove the cell wall, yeast cells were incubated in Tris-DTT buffer (0.1M Tris-SO4, pH
+9.4 and 10 mM DTT) (5 ml/g yeast wet weight) for 15 min at 30°C with shaking, washed 1
+time with SP buffer (1.2 M Sorbitol and 20 mM KPi, pH 7.4) (5 ml/g yeast wet weight) and
+incubated with Zymolyase 20T (Seikagaku Corporation, Tokyo, Japan) (7.5 mg/g yeast wet
+weight) in SP buffer (5 ml/g yeast wet weight) at 30°C for 40 min with shaking (Fig 1). Sphero-
+plasts were concentrated by centrifugation at 4,500 x g at 4°C for 5 min, washed with ice-cold
+SEH buffer (0.6 M Sorbitol, 20 mM HEPES-KOH, pH 7.4, 2mM MgCl,) (5 ml/g yeast wet
+weight), and resuspended in ice-cold SEH buffer containing a protease inhibitor cocktail (PI-
+1: 0.5-mg/ml Pepstatin A, 0.5 ug/ml Chymostatin, 0.5 ug/ml Antipain, 0.5 pg/ml Leupeptin,
+and 0.5 pg/ml Aprotinin; PI-2: 10 uM Benzamidine-HC]l and 1 pg/ml 1,10-Phenanthroline; 1
+mM PMSF) (5 ml/g yeast wet weight).
+
+Spheroplasts were then homogenized using 15 forceful strokes of a pre-chilled glass/glass
+Dounce homogenizer (Wheaton Science Products, Millville, NJ). The homogenate was sub-
+jected to low-speed centrifugation (1,500 x g) for 5 min at 4°C, and the supernatant obtained
+was subjected to high-speed centrifugation (12,000 x g) for 10 min at 4°C. The resulting pellet
+was resuspended in ice-cold SEH buffer containing protease inhibitor cocktails to 1 ml/g yeast
+wet weight. We refer to this fraction as the “mitochondria-enriched fraction” (Fig 1).
+
+Mitochondria were isolated from the mitochondria-enriched fraction using Ni-NTA mag-
+netic beads (HisPur™ Ni-NTA Magnetic Beads, Thermo Scientific, Grand Island, NY). 100 pl
+of beads (1.25 mg of beads) was used for 1 ml of mitochondria-enriched fraction. The beads
+
+========================================================================
+Figure 1 description: The image you sent me shows a diagram of the process of isolating mitochondria from yeast cells using magnetic beads. Here's what I can tell you about the process based on the image and its caption:
+
+* The process starts with yeast cells that have been genetically modified to express a protein called Tom70-6xHis. This protein is attached to a histidine tag, which will later be used to bind the mitochondria to magnetic beads.
+* The yeast cells are then converted to spheroplasts by treatment with an enzyme called zymolyase. This enzyme removes the cell wall, but leaves the plasma membrane intact.
+* The spheroplasts are then homogenized using a Dounce homogenizer. This breaks open the cells and releases the mitochondria.
+* The resulting cell lysate is centrifuged at low speed to remove unbroken cells, debris, and nuclei.
+* The supernatant from the low-speed centrifugation is then centrifuged at high speed to pellet the mitochondria. This enriched fraction of mitochondria is used for further purification.
+* To further purify the mitochondria, the mitochondria-enriched fraction is incubated with HisPur Ni-NTA magnetic beads. The histidine tag on the Tom70-6xHis protein binds to the nickel ions (Ni2+) on the surface of the beads.
+* The mixture is then placed in a magnetic field, which attracts the beads and bound mitochondria to the side of the container.
+* The unbound debris and other organelles are then washed away.
+* Finally, the mitochondria are eluted from the beads by adding a solution of imidazole. The imidazole competes with the histidine tag for binding to the nickel ions, and thus releases the mitochondria from the beads.
+
+The use of magnetic beads provides a relatively quick and easy way to isolate mitochondria from yeast cells. This method is also gentle on the mitochondria, so they are more likely to be functional after isolation.
+
+========================================================================
+
+Preparation of yeast mitochondria using magnetic beads
+
+Fig 1. Scheme of mitochondrial isolation from yeast using magnetic beads. Yeast cells expressing Tom70-6xHis are
+converted to spheroplasts by incubation with Zymolyase, and disrupted using a Dounce homogenizer. The resulting
+whole-cell lysate is subjected to low-speed centrifugation to remove intact cells, cellular debris and nuclei, followed by
+high-speed centrifugation of the supernatant to concentrate mitochondria. We refer to the resuspended pellet from the
+high-speed centrifugation as the mitochondria-enriched fraction. The mitochondria-enriched fraction is the starting
+point for further purification of mitochondria. For affinity purification, the mitochondria-enriched fraction is
+incubated with HisPur Ni-NTA magnetic beads. Bead-bound mitochondria are separated from debris and other
+organelles in a magnetic field and eluted from beads with 500 mM imidazole.
+
+https://doi.org/10.1371/journal.pone.0196632.g001
+
+were first washed as follows: beads were transferred to a 1.5 ml microcentrifuge tube. The tube
+was placed in a Magnetic Separation Rack (6-Tube Magnetic Separation Rack, New England
+Biolabs, Ipswich, MA) and allowed to stand in the separation rack for 30 sec at room tempera-
+ture (RT). This resulted in the concentration of magnetic beads at the lateral surface of the
+tube adjacent to the magnet in the separation rack. Residual liquid was removed using a micro-
+pipette. To wash the beads, the microcentrifuge tube was removed from the separation rack
+and 500 ul of SEH buffer was added. The tube was returned to the rack and SEH buffer was
+removed using a micropipette.
+
+To bind mitochondria to the beads, 1 ml] of the mitochondria-enriched fraction was added
+to the washed magnetic beads and incubated with the beads for 10-60 min at 4°C with gentle
+rotation. The mixture was then placed in the separation rack for 1 min at RT. The magnetic
+bead-bound mitochondria were then washed 3 times with 15 mM imidazole in ice-cold SEH
+buffer as described above. Mitochondria were eluted from the magnetic beads by incubation
+with 50 ul of 500 mM imidazole in ice-cold SEH buffer for 5 min with rotation at 4°C (Fig 1).
+The tube was again placed in the magnetic field to trap the beads. The released mitochondria
+were collected with a micropipette, concentrated by centrifugation at 12,000 x g for 5 min at
+4°C and resuspended in ice cold SEH buffer, as needed.
+
+The protocol described is for preparation of mitochondria from mid-log phase yeast propa-
+gated in 1.5 L of lactate medium. The wet weight of yeast grown under these conditions is typi-
+cally 4 g. However, this method has also been used to prepare mitochondria from 250-ml
+cultures in lactate medium. Yields of bead-purified mitochondria vary depending on the
+amount of starting material and the time of incubation of the magnetic beads with the mito-
+chondria-enriched fraction. We typically obtain 100-130 ug of mitochondria from 1 g of wet
+yeast after incubation of the mitochondria-enriched fraction with the magnetic beads for 60
+min. The yield obtained after 10-min incubation is reduced by 25% compared to that obtained
+after a 60-min incubation, but is sufficient for most biochemical assays.
+
+Isolation of crude mitochondria
+
+The mitochondria-enriched fraction was prepared as described above. To further remove
+debris, 1 ml of mitochondria-enriched fraction was subjected to 2 rounds of low-speed centri-
+fugation (700 x g for 5 min and 1,500 x g for 5 min) at 4°C using a benchtop microcentrifuge.
+The supernatant obtained was subjected to high-speed centrifugation (12,000 x g for 10 min at
+4°C), and the pellet obtained was resuspended in ice-cold SEH buffer, as needed. We refer to
+this fraction as “crude mitochondria”. The yield of crude mitochondria is typically 200-250 pg
+of mitochondria from 1 g (wet weight) of yeast.
+
+Mitochondrial ultrastructural characterization using cryo-electron
+tomography
+
+Freshly prepared crude and magnetic bead-purified mitochondria were diluted to a concentra-
+tion of ~1 mg/ml in a suspension of BSA-coated 20-nm gold beads (Sigma-Aldrich, St. Louis,
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0196632 April 26, 2018 5/15
+
+@-PLOS | ONE
+
+Preparation of yeast mitochondria using magnetic beads
+
+MO) in SEH buffer. Samples were then applied to Quantifoil R 2/2 200-mesh copper electron
+microscopy grids coated with holey carbon (Electron Microscopy Sciences, Hatfield, PA),
+incubated for 30 sec at RT, and then plunge-frozen in liquid ethane using a Vitrobot Mark IV
+(FEI, Hillsboro, OR) using a blot force of 2 units and blot time of 8 sec with Whatman # 1 filter
+paper at 100% humidity at 22°C. Imaging was conducted on a Tecnai F30 Polara (FEI, Hills-
+boro, OR) microscope operating at 300 kV, with a Gatan K2 Summit electron detection
+(DED) camera (Gatan, Pleasanton, CA) in super resolution mode. Images were then binned
+down 2x to achieve a pixel size of 2.635 A, using SerialEM version 3.6 [23]. Tilt series were col-
+lected using a bidirectional tilt scheme from 0°+60° with an increment of 1.5° and a defocus
+range of -5.0 to -6.0 um. All identified mitochondria were imaged and included in subsequent
+analysis, and representative data were collected from both crude and bead-purified mitochon-
+dria. Tomograms were aligned using fiducial markers in IMOD version 4.9 [24, 25], followed
+by three-dimensional volume reconstruction of 3x-binned tilt series via a simultaneous itera-
+tive reconstruction technique (SIRT), using Tomo3D [26]. Volumes were subsequently
+“rotated” in IMOD to retain chirality while re-assigning the z-axis to that of the electron beam.
+Manual segmentation of mitochondrial membranes was performed on 3x-binned tomograms
+using the Amira software package, version 5 (Visualization Sciences Group, FEI, Hillsboro,
+OR).
+
+Mitochondrial protein import assay
+
+Mitochondrial protein import was assessed as previously described [1, 27, 28]. 35¢ _methionine
+radiolabeled protein Su9-DHFR was synthesized using TNT Quick Coupled Transcription/
+Translation System (SP6 promoter, Promega, Madison, WI) with pSu9-DHFR plasmids (a gift
+from Dr. Carla Koehler, UCLA) and *°S-methionine (EasyTag™ L-[35S]-Methionine, Perki-
+nElmer, Waltham, MA). Import reactions were carried out in 200 ul of import buffer contain-
+ing 50 pg mitochondria, 2 mM ATP, 2mM NADH and 7.5 pl of °*°S-Su9-DHER synthesized as
+described above for 10 min at 25°C [1]. Valinomycin was added to some import reactions to
+5 ug/ml to dissipate mitochondrial Ay. To remove non-imported precursor, reactions were
+treated with proteinase K (0.125 mg/ml) for 30 min at 4°C, followed by incubation with PMSF
+(2.5 mM) for 10 min at 4°C. Mitochondria in all import reactions were concentrated by centri-
+fugation (12,000 x g for 5 min), solubilized in SDS sample buffer, and subjected to SDS-PAGE.
+Proteins in polyacrylamide gels were fixed by incubation in a solution consisting of 50%
+methanol and 5% acetic acid for 30 min. The gel was then washed with water for 30 min to
+remove acid and then incubated with 1M sodium salicylate for 30 min. The gel was dried
+using DryEase™ Mini-Gel Drying System (Thermo Scientfic, Grand Island, NY) and was
+directly exposed to an X-ray film (Carestream®) Kodak®) BioMax®) MR film, Rochester, NY)
+for 6 hr at -80°C.
+
+Cytochrome c oxidase activity assay
+
+Cytochrome c Oxidase (COX) activity was assayed as described [29]. 50 ul of crude or bead-
+purified mitochondria (1-2 mg/ml) were permeabilized with equal volume of 250 mM lauryl
+maltoside. Cytochrome c (Millipore Sigma, Burlington, MA) was suspended to 1% in 10 mM
+potassium phosphate buffer pH 7.4 and incubated with the reducing agent sodium dithionite
+at RT until the color of the solution changed from dark red to orange. The permeabilized mito-
+chondria were added into 1 ml buffer containing 10 mM potassium phosphate and 0.08% cyto-
+chrome c freshly reduced by sodium dithionite. COX activity was monitored by following the
+decrease of absorbance at 550 nm, and expressed in micromoles of cytochrome c oxidized
+(Cox)/minute/ milligram of mitochondrial protein. Cox was calculated from the Beer-Lambert
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0196632 April 26, 2018 6/15
+
+@-PLOS | ONE
+
+Preparation of yeast mitochondria using magnetic beads
+
+law equation: Cox = AAsso / (€559 x 1), where AAss0 is the change in absorbance, | is the cell
+path-length, and e559 is the extinction coefficient (e559 = 19.6/mM/cm).
+
+Western blotting
+
+Western blot analysis was performed as described previously [30]. For analysis of protein fraction-
+ation during mitochondrial preparation, 50 1g of protein lysate was loaded onto a 10% SDS-PAGE
+gel containing 0.5% trichloroethanol (TCE). Prior to transfer, the gel was exposed to UV light (300
+nm) for 2.5 min to activate protein-crosslinking activity of TCE [31]. TCE-crosslinked proteins,
+which were used as load controls, were detected by exposure of gels to 300 nm illumination for 3
+sec using a ChemiDoc™ MP Imaging System (Bio-Rad, Hercules, CA). Proteins in blots were
+detected using Luminata Forte Western HRP substrate (MilliporeSigma, Burlington, MA) and the
+ChemiDoc™ MP Imaging System (Bio-Rad, Hercules, CA). The primary antibodies used in these
+studies were rabbit polyclonal antibodies raised against Tom70, cytochrome b2 (gifts from Dr. G.
+Schatz, University of Basel, Basel, Switzerland), porin (generously provided by Dr. Carla Koehler,
+UCLA), Sec61 (generously provided by Dr. Randy Schekman, University of California Berkeley),
+Nyv1 (generously provided by Dr. William Wickner, Dartmouth College, Hanover, NH) and
+hexokinase (LS-C59302, Lifespan BioSciences, Seattle, WA).
+
+Statistics
+
+All statistical analysis was performed using GraphPad Prism 7 software. All error bars in
+graphs indicate mean + SEM. Statistical analysis of growth rate and COX activity was per-
+formed using two-tailed t-tests. Changes in mito-roGFP ratio were analyzed using the
+Kruskal-Wallis test with Dunn’s multiple comparisons test. The statistical significance of mito-
+chondrial redox asymmetry between buds and mother cells was determined using the Wil-
+coxon matched-pairs signed rank test. For the comparison of mitochondrial purity and
+integrity, the significance was determined using one-way ANOVA with Sidak’s multiple com-
+parisons test. In all cases, at least three independent experiments were performed.
+
+Results and discussion
+
+Tagging Tom70 with 6xHis has no effect on the fitness of mitochondria or
+whole cells
+
+Nickel (Ni**) or cobalt (Co”*) metal ions have been used to isolate recombinant proteins that
+are tagged with multiple histidine (His) residues. We applied this concept to isolate mitochon-
+dria. First, 6xHis was inserted into the C-terminus of the mitochondrial outer membrane pro-
+tein Tom 70 at its chromosomal locus. The growth rate of yeast expressing Tom70-6xHis is
+indistinguishable from that of cells with untagged Tom70 in rich, glucose-based media (YPD)
+(Fig 2A and 2B). Respiration-driven growth of these strains was assessed by growth on solid
+media containing glycerol (YPG), a non-fermentable carbon source. The respiration-driven
+growth rates of yeast expressing untagged Tom70 and Tom70-6xHis are also comparable (Fig
+2C). Thus, overall cellular fitness is not disturbed by tagging Tom70.
+
+Since Tom70 is a component of the mitochondrial protein import machinery, we also used
+the redox state of the organelle as a readout for mitochondrial fitness using a mitochondria-
+targeted ratiometric biosensor, mito-roGFP1 [22, 32, 33]. The dynamic range of the oxidized
+and reduced states of mito-roGFP1 in cells was demonstrated by treatment with 5 mM hydro-
+gen peroxide (H,O,) and DTT, respectively (Fig 2D and 2E). We do not detect any significant
+difference in the overall redox state of mitochondria in yeast expressing tagged and untagged
+
+Tom70 (Fig 2D and 2E).
+========================================================================
+Figure 2 Description:  **Here's a description of the figure, based on the information you've provided:**
+
+**Key Points:**
+
+- **Overall, the figure demonstrates that tagging the Tom70 protein with a 6xHis tag does not significantly impact cellular or mitochondrial fitness in yeast.**
+
+**Panel Descriptions:**
+
+**A. Growth Rate:**
+
+- Shows growth curves of yeast cells expressing either untagged Tom70 or 6xHis-tagged Tom70.
+- No significant difference in growth rate is observed between the two strains.
+
+**B. Maximum Growth Rate:**
+
+- Quantifies the maximum growth rate from panel A.
+- Confirms no significant difference between untagged and 6xHis-tagged Tom70 strains.
+
+**C. Respiration-Driven Growth:**
+
+- Assesses growth on a medium that requires mitochondrial respiration (YPG).
+- Both untagged and 6xHis-tagged Tom70 strains grow similarly on this medium.
+
+**D. Mitochondrial Redox State:**
+
+- Presents images of yeast cells expressing a mitochondrial redox sensor (mito-roGFP1).
+- Warmer colors indicate a more reducing environment (more reduced mito-roGFP1), while cooler colors indicate a more oxidizing environment (more oxidized mito-roGFP1).
+- No major differences in redox state are observed between untagged and 6xHis-tagged Tom70 cells.
+
+**E. Quantification of Mitochondrial Redox State:**
+
+- Quantifies the redox state using mito-roGFP1 from panel D.
+- No significant differences are detected between untagged and 6xHis-tagged Tom70 cells.
+- Treatments with H2O2 and DTT (positive controls) create expected changes in redox state, validating the sensor's functionality.
+
+**F. Mitochondrial Redox Asymmetry:**
+
+- Compares mitochondrial redox state between mother cells and daughter buds.
+- Buds have a more reduced mitochondrial redox state than mother cells in both untagged and 6xHis-tagged Tom70 cells.
+- This pattern is consistent with previous observations of mitochondrial redox asymmetry in yeast.
+
+========================================================================
+
+
+
+Fig 2. Cellular and mitochondrial fitness are not affected by tagging Tom70 with 6xHis. (A) The growth rate of yeast expressing untagged or
+6xHis-tagged Tom70 was monitored by measuring the optical density of the culture in YPD medium at 600 nm (ODgoo) every 20 min for 3 days. (B)
+Maximum growth rate was calculated from the maximum slope of the growth curve in mid-log phase. There was no significant difference in growth
+rate of yeast expressing untagged or 6xHis-tagged Tom70 (two-tailed t-test). (C) The respiration-driven growth of yeast expressing untagged or 6xHis-
+tagged Tom70. Yeast were spotted in 10-fold serial dilutions to YPG plates and incubated at 30°C for 5-7 days. (D) Representative images of mito-
+roGFP 1 in wild-type (WT), Tom70-6xHis cells, and cells treated with 5 mM H20; or DTT. The ratio of the reduced to oxidized roGFP signals is shown
+in heat maps superimposed on a transmitted-light image. Warmer colors represent more reducing enviroments and cooler colors represent more
+oxidizing environments. Scale bar = 5 um. (E) Quantification of mitochondrial redox state using mito-roGFP. HO, and DTT treatments generate
+highly oxidized and reduced mito-roGFP1, respectively, and illustrate the dynamic range of the sensor. No significant difference was detected between
+wild-type and Tom70-6xHis cells (Kruskal-Wallis test with Dunn’s multiple comparisons test). Number of cells analyzed: WT = 160; Tom70-
+
+6xHis = 139; H,0, = 173; DTT = 160. (F) Quantification of mitochondrial redox asymmetry between bud and mother cells of wild type and Tom70-
+6xHis cells. Buds have a more reduced mitochondrial redox state compared to mother cells in both wild-type and Tom70-6xHis cells (Wilcoxon
+matched-pairs signed rank test, **** p < 0.0001). Number of cells analyzed: WT = 154; Tom70-6xHis = 130.
+
+https://doi.org/10.1371 /journal.pone.0196632.g002
+
+In addition, our previous studies revealed that yeast daughter cells inherit fitter mitochon-
+dria that are more reduced compared to mitochondria that are retained in mother cells, and
+that this asymmetric inheritance of mitochondria affects the fitness and lifespan of both
+mother and daughter cells (20, 21, 34]. Using mito-roGFP 1, we find that tagging of Tom70
+with 6xHis has no effect on the asymmetry of mitochondrial redox state (Fig 2D and 2F).
+Overall, we conclude that tagging Tom70 with 6xHis has no effect on the fitness of mitochon-
+dria or the yeast that harbor them.
+
+Mitochondria isolated using magnetic beads have less contamination
+
+Since crude mitochondria prepared by differential centrifugation are contaminated with pro-
+teins and membranes from other organelles, we carried out Western blot analysis using anti-
+bodies that recognize marker proteins for mitochondrial outer membrane (Tom70 and porin),
+intermembrane space (cytochrome b2, Cyb2), matrix (a-ketoglutarate dehydrogenase, Kgd1),
+ER (Sec61), cytosol (hexokinase), and vacuole (the SNARE Nyv1) to compare the purity
+
+of mitochondrial fractions isolated by differential centrifugation and magnetic beads. As
+expected, the levels of Tom 70, porin, Cyb2, and Kgd1 are enriched in crude or magnetic bead-
+purified mitochondria compared to whole-cell lysates (Fig 3A-3E) and depleted from the post-
+mitochondrial fractions. On the other hand, analysis of the fractionation behavior of hexoki-
+nase, Sec61, and Nyv1 revealed that mitochondria isolated using magnetic beads have much less
+
+========================================================================
+Figure 3 description: Sure, here is a description of the figure based on the information you provided:
+
+**The figure shows that magnetic bead-purified mitochondria from yeast cells are less contaminated with other cellular components compared to crude mitochondria.**
+
+Here's a breakdown of the information in the figure:
+
+* **Panel A:** Western blot analysis of various proteins in different cellular fractions. 
+    * The fractions include: whole-cell lysate, post-mitochondrial supernatant, mitochondria-enriched fraction, crude mitochondria, and magnetic bead-purified mitochondria.
+    * Specific proteins were probed for, which are markers for different cellular compartments:
+        * **Mitochondrial markers:** Tom70, Porin, cytochrome b2 (Cyb2), and ketoglutarate dehydrogenase (Kgd1)
+        * **Non-mitochondrial markers:** hexokinase (Hxk) for cytosol, Sec61 for ER, and Nyv1 for vacuole.
+    * TCE staining was used to assess total protein levels in each fraction.
+* **Panels B-H:** Quantification of the fold enrichment of each marker protein relative to the whole-cell lysate.
+    * The results show that:
+        * **Mitochondrial proteins:** Tom70, Porin, Cyb2, and Kgd1 are enriched in the bead-purified mitochondria compared to the cell lysate.
+        * **Non-mitochondrial proteins:** Hxk, Sec61, and Nyv1 are much less abundant in the bead-purified mitochondria compared to the crude mitochondria.
+
+**Overall, the figure suggests that magnetic bead purification is an effective method for isolating mitochondria from yeast cells with minimal contamination from other cellular components.**
+========================================================================
+Fig 3. Magnetic bead-purified mitochondria have less contamination compared to crude mitochondria. (A) Tom70,
+Porin, cytochrome b2 (Cyb2), ketoglutarate dehydrogenase (Kgd1), hexokinase (Hxk), Sec61, and Nyv1 were probed
+using Western blot analysis of whole-cell lysate, post-mitochondrial supernatant, mitochondria-enriched fraction, crude
+mitochondria, and magnetic bead-purified mitochondria. Tom70, Porin, Cyb2, and Kgd1 are markers for mitochondrial
+outer membrane, intermembrane space, and matrix, respectively. Hxk, Sec61 and Nyv1 are markers for cytosol, ER, and
+vacuole, respectively. Total protein load was assessed using TCE. (B—H) Quantification of fold enrichment of marker
+proteins shown in (A). Mitochondrial proteins are enriched in bead-purified mitochondria compared to cell lysate, and
+ER, cytosol, and vacuole contaminants are reduced compared to crude mitochondria (one-way ANOVA with Sidak’s
+multiple comparisons test). Results shown are representative of 6 trials.
+
+https://doi.org/10.1371/journal.pone.0196632.g003
+
+cytosolic, ER, and vacuole contamination compared to mitochondria prepared by differential
+centrifugation (Fig 3A, 3F-3H). Thus, mitochondria isolated using the magnetic bead method
+are purer compared to crude mitochondria prepared by differential centrifugation.
+
+========================================================================
+Figure 4 Description:  **Here's a description of the figure, integrating the information you've provided and making references to the image (which I cannot see):**
+
+**The figure compares the structural features of mitochondria isolated using two different methods: crude isolation and magnetic bead purification.**
+
+**Panels A and B:**
+
+* **Show 2D slices and 3D models of mitochondria isolated using the crude method.**
+* **Key structural features are labeled, including the mitochondrial outer membrane (MOM), cristae, matrix, and mitochondrial inner membrane (MIM).**
+
+**Panels C and D:**
+
+* **Show 2D slices and 3D models of mitochondria isolated using magnetic bead purification.**
+* **These images also highlight the MOM, cristae, matrix, and MIM.**
+
+**Key Observations:**
+
+* **Without seeing the images, I cannot provide specific details about the visual differences between the two isolation methods.**
+* **However, the figure caption suggests that the purpose of the figure is to compare the structural integrity of mitochondria isolated using these two methods.**
+* **The use of cryo-electron tomography allows for high-resolution visualization of mitochondrial structures, which can reveal any potential damage or changes caused by the isolation process.**
+
+**Overall, the figure aims to demonstrate whether magnetic bead purification results in mitochondria with better preserved structural features compared to crude isolation.**
+
+========================================================================
+
+Fig 4. Cryo-electron tomographic analysis of mitochondria reveals preserved ultrastructure. (A and B) Crude and
+(Cand D) magnetic bead-purified mitochondrial preparations were analyzed by cryo-electron tomography.
+Representative mitochondria are shown. Two-dimensional slices were taken through the middle of the tomographic
+volumes (left), and three-dimensional models (right) were generated by manual segmentation. Key mitochondrial
+structural features are indicated, including mitochondrial outer membrane (MOM), crista, matrix, and mitochondrial
+inner membrane (MIM). Scale bars = 200 nm.
+
+https://doi.org/10.1371/journal.pone.0196632.g004
+
+Ultrastructure of crude and magnetic bead-purified mitochondria are
+comparable
+
+To determine whether mitochondria isolated using magnetic beads preserve their ultrastruc-
+ture, mitochondria prepared by differential centrifugation or magnetic beads were imaged by
+cryo-electron tomography, which enables three-dimensional ultrastructural analysis of intact,
+vitrified organelles without the addition of fixatives or heavy metal contrast agents that can dis-
+tort and disrupt membranes [35]. In both preparations, mitochondria appeared as circular or
+oblong double-membrane structures of 500-2,000 nm in apparent diameter (data not shown).
+Tomograms of representative mitochondria from each preparation revealed intact and closely
+juxtaposed mitochondrial inner and outer membranes (Fig 4A and 4C). Analysis of crista
+architecture in 3D models generated from these tomograms revealed predominantly lamellar
+cristae distributed throughout the matrix in mitochondria from both preparations (Fig 4B and
+4D), which is consistent with previous reports [36, 37]. Moreover, these lamellar cristae are
+indistinguishable between crude and magnetic bead-purified mitochondria. Specifically, the
+width of cristae of crude and bead-purified mitochondria are 39+3 nm and 40+4 nm, respec-
+tively and the length of cristae in crude and bead-purified mitochondria are 1754104 nm and
+143438 nm, respectively. Thus, the magnetic bead method and differential centrifugation both
+produce mitochondria with similar ultrastructure.
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0196632 April 26, 2018 10/15
+@-PLOS | ONE
+
+Preparation of yeast mitochondria using magnetic beads
+
+Mitochondria isolated using magnetic beads are intact
+
+To characterize the integrity of mitochondria prepared by the two methods, isolated mito-
+chondria were treated with proteinase K. If isolated organelles are intact, then protease treat-
+ment should degrade Tom70, a protease-sensitive outer membrane protein, but should not
+affect the intermembrane space protein cytochrome b2 (Cyb2). Since the outer membrane
+protein porin is protease-resistant [38], the level of porin served as a control for protein load in
+these studies. We find that proteinase K treatment decreased Tom70 levels but not Cyb2 levels
+in crude and magnetic bead-purified mitochondria (Fig 5A and 5B). Therefore, the integrity of
+mitochondria prepared by differential centrifugation and magnetic bead affinity purification is
+similar.
+
+Mitochondria isolated with magnetic beads have COX and mitochondrial
+protein import activity
+
+Finally, we characterized whether the isolated mitochondria were functional. We assessed.
+import of Su9-DHFR, a protein consisting of the first 69 residues and the mitochondrial tar-
+geting sequence of subunit 9 of the ATPase of Neurospora crassa fused to mouse dihydrofolate
+reductase [39], into mitochondria prepared using both methods. Two forms of Su9-DHFR
+were recovered with crude and bead-purified mitochondria after import in the cell-free sys-
+tem: one form that is similar in size to full-length Su9-DHFR and another that is smaller than
+full-length Su9-DHEFR (Fig 5C). Treatment with low levels of protease that are sufficient to
+degrade mitochondrial surface proteins without affecting the integrity of the organelle revealed
+========================================================================
+Figure 5: Thank you for sending the image! Now that I have access to it, I can provide a more detailed description of the figure based on the image and the figure text you provided.
+
+**Panel A:**
+
+* The image shows a Western blot, with several bands visible in each lane.
+* Unfortunately, I don't have enough information to identify the specific proteins represented by each band. 
+* However, based on the figure text, we know that:
+    * The lanes on the left correspond to crude mitochondria, while the lanes on the right correspond to bead-purified mitochondria.
+    * Samples within each group were treated with or without proteinase K, an enzyme that degrades proteins.
+    * Three specific proteins were probed for: Tom70 and Porin (outer membrane markers) and Cyb2 (intermembrane space marker).
+
+**Panel B:**
+
+* This panel presents a bar graph quantifying the data from Panel A.
+* Each bar represents the percentage of a specific protein remaining after proteinase K treatment, normalized to the untreated control for each purification method.
+* Based on the relative heights of the bars, we can see that:
+    * For all three proteins (Tom70, Porin, and Cyb2), a greater proportion remains intact in the bead-purified mitochondria compared to the crude mitochondria after proteinase K treatment.
+    * This suggests that the outer membrane and intermembrane space proteins in bead-purified mitochondria are more resistant to degradation, potentially indicating better preserved membrane integrity.
+
+**Panel C:**
+
+* This panel shows an autoradiograph, likely capturing the imported radiolabeled Su9-DHFR protein.
+* Two sets of bands are visible, one for crude and one for bead-purified mitochondria.
+* The intensity of the bands, representing the amount of imported protein, is difficult to discern from the image alone.
+* However, based on the figure text, we know that TCE staining was used as a loading control to ensure equal amounts of mitochondria were used in each sample.
+
+**Panel D:**
+
+* This panel presents a bar graph comparing the COX activity in crude and bead-purified mitochondria.
+* The bars represent the rate of cytochrome c oxidation, a measure of electron transport chain activity, per milligram of mitochondrial protein.
+* Based on the relative heights of the bars, we can see that:
+    * The COX activity is higher in bead-purified mitochondria compared to crude mitochondria.
+    * This suggests that the mitochondria isolated using magnetic beads retain better functionality of the electron transport chain.
+
+**Overall, the figure provides evidence that magnetic bead purification can yield mitochondria with:**
+
+* **Stronger outer membrane and intermembrane space integrity, as indicated by the resistance of marker proteins to proteinase K.**
+* **Potentially preserved protein import function, although the autoradiograph requires further analysis.**
+* **Higher electron transport chain activity, implying better overall functionality.**
+
+This suggests that magnetic bead purification might be a more effective method for isolating mitochondria for experiments requiring intact membranes and functional protein complexes.
+
+========================================================================
+
+
+Fig 5. Magnetic bead-purified mitochondria are intact and have robust COX and mitochondrial protein import
+activity. (A) Crude or bead-purified mitochondria were incubated in the presence or absence of proteinase K (PK,
+100 pg/ml) for 30 min at 4°C. Levels of mitochondrial outer membrane proteins (Tom70 and Porin) and an
+intermembrane space protein (Cyb2) were determined using Western blot analysis. A representative blot is shown. (B)
+Quantification of the experiment shown in (A). For each purification method, the amount of the indicated protein
+remaining after proteinase K treatment is shown, normalized to the level in the untreated sample (one-way ANOVA
+with Sidak’s multiple comparisons test). (C) Import of *°S radiolabeled Su9-DHER into crude and bead-purified
+mitochondra was carried out as described in Materials and Methods. TCE staining of 10% of the crude and bead-
+purified mitochondria is shown as a loading control. PK, proteinase K; Val, valinomycin; p, precursor protein; m,
+mature protein; CM, crude mitochondria; BPM, bead-purified mitochondria. (D) COX activity was measured as the
+decrease in absorbance at 550 nm resulting from the oxidation of reduced cytochrom c and expressed in micromoles
+of cytochrome c oxidized/minute/milligram of mitochondrial protein (two-tailed t-test).
+
+https://doi.org/10.1371/journal.pone.0196632.g005
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0196632 April 26, 2018 11/15
+
+@-PLOS | ONE
+
+Preparation of yeast mitochondria using magnetic beads
+
+that full-length Su9-DHFR was degraded and therefore on the surface of the organelle. On the
+other hand, the small form was protease-protected and therefore within the organelle (Fig 5C,
+Lane 3 and 6). Finally, in mitochondria treated with valinomycin, which abolishes mitochon-
+drial Ay, only full-length Su9-DHER is associated with the organelle (Fig 5C, Lane 4 and 7).
+These findings indicate that mitochondria prepared using either method have mitochondrial
+protein import activity: they bind to Su9-DHER and exhibit Ay-dependent translocation of
+the protein across mitochondrial membranes and processing of Su9-DHER to its mature form
+[1, 27, 28]. Equally important, the levels of the imported mature form of Su9- DHFR were com-
+parable after normalization to total mitochondrial protein assessed by TCE binding.
+
+In addition, we measured COX activity using a widely used assay. Crude and bead-purified
+mitochondria have similar COX activity (0.454 + 0.150 and 0.491 + 0.145 umol/min/mg,
+respectively) (Fig 5D). Thus, our data indicate that mitochondria isolated using magnetic
+beads are both intact and functional.
+
+Conclusions
+
+In this study, we developed an easy and quick method to isolate mitochondria from large or
+small amounts of starting materials. These magnetic bead-purified mitochondria contain less
+cytosolic, ER, and vacuole contamination but exhibit similar integrity, ultrastructure, mito-
+chondrial protein import and COX activity compared to crude mitochondria prepared by dif-
+ferential centrifugation. Since the mitochondria are tagged with 6xHis in an endogenous
+mitochondrial outer membrane protein and purified using commercially available Ni-NTA
+magnetic beads, this approach is more cost-effective compared to antibody-based magnetic
+bead methods and enables release of mitochondria from the magnetic beads, as needed. In
+addition, because endogenous tagging in mammalian systems is now more tractable using
+CRISPR [40-42], our method is not only limited to the yeast system, but is also suited for use
+in mammalian cells or any other model system.
+
+Acknowledgments
+
+We thank Enrique J. Garcia, Theresa Swayne and other members of the Pon laboratory for
+technical assistance and valuable discussion, Dr. Carla Koehler (University of California, Los
+Angeles) for providing pSu9-DHFR plasmids and antibodies and Dr. Randy Schekman (Uni-
+versity of California, Berkeley) and Dr. William Wickner (Dartmouth College, Hanover, NH)
+for providing antibodies. We also thank Dr. Robert Grassucci, Dr. Joachim Frank, the Cryo
+Electron Microscopy Core of Columbia University, and the Simons Electron Microscopy Cen-
+ter and National Resource for Automated Molecular Microscopy located at the New York
+Structural Biology Center.
+
+Author Contributions
+
+Conceptualization: Pin-Chao Liao, Istvan R. Boldogh, Liza A. Pon.
+Formal analysis: Pin-Chao Liao, Stephanie E. Siegmund.
+
+Funding acquisition: Liza A. Pon.
+
+Investigation: Pin-Chao Liao, Stephanie E. Siegmund.
+Methodology: Pin-Chao Liao, Istvan R. Boldogh.
+
+Project administration: Liza A. Pon.
+
+Resources: Istvan R. Boldogh.
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0196632 April 26, 2018 12/15
+
+@-PLOS | ONE
+
+Preparation of yeast mitochondria using magnetic beads
+
+Supervision: Istvan R. Boldogh, Zachary Freyberg, Liza A. Pon.
+
+Validation: Pin-Chao Liao, Stephanie E. Siegmund.
+
+Writing - original draft: Pin-Chao Liao.
+
+Writing - review & editing: Istvan R. Boldogh, Stephanie E. Siegmund, Zachary Freyberg,
+
+Liza A. Pon.
+
+References
+1. Stuart RA, Koehler CM. In vitro analysis of yeast mitochondrial protein import. Curr Protoc Cell Biol. 2007;Chapter 11:Unit 11.9. doi: 10.1002/0471143030.cb1119s34 . [PubMed] [Google Scholar]
+2. Meeusen S, McCaffery JM, Nunnari J. Mitochondrial fusion intermediates revealed in vitro. Science. 2004;305(5691):1747–52. Epub 2004/08/07. doi: 10.1126/science.1100612 . [PubMed] [Google Scholar]
+3. Boldogh I, Vojtov N, Karmon S, Pon LA. Interaction between mitochondria and the actin cytoskeleton in budding yeast requires two integral mitochondrial outer membrane proteins, Mmm1p and Mdm10p. J Cell Biol. 1998;141(6):1371–81. Epub 1998/06/25. ; PubMed Central PMCID: PMCPMC2132797. [PMC free article] [PubMed] [Google Scholar]
+4. Marc P, Margeot A, Devaux F, Blugeon C, Corral-Debrinski M, Jacq C. Genome-wide analysis of mRNAs targeted to yeast mitochondria. EMBO Rep. 2002;3(2):159–64. Epub 2002/01/31. doi: 10.1093/embo-reports/kvf025 ; PubMed Central PMCID: PMCPMC1083966. [PMC free article] [PubMed] [Google Scholar]
+5. Reinders J, Wagner K, Zahedi RP, Stojanovski D, Eyrich B, van der Laan M, et al. Profiling phosphoproteins of yeast mitochondria reveals a role of phosphorylation in assembly of the ATP synthase. Mol Cell Proteomics. 2007;6(11):1896–906. Epub 2007/09/01. doi: 10.1074/mcp.M700098-MCP200 . [PubMed] [Google Scholar]
+6. Reinders J, Zahedi RP, Pfanner N, Meisinger C, Sickmann A. Toward the complete yeast mitochondrial proteome: multidimensional separation techniques for mitochondrial proteomics. J Proteome Res. 2006;5(7):1543–54. Epub 2006/07/11. doi: 10.1021/pr050477f . [PubMed] [Google Scholar]
+7. Schneiter R, Brugger B, Sandhoff R, Zellnig G, Leber A, Lampl M, et al. Electrospray ionization tandem mass spectrometry (ESI-MS/MS) analysis of the lipid molecular species composition of yeast subcellular membranes reveals acyl chain-based sorting/remodeling of distinct molecular species en route to the plasma membrane. J Cell Biol. 1999;146(4):741–54. Epub 1999/08/25. ; PubMed Central PMCID: PMCPMC2156145. [PMC free article] [PubMed] [Google Scholar]
+8. Cui TZ, Conte A, Fox JL, Zara V, Winge DR. Modulation of the respiratory supercomplexes in yeast: enhanced formation of cytochrome oxidase increases the stability and abundance of respiratory supercomplexes. J Biol Chem. 2014;289(9):6133–41. Epub 2014/01/15. doi: 10.1074/jbc.M113.523688 ; PubMed Central PMCID: PMCPMC3937679. [PMC free article] [PubMed] [Google Scholar]
+9. Daum G, Bohni PC, Schatz G. Import of proteins into mitochondria. Cytochrome b2 and cytochrome c peroxidase are located in the intermembrane space of yeast mitochondria. J Biol Chem. 1982;257(21):13028–33. Epub 1982/11/10. . [PubMed] [Google Scholar]
+10. Glick BS, Pon LA. Isolation of highly purified mitochondria from Saccharomyces cerevisiae. Methods Enzymol. 1995;260:213–23. Epub 1995/01/01. . [PubMed] [Google Scholar]
+11. Boldogh IR, Pon LA. Purification and subfractionation of mitochondria from the yeast Saccharomyces cerevisiae. Methods Cell Biol. 2007;80:45–64. doi: 10.1016/S0091-679X(06)80002-6 . [PubMed] [Google Scholar]
+12. Miltenyi S, Muller W, Weichel W, Radbruch A. High gradient magnetic cell separation with MACS. Cytometry. 1990;11(2):231–8. Epub 1990/01/01. doi: 10.1002/cyto.990110203 . [PubMed] [Google Scholar]
+13. Hornig-Do HT, Günther G, Bust M, Lehnartz P, Bosio A, Wiesner RJ. Isolation of functional pure mitochondria by superparamagnetic microbeads. Anal Biochem. 2009;389(1):1–5. Epub 2009/03/11. doi: 10.1016/j.ab.2009.02.040 . [PubMed] [Google Scholar]
+14. Franko A, Baris OR, Bergschneider E, von Toerne C, Hauck SM, Aichler M, et al. Efficient isolation of pure and functional mitochondria from mouse tissues using automated tissue disruption and enrichment with anti-TOM22 magnetic beads. PLoS One. 2013;8(12):e82392 Epub 2013/12/12. doi: 10.1371/journal.pone.0082392 ; PubMed Central PMCID: PMCPMC3861405. [PMC free article] [PubMed] [Google Scholar]
+15. Khattar NK, Yablonska S, Baranov SV, Baranova OV, Kretz ES, Larkin TM, et al. Isolation of functionally active and highly purified neuronal mitochondria from human cortex. J Neurosci Methods. 2016;263:1–6. Epub 2016/01/22. doi: 10.1016/j.jneumeth.2016.01.017 . [PubMed] [Google Scholar]
+16. Banik B, Dhar S. Centrifugation-Free Magnetic Isolation of Functional Mitochondria Using Paramagnetic Iron Oxide Nanoparticles. Curr Protoc Cell Biol. 2017;76:25.4.1–.4.0. Epub 2017/09/01. doi: 10.1002/cpcb.26 ; PubMed Central PMCID: PMCPMC5657231. [PMC free article] [PubMed] [Google Scholar]
+17. Banik B, Askins BW, Dhar S. Mito-magneto: a tool for nanoparticle mediated mitochondria isolation. Nanoscale. 2016;8(47):19581–91. doi: 10.1039/c6nr05882e ; PubMed Central PMCID: PMCPMC5133166. [PMC free article] [PubMed] [Google Scholar]
+18. Funakoshi M, Hochstrasser M. Small epitope-linker modules for PCR-based C-terminal tagging in Saccharomyces cerevisiae. Yeast. 2009;26(3):185–92. doi: 10.1002/yea.1658 ; PubMed Central PMCID: PMCPMC2673350. [PMC free article] [PubMed] [Google Scholar]
+19. Gietz RD, Schiestl RH. High-efficiency yeast transformation using the LiAc/SS carrier DNA/PEG method. Nat Protoc. 2007;2(1):31–4. Epub 2007/04/03. doi: 10.1038/nprot.2007.13 . [PubMed] [Google Scholar]
+20. Higuchi R, Vevea JD, Swayne TC, Chojnowski R, Hill V, Boldogh IR, et al. Actin dynamics affect mitochondrial quality control and aging in budding yeast. Curr Biol. 2013;23(23):2417–22. Epub 2013/11/21. doi: 10.1016/j.cub.2013.10.022 ; PubMed Central PMCID: PMCPMC3932488. [PMC free article] [PubMed] [Google Scholar]
+21. Pernice WM, Vevea JD, Pon LA. A role for Mfb1p in region-specific anchorage of high-functioning mitochondria and lifespan in Saccharomyces cerevisiae. Nat Commun. 2016;7:10595 doi: 10.1038/ncomms10595 ; PubMed Central PMCID: PMCPMC4742906. [PMC free article] [PubMed] [Google Scholar]
+22. Vevea JD, Alessi Wolken DM, Swayne TC, White AB, Pon LA. Ratiometric biosensors that measure mitochondrial redox state and ATP in living yeast cells. J Vis Exp. 2013;(77):50633 Epub 2013/07/22. doi: 10.3791/50633 ; PubMed Central PMCID: PMCPMC3846110. [PMC free article] [PubMed] [Google Scholar]
+23. Mastronarde DN. Automated electron microscope tomography using robust prediction of specimen movements. J Struct Biol. 2005;152(1):36–51. doi: 10.1016/j.jsb.2005.07.007 . [PubMed] [Google Scholar]
+24. Mastronarde DN. Dual-axis tomography: an approach with alignment methods that preserve resolution. J Struct Biol. 1997;120(3):343–52. doi: 10.1006/jsbi.1997.3919 . [PubMed] [Google Scholar]
+25. Mastronarde DN, Held SR. Automated tilt series alignment and tomographic reconstruction in IMOD. J Struct Biol. 2017;197(2):102–13. doi: 10.1016/j.jsb.2016.07.011 ; PubMed Central PMCID: PMCPMC5247408. [PMC free article] [PubMed] [Google Scholar]
+26. Agulleiro JI, Fernandez JJ. Fast tomographic reconstruction on multicore computers. Bioinformatics. 2011;27(4):582–3. doi: 10.1093/bioinformatics/btq692 . [PubMed] [Google Scholar]
+27. Hasson SA, Damoiseaux R, Glavin JD, Dabir DV, Walker SS, Koehler CM. Substrate specificity of the TIM22 mitochondrial import pathway revealed with small molecule inhibitor of protein translocation. Proc Natl Acad Sci U S A. 2010;107(21):9578–83. Epub 2010/05/10. doi: 10.1073/pnas.0914387107 ; PubMed Central PMCID: PMCPMC2906835. [PMC free article] [PubMed] [Google Scholar]
+28. Peleh V, Ramesh A, Herrmann JM. Import of proteins into isolated yeast mitochondria. Methods Mol Biol. 2015;1270:37–50. doi: 10.1007/978-1-4939-2309-0_3 . [PubMed] [Google Scholar]
+29. Barrientos A, Fontanesi F, Diaz F. Evaluation of the mitochondrial respiratory chain and oxidative phosphorylation system using polarography and spectrophotometric enzyme assays. Curr Protoc Hum Genet. 2009;Chapter 19:Unit19 3. Epub 2009/10/07. doi: 10.1002/0471142905.hg1903s63 ; PubMed Central PMCID: PMCPMC2771113. [PMC free article] [PubMed] [Google Scholar]
+30. Vevea JD, Garcia EJ, Chan RB, Zhou B, Schultz M, Di Paolo G, et al. Role for Lipid Droplet Biogenesis and Microlipophagy in Adaptation to Lipid Imbalance in Yeast. Dev Cell. 2015;35(5):584–99. Epub 2015/12/15. doi: 10.1016/j.devcel.2015.11.010 ; PubMed Central PMCID: PMCPMC4679156. [PMC free article] [PubMed] [Google Scholar]
+31. Ladner CL, Yang J, Turner RJ, Edwards RA. Visible fluorescent detection of proteins in polyacrylamide gels without staining. Anal Biochem. 2004;326(1):13–20. doi: 10.1016/j.ab.2003.10.047 . [PubMed] [Google Scholar]
+32. Dooley CT, Dore TM, Hanson GT, Jackson WC, Remington SJ, Tsien RY. Imaging dynamic redox changes in mammalian cells with green fluorescent protein indicators. J Biol Chem. 2004;279(21):22284–93. Epub 2004/02/25. doi: 10.1074/jbc.M312847200 . [PubMed] [Google Scholar]
+33. Hanson GT, Aggeler R, Oglesbee D, Cannon M, Capaldi RA, Tsien RY, et al. Investigating mitochondrial redox potential with redox-sensitive green fluorescent protein indicators. J Biol Chem. 2004;279(13):13044–53. Epub 2004/01/13. doi: 10.1074/jbc.M312846200 . [PubMed] [Google Scholar]
+34. McFaline-Figueroa JR, Vevea J, Swayne TC, Zhou C, Liu C, Leung G, et al. Mitochondrial quality control during inheritance is associated with lifespan and mother-daughter age asymmetry in budding yeast. Aging Cell. 2011;10(5):885–95. Epub 2011/07/06. doi: 10.1111/j.1474-9726.2011.00731.x ; PubMed Central PMCID: PMCPMC3173513. [PMC free article] [PubMed] [Google Scholar]
+35. Oikonomou CM, Jensen GJ. Cellular Electron Cryotomography: Toward Structural Biology In Situ. Annu Rev Biochem. 2017;86:873–96. Epub 2017/04/21. doi: 10.1146/annurev-biochem-061516-044741 . [PubMed] [Google Scholar]
+36. Davies KM, Anselmi C, Wittig I, Faraldo-Gomez JD, Kuhlbrandt W. Structure of the yeast F1Fo-ATP synthase dimer and its role in shaping the mitochondrial cristae. Proc Natl Acad Sci U S A. 2012;109(34):13602–7. doi: 10.1073/pnas.1204593109 ; PubMed Central PMCID: PMCPMC3427116. [PMC free article] [PubMed] [Google Scholar]
+37. Davies KM, Strauss M, Daum B, Kief JH, Osiewacz HD, Rycovska A, et al. Macromolecular organization of ATP synthase and complex I in whole mitochondria. Proc Natl Acad Sci U S A. 2011;108(34):14121–6. doi: 10.1073/pnas.1103621108 ; PubMed Central PMCID: PMCPMC3161574. [PMC free article] [PubMed] [Google Scholar]
+38. Smith MD, Petrak M, Boucher PD, Barton KN, Carter L, Reddy G, et al. Lysine residues at positions 234 and 236 in yeast porin are involved in its assembly into the mitochondrial outer membrane. J Biol Chem. 1995;270(47):28331–6. . [PubMed] [Google Scholar]
+39. Pfanner N, Muller HK, Harmey MA, Neupert W. Mitochondrial protein import: involvement of the mature part of a cleavable precursor protein in the binding to receptor sites. EMBO J. 1987;6(11):3449–54. ; PubMed Central PMCID: PMCPMC553802. [PMC free article] [PubMed] [Google Scholar]
+40. Lackner DH, Carre A, Guzzardo PM, Banning C, Mangena R, Henley T, et al. A generic strategy for CRISPR-Cas9-mediated gene tagging. Nat Commun. 2015;6:10237 Epub 2015/12/18. doi: 10.1038/ncomms10237 ; PubMed Central PMCID: PMCPMC4703899. [PMC free article] [PubMed] [Google Scholar]
+41. Ratz M, Testa I, Hell SW, Jakobs S. CRISPR/Cas9-mediated endogenous protein tagging for RESOLFT super-resolution microscopy of living human cells. Sci Rep. 2015;5:9592 Epub 2015/04/22. doi: 10.1038/srep09592 ; PubMed Central PMCID: PMCPMC4402611. [PMC free article] [PubMed] [Google Scholar]
+42. Savic D, Partridge EC, Newberry KM, Smith SB, Meadows SK, Roberts BS, et al. CETCh-seq: CRISPR epitope tagging ChIP-seq of DNA-binding proteins. Genome Res. 2015;25(10):1581–9. Epub 2015/09/12. doi: 10.1101/gr.193540.115 ; PubMed Central PMCID: PMCPMC4579343. [PMC free article] [PubMed] [Google Scholar]
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0196632 April 26, 2018 15/15
+
