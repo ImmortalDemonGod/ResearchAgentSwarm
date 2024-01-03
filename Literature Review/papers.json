@@ -1,1 +1,522 @@
-{"\"Engineering Problem-Solving Frameworks\"": [{"paperId": "fd54c96295a5d195dcc7f1afb0b466b3de7e5fb1", "title": "Challenge-based instruction promotes students\u2019 development of transferable frameworks and confidence for engineering problem solving", "abstract": "ABSTRACT Challenge-based teaching facilitates students\u2019 simultaneous development of content mastery and strategies for applying technical knowledge innovatively. The University of Texas at Austin Department of Biomedical Engineering has offered a challenge-based course on biotransport as an accelerated study-abroad learning experience in Cambridge, England. We used a mixed methods approach to characterize students\u2019 learning trajectory, to include technical prowess, problem-solving self-efficacy, and engineering identity throughout the entirety of this course. Students developed problem solving strategies and confidence over the semester and readily transferred their acquired solution framework to technical domains outside of the course subject of biotransport. Students identified challenge-based pedagogies as their preferred methods of classroom instruction, became familiar with corresponding assessments, and identified strongly as practitioners within the engineering field. We believe this illustrative case study provides significant evidence for the effectiveness of challenge-based instruction and can serve as a model for pedagogy-sensitive classroom assessment in engineering.", "authors": [{"authorId": "39590441", "name": "John R. Clegg"}, {"authorId": "1848490", "name": "K. Diller"}]}, {"paperId": "96151240f25b59201e11c85465ef98f1c45bd4f6", "title": "Assessing problem-solving in science and engineering programs", "abstract": "Science and engineering (S & E) programs frequently claim that they teach undergraduate students how to be good problem solvers. However, there has been little research to-date that demonstrates this, in no small part due to the fact that measuring problem-solving is quite difficult. Our recent work characterized experts\u2019 problemsolving as carrying out a series of several dozen decisions made in solving novel problems; these decisions are remarkably consistent across S & E disciplines. Based on this, we developed a template for an assessment that measures students\u2019 problem-solving skills by posing questions that require them to make a subset of these expert decisions in suitable contexts. Preliminary results show that the assessment captures a wide range of problem-solving skills among students, and exposes key weaknesses in problem-solving. Most importantly, the data show that students\u2019 predictive frameworks\u2014their mental models of a system\u2019s key features and the relationships between them\u2014are less robust than experts\u2019, limiting students\u2019 ability to make predictions and explain observations while problem-solving. We provide detailed results from a pilot-test of this assessment in the context of chemical engineering design, which applies many concepts from physics. These results point to a general deficiency in undergraduate S & E programs: students are not being given the opportunity to practice expert decision-making, and thus do not develop robust predictive frameworks by the end of their undergraduate programs.", "authors": [{"authorId": "2082691268", "name": "E. Burkholder"}, {"authorId": "12487800", "name": "Argenta Price"}, {"authorId": "2055373998", "name": "Mike Flynn"}, {"authorId": "3341039", "name": "C. Wieman"}]}, {"paperId": "5bb19edbc7860bb23c827ccaa6d061a0c1cd03ff", "title": "Problem-Solving Frameworks for Sensible Agents in an Electronic Market", "abstract": null, "authors": [{"authorId": "145674757", "name": "K. S. Barber"}, {"authorId": "48134015", "name": "A. Goel"}, {"authorId": "32099211", "name": "David C. Han"}, {"authorId": "120085851", "name": "Joonoo Kim"}, {"authorId": "2218151545", "name": "Tse-Hsin Liu"}, {"authorId": "34735497", "name": "Cheryl E. Martin"}, {"authorId": "143685714", "name": "R. McKay"}]}, {"paperId": "67dcd8a2361b977d2b72b3c12e5067e0ffe4e817", "title": "Instructional Design of an Advanced Interactive Discovery Environment: Exploring Team Communication and Technology use in Virtual Collaborative Engineering Problem Solving", "abstract": "This chapter examines the instructional design of, and reports on research conducted within, a multiuser virtual environment created for a distributed Collaborative Engineering Design (CED) course. The course\u2019s Advanced Interactive Discovery Environment (AIDE) provided a variety of synchronous online tools and communication devices to support SameTime virtual team collaboration and problem-solving within the course. The research helped to unpack (1) which tools team members engaged with during collaborative learning activities, (2) how and why they used or did not use provided online features to support their individual learning and enhance team productivity, collaboration, and communication, and (3) how team members communicated socially. The research also describes how different team social communication patterns may be related to the patterns of team technology use. Relevant theoretical frameworks including social learning, media stickiness, cognitive imprinting, and recommendations on how different tools can be effectively integrated into multiuser virtual environments to facilitate learning are discussed. DOI: 10.4018/978-1-60960-545-2.ch023", "authors": [{"authorId": "2107909782", "name": "Yiyan Wu"}, {"authorId": "2783857", "name": "Tiffany A. Koszalka"}]}, {"paperId": "c803f2f31e40e564b757ba8831b561da7461d047", "title": "Defining Open-Ended Problem Solving Through Problem Typology Framework", "abstract": "Problem solving is central to engineering education. Yet, there little agreement regarding what constitutes an exemplary design problem or case analysis problem for modeling undergraduate instruction after. There is even less agreement in engineering education literature regarding the best way to measure students ability or progress in learning to be better problem solvers in these discrete problem categories. We describe the development of a research method toward accessing how students think about design is described, what constitutes a measurable response, and how to compare through qualitative research methods pre and post student performance. The discussion draws from Jonassen\u2019s (2000) framework for problem typology, as well as cognitive learning frameworks of design thinking, and metacognition as a theoretical basis that informs the problem formulation and planned approach for analysis.", "authors": [{"authorId": "31391972", "name": "Andrew T. Olewnik"}, {"authorId": "1741234", "name": "Randy Yerrick"}, {"authorId": "2005263884", "name": "Amanda Simmons"}, {"authorId": "47868833", "name": "Yonghee Lee"}, {"authorId": "1509691539", "name": "Brian Stuhlmiller"}]}, {"paperId": "24c871958cd043657602dd6f1fbbb51c1ecab21f", "title": "Does Conceptual Understanding Matter: Patterns Of Error In Senior Engineering Students Problem Solving In Statics?", "abstract": "This paper describes a study that investigates students\u2019 explanations of force when describing the errors they made when solving a Statics problem based on the concepts of free body diagram (FBD) and equilibrium. Three male civil and mechanical engineering seniors were asked to think aloud as they solved the fore mentioned problem. Participants\u2019 solutions were analyzed using two conceptual frameworks. The first framework describes a substance-based conceptual schema of force that students may have. This framework is based on the works of Reiner, Slotta, Chi and Resnick 1 and Chi 2 . The second framework from the works of Steif 3 describes the common errors that students make in their solutions of Statics problems and the Statics concepts that they represent. Findings of this study show that students who got the answer incorrect made four common errors. In conjunction, when explaining the reasoning behind these errors, students talked about the force(s) as represented in the problem and solution as a substance or a material object.", "authors": [{"authorId": "72080854", "name": "Tameka Clarke Douglas"}, {"authorId": "71929926", "name": "A. S. Roman"}, {"authorId": "2330139", "name": "R. Streveler"}]}], "\"Engineering Decision-Making Models\"": [{"paperId": "6c1989a22869d1258db6124ee6ca5a4da0cd7f69", "title": "Decision-Making Models Based on Incomplete Hesitant Fuzzy Linguistic Preference Relation With Application to Site Selection of Hydropower Stations", "abstract": "This article proposes two decision-making models in an incomplete fuzzy hesitant linguistic environment and applies them to address the site selection problems for hydropower stations. For better depicting a decision maker's judgments under uncertainty, based on the concept of incomplete hesitant fuzzy linguistic preference relation, this article first defines its consistency measures from the perspective of additive consistency and multiplicative consistency, respectively. By introducing decision maker's satisfaction degree to measure the differences between the incomplete hesitant fuzzy linguistic preference relation and its corresponding weight vector, two decision-making models, which aim to achieve the maximum satisfaction degree, are established for determining the optimal weight vector. This article further designs experiments to make decision support by evaluating the proposed models from the correlation and time complexity point of view and providing sensitivity analysis. A case study concerning the site selection for a hydropower station at Yalong River is given to illustrate the decision-making process and the effectiveness of the proposed models.", "authors": [{"authorId": "144773296", "name": "Peijia Ren"}, {"authorId": "3419655", "name": "Zhinan Hao"}, {"authorId": "2108021201", "name": "Xinxin Wang"}, {"authorId": "145681778", "name": "Xiao-Jun Zeng"}, {"authorId": "1741576", "name": "Zeshui Xu"}]}, {"paperId": "7bfe7381962701a6465a9a4f1128d92b9100f7f7", "title": "Knowledge Engineering for Rough Sets Based Decision\u2010Making Models", "abstract": "In this paper, a review of decision\u2010making models based on the rough set theory is presented. The use of these techniques allows for the presence of uncertainty in computer models that are developed for decision making, and to formulate the decision\u2010making models using the experiences of previous decisions made. Since the formulation of these models differs from the classical approach of decision\u2010making models, in this paper, the models are analyzed and a method is proposed for its implementation.", "authors": [{"authorId": "145024712", "name": "Rafael Bello"}, {"authorId": "1804615", "name": "J. Verdegay"}]}, {"paperId": "17a5cad8b1da7da84c5852447e8cd46661ab1688", "title": "Decision-making models for optimal engineering design and their applications", "abstract": null, "authors": [{"authorId": "3081489", "name": "A. Mosavi"}]}, {"paperId": "b07c8e14ad69064ebfb11d98de533dbbfa693d54", "title": "Decision-making models for supply chain risk mitigation: A review", "abstract": null, "authors": [{"authorId": "30877692", "name": "Varthini Rajagopal"}, {"authorId": "49086828", "name": "S. Venkatesan"}, {"authorId": "143754421", "name": "M. Goh"}]}, {"paperId": "32743fa4825ad845d9457f9735ad34c4b6a08247", "title": "APPLICATIONS OF FUZZY MULTIPLE CRITERIA DECISION MAKING METHODS IN CIVIL ENGINEERING: A STATE-OF-THE-ART SURVEY", "abstract": "A variety of fuzzy multiple criteria decision making (MCDM) models have been proposed to solve complicated decision-making problems. Many applications have been achieved, especially in the field of civil engineering. To analyze the developments about the fuzzy MCDM methods and their applications in civil engineering in recent years and further explore the future research directions, this study conducts a state of the art survey in which 52 journal papers focusing on the applications of fuzzy MCDM models in civil engineering from 2016 to 2020 are reviewed. We respectively classify these articles according to research problems and research methods. Through the literature review, we get findings in terms of the most concerned decision-making problem, the most widely-used evaluation criterion and the most popular fuzzy MCDM model. Furthermore, we present four aspects of research challenges and corresponding future research directions in the field of civil engineering, which may be helpful for researchers and practitioners to further investigate.", "authors": [{"authorId": "98554805", "name": "Zhi Wen"}, {"authorId": "2314246", "name": "Huchang Liao"}, {"authorId": "145366462", "name": "E. Zavadskas"}, {"authorId": "1865462", "name": "J. Antuchevi\u010dien\u0117"}]}, {"paperId": "e8808ddb817871a4e6bc0b594c76b67a97ee3bf2", "title": "Parameter Estimation in Softmax Decision-Making Models With Linear Objective Functions", "abstract": "We contribute to the development of a systematic means to infer features of human decision-making from behavioral data. Motivated by the common use of softmax selection in models of human decision-making, we study the maximum-likelihood (ML) parameter estimation problem for softmax decision-making models with linear objective functions. We present conditions under which the likelihood function is convex. These allow us to provide sufficient conditions for convergence of the resulting ML estimator and to construct its asymptotic distribution. In the case of models with nonlinear objective functions, we show how the estimator can be applied by linearizing about a nominal parameter value. We apply the estimator to fit the stochastic Upper Credible Limit (UCL) model of human decision-making to human subject data. The fits show statistically significant differences in behavior across related, but distinct, tasks.", "authors": [{"authorId": "1775972", "name": "Paul B. Reverdy"}, {"authorId": "3301461", "name": "Naomi Ehrich Leonard"}]}, {"paperId": "ce498d02efece9829b445465836b35cd84683557", "title": "Multiobjective optimization and decision making in engineering sciences", "abstract": null, "authors": [{"authorId": "39054421", "name": "Jussi Hakanen"}, {"authorId": "2432113", "name": "R. Allmendinger"}]}, {"paperId": "17a5cad8b1da7da84c5852447e8cd46661ab1688", "title": "Decision-making models for optimal engineering design and their applications", "abstract": null, "authors": [{"authorId": "3081489", "name": "A. Mosavi"}]}, {"paperId": "b07c8e14ad69064ebfb11d98de533dbbfa693d54", "title": "Decision-making models for supply chain risk mitigation: A review", "abstract": null, "authors": [{"authorId": "30877692", "name": "Varthini Rajagopal"}, {"authorId": "49086828", "name": "S. Venkatesan"}, {"authorId": "143754421", "name": "M. Goh"}]}, {"paperId": "ed75596d1066de528dd67bed9417f14a6f216650", "title": "GAME THEORETIC MODELS IN ENGINEERING DECISION MAKING", "abstract": "Various types of game theory models for systematically studying conflict in engineering and other fields are. reviewed, assessed, and illustrated. Representative literature regarding the development and application of game theory in engineering decision making is referenced and two applications are presented. Specifically, a game theory model in extensive form is employed to investigate the effectiveness of a commonly-practised system of environmental laws and regulations. In another application, the graph model for conflict resolution is used for modelling and analyzing a complex environmental dispute that took place in Canada. This conflict involves four main decision makers, each with its own objectives and priorities with respect to the controversy. To assist in formally analyzing the dispute and carrying out sensitivity analyses, a flexible decision support system is utilized.", "authors": [{"authorId": "1688759", "name": "K. Hipel"}, {"authorId": "144395101", "name": "L. Fang"}, {"authorId": "144874901", "name": "D. Kilgour"}]}, {"paperId": "7bfe7381962701a6465a9a4f1128d92b9100f7f7", "title": "Knowledge Engineering for Rough Sets Based Decision\u2010Making Models", "abstract": "In this paper, a review of decision\u2010making models based on the rough set theory is presented. The use of these techniques allows for the presence of uncertainty in computer models that are developed for decision making, and to formulate the decision\u2010making models using the experiences of previous decisions made. Since the formulation of these models differs from the classical approach of decision\u2010making models, in this paper, the models are analyzed and a method is proposed for its implementation.", "authors": [{"authorId": "145024712", "name": "Rafael Bello"}, {"authorId": "1804615", "name": "J. Verdegay"}]}, {"paperId": "17a5cad8b1da7da84c5852447e8cd46661ab1688", "title": "Decision-making models for optimal engineering design and their applications", "abstract": null, "authors": [{"authorId": "3081489", "name": "A. Mosavi"}]}, {"paperId": "e8808ddb817871a4e6bc0b594c76b67a97ee3bf2", "title": "Parameter Estimation in Softmax Decision-Making Models With Linear Objective Functions", "abstract": "We contribute to the development of a systematic means to infer features of human decision-making from behavioral data. Motivated by the common use of softmax selection in models of human decision-making, we study the maximum-likelihood (ML) parameter estimation problem for softmax decision-making models with linear objective functions. We present conditions under which the likelihood function is convex. These allow us to provide sufficient conditions for convergence of the resulting ML estimator and to construct its asymptotic distribution. In the case of models with nonlinear objective functions, we show how the estimator can be applied by linearizing about a nominal parameter value. We apply the estimator to fit the stochastic Upper Credible Limit (UCL) model of human decision-making to human subject data. The fits show statistically significant differences in behavior across related, but distinct, tasks.", "authors": [{"authorId": "1775972", "name": "Paul B. Reverdy"}, {"authorId": "3301461", "name": "Naomi Ehrich Leonard"}]}, {"paperId": "6c1989a22869d1258db6124ee6ca5a4da0cd7f69", "title": "Decision-Making Models Based on Incomplete Hesitant Fuzzy Linguistic Preference Relation With Application to Site Selection of Hydropower Stations", "abstract": "This article proposes two decision-making models in an incomplete fuzzy hesitant linguistic environment and applies them to address the site selection problems for hydropower stations. For better depicting a decision maker's judgments under uncertainty, based on the concept of incomplete hesitant fuzzy linguistic preference relation, this article first defines its consistency measures from the perspective of additive consistency and multiplicative consistency, respectively. By introducing decision maker's satisfaction degree to measure the differences between the incomplete hesitant fuzzy linguistic preference relation and its corresponding weight vector, two decision-making models, which aim to achieve the maximum satisfaction degree, are established for determining the optimal weight vector. This article further designs experiments to make decision support by evaluating the proposed models from the correlation and time complexity point of view and providing sensitivity analysis. A case study concerning the site selection for a hydropower station at Yalong River is given to illustrate the decision-making process and the effectiveness of the proposed models.", "authors": [{"authorId": "144773296", "name": "Peijia Ren"}, {"authorId": "3419655", "name": "Zhinan Hao"}, {"authorId": "2108021201", "name": "Xinxin Wang"}, {"authorId": "145681778", "name": "Xiao-Jun Zeng"}, {"authorId": "1741576", "name": "Zeshui Xu"}]}, {"paperId": "7bfe7381962701a6465a9a4f1128d92b9100f7f7", "title": "Knowledge Engineering for Rough Sets Based Decision\u2010Making Models", "abstract": "In this paper, a review of decision\u2010making models based on the rough set theory is presented. The use of these techniques allows for the presence of uncertainty in computer models that are developed for decision making, and to formulate the decision\u2010making models using the experiences of previous decisions made. Since the formulation of these models differs from the classical approach of decision\u2010making models, in this paper, the models are analyzed and a method is proposed for its implementation.", "authors": [{"authorId": "145024712", "name": "Rafael Bello"}, {"authorId": "1804615", "name": "J. Verdegay"}]}, {"paperId": "17a5cad8b1da7da84c5852447e8cd46661ab1688", "title": "Decision-making models for optimal engineering design and their applications", "abstract": null, "authors": [{"authorId": "3081489", "name": "A. Mosavi"}]}, {"paperId": "6c1989a22869d1258db6124ee6ca5a4da0cd7f69", "title": "Decision-Making Models Based on Incomplete Hesitant Fuzzy Linguistic Preference Relation With Application to Site Selection of Hydropower Stations", "abstract": "This article proposes two decision-making models in an incomplete fuzzy hesitant linguistic environment and applies them to address the site selection problems for hydropower stations. For better depicting a decision maker's judgments under uncertainty, based on the concept of incomplete hesitant fuzzy linguistic preference relation, this article first defines its consistency measures from the perspective of additive consistency and multiplicative consistency, respectively. By introducing decision maker's satisfaction degree to measure the differences between the incomplete hesitant fuzzy linguistic preference relation and its corresponding weight vector, two decision-making models, which aim to achieve the maximum satisfaction degree, are established for determining the optimal weight vector. This article further designs experiments to make decision support by evaluating the proposed models from the correlation and time complexity point of view and providing sensitivity analysis. A case study concerning the site selection for a hydropower station at Yalong River is given to illustrate the decision-making process and the effectiveness of the proposed models.", "authors": [{"authorId": "144773296", "name": "Peijia Ren"}, {"authorId": "3419655", "name": "Zhinan Hao"}, {"authorId": "2108021201", "name": "Xinxin Wang"}, {"authorId": "145681778", "name": "Xiao-Jun Zeng"}, {"authorId": "1741576", "name": "Zeshui Xu"}]}, {"paperId": "7bfe7381962701a6465a9a4f1128d92b9100f7f7", "title": "Knowledge Engineering for Rough Sets Based Decision\u2010Making Models", "abstract": "In this paper, a review of decision\u2010making models based on the rough set theory is presented. The use of these techniques allows for the presence of uncertainty in computer models that are developed for decision making, and to formulate the decision\u2010making models using the experiences of previous decisions made. Since the formulation of these models differs from the classical approach of decision\u2010making models, in this paper, the models are analyzed and a method is proposed for its implementation.", "authors": [{"authorId": "145024712", "name": "Rafael Bello"}, {"authorId": "1804615", "name": "J. Verdegay"}]}, {"paperId": "17a5cad8b1da7da84c5852447e8cd46661ab1688", "title": "Decision-making models for optimal engineering design and their applications", "abstract": null, "authors": [{"authorId": "3081489", "name": "A. Mosavi"}]}, {"paperId": "6c1989a22869d1258db6124ee6ca5a4da0cd7f69", "title": "Decision-Making Models Based on Incomplete Hesitant Fuzzy Linguistic Preference Relation With Application to Site Selection of Hydropower Stations", "abstract": "This article proposes two decision-making models in an incomplete fuzzy hesitant linguistic environment and applies them to address the site selection problems for hydropower stations. For better depicting a decision maker's judgments under uncertainty, based on the concept of incomplete hesitant fuzzy linguistic preference relation, this article first defines its consistency measures from the perspective of additive consistency and multiplicative consistency, respectively. By introducing decision maker's satisfaction degree to measure the differences between the incomplete hesitant fuzzy linguistic preference relation and its corresponding weight vector, two decision-making models, which aim to achieve the maximum satisfaction degree, are established for determining the optimal weight vector. This article further designs experiments to make decision support by evaluating the proposed models from the correlation and time complexity point of view and providing sensitivity analysis. A case study concerning the site selection for a hydropower station at Yalong River is given to illustrate the decision-making process and the effectiveness of the proposed models.", "authors": [{"authorId": "144773296", "name": "Peijia Ren"}, {"authorId": "3419655", "name": "Zhinan Hao"}, {"authorId": "2108021201", "name": "Xinxin Wang"}, {"authorId": "145681778", "name": "Xiao-Jun Zeng"}, {"authorId": "1741576", "name": "Zeshui Xu"}]}, {"paperId": "7bfe7381962701a6465a9a4f1128d92b9100f7f7", "title": "Knowledge Engineering for Rough Sets Based Decision\u2010Making Models", "abstract": "In this paper, a review of decision\u2010making models based on the rough set theory is presented. The use of these techniques allows for the presence of uncertainty in computer models that are developed for decision making, and to formulate the decision\u2010making models using the experiences of previous decisions made. Since the formulation of these models differs from the classical approach of decision\u2010making models, in this paper, the models are analyzed and a method is proposed for its implementation.", "authors": [{"authorId": "145024712", "name": "Rafael Bello"}, {"authorId": "1804615", "name": "J. Verdegay"}]}, {"paperId": "b07c8e14ad69064ebfb11d98de533dbbfa693d54", "title": "Decision-making models for supply chain risk mitigation: A review", "abstract": null, "authors": [{"authorId": "30877692", "name": "Varthini Rajagopal"}, {"authorId": "49086828", "name": "S. Venkatesan"}, {"authorId": "143754421", "name": "M. Goh"}]}]}
+{
+    "\"Engineering Problem-Solving Frameworks\"": [
+        {
+            "paperId": "fd54c96295a5d195dcc7f1afb0b466b3de7e5fb1",
+            "title": "Challenge-based instruction promotes students’ development of transferable frameworks and confidence for engineering problem solving",
+            "abstract": "ABSTRACT Challenge-based teaching facilitates students’ simultaneous development of content mastery and strategies for applying technical knowledge innovatively. The University of Texas at Austin Department of Biomedical Engineering has offered a challenge-based course on biotransport as an accelerated study-abroad learning experience in Cambridge, England. We used a mixed methods approach to characterize students’ learning trajectory, to include technical prowess, problem-solving self-efficacy, and engineering identity throughout the entirety of this course. Students developed problem solving strategies and confidence over the semester and readily transferred their acquired solution framework to technical domains outside of the course subject of biotransport. Students identified challenge-based pedagogies as their preferred methods of classroom instruction, became familiar with corresponding assessments, and identified strongly as practitioners within the engineering field. We believe this illustrative case study provides significant evidence for the effectiveness of challenge-based instruction and can serve as a model for pedagogy-sensitive classroom assessment in engineering.",
+            "authors": [
+                {
+                    "authorId": "39590441",
+                    "name": "John R. Clegg"
+                },
+                {
+                    "authorId": "1848490",
+                    "name": "K. Diller"
+                }
+            ]
+        },
+        {
+            "paperId": "96151240f25b59201e11c85465ef98f1c45bd4f6",
+            "title": "Assessing problem-solving in science and engineering programs",
+            "abstract": "Science and engineering (S & E) programs frequently claim that they teach undergraduate students how to be good problem solvers. However, there has been little research to-date that demonstrates this, in no small part due to the fact that measuring problem-solving is quite difficult. Our recent work characterized experts’ problemsolving as carrying out a series of several dozen decisions made in solving novel problems; these decisions are remarkably consistent across S & E disciplines. Based on this, we developed a template for an assessment that measures students’ problem-solving skills by posing questions that require them to make a subset of these expert decisions in suitable contexts. Preliminary results show that the assessment captures a wide range of problem-solving skills among students, and exposes key weaknesses in problem-solving. Most importantly, the data show that students’ predictive frameworks—their mental models of a system’s key features and the relationships between them—are less robust than experts’, limiting students’ ability to make predictions and explain observations while problem-solving. We provide detailed results from a pilot-test of this assessment in the context of chemical engineering design, which applies many concepts from physics. These results point to a general deficiency in undergraduate S & E programs: students are not being given the opportunity to practice expert decision-making, and thus do not develop robust predictive frameworks by the end of their undergraduate programs.",
+            "authors": [
+                {
+                    "authorId": "2082691268",
+                    "name": "E. Burkholder"
+                },
+                {
+                    "authorId": "12487800",
+                    "name": "Argenta Price"
+                },
+                {
+                    "authorId": "2055373998",
+                    "name": "Mike Flynn"
+                },
+                {
+                    "authorId": "3341039",
+                    "name": "C. Wieman"
+                }
+            ]
+        },
+        {
+            "paperId": "5bb19edbc7860bb23c827ccaa6d061a0c1cd03ff",
+            "title": "Problem-Solving Frameworks for Sensible Agents in an Electronic Market",
+            "abstract": null,
+            "authors": [
+                {
+                    "authorId": "145674757",
+                    "name": "K. S. Barber"
+                },
+                {
+                    "authorId": "48134015",
+                    "name": "A. Goel"
+                },
+                {
+                    "authorId": "32099211",
+                    "name": "David C. Han"
+                },
+                {
+                    "authorId": "120085851",
+                    "name": "Joonoo Kim"
+                },
+                {
+                    "authorId": "2218151545",
+                    "name": "Tse-Hsin Liu"
+                },
+                {
+                    "authorId": "34735497",
+                    "name": "Cheryl E. Martin"
+                },
+                {
+                    "authorId": "143685714",
+                    "name": "R. McKay"
+                }
+            ]
+        },
+        {
+            "paperId": "67dcd8a2361b977d2b72b3c12e5067e0ffe4e817",
+            "title": "Instructional Design of an Advanced Interactive Discovery Environment: Exploring Team Communication and Technology use in Virtual Collaborative Engineering Problem Solving",
+            "abstract": "This chapter examines the instructional design of, and reports on research conducted within, a multiuser virtual environment created for a distributed Collaborative Engineering Design (CED) course. The course’s Advanced Interactive Discovery Environment (AIDE) provided a variety of synchronous online tools and communication devices to support SameTime virtual team collaboration and problem-solving within the course. The research helped to unpack (1) which tools team members engaged with during collaborative learning activities, (2) how and why they used or did not use provided online features to support their individual learning and enhance team productivity, collaboration, and communication, and (3) how team members communicated socially. The research also describes how different team social communication patterns may be related to the patterns of team technology use. Relevant theoretical frameworks including social learning, media stickiness, cognitive imprinting, and recommendations on how different tools can be effectively integrated into multiuser virtual environments to facilitate learning are discussed. DOI: 10.4018/978-1-60960-545-2.ch023",
+            "authors": [
+                {
+                    "authorId": "2107909782",
+                    "name": "Yiyan Wu"
+                },
+                {
+                    "authorId": "2783857",
+                    "name": "Tiffany A. Koszalka"
+                }
+            ]
+        },
+        {
+            "paperId": "c803f2f31e40e564b757ba8831b561da7461d047",
+            "title": "Defining Open-Ended Problem Solving Through Problem Typology Framework",
+            "abstract": "Problem solving is central to engineering education. Yet, there little agreement regarding what constitutes an exemplary design problem or case analysis problem for modeling undergraduate instruction after. There is even less agreement in engineering education literature regarding the best way to measure students ability or progress in learning to be better problem solvers in these discrete problem categories. We describe the development of a research method toward accessing how students think about design is described, what constitutes a measurable response, and how to compare through qualitative research methods pre and post student performance. The discussion draws from Jonassen’s (2000) framework for problem typology, as well as cognitive learning frameworks of design thinking, and metacognition as a theoretical basis that informs the problem formulation and planned approach for analysis.",
+            "authors": [
+                {
+                    "authorId": "31391972",
+                    "name": "Andrew T. Olewnik"
+                },
+                {
+                    "authorId": "1741234",
+                    "name": "Randy Yerrick"
+                },
+                {
+                    "authorId": "2005263884",
+                    "name": "Amanda Simmons"
+                },
+                {
+                    "authorId": "47868833",
+                    "name": "Yonghee Lee"
+                },
+                {
+                    "authorId": "1509691539",
+                    "name": "Brian Stuhlmiller"
+                }
+            ]
+        },
+        {
+            "paperId": "24c871958cd043657602dd6f1fbbb51c1ecab21f",
+            "title": "Does Conceptual Understanding Matter: Patterns Of Error In Senior Engineering Students Problem Solving In Statics?",
+            "abstract": "This paper describes a study that investigates students’ explanations of force when describing the errors they made when solving a Statics problem based on the concepts of free body diagram (FBD) and equilibrium. Three male civil and mechanical engineering seniors were asked to think aloud as they solved the fore mentioned problem. Participants’ solutions were analyzed using two conceptual frameworks. The first framework describes a substance-based conceptual schema of force that students may have. This framework is based on the works of Reiner, Slotta, Chi and Resnick 1 and Chi 2 . The second framework from the works of Steif 3 describes the common errors that students make in their solutions of Statics problems and the Statics concepts that they represent. Findings of this study show that students who got the answer incorrect made four common errors. In conjunction, when explaining the reasoning behind these errors, students talked about the force(s) as represented in the problem and solution as a substance or a material object.",
+            "authors": [
+                {
+                    "authorId": "72080854",
+                    "name": "Tameka Clarke Douglas"
+                },
+                {
+                    "authorId": "71929926",
+                    "name": "A. S. Roman"
+                },
+                {
+                    "authorId": "2330139",
+                    "name": "R. Streveler"
+                }
+            ]
+        }
+    ],
+    "\"Engineering Decision-Making Models\"": [
+        {
+            "paperId": "6c1989a22869d1258db6124ee6ca5a4da0cd7f69",
+            "title": "Decision-Making Models Based on Incomplete Hesitant Fuzzy Linguistic Preference Relation With Application to Site Selection of Hydropower Stations",
+            "abstract": "This article proposes two decision-making models in an incomplete fuzzy hesitant linguistic environment and applies them to address the site selection problems for hydropower stations. For better depicting a decision maker's judgments under uncertainty, based on the concept of incomplete hesitant fuzzy linguistic preference relation, this article first defines its consistency measures from the perspective of additive consistency and multiplicative consistency, respectively. By introducing decision maker's satisfaction degree to measure the differences between the incomplete hesitant fuzzy linguistic preference relation and its corresponding weight vector, two decision-making models, which aim to achieve the maximum satisfaction degree, are established for determining the optimal weight vector. This article further designs experiments to make decision support by evaluating the proposed models from the correlation and time complexity point of view and providing sensitivity analysis. A case study concerning the site selection for a hydropower station at Yalong River is given to illustrate the decision-making process and the effectiveness of the proposed models.",
+            "authors": [
+                {
+                    "authorId": "144773296",
+                    "name": "Peijia Ren"
+                },
+                {
+                    "authorId": "3419655",
+                    "name": "Zhinan Hao"
+                },
+                {
+                    "authorId": "2108021201",
+                    "name": "Xinxin Wang"
+                },
+                {
+                    "authorId": "145681778",
+                    "name": "Xiao-Jun Zeng"
+                },
+                {
+                    "authorId": "1741576",
+                    "name": "Zeshui Xu"
+                }
+            ]
+        },
+        {
+            "paperId": "7bfe7381962701a6465a9a4f1128d92b9100f7f7",
+            "title": "Knowledge Engineering for Rough Sets Based Decision‐Making Models",
+            "abstract": "In this paper, a review of decision‐making models based on the rough set theory is presented. The use of these techniques allows for the presence of uncertainty in computer models that are developed for decision making, and to formulate the decision‐making models using the experiences of previous decisions made. Since the formulation of these models differs from the classical approach of decision‐making models, in this paper, the models are analyzed and a method is proposed for its implementation.",
+            "authors": [
+                {
+                    "authorId": "145024712",
+                    "name": "Rafael Bello"
+                },
+                {
+                    "authorId": "1804615",
+                    "name": "J. Verdegay"
+                }
+            ]
+        },
+        {
+            "paperId": "17a5cad8b1da7da84c5852447e8cd46661ab1688",
+            "title": "Decision-making models for optimal engineering design and their applications",
+            "abstract": null,
+            "authors": [
+                {
+                    "authorId": "3081489",
+                    "name": "A. Mosavi"
+                }
+            ]
+        },
+        {
+            "paperId": "b07c8e14ad69064ebfb11d98de533dbbfa693d54",
+            "title": "Decision-making models for supply chain risk mitigation: A review",
+            "abstract": null,
+            "authors": [
+                {
+                    "authorId": "30877692",
+                    "name": "Varthini Rajagopal"
+                },
+                {
+                    "authorId": "49086828",
+                    "name": "S. Venkatesan"
+                },
+                {
+                    "authorId": "143754421",
+                    "name": "M. Goh"
+                }
+            ]
+        },
+        {
+            "paperId": "32743fa4825ad845d9457f9735ad34c4b6a08247",
+            "title": "APPLICATIONS OF FUZZY MULTIPLE CRITERIA DECISION MAKING METHODS IN CIVIL ENGINEERING: A STATE-OF-THE-ART SURVEY",
+            "abstract": "A variety of fuzzy multiple criteria decision making (MCDM) models have been proposed to solve complicated decision-making problems. Many applications have been achieved, especially in the field of civil engineering. To analyze the developments about the fuzzy MCDM methods and their applications in civil engineering in recent years and further explore the future research directions, this study conducts a state of the art survey in which 52 journal papers focusing on the applications of fuzzy MCDM models in civil engineering from 2016 to 2020 are reviewed. We respectively classify these articles according to research problems and research methods. Through the literature review, we get findings in terms of the most concerned decision-making problem, the most widely-used evaluation criterion and the most popular fuzzy MCDM model. Furthermore, we present four aspects of research challenges and corresponding future research directions in the field of civil engineering, which may be helpful for researchers and practitioners to further investigate.",
+            "authors": [
+                {
+                    "authorId": "98554805",
+                    "name": "Zhi Wen"
+                },
+                {
+                    "authorId": "2314246",
+                    "name": "Huchang Liao"
+                },
+                {
+                    "authorId": "145366462",
+                    "name": "E. Zavadskas"
+                },
+                {
+                    "authorId": "1865462",
+                    "name": "J. Antuchevičienė"
+                }
+            ]
+        },
+        {
+            "paperId": "e8808ddb817871a4e6bc0b594c76b67a97ee3bf2",
+            "title": "Parameter Estimation in Softmax Decision-Making Models With Linear Objective Functions",
+            "abstract": "We contribute to the development of a systematic means to infer features of human decision-making from behavioral data. Motivated by the common use of softmax selection in models of human decision-making, we study the maximum-likelihood (ML) parameter estimation problem for softmax decision-making models with linear objective functions. We present conditions under which the likelihood function is convex. These allow us to provide sufficient conditions for convergence of the resulting ML estimator and to construct its asymptotic distribution. In the case of models with nonlinear objective functions, we show how the estimator can be applied by linearizing about a nominal parameter value. We apply the estimator to fit the stochastic Upper Credible Limit (UCL) model of human decision-making to human subject data. The fits show statistically significant differences in behavior across related, but distinct, tasks.",
+            "authors": [
+                {
+                    "authorId": "1775972",
+                    "name": "Paul B. Reverdy"
+                },
+                {
+                    "authorId": "3301461",
+                    "name": "Naomi Ehrich Leonard"
+                }
+            ]
+        },
+        {
+            "paperId": "ce498d02efece9829b445465836b35cd84683557",
+            "title": "Multiobjective optimization and decision making in engineering sciences",
+            "abstract": null,
+            "authors": [
+                {
+                    "authorId": "39054421",
+                    "name": "Jussi Hakanen"
+                },
+                {
+                    "authorId": "2432113",
+                    "name": "R. Allmendinger"
+                }
+            ]
+        },
+        {
+            "paperId": "17a5cad8b1da7da84c5852447e8cd46661ab1688",
+            "title": "Decision-making models for optimal engineering design and their applications",
+            "abstract": null,
+            "authors": [
+                {
+                    "authorId": "3081489",
+                    "name": "A. Mosavi"
+                }
+            ]
+        },
+        {
+            "paperId": "b07c8e14ad69064ebfb11d98de533dbbfa693d54",
+            "title": "Decision-making models for supply chain risk mitigation: A review",
+            "abstract": null,
+            "authors": [
+                {
+                    "authorId": "30877692",
+                    "name": "Varthini Rajagopal"
+                },
+                {
+                    "authorId": "49086828",
+                    "name": "S. Venkatesan"
+                },
+                {
+                    "authorId": "143754421",
+                    "name": "M. Goh"
+                }
+            ]
+        },
+        {
+            "paperId": "ed75596d1066de528dd67bed9417f14a6f216650",
+            "title": "GAME THEORETIC MODELS IN ENGINEERING DECISION MAKING",
+            "abstract": "Various types of game theory models for systematically studying conflict in engineering and other fields are. reviewed, assessed, and illustrated. Representative literature regarding the development and application of game theory in engineering decision making is referenced and two applications are presented. Specifically, a game theory model in extensive form is employed to investigate the effectiveness of a commonly-practised system of environmental laws and regulations. In another application, the graph model for conflict resolution is used for modelling and analyzing a complex environmental dispute that took place in Canada. This conflict involves four main decision makers, each with its own objectives and priorities with respect to the controversy. To assist in formally analyzing the dispute and carrying out sensitivity analyses, a flexible decision support system is utilized.",
+            "authors": [
+                {
+                    "authorId": "1688759",
+                    "name": "K. Hipel"
+                },
+                {
+                    "authorId": "144395101",
+                    "name": "L. Fang"
+                },
+                {
+                    "authorId": "144874901",
+                    "name": "D. Kilgour"
+                }
+            ]
+        },
+        {
+            "paperId": "7bfe7381962701a6465a9a4f1128d92b9100f7f7",
+            "title": "Knowledge Engineering for Rough Sets Based Decision‐Making Models",
+            "abstract": "In this paper, a review of decision‐making models based on the rough set theory is presented. The use of these techniques allows for the presence of uncertainty in computer models that are developed for decision making, and to formulate the decision‐making models using the experiences of previous decisions made. Since the formulation of these models differs from the classical approach of decision‐making models, in this paper, the models are analyzed and a method is proposed for its implementation.",
+            "authors": [
+                {
+                    "authorId": "145024712",
+                    "name": "Rafael Bello"
+                },
+                {
+                    "authorId": "1804615",
+                    "name": "J. Verdegay"
+                }
+            ]
+        },
+        {
+            "paperId": "17a5cad8b1da7da84c5852447e8cd46661ab1688",
+            "title": "Decision-making models for optimal engineering design and their applications",
+            "abstract": null,
+            "authors": [
+                {
+                    "authorId": "3081489",
+                    "name": "A. Mosavi"
+                }
+            ]
+        },
+        {
+            "paperId": "e8808ddb817871a4e6bc0b594c76b67a97ee3bf2",
+            "title": "Parameter Estimation in Softmax Decision-Making Models With Linear Objective Functions",
+            "abstract": "We contribute to the development of a systematic means to infer features of human decision-making from behavioral data. Motivated by the common use of softmax selection in models of human decision-making, we study the maximum-likelihood (ML) parameter estimation problem for softmax decision-making models with linear objective functions. We present conditions under which the likelihood function is convex. These allow us to provide sufficient conditions for convergence of the resulting ML estimator and to construct its asymptotic distribution. In the case of models with nonlinear objective functions, we show how the estimator can be applied by linearizing about a nominal parameter value. We apply the estimator to fit the stochastic Upper Credible Limit (UCL) model of human decision-making to human subject data. The fits show statistically significant differences in behavior across related, but distinct, tasks.",
+            "authors": [
+                {
+                    "authorId": "1775972",
+                    "name": "Paul B. Reverdy"
+                },
+                {
+                    "authorId": "3301461",
+                    "name": "Naomi Ehrich Leonard"
+                }
+            ]
+        },
+        {
+            "paperId": "6c1989a22869d1258db6124ee6ca5a4da0cd7f69",
+            "title": "Decision-Making Models Based on Incomplete Hesitant Fuzzy Linguistic Preference Relation With Application to Site Selection of Hydropower Stations",
+            "abstract": "This article proposes two decision-making models in an incomplete fuzzy hesitant linguistic environment and applies them to address the site selection problems for hydropower stations. For better depicting a decision maker's judgments under uncertainty, based on the concept of incomplete hesitant fuzzy linguistic preference relation, this article first defines its consistency measures from the perspective of additive consistency and multiplicative consistency, respectively. By introducing decision maker's satisfaction degree to measure the differences between the incomplete hesitant fuzzy linguistic preference relation and its corresponding weight vector, two decision-making models, which aim to achieve the maximum satisfaction degree, are established for determining the optimal weight vector. This article further designs experiments to make decision support by evaluating the proposed models from the correlation and time complexity point of view and providing sensitivity analysis. A case study concerning the site selection for a hydropower station at Yalong River is given to illustrate the decision-making process and the effectiveness of the proposed models.",
+            "authors": [
+                {
+                    "authorId": "144773296",
+                    "name": "Peijia Ren"
+                },
+                {
+                    "authorId": "3419655",
+                    "name": "Zhinan Hao"
+                },
+                {
+                    "authorId": "2108021201",
+                    "name": "Xinxin Wang"
+                },
+                {
+                    "authorId": "145681778",
+                    "name": "Xiao-Jun Zeng"
+                },
+                {
+                    "authorId": "1741576",
+                    "name": "Zeshui Xu"
+                }
+            ]
+        },
+        {
+            "paperId": "7bfe7381962701a6465a9a4f1128d92b9100f7f7",
+            "title": "Knowledge Engineering for Rough Sets Based Decision‐Making Models",
+            "abstract": "In this paper, a review of decision‐making models based on the rough set theory is presented. The use of these techniques allows for the presence of uncertainty in computer models that are developed for decision making, and to formulate the decision‐making models using the experiences of previous decisions made. Since the formulation of these models differs from the classical approach of decision‐making models, in this paper, the models are analyzed and a method is proposed for its implementation.",
+            "authors": [
+                {
+                    "authorId": "145024712",
+                    "name": "Rafael Bello"
+                },
+                {
+                    "authorId": "1804615",
+                    "name": "J. Verdegay"
+                }
+            ]
+        },
+        {
+            "paperId": "17a5cad8b1da7da84c5852447e8cd46661ab1688",
+            "title": "Decision-making models for optimal engineering design and their applications",
+            "abstract": null,
+            "authors": [
+                {
+                    "authorId": "3081489",
+                    "name": "A. Mosavi"
+                }
+            ]
+        },
+        {
+            "paperId": "6c1989a22869d1258db6124ee6ca5a4da0cd7f69",
+            "title": "Decision-Making Models Based on Incomplete Hesitant Fuzzy Linguistic Preference Relation With Application to Site Selection of Hydropower Stations",
+            "abstract": "This article proposes two decision-making models in an incomplete fuzzy hesitant linguistic environment and applies them to address the site selection problems for hydropower stations. For better depicting a decision maker's judgments under uncertainty, based on the concept of incomplete hesitant fuzzy linguistic preference relation, this article first defines its consistency measures from the perspective of additive consistency and multiplicative consistency, respectively. By introducing decision maker's satisfaction degree to measure the differences between the incomplete hesitant fuzzy linguistic preference relation and its corresponding weight vector, two decision-making models, which aim to achieve the maximum satisfaction degree, are established for determining the optimal weight vector. This article further designs experiments to make decision support by evaluating the proposed models from the correlation and time complexity point of view and providing sensitivity analysis. A case study concerning the site selection for a hydropower station at Yalong River is given to illustrate the decision-making process and the effectiveness of the proposed models.",
+            "authors": [
+                {
+                    "authorId": "144773296",
+                    "name": "Peijia Ren"
+                },
+                {
+                    "authorId": "3419655",
+                    "name": "Zhinan Hao"
+                },
+                {
+                    "authorId": "2108021201",
+                    "name": "Xinxin Wang"
+                },
+                {
+                    "authorId": "145681778",
+                    "name": "Xiao-Jun Zeng"
+                },
+                {
+                    "authorId": "1741576",
+                    "name": "Zeshui Xu"
+                }
+            ]
+        },
+        {
+            "paperId": "7bfe7381962701a6465a9a4f1128d92b9100f7f7",
+            "title": "Knowledge Engineering for Rough Sets Based Decision‐Making Models",
+            "abstract": "In this paper, a review of decision‐making models based on the rough set theory is presented. The use of these techniques allows for the presence of uncertainty in computer models that are developed for decision making, and to formulate the decision‐making models using the experiences of previous decisions made. Since the formulation of these models differs from the classical approach of decision‐making models, in this paper, the models are analyzed and a method is proposed for its implementation.",
+            "authors": [
+                {
+                    "authorId": "145024712",
+                    "name": "Rafael Bello"
+                },
+                {
+                    "authorId": "1804615",
+                    "name": "J. Verdegay"
+                }
+            ]
+        },
+        {
+            "paperId": "17a5cad8b1da7da84c5852447e8cd46661ab1688",
+            "title": "Decision-making models for optimal engineering design and their applications",
+            "abstract": null,
+            "authors": [
+                {
+                    "authorId": "3081489",
+                    "name": "A. Mosavi"
+                }
+            ]
+        },
+        {
+            "paperId": "6c1989a22869d1258db6124ee6ca5a4da0cd7f69",
+            "title": "Decision-Making Models Based on Incomplete Hesitant Fuzzy Linguistic Preference Relation With Application to Site Selection of Hydropower Stations",
+            "abstract": "This article proposes two decision-making models in an incomplete fuzzy hesitant linguistic environment and applies them to address the site selection problems for hydropower stations. For better depicting a decision maker's judgments under uncertainty, based on the concept of incomplete hesitant fuzzy linguistic preference relation, this article first defines its consistency measures from the perspective of additive consistency and multiplicative consistency, respectively. By introducing decision maker's satisfaction degree to measure the differences between the incomplete hesitant fuzzy linguistic preference relation and its corresponding weight vector, two decision-making models, which aim to achieve the maximum satisfaction degree, are established for determining the optimal weight vector. This article further designs experiments to make decision support by evaluating the proposed models from the correlation and time complexity point of view and providing sensitivity analysis. A case study concerning the site selection for a hydropower station at Yalong River is given to illustrate the decision-making process and the effectiveness of the proposed models.",
+            "authors": [
+                {
+                    "authorId": "144773296",
+                    "name": "Peijia Ren"
+                },
+                {
+                    "authorId": "3419655",
+                    "name": "Zhinan Hao"
+                },
+                {
+                    "authorId": "2108021201",
+                    "name": "Xinxin Wang"
+                },
+                {
+                    "authorId": "145681778",
+                    "name": "Xiao-Jun Zeng"
+                },
+                {
+                    "authorId": "1741576",
+                    "name": "Zeshui Xu"
+                }
+            ]
+        },
+        {
+            "paperId": "7bfe7381962701a6465a9a4f1128d92b9100f7f7",
+            "title": "Knowledge Engineering for Rough Sets Based Decision‐Making Models",
+            "abstract": "In this paper, a review of decision‐making models based on the rough set theory is presented. The use of these techniques allows for the presence of uncertainty in computer models that are developed for decision making, and to formulate the decision‐making models using the experiences of previous decisions made. Since the formulation of these models differs from the classical approach of decision‐making models, in this paper, the models are analyzed and a method is proposed for its implementation.",
+            "authors": [
+                {
+                    "authorId": "145024712",
+                    "name": "Rafael Bello"
+                },
+                {
+                    "authorId": "1804615",
+                    "name": "J. Verdegay"
+                }
+            ]
+        },
+        {
+            "paperId": "b07c8e14ad69064ebfb11d98de533dbbfa693d54",
+            "title": "Decision-making models for supply chain risk mitigation: A review",
+            "abstract": null,
+            "authors": [
+                {
+                    "authorId": "30877692",
+                    "name": "Varthini Rajagopal"
+                },
+                {
+                    "authorId": "49086828",
+                    "name": "S. Venkatesan"
+                },
+                {
+                    "authorId": "143754421",
+                    "name": "M. Goh"
+                }
+            ]
+        }
+    ]
+}

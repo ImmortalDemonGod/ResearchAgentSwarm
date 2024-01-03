@@ -13,6 +13,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -25,14 +26,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -51,14 +52,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -103,14 +104,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -167,14 +168,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -223,14 +224,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -264,14 +265,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -303,7 +304,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -319,12 +320,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -333,8 +328,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -354,6 +348,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -366,14 +361,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -392,14 +387,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -444,14 +439,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -508,14 +503,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -564,14 +559,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -605,14 +600,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -644,7 +639,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -660,12 +655,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -674,8 +663,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -695,6 +683,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -707,14 +696,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -733,14 +722,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -785,14 +774,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -849,14 +838,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -905,14 +894,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -946,14 +935,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -985,7 +974,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -1001,12 +990,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -1015,8 +998,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -1036,6 +1018,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -1048,14 +1031,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -1074,14 +1057,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -1126,14 +1109,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -1190,14 +1173,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -1246,14 +1229,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -1287,14 +1270,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -1326,7 +1309,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -1342,12 +1325,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -1356,8 +1333,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -1377,6 +1353,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -1389,14 +1366,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -1415,14 +1392,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -1467,14 +1444,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -1531,14 +1508,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -1587,14 +1564,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -1628,14 +1605,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -1667,7 +1644,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -1683,12 +1660,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -1697,8 +1668,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -1718,6 +1688,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -1730,14 +1701,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -1756,14 +1727,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -1808,14 +1779,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -1872,14 +1843,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -1928,14 +1899,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -1969,14 +1940,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -2008,7 +1979,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -2024,12 +1995,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -2038,8 +2003,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -2059,6 +2023,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -2071,14 +2036,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -2097,14 +2062,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -2149,14 +2114,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -2213,14 +2178,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -2269,14 +2234,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -2310,14 +2275,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -2349,7 +2314,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -2365,12 +2330,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -2379,8 +2338,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -2400,6 +2358,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -2412,14 +2371,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -2464,8 +2423,7 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
@@ -2475,6 +2433,7 @@
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -2531,14 +2490,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -2587,14 +2546,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -2626,7 +2585,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -2642,12 +2601,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "Task Delegating Expert",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -2656,8 +2609,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -2677,6 +2629,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -2689,14 +2642,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -2715,14 +2668,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -2767,14 +2720,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -2831,14 +2784,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -2887,14 +2840,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -2928,14 +2881,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -2967,7 +2920,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -2983,12 +2936,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -2997,8 +2944,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -3018,6 +2964,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -3030,14 +2977,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -3056,14 +3003,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -3108,14 +3055,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -3172,14 +3119,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -3228,14 +3175,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -3269,14 +3216,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -3308,7 +3255,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -3324,12 +3271,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -3338,8 +3279,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -3359,6 +3299,7 @@
             {
                 "function": {
                     "name": "SearchWeb",
+                    "description": "Search the web with a search phrase and return the results.",
                     "parameters": {
                         "properties": {
                             "phrase": {
@@ -3371,14 +3312,14 @@
                             "phrase"
                         ],
                         "type": "object"
-                    },
-                    "description": "Search the web with a search phrase and return the results."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -3435,14 +3376,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -3476,14 +3417,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -3515,7 +3456,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -3531,12 +3472,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "SearcherPro",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -3545,8 +3480,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -3566,6 +3500,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -3578,14 +3513,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -3604,14 +3539,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -3656,14 +3591,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -3720,14 +3655,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -3776,14 +3711,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -3817,14 +3752,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -3856,7 +3791,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -3872,12 +3807,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -3886,8 +3815,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -3907,6 +3835,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -3919,14 +3848,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -3945,14 +3874,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -3997,14 +3926,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -4061,14 +3990,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -4117,14 +4046,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -4158,14 +4087,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -4197,7 +4126,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -4213,12 +4142,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -4227,8 +4150,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -4248,6 +4170,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -4260,14 +4183,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -4286,14 +4209,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -4338,14 +4261,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -4402,14 +4325,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -4458,14 +4381,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -4499,14 +4422,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -4538,7 +4461,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -4554,12 +4477,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -4568,8 +4485,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -4589,6 +4505,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -4601,14 +4518,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -4627,14 +4544,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -4679,14 +4596,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -4743,14 +4660,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -4799,14 +4716,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -4840,14 +4757,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -4879,7 +4796,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -4895,12 +4812,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -4909,8 +4820,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -4930,6 +4840,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -4942,14 +4853,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -4994,8 +4905,7 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
@@ -5005,6 +4915,7 @@
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -5061,14 +4972,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -5087,14 +4998,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -5143,14 +5054,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -5184,14 +5095,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -5223,7 +5134,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -5239,12 +5150,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "Python Coder",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -5253,8 +5158,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -5274,6 +5178,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -5286,14 +5191,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -5312,14 +5217,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -5364,14 +5269,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -5428,14 +5333,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -5484,14 +5389,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -5525,14 +5430,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -5564,7 +5469,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -5580,12 +5485,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -5594,8 +5493,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -5615,6 +5513,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -5627,14 +5526,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -5653,14 +5552,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -5705,14 +5604,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -5769,14 +5668,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -5825,14 +5724,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -5866,14 +5765,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -5905,7 +5804,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -5921,12 +5820,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -5935,8 +5828,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -5956,6 +5848,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -5968,14 +5861,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -5994,14 +5887,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -6046,14 +5939,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -6110,14 +6003,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -6166,14 +6059,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -6207,14 +6100,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -6246,7 +6139,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -6262,12 +6155,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -6276,8 +6163,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -6297,6 +6183,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -6309,14 +6196,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -6335,14 +6222,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -6387,14 +6274,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -6451,14 +6338,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -6507,14 +6394,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -6548,14 +6435,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -6587,7 +6474,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -6603,12 +6490,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -6617,8 +6498,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }
@@ -6638,6 +6518,7 @@
             {
                 "function": {
                     "name": "ExecuteCommand",
+                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated.",
                     "parameters": {
                         "properties": {
                             "command": {
@@ -6650,14 +6531,14 @@
                             "command"
                         ],
                         "type": "object"
-                    },
-                    "description": "Run any command from the terminal. If there are too many logs, the outputs might be truncated."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "File",
+                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time.",
                     "parameters": {
                         "properties": {
                             "file_name": {
@@ -6676,14 +6557,14 @@
                             "file_name"
                         ],
                         "type": "object"
-                    },
-                    "description": "File to be written to the disk with an appropriate name and file path, containing code that can be saved and executed locally at a later time."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "Program",
+                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet.",
                     "parameters": {
                         "$defs": {
                             "File": {
@@ -6728,14 +6609,14 @@
                             "files"
                         ],
                         "type": "object"
-                    },
-                    "description": "Set of files that represent a complete and correct program. This environment has access to all standard Python packages and the internet."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryTool",
+                    "description": "Tool to read and write to the memory file of an agent.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -6792,14 +6673,14 @@
                             "plan"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to read and write to the memory file of an agent."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "ExtendedThoughtProcessTool",
+                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -6848,14 +6729,14 @@
                             "task_description"
                         ],
                         "type": "object"
-                    },
-                    "description": "Correctly extracted `ExtendedThoughtProcessTool` with all the required parameters with correct types"
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "AgentMemoryContentSearchTool",
+                    "description": "Tool to search the contents of all memory files for the specified terms.",
                     "parameters": {
                         "properties": {
                             "goal": {
@@ -6889,14 +6770,14 @@
                             "search_terms"
                         ],
                         "type": "object"
-                    },
-                    "description": "Tool to search the contents of all memory files for the specified terms."
+                    }
                 },
                 "type": "function"
             },
             {
                 "function": {
                     "name": "SendMessage",
+                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved.",
                     "parameters": {
                         "$defs": {
                             "recipient": {
@@ -6928,7 +6809,7 @@
                         },
                         "properties": {
                             "chain_of_thought": {
-                                "description": "Think step by step to determine the correct recipient and message. For multi-step tasks, first break it down into smallersteps. Then, determine the recipient and message for each step.",
+                                "description": "Think step by step to determine the correct recipient and message.",
                                 "title": "Chain Of Thought",
                                 "type": "string"
                             },
@@ -6944,12 +6825,6 @@
                                 "description": "Specify the task required for the recipient agent to complete. Focus on clarifying what the task entails, rather than providing exact instructions.",
                                 "title": "Message",
                                 "type": "string"
-                            },
-                            "caller_agent_name": {
-                                "default": "CEO",
-                                "description": "The agent calling this tool. Defaults to your name. Do not change it.",
-                                "title": "Caller Agent Name",
-                                "type": "string"
                             }
                         },
                         "required": [
@@ -6958,8 +6833,7 @@
                             "recipient"
                         ],
                         "type": "object"
-                    },
-                    "description": "Use this tool to facilitate direct, synchronous communication between specialized agents within your agency. When you send a message using this tool, you receive a response exclusively from the designated recipient agent. To continue the dialogue, invoke this tool again with the desired recipient and your follow-up message. Remember, communication here is synchronous; the recipient agent won't perform any tasks post-response. You are responsible for relaying the recipient agent's responses back to the user, as they do not have direct access to these replies. Keep engaging with the tool for continuous interaction until the task is fully resolved."
+                    }
                 },
                 "type": "function"
             }

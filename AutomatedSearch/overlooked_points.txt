@@ -1,16 +1,19 @@
 
-1. Challenges in text data preprocessing. The text discusses issues like data quality, language variations, word ambiguity, representative samples, and dynamic data. Our notes do not highlight these challenges. 
+1. Evaluation methods. The notes do not provide much detail on how the technical and designer evaluations were conducted. More specifics could be included on the study design, participants, tasks, and analysis methods. 
 
-2. Data validation techniques. The text emphasizes the importance of quality checks and control measures. Our notes mention validation but do not provide specific techniques.
+2. Prompting techniques. The notes mention using GPT-3 but do not explain the prompt engineering techniques used to control the model's outputs. Details on the prompt chains and encoding of rules could be useful.
 
-3. Considerations for sensitive data. The text references ethical guidelines and privacy regulations when handling personal/sensitive information. Our notes lack this perspective.  
+3. Generation examples. While an example tool is discussed, the notes lack examples of the actual generated content like persona profiles, posts, and comment threads. These could make the outputs more concrete.
 
-4. Text augmentation techniques. The text lists methods like synonym replacement and back translation to increase model training data variety. Our notes skip text augmentation.
+4. Designer insights. The designer evaluation section focuses on the high-level outcomes rather than insights from specific examples. Including more sample insights and iterations could better showcase the technique's value.
 
-5. Handling class imbalance. The text suggests resampling and cost-sensitive learning to address uneven class distribution. Our notes omit this.
+5. Limitations. The discussion of limitations is brief. More detail could be provided both on current limitations as well as risks like overreliance on simulations that require mitigation.
 
-6. Feature engineering for text data. The text references techniques like n-grams and sentiment analysis to construct additional useful features. Our notes do not cover this topic.
+6. Opportunities. There is little on opportunities for future work, such as expanding modalities beyond text, integrating real user input, applying to different communities, and developing prompting techniques.
 
-7. Storage and handling considerations. The text advises on choosing appropriate storage formats and considering data privacy. Our notes currently lack this operational perspective.
+7. Ethical considerations. The ethics of generating plausible negative behaviors could be explored more deeply both in the notes and a full report.
 
-8. Additional best practices. The text provides general guidelines like collaboration, continuous improvement, and documentation which can be incorporated.
+8. Theoretical grounding. Additional background from relevant literature could better ground the technique in prototyping theory and practice.
+
+9. Quantitative findings. The notes could include more statistics and quantitative results from the evaluations to substantiate the claims.
+

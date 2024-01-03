@@ -61,19 +61,27 @@ def main():
     Main function to automate the process of creating and refining notes with Claude.
     """
     coordinates = get_search_box_coordinates()
-    create_notes_with_claude(coordinates)
-    evaluate_notes_with_claude(coordinates)
-    playsound.playsound('/home/epas/Programming/Story_to_Content/done_sound.mp3')
+    # ask the user if they want to skip the create notes step
+    if input("Do you want to skip the create notes step? (yes/no): ").lower() == 'yes':
+        print("Skipping the create notes step.")
+    else:
+        create_notes_with_claude(coordinates)
+    # ask the user if they want to skip the evaluate notes step
+    if input("Do you want to skip the evaluate notes step? (yes/no): ").lower() == 'yes':
+        print("Skipping the evaluate notes step.")
+    else:
+        evaluate_notes_with_claude(coordinates)
+    playsound.playsound('AutomatedSearch/done_sound.mp3')
 
     # Prompt to check if the file with overlooked points is ready
     if input("Is the file with overlooked points ready? (yes/no): ").lower() == 'yes':
-        file_path = "/home/epas/Programming/Story_to_Content/overlooked_points.txt"
+        file_path = "AutomatedSearch/overlooked_points.txt"
         overlooked_points = read_overlooked_points_from_file(file_path)
         append_to_notes(overlooked_points, coordinates)
     else:
         print("Please prepare the file and run the script again.")
 
-    playsound.playsound('/home/epas/Programming/Story_to_Content/done_sound.mp3')
+    playsound.playsound('AutomatedSearch/done_sound.mp3')
     print("All tasks are complete.")
 
 if __name__ == "__main__":
