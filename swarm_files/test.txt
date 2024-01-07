@@ -1,0 +1,15 @@
+Document infos:
+- Pages = 3
+- Producer = WeasyPrint 60.2
+
+References: 7
+- URL: 7
+
+URL References:
+- https://doi.org/
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10324330/
+- plantmethods.biomedcentral.com/articles/10.1186/s13007-020-00690-6
+- https://stemcellres.biomedcentral.com/articles/
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8530414/
+- pubmed.ncbi.nlm.nih.gov/34545485/
+- https://www.nature.com/

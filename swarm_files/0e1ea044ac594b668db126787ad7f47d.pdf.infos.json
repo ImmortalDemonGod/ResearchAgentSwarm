@@ -1,0 +1,22 @@
+{
+  "source": {
+    "type": "file",
+    "location": "/Users/tomriddle1/Documents/GitHub/ResearchAgentSwarm/Literature_Review/gpt_researcher_outputs/0e1ea044ac594b668db126787ad7f47d.pdf",
+    "filename": "0e1ea044ac594b668db126787ad7f47d.pdf"
+  },
+  "metadata": {
+    "Producer": "WeasyPrint 60.2",
+    "Pages": 3
+  },
+  "references": {
+    "url": [
+      "pubmed.ncbi.nlm.nih.gov/34545485/",
+      "https://www.nature.com/",
+      "plantmethods.biomedcentral.com/articles/10.1186/s13007-020-00690-6",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10324330/",
+      "https://doi.org/",
+      "https://stemcellres.biomedcentral.com/articles/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8530414/"
+    ]
+  }
+}
