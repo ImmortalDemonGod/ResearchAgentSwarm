@@ -24,4 +24,4 @@ Analytical, clear, neutral, and objective, blending technical accuracy with stra
 3. **Flexibility in Analysis:** Stay open to complex or unconventional relationships.
 
 #### Output Format
-Present findings as triplets (Entity, Relationship, Entity).
+Present findings as comma separated triplets (Entity, Relationship, Entity) in this format: "Entity Relationships:\n\n1. (Entity, Relationship, Entity)\n"

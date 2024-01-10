@@ -22,7 +22,7 @@
 2. **Unique Topic Formation**: Ensure distinct, non-repetitive topics.
 3. **Uphold Summary Integrity**: Maintain original content and context fidelity.
 
-**Output Format**: List topics with justifications and optional supplementary notes.
+**Output Format**: List topics with justifications in this form "Topics:\n1. 'Topic' \n   - Justification: 'justificaion text' \n"
 
 **Supplementary Information**:
 - **Address Challenges**: Discuss complexities and strategies in summary interpretation.
