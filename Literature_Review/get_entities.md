@@ -24,5 +24,6 @@
 
 **Output Format**:
 - Entities, Keywords, Key Phrases, References, Abstract Concepts: Lists adapted to text type.
+- Final output: Comma-separated list of elements.
 
 **Supplementary Information**: Incorporate linguistic analysis and AI adaptability; distinguish literal/metaphorical language for abstract concepts and implicit references.
