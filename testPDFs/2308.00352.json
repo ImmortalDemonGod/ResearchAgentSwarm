@@ -1,0 +1,3726 @@
+[
+    {
+        "file_id": "2308.00352",
+        "article": "Chunk # 0.\nPreprint\nMETAGPT: M ETA PROGRAMMING FOR A\nMULTI -AGENT COLLABORATIVE FRAMEWORK\nSirui Hong1∗, Mingchen Zhuge2∗, Jonathan Chen1, Xiawu Zheng3, Yuheng Cheng4,\nCeyao Zhang4,Jinlin Wang1,Zili Wang ,Steven Ka Shing Yau5,Zijuan Lin4,\nLiyang Zhou6,Chenyu Ran1,Lingfeng Xiao1,7,Chenglin Wu1†,J¨urgen Schmidhuber2,8\n1DeepWisdom,2AI Initiative, King Abdullah University of Science and Technology,\n3Xiamen University,4The Chinese University of Hong Kong, Shenzhen,\n5Nanjing University,6University of Pennsylvania,\n7University of California, Berkeley,8The Swiss AI Lab IDSIA/USI/SUPSI\nABSTRACT\nRemarkable progress has been made on automated problem solving through so-\ncieties of agents based on large language models (LLMs) Existing LLM-based\nmulti-agent systems can already solve simple dialogue tasks Solutions to more\ncomplex tasks, however, are complicated through logic inconsistencies due to\ncascading hallucinations caused by naively chaining LLMs Here we introduce\nMetaGPT, an innovative meta-programming framework incorporating efficient\nhuman workflows into LLM-based multi-agent collaborations MetaGPT en-\ncodes Standardized Operating Procedures (SOPs) into prompt sequences for more\nstreamlined workflows, thus allowing agents with human-like domain expertise\nto verify intermediate results and reduce errors MetaGPT utilizes an assembly\nline paradigm to assign diverse roles to various agents, efficiently breaking down\ncomplex tasks into subtasks involving many agents working together On col-\nlaborative software engineering benchmarks, MetaGPT generates more coherent\nsolutions than previous chat-based multi-agent systems Our project can be found\nat https://github.com/geekan/MetaGPT\n1 I NTRODUCTION\nAutonomous agents utilizing Large Language Models (LLMs) offer promising opportunities to en-\nhance and replicate human workflows In real-world applications, however, existing systems (Park\net al., 2023; Zhuge et al., 2023; Cai et al., 2023; Wang et al., 2023c; Li et al., 2023; Du et al., 2023;\nLiang et al., 2023; Hao et al., 2023) tend to oversimplify the complexities They struggle to achieve\neffective, coherent, and accurate problem-solving processes, particularly when there is a need for\nmeaningful collaborative interaction (Zhang et al., 2023; Dong et al., 2023; Zhou et al., 2023; Qian\net al., 2023) Through extensive collaborative practice, humans have developed widely accepted Standardized\nOperating Procedures (SOPs) across various domains (Belbin, 2012; Manifesto, 2001; DeMarco &\nLister, 2013) These SOPs play a critical role in supporting task decomposition and effective coor-\ndination Furthermore, SOPs outline the responsibilities of each team member, while establishing\nstandards for intermediate outputs Well-defined SOPs improve the consistent and accurate exe-\ncution of tasks that align with defined roles and quality standards (Belbin, 2012; Manifesto, 2001;\nDeMarco & Lister, 2013; Wooldridge & Jennings, 1998) For instance, in a software company,\nProduct Managers analyze competition and user needs to create Product Requirements Documents\n(PRDs) using a standardized structure, to guide the developmental process Inspired by such ideas, we design a promising GPT -based Meta -Programming framework called\nMetaGPT that significantly benefits from SOPs Unlike other works (Li et al., 2023; Qian et al.,\n2023), MetaGPT requires agents to generate structured outputs, such as high-quality requirements\n∗These authors contributed equally to this work †Chenglin Wu (alexanderwu@fuzhi.ai) is the corresponding author, affiliated with DeepWisdom 1arXiv:2308.00352v5  [cs.AI]  6 Nov 2023Preprint\nFigure 1: The software development SOPs between MetaGPT and real-world human teams In software engineering, SOPs promote collaboration among various roles MetaGPT showcases\nits ability to decompose complex tasks into specific actionable procedures assigned to various roles\n(e.g., Product Manager, Architect, Engineer, etc.) documents, design artifacts, flowcharts, and interface specifications The use of intermediate struc-\ntured outputs significantly increases the success rate of target code generation More graphically, in\na company simulated by MetaGPT, all employees follow a strict and streamlined workflow, and all\ntheir handovers must comply with certain established standards This reduces the risk of hallucina-\ntions caused by idle chatter between LLMs, particularly in role-playing frameworks, like: “ Hi, hello\nand how are you?” – Alice (Product Manager); “ Great Have you had lunch?” – Bob (Architect) Benefiting from SOPs, MetaGPT offers a promising approach to meta-programming In this context,\nwe adopt meta-programming1as ”programming to program”, in contrast to the broader fields of meta\nlearning and ”learning to learn” (Schmidhuber, 1987; 1993a; Hochreiter et al., 2001; Schmidhuber,\n2006; Finn et al., 2017) This notion of meta-programming also encompasses earlier efforts like CodeBERT (Feng et al.,\n2020) and recent projects such as CodeLlama (Rozi `ere et al., 2023) and WizardCoder (Luo\net al., 2023) However, MetaGPT stands out as a unique solution that allows for efficient meta-\nprogramming through a well-organized group of specialized agents Each agent has a specific role\nand expertise, following some established standards This allows for automatic requirement analysis,\nsystem design, code generation, modification, execution, and debugging during runtime, highlight-\ning how agent-based techniques can enhance meta-programming To validate the design of MetaGPT, we use publicly available HumanEval (Chen et al., 2021a) and\nMBPP (Austin et al., 2021) for evaluations Notably, in code generation benchmarks, MetaGPT\nachieves a new state-of-the-art (SoTA) with 85.9% and 87.7% in Pass@1",
+        "summary": "Revised Summary (Iteration 4):\nMetaGPT, a GPT-based Meta-Programming framework, enhances collaboration in multi-agent systems by incorporating Standardized Operating Procedures (SOPs). It assigns diverse roles to agents, breaking down complex tasks into subtasks. MetaGPT generates more coherent solutions than previous chat-based multi-agent systems. The project involves Sirui Hong, Mingchen Zhuge, Jonathan Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu, and J¨urgen Schmidhuber. It is affiliated with DeepWisdom, AI Initiative, King Abdullah University of Science and Technology, Xiamen University, The Chinese University of Hong Kong, Nanjing University, University of Pennsylvania, University of California, and The Swiss AI Lab IDSIA/USI/SUPSI. The project focuses on a multi-agent collaborative framework for automated problem solving using large language models (LLMs). LLMs can suffer from logic inconsistencies and cascading hallucinations, but MetaGPT mitigates these issues by employing prompt sequences and meaningful collaborative interaction. It adopts an assembly line paradigm and task decomposition for effective coordination among agents. The project evaluates its performance using collaborative software engineering benchmarks and achieves state-of-the-art results in code generation. It aims to incorporate human-like domain expertise into autonomous agents and utilizes meta learning. Relevant role-playing frameworks include CodeBERT, CodeLlama, and WizardCoder. The project utilizes HumanEval and MBPP for evaluation, with a state-of-the-art (SoTA) performance of 85.9% and 87.7% in Pass@1. Real-world applications of MetaGPT involve Product Managers creating Product Requirements Documents (PRDs) and ensuring quality standards. The GPT-based Meta-Programming framework enables target code generation and learning to learn. Agent-based techniques facilitate automated problem solving through societies of agents. Incorporating efficient human workflows into LLM-based multi-agent collaborations reduces errors and improves intermediate results. The MetaGPT framework transforms Standardized Operating Procedures (SOPs) into prompt sequences for agents with human-like domain expertise. The MetaGPT framework achieves meta-programming, or \"programming to program,\" and utilizes meta learning, or \"learning to learn.\" The project explores real-world applications and responsibilities of agent-based techniques. It includes code generation benchmarks and addresses logic inconsistencies caused by cascading hallucinations. The project aims to incorporate efficient human workflows into LLM-based multi-agent collaborations. By adopting an assembly line paradigm, complex tasks are broken down into subtasks for agents to work together. The MetaGPT framework enables agents to generate structured outputs, such as high-quality requirements documents. The project follows a strict and streamlined workflow, adhering to established standards. This approach reduces the risk of hallucinations caused by idle chatter between LLMs. The project leverages meta-programming and meta-learning techniques to achieve state-of-the-art results in code generation benchmarks, with 85.9% and 87.7% accuracy in Pass@1. The project's Github repository provides further details and resources for real-world applications.",
+        "clean_entities": [
+            "Sirui Hong",
+            "Mingchen Zhuge",
+            "Jonathan Chen",
+            "Xiawu Zheng",
+            "Yuheng Cheng",
+            "Ceyao Zhang",
+            "Jinlin Wang",
+            "Zili Wang",
+            "Steven Ka Shing Yau",
+            "Zijuan Lin",
+            "Liyang Zhou",
+            "Chenyu Ran",
+            "Lingfeng Xiao",
+            "Chenglin Wu",
+            "J¨urgen Schmidhuber",
+            "DeepWisdom",
+            "AI Initiative",
+            "King Abdullah University of Science and Technology",
+            "Xiamen University",
+            "The Chinese University of Hong Kong",
+            "Nanjing University",
+            "University of Pennsylvania",
+            "University of California",
+            "The Swiss AI Lab IDSIA/USI/SUPSI",
+            "MetaGPT",
+            "Standardized Operating Procedures (SOPs)",
+            "Github",
+            "meta-programming",
+            "multi-agent collaborative framework",
+            "automated problem solving",
+            "large language models (LLMs)",
+            "logic inconsistencies",
+            "cascading hallucinations",
+            "prompt sequences",
+            "human-like domain expertise",
+            "assembly line paradigm",
+            "collaborative software engineering benchmarks",
+            "coherent solutions",
+            "autonomous agents",
+            "real-world applications",
+            "collaborative interaction",
+            "meaningful collaborative interaction",
+            "Standardized Operating Procedures (SOPs)",
+            "task decomposition",
+            "effective coordination",
+            "responsibilities",
+            "quality standards",
+            "Product Managers",
+            "Product Requirements Documents (PRDs)",
+            "GPT-based Meta-Programming framework",
+            "structured outputs",
+            "target code generation",
+            "role-playing frameworks",
+            "meta-programming",
+            "meta learning",
+            "learning to learn",
+            "CodeBERT",
+            "CodeLlama",
+            "WizardCoder",
+            "agent-based techniques",
+            "HumanEval",
+            "MBPP",
+            "code generation benchmarks",
+            "state-of-the-art (SoTA)",
+            "automated problem solving through societies of agents",
+            "large language models (LLMs)",
+            "logic inconsistencies due to cascading hallucinations",
+            "MetaGPT",
+            "incorporating efficient human workflows into LLM-based multi-agent collaborations",
+            "Standardized Operating Procedures (SOPs) into prompt sequences",
+            "agents with human-like domain expertise",
+            "intermediate results and reduce errors",
+            "assembly line paradigm to assign diverse roles to various agents",
+            "breaking down complex tasks into subtasks involving many agents working together",
+            "collaborative software engineering benchmarks",
+            "MetaGPT generates more coherent solutions than previous chat-based multi-agent systems",
+            "GPT-based Meta-Programming framework called MetaGPT",
+            "agents to generate structured outputs",
+            "high-quality requirements documents",
+            "strict and streamlined workflow",
+            "established standards",
+            "reduces the risk of hallucinations caused by idle chatter between LLMs",
+            "meta-programming as \"programming to program\"",
+            "meta learning and \"learning to learn\"",
+            "code generation benchmarks",
+            "state-of-the-art (SoTA) with 85.9% and 87.7% in Pass@1"
+        ],
+        "dirty_entities": [
+            "Entities:",
+            "Shenzhen",
+            "Berkeley",
+            "",
+            "Keywords:",
+            "",
+            "Phrases:",
+            "an innovative meta-programming framework",
+            "design artifacts",
+            "flowcharts",
+            "and interface specifications"
+        ],
+        "references": {
+            "urls": [
+                "https://books.google.co.uk/books?id=DVlsAQAAQBAJ",
+                "https://en.wikipedia.org/wiki/Read–eval–print_loop",
+                "https://books.google.co.uk/books?id=MHIQBAAAQBAJ",
+                "https://en.wikipedia.org/w/index.php?title=Metaprogramming",
+                "https://doi.org/10.1145/280765.280867",
+                "http://beta.deepwisdom.ai",
+                "https://doi.org/10.1016/S0065-2458(08)60418-0",
+                "https://github.com/Significant-Gravitas/Auto-GPT",
+                "https://github.com/hwchase17/langchain",
+                "https://github.com/Significant-Gravitas/",
+                "https://github.com/geekan/MetaGPT",
+                "https://en.wikipedia.org/wiki/Chinese_whispers",
+                "https://doi.org/10.1016/",
+                "https://books.google.co.uk/"
+            ],
+            "references": "Document infos:\n- CreationDate = D:20231107023142Z\n- Creator = LaTeX with hyperref\n- ModDate = D:20231107023142Z\n- PTEX.Fullbanner = This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5\n- Pages = 26\n- Producer = pdfTeX-1.40.25\n- Trapped = False\n\nReferences: 40\n- URL: 40\n\nURL References:\n- https://books.google.co.uk/books?id=DVlsAQAAQBAJ\n- picker.py\n- https://en.wikipedia.org/wiki/Read–eval–print_loop\n- https://books.google.co.uk/books?id=MHIQBAAAQBAJ\n- test.py\n- tools.py\n- 2303.08896\n- https://en.wikipedia.org/w/index.php?title=Metaprogramming\n- https://doi.org/10.1145/280765.280867\n- http://beta.deepwisdom.ai\n- en.wikipedia.org/wiki/Read–eval–print\n- 10.1016/S0065-2458(08)60418-0\n- cs.LO/0309048\n- en.wikipedia.org/wiki/Chinese\n- 2204.05999\n- gui.py\n- 2002.08155\n- 2306.08568\n- 1511.09249\n- en.wikipedia.org/w/index.php?title=Metaprogramming\n- 2308.11432\n- 2308.12950\n- https://doi.org/10.1016/S0065-2458(08)60418-0\n- https://github.com/Significant-Gravitas/Auto-GPT\n- tests.py\n- 2310.02304\n- tk.Tk\n- https://github.com/hwchase17/langchain\n- https://github.com/Significant-Gravitas/\n- beta.deepwisdom.ai\n- 2305.17066\n- canvas.py\n- https://github.com/geekan/MetaGPT\n- https://en.wikipedia.org/wiki/Chinese_whispers\n- 2305.16960\n- main.py\n- doi.org/10.1145/280765.280867\n- https://doi.org/10.1016/\n- https://books.google.co.uk/\n- 2309.16797"
+        },
+        "topics": [
+            {
+                "topic": "MetaGPT: A GPT-based Meta-Programming framework for enhancing collaboration in multi-agent systems",
+                "justification": "The summary highlights MetaGPT as the main subject of the project, describing its purpose and features."
+            },
+            {
+                "topic": "Standardized Operating Procedures (SOPs): Incorporating SOPs into MetaGPT for improved collaboration",
+                "justification": "The summary mentions that MetaGPT incorporates SOPs to enhance collaboration in multi-agent systems."
+            },
+            {
+                "topic": "Role assignment and task decomposition: Breaking down complex tasks into subtasks for efficient collaboration",
+                "justification": "The summary explains that MetaGPT assigns diverse roles to agents and breaks down complex tasks into subtasks."
+            },
+            {
+                "topic": "Coherent solutions: Generating more coherent solutions compared to previous chat-based multi-agent systems",
+                "justification": "The summary states that MetaGPT generates more coherent solutions than previous chat-based multi-agent systems."
+            },
+            {
+                "topic": "Affiliations and contributors: Institutions and individuals involved in the MetaGPT project",
+                "justification": "The summary lists the institutions and individuals affiliated with the MetaGPT project."
+            },
+            {
+                "topic": "Challenges of large language models (LLMs): Logic inconsistencies and cascading hallucinations",
+                "justification": "The summary mentions that LLMs can suffer from logic inconsistencies and cascading hallucinations."
+            },
+            {
+                "topic": "Prompt sequences and collaborative interaction: Mitigating issues in LLMs through prompt sequences and meaningful collaboration",
+                "justification": "The summary states that MetaGPT mitigates issues in LLMs by employing prompt sequences and meaningful collaborative interaction."
+            },
+            {
+                "topic": "Assembly line paradigm and task decomposition: Effective coordination among agents in the MetaGPT framework",
+                "justification": "The summary mentions that MetaGPT adopts an assembly line paradigm and task decomposition for effective coordination among agents."
+            },
+            {
+                "topic": "Evaluation and performance: State-of-the-art results in code generation benchmarks",
+                "justification": "The summary highlights that the project evaluates its performance using collaborative software engineering benchmarks and achieves state-of-the-art results in code generation."
+            },
+            {
+                "topic": "Incorporating human-like domain expertise: Utilizing meta learning to incorporate human-like domain expertise into autonomous agents",
+                "justification": "The summary mentions that the project aims to incorporate human-like domain expertise into autonomous agents and utilizes meta learning."
+            },
+            {
+                "topic": "Role-playing frameworks: CodeBERT, CodeLlama, and WizardCoder as relevant role-playing frameworks",
+                "justification": "The summary mentions CodeBERT, CodeLlama, and WizardCoder as relevant role-playing frameworks."
+            },
+            {
+                "topic": "Evaluation techniques: HumanEval and MBPP for evaluation, with state-of-the-art performance metrics",
+                "justification": "The summary mentions that the project utilizes HumanEval and MBPP for evaluation, achieving state-of-the-art performance metrics."
+            },
+            {
+                "topic": "Real-world applications: Product Managers creating Product Requirements Documents (PRDs) and target code generation",
+                "justification": "The summary mentions real-world applications of MetaGPT, including Product Managers creating PRDs and target code generation."
+            },
+            {
+                "topic": "Agent-based techniques: Facilitating automated problem solving through societies of agents",
+                "justification": "The summary mentions that agent-based techniques facilitate automated problem solving through societies of agents."
+            },
+            {
+                "topic": "Efficient human workflows: Incorporating efficient human workflows into LLM-based multi-agent collaborations",
+                "justification": "The summary states that incorporating efficient human workflows into LLM-based multi-agent collaborations reduces errors and improves intermediate results."
+            },
+            {
+                "topic": "Meta-programming and meta-learning: Leveraging meta-programming and meta-learning techniques for code generation",
+                "justification": "The summary mentions that the project leverages meta-programming and meta-learning techniques to achieve state-of-the-art results in code generation benchmarks."
+            },
+            {
+                "topic": "Streamlined workflow and adherence to standards: Following a strict and streamlined workflow, adhering to established standards",
+                "justification": "The summary mentions that the project follows a strict and streamlined workflow, adhering to established standards."
+            },
+            {
+                "topic": "Github repository: Providing further details and resources for real-world applications",
+                "justification": "The summary mentions that the project's Github repository provides further details and resources for real-world applications."
+            }
+        ],
+        "hypothetical_questions": [
+            {
+                "question_type": "Content-Based Question",
+                "question": "How does MetaGPT enhance collaboration in multi-agent systems and what role do Standardized Operating Procedures (SOPs) play in this framework?"
+            },
+            {
+                "question_type": "Analytical Question",
+                "question": "What are the key differences between MetaGPT and previous chat-based multi-agent systems in terms of generating coherent solutions?"
+            },
+            {
+                "question_type": "Creative/Scenario-Based Question",
+                "question": "Imagine a scenario where MetaGPT is used in a software development team. How can the framework help in breaking down complex tasks into subtasks and assigning roles to agents?"
+            },
+            {
+                "question_type": "Contextual/Relational Question",
+                "question": "How does MetaGPT address the issues of logic inconsistencies and cascading hallucinations that can be present in large language models (LLMs)?"
+            },
+            {
+                "question_type": "User-Interactive Question",
+                "question": "How can MetaGPT be applied in real-world scenarios, such as Product Managers creating Product Requirements Documents (PRDs)? Can you think of any other potential applications for this framework?"
+            }
+        ],
+        "knowledge_triplets": [
+            {
+                "subject": "Sirui Hong",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Mingchen Zhuge",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Jonathan Chen",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Xiawu Zheng",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Yuheng Cheng",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Ceyao Zhang",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Jinlin Wang",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Zili Wang",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Steven Ka Shing Yau",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Zijuan Lin",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Liyang Zhou",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Chenyu Ran",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Lingfeng Xiao",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Chenglin Wu",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "J¨urgen Schmidhuber",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "DeepWisdom",
+                "relationship": "affiliation",
+                "target": "King Abdullah University of Science and Technology"
+            },
+            {
+                "subject": "AI Initiative",
+                "relationship": "affiliation",
+                "target": "King Abdullah University of Science and Technology"
+            },
+            {
+                "subject": "King Abdullah University of Science and Technology",
+                "relationship": "affiliation",
+                "target": "DeepWisdom"
+            },
+            {
+                "subject": "Xiamen University",
+                "relationship": "affiliation",
+                "target": "DeepWisdom"
+            },
+            {
+                "subject": "The Chinese University of Hong Kong",
+                "relationship": "Shenzhen",
+                "target": "affiliation, DeepWisdom"
+            },
+            {
+                "subject": "Nanjing University",
+                "relationship": "affiliation",
+                "target": "DeepWisdom"
+            },
+            {
+                "subject": "University of Pennsylvania",
+                "relationship": "affiliation",
+                "target": "DeepWisdom"
+            },
+            {
+                "subject": "University of California",
+                "relationship": "Berkeley",
+                "target": "affiliation, DeepWisdom"
+            },
+            {
+                "subject": "The Swiss AI Lab IDSIA/USI/SUPSI",
+                "relationship": "affiliation",
+                "target": "DeepWisdom"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "innovation of",
+                "target": "Meta-programming framework"
+            },
+            {
+                "subject": "Standardized Operating Procedures (SOPs)",
+                "relationship": "incorporation into",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "Github",
+                "relationship": "reference to",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "meta-programming",
+                "relationship": "concept of",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "multi-agent collaborative framework",
+                "relationship": "application of",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "automated problem solving",
+                "relationship": "application of",
+                "target": "large language models (LLMs"
+            },
+            {
+                "subject": "large language models (LLMs)",
+                "relationship": "application of",
+                "target": "automated problem solving"
+            },
+            {
+                "subject": "logic inconsistencies",
+                "relationship": "cause of",
+                "target": "cascading hallucinations"
+            },
+            {
+                "subject": "cascading hallucinations",
+                "relationship": "result of",
+                "target": "logic inconsistencies"
+            },
+            {
+                "subject": "prompt sequences",
+                "relationship": "incorporation into",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "human-like domain expertise",
+                "relationship": "utilization in",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "assembly line paradigm",
+                "relationship": "utilization in",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "collaborative software engineering benchmarks",
+                "relationship": "evaluation of",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "coherent solutions",
+                "relationship": "production by",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "autonomous agents",
+                "relationship": "utilization of",
+                "target": "large language models (LLMs"
+            },
+            {
+                "subject": "real-world applications",
+                "relationship": "challenges in",
+                "target": "existing systems"
+            },
+            {
+                "subject": "collaborative interaction",
+                "relationship": "importance in",
+                "target": "real-world applications"
+            },
+            {
+                "subject": "meaningful collaborative interaction",
+                "relationship": "need for",
+                "target": "real-world applications"
+            },
+            {
+                "subject": "Standardized Operating Procedures (SOPs)",
+                "relationship": "role in",
+                "target": "task decomposition and coordination"
+            },
+            {
+                "subject": "task decomposition",
+                "relationship": "facilitated by",
+                "target": "Standardized Operating Procedures (SOPs"
+            },
+            {
+                "subject": "effective coordination",
+                "relationship": "facilitated by",
+                "target": "Standardized Operating Procedures (SOPs"
+            },
+            {
+                "subject": "responsibilities",
+                "relationship": "outlined by",
+                "target": "Standardized Operating Procedures (SOPs"
+            },
+            {
+                "subject": "quality standards",
+                "relationship": "established by",
+                "target": "Standardized Operating Procedures (SOPs"
+            },
+            {
+                "subject": "Product Managers",
+                "relationship": "role in",
+                "target": "software company"
+            },
+            {
+                "subject": "Product Requirements Documents (PRDs)",
+                "relationship": "creation of",
+                "target": "Product Managers"
+            },
+            {
+                "subject": "GPT-based Meta-Programming framework",
+                "relationship": "design of",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "structured outputs",
+                "relationship": "generation by",
+                "target": "agents"
+            },
+            {
+                "subject": "target code generation",
+                "relationship": "success rate increased by",
+                "target": "structured outputs"
+            },
+            {
+                "subject": "role-playing frameworks",
+                "relationship": "potential for",
+                "target": "hallucinations caused by idle chatter"
+            },
+            {
+                "subject": "meta-programming",
+                "relationship": "definition of",
+                "target": "meta-programming as \"programming to program\""
+            },
+            {
+                "subject": "meta learning",
+                "relationship": "contrasted with",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "learning to learn",
+                "relationship": "contrasted with",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "CodeBERT",
+                "relationship": "example of",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "CodeLlama",
+                "relationship": "example of",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "WizardCoder",
+                "relationship": "example of",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "agent-based techniques",
+                "relationship": "enhancement of",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "HumanEval",
+                "relationship": "utilization in",
+                "target": "evaluations"
+            },
+            {
+                "subject": "MBPP",
+                "relationship": "utilization in",
+                "target": "evaluations"
+            },
+            {
+                "subject": "code generation benchmarks",
+                "relationship": "evaluation in",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "state-of-the-art (SoTA)",
+                "relationship": "achievement of",
+                "target": "MetaGPT, 85.9% and 87.7% in Pass@1"
+            },
+            {
+                "subject": "automated problem solving",
+                "relationship": "through",
+                "target": "societies of agents"
+            },
+            {
+                "subject": "existing LLM-based multi-agent systems",
+                "relationship": "solve",
+                "target": "simple dialogue tasks"
+            },
+            {
+                "subject": "solutions",
+                "relationship": "complex tasks",
+                "target": "complicated"
+            },
+            {
+                "subject": "logic inconsistencies",
+                "relationship": "cascading hallucinations",
+                "target": "chaining LLMs"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "innovative meta-programming framework",
+                "target": "incorporating"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "efficient human workflows",
+                "target": "LLM-based multi-agent collaborations"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "Standardized Operating Procedures",
+                "target": "prompt sequences"
+            },
+            {
+                "subject": "agents",
+                "relationship": "human-like domain expertise",
+                "target": "verify intermediate results"
+            },
+            {
+                "subject": "agents",
+                "relationship": "reduce errors",
+                "target": "efficient breaking down complex tasks"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "collaborative software engineering benchmarks",
+                "target": "generates"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "more coherent solutions",
+                "target": "previous chat-based multi-agent systems"
+            },
+            {
+                "subject": "project",
+                "relationship": "found",
+                "target": "at https://github.com/geekan/MetaGPT"
+            },
+            {
+                "subject": "Autonomous agents",
+                "relationship": "utilizing",
+                "target": "Large Language Models"
+            },
+            {
+                "subject": "existing systems",
+                "relationship": "oversimplify",
+                "target": "complexities"
+            },
+            {
+                "subject": "existing systems",
+                "relationship": "struggle",
+                "target": "achieve effective problem-solving processes"
+            },
+            {
+                "subject": "humans",
+                "relationship": "developed",
+                "target": "Standardized Operating Procedures"
+            },
+            {
+                "subject": "SOPs",
+                "relationship": "critical role",
+                "target": "supporting task decomposition"
+            },
+            {
+                "subject": "SOPs",
+                "relationship": "outline",
+                "target": "responsibilities, team member"
+            },
+            {
+                "subject": "SOPs",
+                "relationship": "establishing standards",
+                "target": "intermediate outputs"
+            },
+            {
+                "subject": "SOPs",
+                "relationship": "improve",
+                "target": "consistent and accurate execution"
+            },
+            {
+                "subject": "software company",
+                "relationship": "Product Managers",
+                "target": "analyze competition"
+            },
+            {
+                "subject": "Product Managers",
+                "relationship": "create",
+                "target": "Product Requirements Documents"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "significantly benefits",
+                "target": "SOPs"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "requires agents",
+                "target": "generate structured outputs"
+            },
+            {
+                "subject": "structured outputs",
+                "relationship": "increase",
+                "target": "success rate, target code generation"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "all employees",
+                "target": "follow, strict and streamlined workflow"
+            },
+            {
+                "subject": "hallucinations",
+                "relationship": "caused",
+                "target": "idle chatter between LLMs"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "promising approach",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "meta-programming",
+                "relationship": "encompasses",
+                "target": "CodeBERT"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "unique solution",
+                "target": "efficient meta-programming"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "validate",
+                "target": "design"
+            },
+            {
+                "subject": "HumanEval",
+                "relationship": "MBPP",
+                "target": "evaluations"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "achieves",
+                "target": "state-of-the-art, code generation benchmarks"
+            },
+            {
+                "subject": "Sirui Hong",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Mingchen Zhuge",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Jonathan Chen",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Xiawu Zheng",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Yuheng Cheng",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Ceyao Zhang",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Jinlin Wang",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Zili Wang",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Steven Ka Shing Yau",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Zijuan Lin",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Liyang Zhou",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Chenyu Ran",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Lingfeng Xiao",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "Chenglin Wu",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "J¨urgen Schmidhuber",
+                "relationship": "contributor",
+                "target": "work"
+            },
+            {
+                "subject": "DeepWisdom",
+                "relationship": "affiliation",
+                "target": "King Abdullah University of Science and Technology"
+            },
+            {
+                "subject": "AI Initiative",
+                "relationship": "affiliation",
+                "target": "King Abdullah University of Science and Technology"
+            },
+            {
+                "subject": "King Abdullah University of Science and Technology",
+                "relationship": "affiliation",
+                "target": "DeepWisdom"
+            },
+            {
+                "subject": "Xiamen University",
+                "relationship": "affiliation",
+                "target": "DeepWisdom"
+            },
+            {
+                "subject": "The Chinese University of Hong Kong",
+                "relationship": "Shenzhen",
+                "target": "affiliation, DeepWisdom"
+            },
+            {
+                "subject": "Nanjing University",
+                "relationship": "affiliation",
+                "target": "DeepWisdom"
+            },
+            {
+                "subject": "University of Pennsylvania",
+                "relationship": "affiliation",
+                "target": "DeepWisdom"
+            },
+            {
+                "subject": "University of California",
+                "relationship": "Berkeley",
+                "target": "affiliation, DeepWisdom"
+            },
+            {
+                "subject": "The Swiss AI Lab IDSIA/USI/SUPSI",
+                "relationship": "affiliation",
+                "target": "DeepWisdom"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "innovation of",
+                "target": "Meta-programming framework"
+            },
+            {
+                "subject": "Standardized Operating Procedures (SOPs)",
+                "relationship": "incorporation into",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "Github",
+                "relationship": "reference to",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "meta-programming",
+                "relationship": "concept of",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "multi-agent collaborative framework",
+                "relationship": "application of",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "automated problem solving",
+                "relationship": "application of",
+                "target": "large language models (LLMs"
+            },
+            {
+                "subject": "large language models (LLMs)",
+                "relationship": "application of",
+                "target": "automated problem solving"
+            },
+            {
+                "subject": "logic inconsistencies",
+                "relationship": "cause of",
+                "target": "cascading hallucinations"
+            },
+            {
+                "subject": "cascading hallucinations",
+                "relationship": "result of",
+                "target": "logic inconsistencies"
+            },
+            {
+                "subject": "prompt sequences",
+                "relationship": "incorporation into",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "human-like domain expertise",
+                "relationship": "utilization in",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "assembly line paradigm",
+                "relationship": "utilization in",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "collaborative software engineering benchmarks",
+                "relationship": "evaluation of",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "coherent solutions",
+                "relationship": "production by",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "autonomous agents",
+                "relationship": "utilization of",
+                "target": "large language models (LLMs"
+            },
+            {
+                "subject": "real-world applications",
+                "relationship": "challenges in",
+                "target": "existing systems"
+            },
+            {
+                "subject": "collaborative interaction",
+                "relationship": "importance in",
+                "target": "real-world applications"
+            },
+            {
+                "subject": "meaningful collaborative interaction",
+                "relationship": "need for",
+                "target": "real-world applications"
+            },
+            {
+                "subject": "Standardized Operating Procedures (SOPs)",
+                "relationship": "role in",
+                "target": "task decomposition and coordination"
+            },
+            {
+                "subject": "task decomposition",
+                "relationship": "facilitated by",
+                "target": "Standardized Operating Procedures (SOPs"
+            },
+            {
+                "subject": "effective coordination",
+                "relationship": "facilitated by",
+                "target": "Standardized Operating Procedures (SOPs"
+            },
+            {
+                "subject": "responsibilities",
+                "relationship": "outlined by",
+                "target": "Standardized Operating Procedures (SOPs"
+            },
+            {
+                "subject": "quality standards",
+                "relationship": "established by",
+                "target": "Standardized Operating Procedures (SOPs"
+            },
+            {
+                "subject": "Product Managers",
+                "relationship": "role in",
+                "target": "software company"
+            },
+            {
+                "subject": "Product Requirements Documents (PRDs)",
+                "relationship": "creation of",
+                "target": "Product Managers"
+            },
+            {
+                "subject": "GPT-based Meta-Programming framework",
+                "relationship": "design of",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "structured outputs",
+                "relationship": "generation by",
+                "target": "agents"
+            },
+            {
+                "subject": "target code generation",
+                "relationship": "success rate increased by",
+                "target": "structured outputs"
+            },
+            {
+                "subject": "role-playing frameworks",
+                "relationship": "potential for",
+                "target": "hallucinations caused by idle chatter"
+            },
+            {
+                "subject": "meta-programming",
+                "relationship": "definition of",
+                "target": "meta-programming as \"programming to program\""
+            },
+            {
+                "subject": "meta learning",
+                "relationship": "contrasted with",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "learning to learn",
+                "relationship": "contrasted with",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "CodeBERT",
+                "relationship": "example of",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "CodeLlama",
+                "relationship": "example of",
+                "target": "meta-programming"
+            },
+            {
+                "subject": "WizardCoder",
+                "relationship": "example of",
+                "target": "meta-programming"
+            }
+        ],
+        "timestamp": "2024-01-14T17:18:43.930830"
+    },
+    {
+        "file_id": "2308.00352",
+        "article": "Chunk # 1.\nWhen compared to other\npopular frameworks for creating complex software projects, such as AutoGPT (Torantulino et al.,\n2023), LangChain (Chase, 2022), AgentVerse (Chen et al., 2023), and ChatDev (Qian et al., 2023) MetaGPT also stands out in handling higher levels of software complexity and offering extensive\nfunctionality Remarkably, in our experimental evaluations, MetaGPT achieves a 100% task com-\npletion rate, demonstrating the robustness and efficiency (time and token costs) of our design We summarize our contributions as follows:\n•We introduce MetaGPT, a meta-programming framework for multi-agent collaboration based on\nLLMs It is highly convenient and flexible, with well-defined functions like role definition and\nmessage sharing, making it a useful platform for developing LLM-based multi-agent systems 1https://en.wikipedia.org/w/index.php?title=Metaprogramming\n2Preprint\n•Our innovative integration of human-like SOPs throughout MetaGPT’s design significantly en-\nhances its robustness, reducing unproductive collaboration among LLM-based agents Furthermore,\nwe introduce a novel executive feedback mechanism that debugs and executes code during runtime,\nsignificantly elevating code generation quality (e.g., 5.4% absolute improvement on MBPP) •We achieve state-of-the-art performance on HumanEval (Chen et al., 2021a) and MBPP (Austin\net al., 2021) Extensive results convincingly validate MetaGPT, suggesting that it is a promising\nmeta-programming framework for developing LLM-based multi-agent systems 2 R ELATED WORK\nAutomatic Programming The roots of automatic programming reach back deep into the previ-\nous century In 1969, Waldinger & Lee (1969) introduced “PROW,” a system designed to accept\nprogram specifications written in predicate calculus, generate algorithms, and create LISP imple-\nmentations (McCarthy, 1978) Balzer (1985) and Soloway (1986) made efforts to advance auto-\nmatic programming and identified potential methods to achieve it Recent approaches use natural\nlanguage processing (NLP) techniques (Ni et al., 2023; Skreta et al., 2023; Feng et al., 2020; Li\net al., 2022; Chen et al., 2018; 2021b; Zhang et al., 2023) Automatic programming has grown into\nan industry delivering paid functions such as Microsoft Copilot Lately, LLMs-based agents (Yao\net al., 2022; Shinn et al., 2023; Lin et al., 2023) have advanced automatic programming develop-\nment Among them, ReAct (Yao et al., 2022) and Reflexion (Shinn et al., 2023) utilize a chain of\nthought prompts (Wei et al., 2022) to generate reasoning trajectories and action plans with LLMs Both works demonstrate the effectiveness of the ReAct style loop of reasoning as a design paradigm\nfor empowering automatic programming Additionally, ToolFormer (Schick et al., 2023) can learn\nhow to use external tools through simple APIs The research most closely aligned with our work\nby Li et al (2023) proposes a straightforward role-play framework for programming that involves\ncommunication between agents playing different roles Qian et al (2023) utilizes multiple agents for\nsoftware development Although existing papers (Li et al., 2023; Qian et al., 2023) have improved\nproductivity, they have not fully tapped into effective workflows with structured output formats This makes it harder to deal with complex software engineering issues LLM-Based Multi-Agent Frameworks Recently, LLM-based autonomous agents have gained\ntremendous interest in both industry and academia (Wang et al., 2023b) Many works (Wang et al., 2023c; Du et al., 2023; Zhuge et al., 2023; Hao et al., 2023; Akata et al.,\n2023) have improved the problem-solving abilities of LLMs by integrating discussions among mul-\ntiple agents Stable-Alignment (Liu et al., 2023) creates instruction datasets by deriving consensus\non value judgments through interactions across a sandbox with LLM agents Other works focus on\nsociological phenomena For example, Generative Agents (Park et al., 2023) creates a “town” of 25\nagents to study language interaction, social understanding, and collective memory In the Natural\nLanguage-Based Society of Mind (NLSOM) (Zhuge et al., 2023), agents with different functions\ninteract to solve complex tasks through multiple rounds of ”mindstorms.” Cai et al (2023) propose\na model for cost reduction by combining large models as tool makers and small models as tool users Some works emphasize cooperation and competition related to planning and strategy (Bakhtin et al.,\n2022); others propose LLM-based economies (Zhuge et al., 2023) In our implementations, we\nobserve several challenges to multi-agent cooperation, such as maintaining consistency and avoiding\nunproductive cycles This motivates our focus on applying advanced concepts such as Standard\nOperating Procedures in software development to multi-agent frameworks 3 M ETAGPT: A M ETA-PROGRAMMING FRAMEWORK\nMetaGPT is a meta-programming framework for LLM-based multi-agent systems Sec 3.1 pro-\nvides an explanation of role specialization, workflow and structured communication in this frame-\nwork, and illustrates how to organize a multi-agent system within the context of SOPs Sec 3.2\npresents a communication protocol that enhances role communication efficiency We also imple-\nment structured communication interfaces and an effective publish-subscribe mechanism These\nmethods enable agents to obtain directional information from other roles and public information\n3Preprint\nFigure 2: An example of the communication protocol (left) and iterative programming with exe-\ncutable feedback (right)",
+        "summary": "MetaGPT is a meta-programming framework for developing LLM-based multi-agent systems. It offers role definition, message sharing, and human-like SOPs to enhance collaboration and code generation quality. MetaGPT achieves state-of-the-art performance and is a promising framework for complex software projects.",
+        "clean_entities": [],
+        "dirty_entities": [
+            "Entities: AutoGPT",
+            "LangChain",
+            "AgentVerse",
+            "ChatDev",
+            "MetaGPT",
+            "LLMs",
+            "PROW",
+            "LISP",
+            "Microsoft Copilot",
+            "ReAct",
+            "Reflexion",
+            "ToolFormer",
+            "Qian et al.",
+            "Li et al.",
+            "Wang et al.",
+            "Du et al.",
+            "Zhuge et al.",
+            "Hao et al.",
+            "Akata et al.",
+            "Liu et al.",
+            "Park et al.",
+            "Cai et al.",
+            "Bakhtin et al.",
+            "",
+            "Keywords: popular frameworks",
+            "complex software projects",
+            "software complexity",
+            "functionality",
+            "experimental evaluations",
+            "task completion rate",
+            "robustness",
+            "efficiency",
+            "design",
+            "meta-programming framework",
+            "multi-agent collaboration",
+            "role definition",
+            "message sharing",
+            "LLM-based systems",
+            "integration",
+            "SOPs",
+            "unproductive collaboration",
+            "executive feedback mechanism",
+            "code generation quality",
+            "state-of-the-art performance",
+            "HumanEval",
+            "MBPP",
+            "related work",
+            "automatic programming",
+            "natural language processing",
+            "NLP techniques",
+            "industry",
+            "LLMs-based agents",
+            "ReAct",
+            "Reflexion",
+            "ToolFormer",
+            "role-play framework",
+            "communication between agents",
+            "software development",
+            "structured output formats",
+            "LLM-Based Multi-Agent Frameworks",
+            "problem-solving abilities",
+            "Stable-Alignment",
+            "sociological phenomena",
+            "Generative Agents",
+            "Natural Language-Based Society of Mind",
+            "cost reduction",
+            "cooperation",
+            "competition",
+            "LLM-based economies",
+            "multi-agent cooperation",
+            "Standard Operating Procedures",
+            "role specialization",
+            "workflow",
+            "structured communication",
+            "communication protocol",
+            "iterative programming",
+            "executable feedback.",
+            "",
+            "Phrases: creating complex software projects",
+            "handling higher levels of software complexity",
+            "extensive functionality",
+            "experimental evaluations",
+            "task completion rate",
+            "robustness and efficiency",
+            "well-defined functions",
+            "developing LLM-based multi-agent systems",
+            "innovative integration of human-like SOPs",
+            "executive feedback mechanism",
+            "code generation quality",
+            "state-of-the-art performance",
+            "related work",
+            "automatic programming",
+            "natural language processing techniques",
+            "LLMs-based agents",
+            "role-play framework for programming",
+            "communication between agents",
+            "software development",
+            "structured output formats",
+            "LLM-Based Multi-Agent Frameworks",
+            "problem-solving abilities of LLMs",
+            "multi-agent cooperation",
+            "applying advanced concepts",
+            "Standard Operating Procedures in software development",
+            "MetaGPT is a meta-programming framework",
+            "role specialization",
+            "workflow and structured communication",
+            "communication protocol",
+            "iterative programming with executable feedback.",
+            "",
+            "References: Torantulino et al.",
+            "Chase",
+            "Chen et al.",
+            "Qian et al.",
+            "McCarthy",
+            "Balzer",
+            "Soloway",
+            "Ni et al.",
+            "Skreta et al.",
+            "Feng et al.",
+            "Li et al.",
+            "Zhang et al.",
+            "Yao et al.",
+            "Shinn et al.",
+            "Lin et al.",
+            "Wei et al.",
+            "Schick et al.",
+            "Wang et al.",
+            "Du et al.",
+            "Zhuge et al.",
+            "Hao et al.",
+            "Akata et al.",
+            "Liu et al.",
+            "Park et al.",
+            "Cai et al.",
+            "Bakhtin et al."
+        ],
+        "references": {
+            "urls": [
+                "https://books.google.co.uk/books?id=DVlsAQAAQBAJ",
+                "https://en.wikipedia.org/wiki/Read–eval–print_loop",
+                "https://books.google.co.uk/books?id=MHIQBAAAQBAJ",
+                "https://en.wikipedia.org/w/index.php?title=Metaprogramming",
+                "https://doi.org/10.1145/280765.280867",
+                "http://beta.deepwisdom.ai",
+                "https://doi.org/10.1016/S0065-2458(08)60418-0",
+                "https://github.com/Significant-Gravitas/Auto-GPT",
+                "https://github.com/hwchase17/langchain",
+                "https://github.com/Significant-Gravitas/",
+                "https://github.com/geekan/MetaGPT",
+                "https://en.wikipedia.org/wiki/Chinese_whispers",
+                "https://doi.org/10.1016/",
+                "https://books.google.co.uk/"
+            ],
+            "references": "Document infos:\n- CreationDate = D:20231107023142Z\n- Creator = LaTeX with hyperref\n- ModDate = D:20231107023142Z\n- PTEX.Fullbanner = This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5\n- Pages = 26\n- Producer = pdfTeX-1.40.25\n- Trapped = False\n\nReferences: 40\n- URL: 40\n\nURL References:\n- https://books.google.co.uk/books?id=DVlsAQAAQBAJ\n- picker.py\n- https://en.wikipedia.org/wiki/Read–eval–print_loop\n- https://books.google.co.uk/books?id=MHIQBAAAQBAJ\n- test.py\n- tools.py\n- 2303.08896\n- https://en.wikipedia.org/w/index.php?title=Metaprogramming\n- https://doi.org/10.1145/280765.280867\n- http://beta.deepwisdom.ai\n- en.wikipedia.org/wiki/Read–eval–print\n- 10.1016/S0065-2458(08)60418-0\n- cs.LO/0309048\n- en.wikipedia.org/wiki/Chinese\n- 2204.05999\n- gui.py\n- 2002.08155\n- 2306.08568\n- 1511.09249\n- en.wikipedia.org/w/index.php?title=Metaprogramming\n- 2308.11432\n- 2308.12950\n- https://doi.org/10.1016/S0065-2458(08)60418-0\n- https://github.com/Significant-Gravitas/Auto-GPT\n- tests.py\n- 2310.02304\n- tk.Tk\n- https://github.com/hwchase17/langchain\n- https://github.com/Significant-Gravitas/\n- beta.deepwisdom.ai\n- 2305.17066\n- canvas.py\n- https://github.com/geekan/MetaGPT\n- https://en.wikipedia.org/wiki/Chinese_whispers\n- 2305.16960\n- main.py\n- doi.org/10.1145/280765.280867\n- https://doi.org/10.1016/\n- https://books.google.co.uk/\n- 2309.16797"
+        },
+        "topics": [
+            {
+                "topic": "MetaGPT as a meta-programming framework",
+                "justification": "The summary highlights MetaGPT's role as a meta-programming framework for developing LLM-based multi-agent systems."
+            },
+            {
+                "topic": "Role definition in MetaGPT",
+                "justification": "The summary mentions that MetaGPT offers role definition as one of its features."
+            },
+            {
+                "topic": "Message sharing in MetaGPT",
+                "justification": "The summary states that MetaGPT offers message sharing as one of its features."
+            },
+            {
+                "topic": "Human-like SOPs in MetaGPT",
+                "justification": "The summary mentions that MetaGPT offers human-like SOPs (Standard Operating Procedures) to enhance collaboration and code generation quality."
+            },
+            {
+                "topic": "State-of-the-art performance of MetaGPT",
+                "justification": "The summary states that MetaGPT achieves state-of-the-art performance, indicating its effectiveness in complex software projects."
+            },
+            {
+                "topic": "MetaGPT as a promising framework for complex software projects",
+                "justification": "The summary highlights MetaGPT as a promising framework for complex software projects."
+            }
+        ],
+        "hypothetical_questions": [
+            {
+                "question_type": "Content-Based Question",
+                "question": "How does MetaGPT enhance collaboration and code generation quality in multi-agent systems?"
+            },
+            {
+                "question_type": "Analytical Question",
+                "question": "What are the key features of MetaGPT that contribute to its state-of-the-art performance?"
+            },
+            {
+                "question_type": "Creative/Scenario-Based Question",
+                "question": "Imagine you are working on a complex software project. How could MetaGPT's role definition, message sharing, and human-like SOPs improve the efficiency and effectiveness of your team's collaboration?"
+            },
+            {
+                "question_type": "Contextual/Relational Question",
+                "question": "How does MetaGPT compare to other frameworks in terms of its potential for handling complex software projects?"
+            },
+            {
+                "question_type": "User-Interactive Question",
+                "question": "Have you ever worked on a multi-agent system? How do you think MetaGPT's capabilities could benefit your current or future projects?"
+            }
+        ],
+        "knowledge_triplets": [
+            {
+                "subject": "AutoGPT",
+                "relationship": "compared to",
+                "target": "other popular frameworks"
+            },
+            {
+                "subject": "AutoGPT",
+                "relationship": "stands out in handling",
+                "target": "higher levels of software complexity"
+            },
+            {
+                "subject": "AutoGPT",
+                "relationship": "offers",
+                "target": "extensive functionality"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "achieves",
+                "target": "a 100% task completion rate"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "demonstrates",
+                "target": "robustness and efficiency"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "introduces",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is based on",
+                "target": "LLMs"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "has well-defined functions like",
+                "target": "role definition and message sharing"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is a useful platform",
+                "target": "for developing LLM-based multi-agent systems"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "integrates",
+                "target": "human-like SOPs throughout its design"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "enhances",
+                "target": "robustness"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "reduces",
+                "target": "unproductive collaboration among LLM-based agents"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "introduces",
+                "target": "a novel executive feedback mechanism"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "debugs and executes",
+                "target": "code during runtime"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "elevates",
+                "target": "code generation quality"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "achieves",
+                "target": "state-of-the-art performance on HumanEval and MBPP"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "validates",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is a promising meta-programming framework",
+                "target": "for developing LLM-based multi-agent systems"
+            },
+            {
+                "subject": "PROW",
+                "relationship": "introduced",
+                "target": "\"PROW\""
+            },
+            {
+                "subject": "PROW",
+                "relationship": "was designed to accept",
+                "target": "program specifications written in predicate calculus"
+            },
+            {
+                "subject": "PROW",
+                "relationship": "generate",
+                "target": "algorithms"
+            },
+            {
+                "subject": "PROW",
+                "relationship": "create",
+                "target": "LISP implementations"
+            },
+            {
+                "subject": "Automatic Programming",
+                "relationship": "reaches back",
+                "target": "deep into the previous century"
+            },
+            {
+                "subject": "Automatic Programming",
+                "relationship": "has grown into",
+                "target": "an industry delivering paid functions"
+            },
+            {
+                "subject": "Automatic Programming",
+                "relationship": "uses",
+                "target": "natural language processing techniques"
+            },
+            {
+                "subject": "Automatic Programming",
+                "relationship": "delivers",
+                "target": "Microsoft Copilot"
+            },
+            {
+                "subject": "LLMs-based agents",
+                "relationship": "have advanced",
+                "target": "automatic programming development"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "utilizes",
+                "target": "a chain of thought prompts"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "generates",
+                "target": "reasoning trajectories and action plans with LLMs"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "demonstrates",
+                "target": "the effectiveness of the ReAct style loop of reasoning"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "empowers",
+                "target": "automatic programming"
+            },
+            {
+                "subject": "ToolFormer",
+                "relationship": "can learn",
+                "target": "how to use external tools through simple APIs"
+            },
+            {
+                "subject": "Li et al.",
+                "relationship": "proposes",
+                "target": "a straightforward role-play framework for programming"
+            },
+            {
+                "subject": "Qian et al.",
+                "relationship": "utilizes",
+                "target": "multiple agents for software development"
+            },
+            {
+                "subject": "Li et al.",
+                "relationship": "has improved",
+                "target": "productivity"
+            },
+            {
+                "subject": "Qian et al.",
+                "relationship": "has improved",
+                "target": "productivity"
+            },
+            {
+                "subject": "LLM-Based Multi-Agent Frameworks",
+                "relationship": "have gained",
+                "target": "tremendous interest"
+            },
+            {
+                "subject": "LLM-Based Multi-Agent Frameworks",
+                "relationship": "have improved",
+                "target": "the problem-solving abilities of LLMs"
+            },
+            {
+                "subject": "Stable-Alignment",
+                "relationship": "creates",
+                "target": "instruction datasets"
+            },
+            {
+                "subject": "Stable-Alignment",
+                "relationship": "derives",
+                "target": "consensus on value judgments"
+            },
+            {
+                "subject": "Generative Agents",
+                "relationship": "creates",
+                "target": "a \"town\" of 25 agents"
+            },
+            {
+                "subject": "Generative Agents",
+                "relationship": "studies",
+                "target": "language interaction, social understanding, and collective memory"
+            },
+            {
+                "subject": "NLSOM",
+                "relationship": "agents with different functions",
+                "target": "interact to solve complex tasks"
+            },
+            {
+                "subject": "Cai et al.",
+                "relationship": "propose",
+                "target": "a model for cost reduction"
+            },
+            {
+                "subject": "Cai et al.",
+                "relationship": "combine",
+                "target": "large models as tool makers and small models as tool users"
+            },
+            {
+                "subject": "Bakhtin et al.",
+                "relationship": "emphasize",
+                "target": "cooperation and competition related to planning and strategy"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "focuses",
+                "target": "on applying advanced concepts such as Standard Operating Procedures in software development to multi-agent frameworks"
+            },
+            {
+                "subject": "AutoGPT",
+                "relationship": "compared to",
+                "target": "other popular frameworks"
+            },
+            {
+                "subject": "LangChain",
+                "relationship": "compared to",
+                "target": "other popular frameworks"
+            },
+            {
+                "subject": "AgentVerse",
+                "relationship": "compared to",
+                "target": "other popular frameworks"
+            },
+            {
+                "subject": "ChatDev",
+                "relationship": "compared to",
+                "target": "other popular frameworks"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "compared to",
+                "target": "other popular frameworks"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "stands out in",
+                "target": "handling higher levels of software complexity"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "stands out in",
+                "target": "offering extensive functionality"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "achieves",
+                "target": "100% task completion rate"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "demonstrates",
+                "target": "robustness and efficiency"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is a",
+                "target": "meta-programming framework"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is based on",
+                "target": "LLMs"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "has well-defined functions like",
+                "target": "role definition and message sharing"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is a useful platform for",
+                "target": "developing LLM-based multi-agent systems"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "integrates",
+                "target": "human-like SOPs"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "enhances",
+                "target": "robustness"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "reduces",
+                "target": "unproductive collaboration among LLM-based agents"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "introduces",
+                "target": "a novel executive feedback mechanism"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "significantly elevates",
+                "target": "code generation quality"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "achieves",
+                "target": "state-of-the-art performance on HumanEval and MBPP"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "validates",
+                "target": "MetaGPT as a promising meta-programming framework"
+            },
+            {
+                "subject": "PROW",
+                "relationship": "introduced",
+                "target": "\"PROW\" system"
+            },
+            {
+                "subject": "PROW",
+                "relationship": "designed to accept",
+                "target": "program specifications written in predicate calculus"
+            },
+            {
+                "subject": "PROW",
+                "relationship": "generate",
+                "target": "algorithms"
+            },
+            {
+                "subject": "PROW",
+                "relationship": "create",
+                "target": "LISP implementations"
+            },
+            {
+                "subject": "LISP",
+                "relationship": "is",
+                "target": "a programming language"
+            },
+            {
+                "subject": "Microsoft Copilot",
+                "relationship": "delivers",
+                "target": "paid functions"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "utilizes",
+                "target": "a chain of thought prompts"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "generates",
+                "target": "reasoning trajectories and action plans with LLMs"
+            },
+            {
+                "subject": "Reflexion",
+                "relationship": "utilizes",
+                "target": "a chain of thought prompts"
+            },
+            {
+                "subject": "Reflexion",
+                "relationship": "generates",
+                "target": "reasoning trajectories and action plans with LLMs"
+            },
+            {
+                "subject": "ToolFormer",
+                "relationship": "can learn",
+                "target": "how to use external tools through simple APIs"
+            },
+            {
+                "subject": "Li et al.",
+                "relationship": "propose",
+                "target": "a straightforward role-play framework for programming"
+            },
+            {
+                "subject": "Li et al.",
+                "relationship": "involves",
+                "target": "communication between agents playing different roles"
+            },
+            {
+                "subject": "Qian et al.",
+                "relationship": "utilizes",
+                "target": "multiple agents for software development"
+            },
+            {
+                "subject": "Li et al.",
+                "relationship": "Qian et al.",
+                "target": "have improved, productivity"
+            },
+            {
+                "subject": "Li et al.",
+                "relationship": "Qian et al.",
+                "target": "have not fully tapped into, effective workflows with structured output formats"
+            },
+            {
+                "subject": "LLMs",
+                "relationship": "have advanced",
+                "target": "automatic programming development"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "Reflexion",
+                "target": "ToolFormer, are, LLMs-based agents"
+            },
+            {
+                "subject": "Stable-Alignment",
+                "relationship": "creates",
+                "target": "instruction datasets"
+            },
+            {
+                "subject": "Generative Agents",
+                "relationship": "creates",
+                "target": "a \"town\" of 25 agents"
+            },
+            {
+                "subject": "Natural Language-Based Society of Mind",
+                "relationship": "agents with different functions",
+                "target": "interact to solve complex tasks"
+            },
+            {
+                "subject": "Cai et al.",
+                "relationship": "propose",
+                "target": "a model for cost reduction"
+            },
+            {
+                "subject": "Bakhtin et al.",
+                "relationship": "emphasize",
+                "target": "cooperation and competition related to planning and strategy"
+            },
+            {
+                "subject": "Zhuge et al.",
+                "relationship": "propose",
+                "target": "LLM-based economies"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "observes",
+                "target": "challenges to multi-agent cooperation"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "motivates",
+                "target": "focus on applying advanced concepts"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "applies",
+                "target": "Standard Operating Procedures in software development"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is",
+                "target": "a meta-programming framework"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "enhances",
+                "target": "role communication efficiency"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "implements",
+                "target": "structured communication interfaces"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "implements",
+                "target": "an effective publish-subscribe mechanism"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "enables",
+                "target": "agents to obtain directional information"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "enables",
+                "target": "agents to obtain public information"
+            },
+            {
+                "subject": "AutoGPT",
+                "relationship": "compared to",
+                "target": "other popular frameworks"
+            },
+            {
+                "subject": "AutoGPT",
+                "relationship": "stands out in handling",
+                "target": "higher levels of software complexity"
+            },
+            {
+                "subject": "AutoGPT",
+                "relationship": "offers",
+                "target": "extensive functionality"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "achieves",
+                "target": "a 100% task completion rate"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "demonstrates",
+                "target": "robustness and efficiency"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "introduces",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is based on",
+                "target": "LLMs"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "has well-defined functions like",
+                "target": "role definition and message sharing"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is a useful platform",
+                "target": "for developing LLM-based multi-agent systems"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "integrates",
+                "target": "human-like SOPs throughout its design"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "enhances",
+                "target": "robustness"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "reduces",
+                "target": "unproductive collaboration among LLM-based agents"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "introduces",
+                "target": "a novel executive feedback mechanism"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "debugs and executes",
+                "target": "code during runtime"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "elevates",
+                "target": "code generation quality"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "achieves",
+                "target": "state-of-the-art performance on HumanEval and MBPP"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "validates",
+                "target": "MetaGPT"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is a promising meta-programming framework",
+                "target": "for developing LLM-based multi-agent systems"
+            },
+            {
+                "subject": "PROW",
+                "relationship": "introduced",
+                "target": "\"PROW\""
+            },
+            {
+                "subject": "PROW",
+                "relationship": "was designed to accept",
+                "target": "program specifications written in predicate calculus"
+            },
+            {
+                "subject": "PROW",
+                "relationship": "generate",
+                "target": "algorithms"
+            },
+            {
+                "subject": "PROW",
+                "relationship": "create",
+                "target": "LISP implementations"
+            },
+            {
+                "subject": "Automatic Programming",
+                "relationship": "reaches back",
+                "target": "deep into the previous century"
+            },
+            {
+                "subject": "Automatic Programming",
+                "relationship": "has grown into",
+                "target": "an industry delivering paid functions"
+            },
+            {
+                "subject": "Automatic Programming",
+                "relationship": "uses",
+                "target": "natural language processing techniques"
+            },
+            {
+                "subject": "Automatic Programming",
+                "relationship": "delivers",
+                "target": "Microsoft Copilot"
+            },
+            {
+                "subject": "LLMs-based agents",
+                "relationship": "have advanced",
+                "target": "automatic programming development"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "utilizes",
+                "target": "a chain of thought prompts"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "generates",
+                "target": "reasoning trajectories and action plans with LLMs"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "demonstrates",
+                "target": "the effectiveness of the ReAct style loop of reasoning"
+            },
+            {
+                "subject": "ReAct",
+                "relationship": "empowers",
+                "target": "automatic programming"
+            },
+            {
+                "subject": "ToolFormer",
+                "relationship": "can learn",
+                "target": "how to use external tools through simple APIs"
+            },
+            {
+                "subject": "Li et al.",
+                "relationship": "proposes",
+                "target": "a straightforward role-play framework for programming"
+            },
+            {
+                "subject": "Qian et al.",
+                "relationship": "utilizes",
+                "target": "multiple agents for software development"
+            },
+            {
+                "subject": "Li et al.",
+                "relationship": "has improved",
+                "target": "productivity"
+            },
+            {
+                "subject": "Qian et al.",
+                "relationship": "has improved",
+                "target": "productivity"
+            },
+            {
+                "subject": "LLM-Based Multi-Agent Frameworks",
+                "relationship": "have gained",
+                "target": "tremendous interest"
+            },
+            {
+                "subject": "LLM-Based Multi-Agent Frameworks",
+                "relationship": "have improved",
+                "target": "the problem-solving abilities of LLMs"
+            },
+            {
+                "subject": "Stable-Alignment",
+                "relationship": "creates",
+                "target": "instruction datasets"
+            },
+            {
+                "subject": "Stable-Alignment",
+                "relationship": "derives",
+                "target": "consensus on value judgments"
+            },
+            {
+                "subject": "Generative Agents",
+                "relationship": "creates",
+                "target": "a \"town\" of 25 agents"
+            },
+            {
+                "subject": "Generative Agents",
+                "relationship": "studies",
+                "target": "language interaction, social understanding, and collective memory"
+            },
+            {
+                "subject": "NLSOM",
+                "relationship": "agents with different functions",
+                "target": "interact to solve complex tasks"
+            },
+            {
+                "subject": "Cai et al.",
+                "relationship": "propose",
+                "target": "a model for cost reduction"
+            },
+            {
+                "subject": "Cai et al.",
+                "relationship": "combine",
+                "target": "large models as tool makers and small models as tool users"
+            },
+            {
+                "subject": "Bakhtin et al.",
+                "relationship": "emphasize",
+                "target": "cooperation and competition related to planning and strategy"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "focuses",
+                "target": "on applying advanced concepts such as Standard Operating Procedures in software development to multi-agent frameworks"
+            }
+        ],
+        "timestamp": "2024-01-14T17:19:40.183157"
+    },
+    {
+        "file_id": "2308.00352",
+        "article": "Chunk # 2.\nLeft: Agents use a shared message pool to publish structured messages They can also subscribe to relevant messages based on their profiles Right : After generating the\ninitial code, the Engineer agent runs and checks for errors If errors occur, the agent checks past\nmessages stored in memory and compares them with the PRD, system design, and code files from the environment Finally, we introduce executable feedback—a self-correction mechanism for\nfurther enhancing code generation quality during run-time in Sec 3.3 3.1 A GENTS IN STANDARD OPERATING PROCEDURES\nSpecialization of Roles Unambiguous role specialization enables the breakdown of complex work\ninto smaller and more specific tasks Solving complex tasks or problems often requires the collab-\noration of agents with diverse skills and expertise, each contributing specialized outputs tailored to\nspecific issues In a software company, a Product Manager typically conducts business-oriented analysis and derives\ninsights, while a software engineer is responsible for programming We define five roles in our\nsoftware company: Product Manager, Architect, Project Manager, Engineer, and QA Engineer, as\nshown in Figure 1 In MetaGPT, we specify the agent’s profile, which includes their name, profile,\ngoal, and constraints for each role We also initialize the specific context and skills for each role For instance, a Product Manager can use web search tools, while an Engineer can execute code, as\nshown in Figure 2 All agents adhere to the React-style behavior as described in Yao et al (2022) Every agent monitors the environment ( i.e., the message pool in MetaGPT) to spot important ob-\nservations ( e.g.,, messages from other agents) These messages can either directly trigger actions or\nassist in finishing the job Workflow across Agents By defining the agents’ roles and operational skills, we can establish\nbasic workflows In our work, we follow SOP in software development, which enables all agents to\nwork in a sequential manner Specifically, as shown in Figure 1, upon obtaining user requirements, the Product Manager under-\ntakes a thorough analysis, formulating a detailed PRD that includes User Stories and Requirement\nPool This serves as a preliminary functional breakdown The structured PRD is then passed to\nthe Architect, who translates the requirements into system design components, such as File Lists,\nData Structures, and Interface Definitions Once captured in the system design, the information is\ndirected towards the Project Manager for task distribution Engineers proceed to execute the des-\nignated classes and functions as outlined (detailed in Figure 2) In the following stage, the QA\nEngineer formulates test cases to enforce stringent code quality In the final step, MetaGPT pro-\n4Preprint\nFigure 3: A diagram showing the software development process in MetaGPT, emphasizing its sig-\nnificant dependence on SOPs The more detailed demonstration can be found in Appendix B duces a meticulously crafted software solution We provide a detailed schematic (Figure 3) and a\nconcrete instance (Appendix B) of the SOP workflow in MetaGPT 3.2 C OMMUNICATION PROTOCOL\nStructured Communication Interfaces Most current LLM-based multi-agent frameworks (Li\net al., 2023; Zhuge et al., 2023; Zhang et al., 2023; Park et al., 2023) utilize unconstrained natural\nlanguage as a communication interface However, despite the versatility of natural language, a question arises: does pure natural language\ncommunication suffice for solving complex tasks For example, in the telephone game (or Chinese\nwhispers)2, after several rounds of communication, the original information may be quite distorted Inspired by human social structures, we propose using structured communication to formulate the\ncommunication of agents We establish a schema and format for each role and request that individ-\nuals provide the necessary outputs based on their specific role and context As shown in Figure 3, the Architect agent generates two outputs: the system interface design and a\nsequence flow diagram These contain system module design and interaction sequences, which serve\nas important deliverables for Engineers Unlike ChatDev (Zhao et al., 2023), agents in MetaGPT\n2https://en.wikipedia.org/wiki/Chinese whispers\n5Preprint\ncommunicate through documents and diagrams (structured outputs) rather than dialogue These\ndocuments contain all necessary information, preventing irrelevant or missing content Publish-Subscribe Mechanism Sharing information is critical in collaboration For instance,\nArchitects and Engineers often need to reference PRDs However, communicating this information\neach time in a one-to-one manner, as indicated by previous work (Li et al., 2023; Zhao et al., 2023;\nZhang et al., 2023), can complicate the communication topology, resulting in inefficiencies To address this challenge, a viable approach is to store information in a global message pool  As\nshown in Figure 2 (left), we introduce a shared message pool that allows all agents to exchange\nmessages directly These agents not only publish their structured messages in the pool but also access\nmessages from other entities transparently Any agent can directly retrieve required information\nfrom the shared pool, eliminating the need to inquire about other agents and await their responses",
+        "summary": "Left: Agents use a shared message pool for publishing and subscribing to structured messages.\nRight: The Engineer agent runs and checks for errors in the initial code. If errors occur, the agent compares past messages with the PRD, system design, and code files. Executable feedback is introduced for enhancing code generation quality during runtime.\nAgents in a software company have specialized roles, such as Product Manager, Architect, Project Manager, Engineer, and QA Engineer. Each role has specific skills and constraints.\nAgents monitor the message pool to identify important observations. These messages can trigger actions or assist in completing tasks.\nThe software development process follows a sequential workflow, starting with the Product Manager analyzing user requirements and creating a detailed PRD. The Architect translates the requirements into system design components, which are then distributed by the Project Manager. Engineers execute the designated classes and functions, and the QA Engineer formulates test cases for code quality. MetaGPT produces the final software solution.\nStructured communication interfaces are used to ensure effective communication among agents. Agents communicate through documents and diagrams rather than dialogue.\nA publish-subscribe mechanism is implemented using a shared message pool, allowing agents to exchange structured messages and access information transparently.",
+        "clean_entities": [],
+        "dirty_entities": [
+            "Entities:",
+            "1. Agents",
+            "2. Message pool",
+            "3. PRD (Product Requirements Document)",
+            "4. System design",
+            "5. Code files",
+            "6. Executable feedback",
+            "7. Roles",
+            "8. Specialization",
+            "9. Tasks",
+            "10. Skills",
+            "11. React-style behavior",
+            "12. Environment",
+            "13. Observations",
+            "14. Workflow",
+            "15. User requirements",
+            "16. User Stories",
+            "17. Requirement Pool",
+            "18. Architect",
+            "19. File Lists",
+            "20. Data Structures",
+            "21. Interface Definitions",
+            "22. Project Manager",
+            "23. Engineers",
+            "24. QA Engineer",
+            "25. Test cases",
+            "26. Code quality",
+            "27. Solution",
+            "28. SOP (Standard Operating Procedures)",
+            "29. Communication protocol",
+            "30. LLM-based multi-agent frameworks",
+            "31. Natural language",
+            "32. Structured communication",
+            "33. Schema",
+            "34. Format",
+            "35. Architectural outputs",
+            "36. Sequence flow diagram",
+            "37. ChatDev",
+            "38. Documents",
+            "39. Diagrams",
+            "40. Publish-subscribe mechanism",
+            "",
+            "Keywords:",
+            "1. Shared message pool",
+            "2. Subscribe",
+            "3. Relevant messages",
+            "4. Engineer agent",
+            "5. Errors",
+            "6. Memory",
+            "7. Code generation",
+            "8. Run-time",
+            "9. Agents' profiles",
+            "10. Context",
+            "11. Skills and expertise",
+            "12. Software company",
+            "13. Product Manager",
+            "14. Analysis",
+            "15. Insights",
+            "16. Software engineer",
+            "17. Roles in software company",
+            "18. MetaGPT",
+            "19. React-style behavior",
+            "20. Important observations",
+            "21. Workflow across agents",
+            "22. User requirements",
+            "23. PRD",
+            "24. Architect",
+            "25. System design",
+            "26. Project Manager",
+            "27. Engineers",
+            "28. QA Engineer",
+            "29. Test cases",
+            "30. Code quality",
+            "31. Software development process",
+            "32. Communication protocol",
+            "33. LLM-based multi-agent frameworks",
+            "34. Natural language communication",
+            "35. Structured communication",
+            "36. Documents",
+            "37. Diagrams",
+            "38. Publish-Subscribe mechanism",
+            "39. Collaboration",
+            "40. Inefficiencies",
+            "",
+            "Key Phrases:",
+            "1. Shared message pool",
+            "2. Publish structured messages",
+            "3. Subscribe to relevant messages",
+            "4. Checks for errors",
+            "5. Checks past messages stored in memory",
+            "6. Compares them with the PRD",
+            "system design",
+            "and code files",
+            "7. Executable feedback",
+            "8. Self-correction mechanism",
+            "9. Enhancing code generation quality during run-time",
+            "10. Agents in standard operating procedures",
+            "11. Specialization of roles",
+            "12. Breakdown of complex work",
+            "13. Collaboration of agents with diverse skills and expertise",
+            "14. Software company",
+            "15. Product Manager typically conducts business-oriented analysis",
+            "16. Software engineer is responsible for programming",
+            "17. Five roles in our software company",
+            "18. Agent's profile",
+            "19. Specific context and skills for each role",
+            "20. React-style behavior as described in Yao et al (2022)",
+            "21. Every agent monitors the environment",
+            "22. Spot important observations",
+            "23. Workflow across Agents",
+            "24. SOP in software development",
+            "25. Preliminary functional breakdown",
+            "26. Translates the requirements into system design components",
+            "27. Directed towards the Project Manager for task distribution",
+            "28. QA Engineer formulates test cases",
+            "29. Enforces stringent code quality",
+            "30. MetaGPT produces a meticulously crafted software solution",
+            "31. Communication protocol",
+            "32. Structured Communication Interfaces",
+            "33. LLM-based multi-agent frameworks utilize unconstrained natural language",
+            "34. Pure natural language communication",
+            "35. Structured communication to formulate the communication of agents",
+            "36. Schema and format for each role",
+            "37. Request that individuals provide the necessary outputs",
+            "38. System interface design and a sequence flow diagram",
+            "39. Documents and diagrams",
+            "40. Shared message pool allows all agents to exchange messages directly",
+            "",
+            "References:",
+            "1. Figure 1",
+            "2. Figure 2",
+            "3. Figure 3",
+            "4. Appendix B",
+            "5. Li et al. (2023)",
+            "6. Zhuge et al. (2023)",
+            "7. Zhang et al. (2023)",
+            "8. Park et al. (2023)",
+            "9. Yao et al. (2022)",
+            "10. ChatDev (Zhao et al.",
+            "2023)",
+            "11. Chinese whispers (https://en.wikipedia.org/wiki/Chinese_whispers)"
+        ],
+        "references": {
+            "urls": [
+                "https://books.google.co.uk/books?id=DVlsAQAAQBAJ",
+                "https://en.wikipedia.org/wiki/Read–eval–print_loop",
+                "https://books.google.co.uk/books?id=MHIQBAAAQBAJ",
+                "https://en.wikipedia.org/w/index.php?title=Metaprogramming",
+                "https://doi.org/10.1145/280765.280867",
+                "http://beta.deepwisdom.ai",
+                "https://doi.org/10.1016/S0065-2458(08)60418-0",
+                "https://github.com/Significant-Gravitas/Auto-GPT",
+                "https://github.com/hwchase17/langchain",
+                "https://github.com/Significant-Gravitas/",
+                "https://github.com/geekan/MetaGPT",
+                "https://en.wikipedia.org/wiki/Chinese_whispers",
+                "https://doi.org/10.1016/",
+                "https://books.google.co.uk/"
+            ],
+            "references": "Document infos:\n- CreationDate = D:20231107023142Z\n- Creator = LaTeX with hyperref\n- ModDate = D:20231107023142Z\n- PTEX.Fullbanner = This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5\n- Pages = 26\n- Producer = pdfTeX-1.40.25\n- Trapped = False\n\nReferences: 40\n- URL: 40\n\nURL References:\n- https://books.google.co.uk/books?id=DVlsAQAAQBAJ\n- picker.py\n- https://en.wikipedia.org/wiki/Read–eval–print_loop\n- https://books.google.co.uk/books?id=MHIQBAAAQBAJ\n- test.py\n- tools.py\n- 2303.08896\n- https://en.wikipedia.org/w/index.php?title=Metaprogramming\n- https://doi.org/10.1145/280765.280867\n- http://beta.deepwisdom.ai\n- en.wikipedia.org/wiki/Read–eval–print\n- 10.1016/S0065-2458(08)60418-0\n- cs.LO/0309048\n- en.wikipedia.org/wiki/Chinese\n- 2204.05999\n- gui.py\n- 2002.08155\n- 2306.08568\n- 1511.09249\n- en.wikipedia.org/w/index.php?title=Metaprogramming\n- 2308.11432\n- 2308.12950\n- https://doi.org/10.1016/S0065-2458(08)60418-0\n- https://github.com/Significant-Gravitas/Auto-GPT\n- tests.py\n- 2310.02304\n- tk.Tk\n- https://github.com/hwchase17/langchain\n- https://github.com/Significant-Gravitas/\n- beta.deepwisdom.ai\n- 2305.17066\n- canvas.py\n- https://github.com/geekan/MetaGPT\n- https://en.wikipedia.org/wiki/Chinese_whispers\n- 2305.16960\n- main.py\n- doi.org/10.1145/280765.280867\n- https://doi.org/10.1016/\n- https://books.google.co.uk/\n- 2309.16797"
+        },
+        "topics": [
+            {
+                "topic": "Agents in a software company and their roles",
+                "justification": "The summary mentions the different roles in a software company and their specific skills and constraints."
+            },
+            {
+                "topic": "The software development process and workflow",
+                "justification": "The summary describes the sequential workflow of the software development process, starting from user requirements analysis to the final software solution produced by MetaGPT."
+            },
+            {
+                "topic": "Structured communication interfaces and their use in effective communication among agents",
+                "justification": "The summary explains how agents communicate using documents and diagrams instead of dialogue, and mentions the implementation of a publish-subscribe mechanism using a shared message pool for exchanging structured messages."
+            },
+            {
+                "topic": "The role of the Engineer agent in running and checking for errors in the initial code",
+                "justification": "The summary highlights the specific role of the Engineer agent in running and checking for errors in the initial code, and mentions that the agent compares past messages with the PRD, system design, and code files for error detection."
+            },
+            {
+                "topic": "The use of executable feedback for enhancing code generation quality during runtime",
+                "justification": "The summary mentions the introduction of executable feedback for enhancing code generation quality during runtime, indicating a specific approach used by the agents."
+            },
+            {
+                "topic": "Monitoring the message pool for important observations and triggering actions or assisting in completing tasks",
+                "justification": "The summary states that agents monitor the message pool to identify important observations, which can then trigger actions or assist in completing tasks. This highlights a key aspect of the agents' activities."
+            }
+        ],
+        "hypothetical_questions": [
+            {
+                "question_type": "Content-Based Question",
+                "question": "How do agents in a software company use a shared message pool for publishing and subscribing to structured messages?"
+            },
+            {
+                "question_type": "Analytical Question",
+                "question": "What role does the Engineer agent play in the software development process, and how does it compare past messages with the PRD, system design, and code files?"
+            },
+            {
+                "question_type": "Creative/Scenario-Based Question",
+                "question": "Imagine a scenario where an error occurs in the initial code. How can the agent use executable feedback to enhance the quality of code generation during runtime?"
+            },
+            {
+                "question_type": "Contextual/Relational Question",
+                "question": "How do the specialized roles in a software company, such as Product Manager, Architect, Project Manager, Engineer, and QA Engineer, contribute to the overall software development process?"
+            },
+            {
+                "question_type": "User-Interactive Question",
+                "question": "As an agent in a software company, how would you monitor the message pool to identify important observations and use them to trigger actions or assist in completing tasks?"
+            }
+        ],
+        "knowledge_triplets": [
+            {
+                "subject": "Agents",
+                "relationship": "use",
+                "target": "shared message pool"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "subscribe to",
+                "target": "relevant messages"
+            },
+            {
+                "subject": "Engineer agent",
+                "relationship": "runs",
+                "target": "checks for errors"
+            },
+            {
+                "subject": "Agent",
+                "relationship": "checks",
+                "target": "past messages stored in memory"
+            },
+            {
+                "subject": "Agent",
+                "relationship": "compares",
+                "target": "past messages with PRD, system design, and code files"
+            },
+            {
+                "subject": "Executable feedback",
+                "relationship": "enhances",
+                "target": "code generation quality"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "collaborate",
+                "target": "diverse skills and expertise"
+            },
+            {
+                "subject": "Product Manager",
+                "relationship": "conducts",
+                "target": "business-oriented analysis"
+            },
+            {
+                "subject": "Software engineer",
+                "relationship": "responsible for",
+                "target": "programming"
+            },
+            {
+                "subject": "Product Manager",
+                "relationship": "Architect",
+                "target": "Project Manager, Engineer, and QA Engineer, roles in software company"
+            },
+            {
+                "subject": "Product Manager",
+                "relationship": "uses",
+                "target": "web search tools"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "executes",
+                "target": "code"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "monitor",
+                "target": "environment"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "spot",
+                "target": "important observations"
+            },
+            {
+                "subject": "Product Manager",
+                "relationship": "undertakes",
+                "target": "thorough analysis"
+            },
+            {
+                "subject": "Product Manager",
+                "relationship": "formulates",
+                "target": "detailed PRD"
+            },
+            {
+                "subject": "Architect",
+                "relationship": "translates",
+                "target": "requirements into system design components"
+            },
+            {
+                "subject": "Information",
+                "relationship": "directed towards",
+                "target": "Project Manager"
+            },
+            {
+                "subject": "Engineers",
+                "relationship": "execute",
+                "target": "designated classes and functions"
+            },
+            {
+                "subject": "QA Engineer",
+                "relationship": "formulates",
+                "target": "test cases"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "produces",
+                "target": "software solution"
+            },
+            {
+                "subject": "Current LLM-based multi-agent frameworks",
+                "relationship": "utilize",
+                "target": "unconstrained natural language as a communication interface"
+            },
+            {
+                "subject": "Structured communication",
+                "relationship": "formulates",
+                "target": "communication of agents"
+            },
+            {
+                "subject": "Architect agent",
+                "relationship": "generates",
+                "target": "system interface design and a sequence flow diagram"
+            },
+            {
+                "subject": "Architects and Engineers",
+                "relationship": "reference",
+                "target": "PRDs"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "communicate",
+                "target": "through documents and diagrams"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "publish",
+                "target": "structured messages in the pool"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "access",
+                "target": "messages from other entities"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "retrieve",
+                "target": "required information from the shared pool"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "use",
+                "target": "shared message pool"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "subscribe to",
+                "target": "relevant messages"
+            },
+            {
+                "subject": "Engineer agent",
+                "relationship": "runs and checks for",
+                "target": "errors"
+            },
+            {
+                "subject": "Agent",
+                "relationship": "checks past messages stored in memory",
+                "target": "compares them with the PRD, system design, and code files"
+            },
+            {
+                "subject": "Executable feedback",
+                "relationship": "self-correction mechanism for",
+                "target": "enhancing code generation quality during run-time"
+            },
+            {
+                "subject": "Roles",
+                "relationship": "enable the breakdown of complex work",
+                "target": "into smaller and more specific tasks"
+            },
+            {
+                "subject": "Software company",
+                "relationship": "software engineer is responsible for",
+                "target": "programming"
+            },
+            {
+                "subject": "Software company",
+                "relationship": "define five roles: Product Manager",
+                "target": "Architect, Project Manager, Engineer, and QA Engineer"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "specify the agent's profile",
+                "target": "which includes their name, profile, goal, and constraints for each role"
+            },
+            {
+                "subject": "Product Manager",
+                "relationship": "upon obtaining user requirements",
+                "target": "undertakes a thorough analysis"
+            },
+            {
+                "subject": "Architect",
+                "relationship": "translates the requirements into system design components",
+                "target": "such as File Lists, Data Structures, and Interface Definitions"
+            },
+            {
+                "subject": "Information",
+                "relationship": "captured in the system design",
+                "target": "directed towards the Project Manager for task distribution"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "use",
+                "target": "shared message pool"
+            },
+            {
+                "subject": "Agents",
+                "relationship": "subscribe to",
+                "target": "relevant messages"
+            },
+            {
+                "subject": "Engineer agent",
+                "relationship": "runs and checks for",
+                "target": "errors"
+            },
+            {
+                "subject": "Agent",
+                "relationship": "checks past messages stored in memory",
+                "target": "compares them with the PRD, system design, and code files"
+            },
+            {
+                "subject": "Executable feedback",
+                "relationship": "self-correction mechanism for",
+                "target": "enhancing code generation quality during run-time"
+            },
+            {
+                "subject": "Roles",
+                "relationship": "enable the breakdown of complex work",
+                "target": "into smaller and more specific tasks"
+            },
+            {
+                "subject": "Software company",
+                "relationship": "software engineer is responsible for",
+                "target": "programming"
+            },
+            {
+                "subject": "Software company",
+                "relationship": "define five roles: Product Manager",
+                "target": "Architect, Project Manager, Engineer, and QA Engineer"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "specify the agent's profile",
+                "target": "which includes their name, profile, goal, and constraints for each role"
+            },
+            {
+                "subject": "Product Manager",
+                "relationship": "upon obtaining user requirements",
+                "target": "undertakes a thorough analysis"
+            },
+            {
+                "subject": "Architect",
+                "relationship": "translates the requirements into system design components",
+                "target": "such as File Lists, Data Structures, and Interface Definitions"
+            },
+            {
+                "subject": "Information",
+                "relationship": "captured in the system design",
+                "target": "directed towards the Project Manager for task distribution"
+            }
+        ],
+        "timestamp": "2024-01-14T17:20:31.912009"
+    },
+    {
+        "file_id": "2308.00352",
+        "article": "Chunk # 3.\nThis enhances communication efficiency Sharing all information with every agent can lead to information overload During task execution,\nan agent typically prefers to receive only task-related information and avoid distractions through\nirrelevant details Effective management and dissemination of this information play a crucial role We offer a simple and effective solution- subscription mechanism (in Figure 2 (left)) Instead of\nrelying on dialogue, agents utilize role-specific interests to extract relevant information They can\nselect information to follow based on their role profiles In practical implementations, an agent\nactivates its action only after receiving all its prerequisite dependencies As illustrated in Figure 3,\nthe Architect mainly focuses on PRDs provided by the Product Manager, while documents from\nroles such as the QA Engineer might be of lesser concern 3.3 I TERATIVE PROGRAMMING WITH EXECUTABLE FEEDBACK\nIn daily programming tasks, the processes of debugging and optimization play important roles However, existing methods often lack a self-correction mechanism, which leads to unsuccessful code\ngeneration Previous work introduced non-executable code review and self-reflection (Zhao et al.,\n2023; Yao et al., 2022; Shinn et al., 2023; Dong et al., 2023) However, they still face challenges in\nensuring code executability and runtime correctness Our first MetaGPT implementations overlooked certain errors during the review process, due to\nLLM hallucinations (Manakul et al., 2023) To overcome this, after initial code generation, we\nintroduce an executable feedback mechanism to improve the code iteratively More specifically, as\nshown in Figure 2, the Engineer is asked to write code based on the original product requirements\nand design This enables the Engineer to continuously improve code using its own historical execution and\ndebugging memory To obtain additional information, the Engineer writes and executes the corre-\nsponding unit test cases, and subsequently receives the test results If satisfactory, additional devel-\nopment tasks are initiated Otherwise the Engineer debugs the code before resuming programming This iterative testing process continues until the test is passed or a maximum of 3 retries is reached 4 E XPERIMENTS\n4.1 E XPERIMENTAL SETTING\nDatasets We use two public benchmarks, HumanEval (Chen et al., 2021a) and MBPP (Austin\net al., 2021), and a self-generated, more challenging software development benchmark named Soft-\nwareDev: (1) HumanEval includes 164 handwritten programming tasks These tasks encompass\nfunction specifications, descriptions, reference codes, and tests (2) MBPP consists of 427 Python\ntasks These tasks cover core concepts and standard library features and include descriptions, ref-\nerence codes, and automated tests (3) Our SoftwareDev dataset is a collection of 70 representa-\ntive examples of software development tasks, each with its own task prompt (see Table 5) These\ntasks have diverse scopes (See Figure 5), such as mini-games, image processing algorithms, data\nvisualization They offer a robust testbed for authentic development tasks Contrary to previous\ndatasets (Chen et al., 2021a; Austin et al., 2021), SoftwareDev focuses on the engineering aspects In the comparisons, we randomly select seven representative tasks for evaluation 6Preprint\nEvaluation Metrics For HuamnEval and MBPP, we follow the unbiased version of Pass @ kas\npresented by (Chen et al., 2021a; Dong et al., 2023), to evaluate the functional accuracy of the top-k\ngenerated codes: Pass @ k=EProblems\u0014\n1−(n−c\nk)\n(n\nk)\u0015\n For SoftwareDev, we prioritize practical use and evaluate performance through human evaluations\n(A, E) or statistical analysis (B, C, D): (A)Executability: this metric rates code from 1 (failure/non-\nfunctional) to 4 (flawless) ‘1’ is for non-functional, ‘2’ for runnable but imperfect, ‘3’ for nearly\nperfect, and ‘4’ for flawless code (B)Cost: the cost evaluations here include the (1) running time,\n(2) token usage, and (3) expenses (C)Code Statistics: this includes (1) code files, (2) lines of code\nper file, and (3) total code lines (D)Productivity: basically, it is defined as the number of token\nusage divided by the number of lines of code, which refers to the consumption of tokens per code\nline (E)Human Revision Cost: quantified by the number of rounds of revision needed to ensure the\nsmooth running of the code, this indicates the frequency of human interventions, such as debugging\nor importing packages Baselines We compare our method with recent domain-specific LLMs in the code generation field,\nincluding AlphaCode (Li et al., 2022), Incoder (Fried et al., 2022), CodeGeeX (Zheng et al., 2023),\nCodeGen (Nijkamp et al., 2023), CodeX (Chen et al., 2021a), and CodeT (Chen et al., 2022) and\ngeneral domain LLMs such as PaLM (Chowdhery et al., 2022), and GPT-4 (OpenAI, 2023) Several\nresults of baselines (such as Incoder, CodeGeeX) are provided by Dong et al (2023) We modify certain role-based prompts in MetaGPT to generate code suitable for the target prob-\nlem (e.g., generate functions instead of classes for HumanEval and MBPP)",
+        "summary": "Iteration 1:\n- Communication efficiency is enhanced by using a subscription mechanism for information sharing.\n- Agents can select relevant information based on their role profiles, reducing distractions.\n- The Engineer improves code iteratively through self-reflection and execution of unit test cases.\n- The iterative testing process continues until the test is passed or a maximum of 3 retries is reached.\n- The SoftwareDev dataset provides diverse software development tasks for evaluation, including mini-games, image processing algorithms, and data visualization.\n- Evaluation metrics include functional accuracy, executability, cost, code statistics, productivity, and human revision cost.\n- Our method is compared to domain-specific LLMs (AlphaCode, Incoder, CodeGeeX, CodeGen, CodeX, CodeT) and general domain LLMs (PaLM, GPT-4).\n\nIteration 2:\n- Communication efficiency is enhanced by using a subscription mechanism for information sharing.\n- Agents can select relevant information based on their role profiles, reducing distractions.\n- The Engineer improves code iteratively through self-reflection and execution of unit test cases.\n- The iterative testing process continues until the test is passed or a maximum of 3 retries is reached.\n- The SoftwareDev dataset provides diverse software development tasks for evaluation, including mini-games, image processing algorithms, and data visualization.\n- Evaluation metrics include functional accuracy, executability, cost, code statistics, productivity, and human revision cost.\n- Our method is compared to domain-specific LLMs (AlphaCode, Incoder, CodeGeeX, CodeGen, CodeX, CodeT) and general domain LLMs (PaLM, GPT-4).\n- Agents play a crucial role in the management and dissemination of information, with Architects focusing on PRDs and QA Engineers on iterative programming, debugging, and optimization.\n\nIteration 3:\n- Communication efficiency is enhanced by using a subscription mechanism for information sharing.\n- Agents can select relevant information based on their role profiles, reducing distractions.\n- The Engineer improves code iteratively through self-reflection and execution of unit test cases.\n- The iterative testing process continues until the test is passed or a maximum of 3 retries is reached.\n- The SoftwareDev dataset provides diverse software development tasks for evaluation, including mini-games, image processing algorithms, and data visualization.\n- Evaluation metrics include functional accuracy, executability, cost, code statistics, productivity, and human revision cost.\n- Our method is compared to domain-specific LLMs (AlphaCode, Incoder, CodeGeeX, CodeGen, CodeX, CodeT) and general domain LLMs (PaLM, GPT-4).\n- Agents play a crucial role in the management and dissemination of information, with Architects focusing on PRDs provided by the Product Manager, while QA Engineers focus on iterative programming and debugging.\n\nIteration 4:\n- Communication efficiency is enhanced by using a subscription mechanism for information sharing.\n- Agents can select relevant information based on their role profiles, reducing distractions.\n- The Engineer improves code iteratively through self-reflection and execution of unit test cases.\n- The iterative testing process continues until the test is passed or a maximum of 3 retries is reached.\n- The SoftwareDev dataset provides diverse software development tasks for evaluation, including mini-games, image processing algorithms, and data visualization.\n- Evaluation metrics include functional accuracy, executability, cost, code statistics, productivity, and human revision cost.\n- Our method is compared to domain-specific LLMs (AlphaCode, Incoder, CodeGeeX, CodeGen, CodeX, CodeT) and general domain LLMs (PaLM, GPT-4).\n- Agents play a crucial role in the management and dissemination of information, with Architects mainly focusing on PRDs provided by the Product Manager, while documents from roles such as the QA Engineer might be of lesser concern.\n\nIteration 5:\n- Communication efficiency is enhanced by using a subscription mechanism for information sharing.\n- Agents can select",
+        "clean_entities": [
+            "agents",
+            "information",
+            "distractions",
+            "management",
+            "dissemination",
+            "solution",
+            "subscription mechanism",
+            "dialogue",
+            "role-specific interests",
+            "profiles",
+            "prerequisite dependencies",
+            "Architect",
+            "PRDs (Product Requirements Documents)",
+            "QA Engineer",
+            "iterative programming",
+            "debugging",
+            "optimization",
+            "self-correction mechanism",
+            "code generation",
+            "non-executable code review",
+            "self-reflection",
+            "code executability",
+            "runtime correctness",
+            "MetaGPT",
+            "LLM hallucinations",
+            "Engineer",
+            "unit test cases",
+            "test results",
+            "development tasks",
+            "iterative testing process",
+            "experiments",
+            "experimental setting",
+            "datasets",
+            "HumanEval",
+            "MBPP",
+            "SoftwareDev",
+            "task prompt",
+            "representative examples",
+            "mini-games",
+            "image processing algorithms",
+            "data visualization",
+            "engineering aspects",
+            "comparisons",
+            "evaluation metrics",
+            "Pass @ k",
+            "executability",
+            "cost",
+            "code statistics",
+            "productivity",
+            "human revision cost",
+            "baselines",
+            "AlphaCode",
+            "Incoder",
+            "CodeGeeX",
+            "CodeGen",
+            "CodeX",
+            "CodeT",
+            "PaLM",
+            "GPT-4",
+            "communication efficiency",
+            "information overload",
+            "task execution",
+            "task-related information",
+            "irrelevant details",
+            "effective management",
+            "simple and effective solution",
+            "role-specific interests",
+            "practical implementations",
+            "action",
+            "debugging and optimization",
+            "self-correction mechanism",
+            "code generation",
+            "non-executable code review",
+            "self-reflection",
+            "code executability",
+            "runtime correctness",
+            "MetaGPT implementations",
+            "LLM hallucinations",
+            "executable feedback mechanism",
+            "historical execution and debugging memory",
+            "unit test cases",
+            "test results",
+            "satisfactory",
+            "additional development tasks",
+            "code debugging",
+            "iterative testing process",
+            "experimental setting",
+            "datasets",
+            "HumanEval",
+            "MBPP",
+            "SoftwareDev",
+            "task prompt",
+            "representative examples",
+            "mini-games",
+            "image processing algorithms",
+            "data visualization",
+            "engineering aspects",
+            "comparisons",
+            "evaluation metrics",
+            "Pass @ k",
+            "executability",
+            "cost",
+            "code statistics",
+            "productivity",
+            "human revision cost",
+            "baselines",
+            "AlphaCode",
+            "Incoder",
+            "CodeGeeX",
+            "CodeGen",
+            "CodeX",
+            "CodeT",
+            "PaLM",
+            "GPT-4",
+            "enhances communication efficiency",
+            "information overload",
+            "task-related information",
+            "distractions through irrelevant details",
+            "effective management and dissemination of this information",
+            "simple and effective solution",
+            "subscription mechanism",
+            "role-specific interests",
+            "practical implementations",
+            "prerequisite dependencies",
+            "mainly focuses on PRDs",
+            "might be of lesser concern",
+            "iterative programming with executable feedback",
+            "debugging and optimization play important roles",
+            "self-correction mechanism",
+            "unsuccessful code generation",
+            "non-executable code review and self-reflection",
+            "code executability and runtime correctness",
+            "LLM hallucinations",
+            "executable feedback mechanism",
+            "historical execution and debugging memory",
+            "continuous improvement of code",
+            "unit test cases and test results",
+            "satisfactory or additional development tasks",
+            "code debugging before resuming programming",
+            "iterative testing process",
+            "experimental setting",
+            "public benchmarks",
+            "handwritten programming tasks",
+            "core concepts and standard library features",
+            "diverse scopes",
+            "robust testbed for authentic development tasks",
+            "engineering aspects",
+            "evaluation metrics",
+            "functional accuracy of the top-k generated codes",
+            "executability",
+            "cost evaluations",
+            "code statistics",
+            "productivity",
+            "human revision cost",
+            "domain-specific LLMs",
+            "general domain LLMs",
+            "Figure 2 (left)",
+            "Figure 3",
+            "Zhao et al.",
+            "Yao et al.",
+            "Shinn et al.",
+            "Dong et al.",
+            "Manakul et al.",
+            "Figure 2",
+            "Figure 5",
+            "Chen et al.",
+            "Austin et al.",
+            "Table 5",
+            "OpenAI",
+            "communication efficiency",
+            "information overload",
+            "task execution",
+            "distractions",
+            "effective management",
+            "dissemination",
+            "subscription mechanism",
+            "role-specific interests",
+            "practical implementations",
+            "debugging",
+            "optimization",
+            "self-correction mechanism",
+            "code generation",
+            "non-executable code review",
+            "self-reflection",
+            "code executability",
+            "runtime correctness",
+            "LLM hallucinations",
+            "executable feedback mechanism",
+            "continuous improvement",
+            "unit testing",
+            "satisfactory results",
+            "additional development tasks",
+            "code debugging",
+            "iterative testing",
+            "experimental setting",
+            "public benchmarks",
+            "functional accuracy",
+            "executability",
+            "cost evaluations",
+            "code statistics",
+            "productivity",
+            "human revision cost",
+            "domain-specific LLMs",
+            "general domain LLMs"
+        ],
+        "dirty_entities": [
+            "Entities:",
+            "",
+            "Keywords:",
+            "",
+            "Phrases:",
+            "",
+            "References:",
+            "2023",
+            "2022",
+            "2023",
+            "2023",
+            "2023",
+            "2021a",
+            "2021",
+            "2023",
+            "",
+            "Abstract Concepts:"
+        ],
+        "references": {
+            "urls": [
+                "https://books.google.co.uk/books?id=DVlsAQAAQBAJ",
+                "https://en.wikipedia.org/wiki/Read–eval–print_loop",
+                "https://books.google.co.uk/books?id=MHIQBAAAQBAJ",
+                "https://en.wikipedia.org/w/index.php?title=Metaprogramming",
+                "https://doi.org/10.1145/280765.280867",
+                "http://beta.deepwisdom.ai",
+                "https://doi.org/10.1016/S0065-2458(08)60418-0",
+                "https://github.com/Significant-Gravitas/Auto-GPT",
+                "https://github.com/hwchase17/langchain",
+                "https://github.com/Significant-Gravitas/",
+                "https://github.com/geekan/MetaGPT",
+                "https://en.wikipedia.org/wiki/Chinese_whispers",
+                "https://doi.org/10.1016/",
+                "https://books.google.co.uk/"
+            ],
+            "references": "Document infos:\n- CreationDate = D:20231107023142Z\n- Creator = LaTeX with hyperref\n- ModDate = D:20231107023142Z\n- PTEX.Fullbanner = This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5\n- Pages = 26\n- Producer = pdfTeX-1.40.25\n- Trapped = False\n\nReferences: 40\n- URL: 40\n\nURL References:\n- https://books.google.co.uk/books?id=DVlsAQAAQBAJ\n- picker.py\n- https://en.wikipedia.org/wiki/Read–eval–print_loop\n- https://books.google.co.uk/books?id=MHIQBAAAQBAJ\n- test.py\n- tools.py\n- 2303.08896\n- https://en.wikipedia.org/w/index.php?title=Metaprogramming\n- https://doi.org/10.1145/280765.280867\n- http://beta.deepwisdom.ai\n- en.wikipedia.org/wiki/Read–eval–print\n- 10.1016/S0065-2458(08)60418-0\n- cs.LO/0309048\n- en.wikipedia.org/wiki/Chinese\n- 2204.05999\n- gui.py\n- 2002.08155\n- 2306.08568\n- 1511.09249\n- en.wikipedia.org/w/index.php?title=Metaprogramming\n- 2308.11432\n- 2308.12950\n- https://doi.org/10.1016/S0065-2458(08)60418-0\n- https://github.com/Significant-Gravitas/Auto-GPT\n- tests.py\n- 2310.02304\n- tk.Tk\n- https://github.com/hwchase17/langchain\n- https://github.com/Significant-Gravitas/\n- beta.deepwisdom.ai\n- 2305.17066\n- canvas.py\n- https://github.com/geekan/MetaGPT\n- https://en.wikipedia.org/wiki/Chinese_whispers\n- 2305.16960\n- main.py\n- doi.org/10.1145/280765.280867\n- https://doi.org/10.1016/\n- https://books.google.co.uk/\n- 2309.16797"
+        },
+        "topics": [
+            {
+                "topic": "Communication efficiency through subscription mechanism",
+                "justification": "The use of a subscription mechanism for information sharing enhances communication efficiency."
+            },
+            {
+                "topic": "Role-based information selection for agents",
+                "justification": "Agents can select relevant information based on their role profiles, reducing distractions."
+            },
+            {
+                "topic": "Iterative code improvement through self-reflection and unit testing",
+                "justification": "The Engineer improves code iteratively through self-reflection and execution of unit test cases."
+            },
+            {
+                "topic": "Iterative testing process with maximum retries",
+                "justification": "The iterative testing process continues until the test is passed or a maximum of 3 retries is reached."
+            },
+            {
+                "topic": "SoftwareDev dataset for diverse software development tasks",
+                "justification": "The SoftwareDev dataset provides diverse software development tasks for evaluation, including mini-games, image processing algorithms, and data visualization."
+            },
+            {
+                "topic": "Evaluation metrics for software development tasks",
+                "justification": "Evaluation metrics include functional accuracy, executability, cost, code statistics, productivity, and human revision cost."
+            },
+            {
+                "topic": "Comparison of method to domain-specific and general domain LLMs",
+                "justification": "Our method is compared to domain-specific LLMs (AlphaCode, Incoder, CodeGeeX, CodeGen, CodeX, CodeT) and general domain LLMs (PaLM, GPT-4)."
+            },
+            {
+                "topic": "Role of agents in information management and dissemination",
+                "justification": "Agents play a crucial role in the management and dissemination of information, with Architects focusing on PRDs and QA Engineers on iterative programming, debugging, and optimization."
+            }
+        ],
+        "hypothetical_questions": [
+            {
+                "question_type": "Content-Based Question",
+                "question": "How does the subscription mechanism for information sharing enhance communication efficiency?"
+            },
+            {
+                "question_type": "Analytical Question",
+                "question": "What are the evaluation metrics used to assess the software development tasks in the SoftwareDev dataset?"
+            },
+            {
+                "question_type": "Creative/Scenario-Based Question",
+                "question": "Imagine a scenario where an Engineer is struggling to pass a test after three retries. How can they improve their code iteratively in this situation?"
+            },
+            {
+                "question_type": "Contextual/Relational Question",
+                "question": "How do domain-specific LLMs compare to general domain LLMs in terms of their performance in software development tasks?"
+            },
+            {
+                "question_type": "User-Interactive Question",
+                "question": "As an Architect, how would you prioritize the PRDs provided by the Product Manager in the management and dissemination of information?"
+            }
+        ],
+        "knowledge_triplets": [
+            {
+                "subject": "agents",
+                "relationship": "enhances communication efficiency",
+                "target": "information"
+            },
+            {
+                "subject": "information",
+                "relationship": "leads to",
+                "target": "information overload"
+            },
+            {
+                "subject": "agent",
+                "relationship": "prefers to receive",
+                "target": "task-related information"
+            },
+            {
+                "subject": "agent",
+                "relationship": "avoids",
+                "target": "distractions through irrelevant details"
+            },
+            {
+                "subject": "management",
+                "relationship": "plays a crucial role in",
+                "target": "dissemination of information"
+            },
+            {
+                "subject": "solution",
+                "relationship": "offers",
+                "target": "simple and effective solution"
+            },
+            {
+                "subject": "agents",
+                "relationship": "utilize",
+                "target": "role-specific interests"
+            },
+            {
+                "subject": "agent",
+                "relationship": "selects",
+                "target": "information to follow"
+            },
+            {
+                "subject": "agent",
+                "relationship": "based on",
+                "target": "role profiles"
+            },
+            {
+                "subject": "agent",
+                "relationship": "activates",
+                "target": "action"
+            },
+            {
+                "subject": "agent",
+                "relationship": "receives",
+                "target": "prerequisite dependencies"
+            },
+            {
+                "subject": "Architect",
+                "relationship": "mainly focuses on",
+                "target": "PRDs"
+            },
+            {
+                "subject": "Product Manager",
+                "relationship": "provides",
+                "target": "PRDs"
+            },
+            {
+                "subject": "QA Engineer",
+                "relationship": "documents",
+                "target": "might be of lesser concern"
+            },
+            {
+                "subject": "iterative programming",
+                "relationship": "plays important roles in",
+                "target": "debugging and optimization"
+            },
+            {
+                "subject": "methods",
+                "relationship": "lack",
+                "target": "self-correction mechanism"
+            },
+            {
+                "subject": "existing methods",
+                "relationship": "leads to",
+                "target": "unsuccessful code generation"
+            },
+            {
+                "subject": "previous work",
+                "relationship": "introduced",
+                "target": "non-executable code review and self-reflection"
+            },
+            {
+                "subject": "previous work",
+                "relationship": "faces challenges in",
+                "target": "code executability and runtime correctness"
+            },
+            {
+                "subject": "MetaGPT implementations",
+                "relationship": "overlooked",
+                "target": "certain errors"
+            },
+            {
+                "subject": "LLM hallucinations",
+                "relationship": "leads to",
+                "target": "unsuccessful code generation"
+            },
+            {
+                "subject": "code generation",
+                "relationship": "introduces",
+                "target": "executable feedback mechanism"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "writes code based on",
+                "target": "product requirements and design"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "continuously improves code using",
+                "target": "historical execution and debugging memory"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "writes and executes",
+                "target": "unit test cases"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "receives",
+                "target": "test results"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "initiates",
+                "target": "additional development tasks"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "debugs",
+                "target": "code"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "resumes",
+                "target": "programming"
+            },
+            {
+                "subject": "testing process",
+                "relationship": "continues until",
+                "target": "test is passed or a maximum of 3 retries is reached"
+            },
+            {
+                "subject": "experiments",
+                "relationship": "use",
+                "target": "two public benchmarks"
+            },
+            {
+                "subject": "public benchmarks",
+                "relationship": "include",
+                "target": "HumanEval"
+            },
+            {
+                "subject": "public benchmarks",
+                "relationship": "include",
+                "target": "MBPP"
+            },
+            {
+                "subject": "public benchmarks",
+                "relationship": "include",
+                "target": "SoftwareDev"
+            },
+            {
+                "subject": "SoftwareDev dataset",
+                "relationship": "is a collection of",
+                "target": "representative examples of software development tasks"
+            },
+            {
+                "subject": "SoftwareDev dataset",
+                "relationship": "includes",
+                "target": "diverse scopes"
+            },
+            {
+                "subject": "SoftwareDev dataset",
+                "relationship": "offers",
+                "target": "robust testbed for authentic development tasks"
+            },
+            {
+                "subject": "SoftwareDev dataset",
+                "relationship": "focuses on",
+                "target": "engineering aspects"
+            },
+            {
+                "subject": "comparisons",
+                "relationship": "involve",
+                "target": "evaluation metrics"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "Pass @ k"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "executability"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "cost"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "code statistics"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "productivity"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "human revision cost"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "AlphaCode"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "Incoder"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "CodeGeeX"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "CodeGen"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "CodeX"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "CodeT"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "PaLM"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "GPT-4"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "are provided by",
+                "target": "Dong et al."
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is modified to generate code suitable for",
+                "target": "target problem"
+            },
+            {
+                "subject": "agent",
+                "relationship": "prefers to receive",
+                "target": "task-related information"
+            },
+            {
+                "subject": "agent",
+                "relationship": "avoids",
+                "target": "distractions"
+            },
+            {
+                "subject": "management",
+                "relationship": "plays",
+                "target": "crucial role"
+            },
+            {
+                "subject": "solution",
+                "relationship": "offers",
+                "target": "subscription mechanism"
+            },
+            {
+                "subject": "agents",
+                "relationship": "utilize",
+                "target": "role-specific interests"
+            },
+            {
+                "subject": "agents",
+                "relationship": "select",
+                "target": "information to follow"
+            },
+            {
+                "subject": "agent",
+                "relationship": "activates",
+                "target": "action"
+            },
+            {
+                "subject": "Architect",
+                "relationship": "focuses on",
+                "target": "PRDs provided by Product Manager"
+            },
+            {
+                "subject": "QA Engineer",
+                "relationship": "documents",
+                "target": "of lesser concern"
+            },
+            {
+                "subject": "processes",
+                "relationship": "debugging and optimization",
+                "target": "play important roles"
+            },
+            {
+                "subject": "methods",
+                "relationship": "lack",
+                "target": "self-correction mechanism"
+            },
+            {
+                "subject": "code review and self-reflection",
+                "relationship": "face challenges",
+                "target": "ensuring code executability and runtime correctness"
+            },
+            {
+                "subject": "MetaGPT implementations",
+                "relationship": "overlooked",
+                "target": "certain errors"
+            },
+            {
+                "subject": "code generation",
+                "relationship": "introduces",
+                "target": "executable feedback mechanism"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "asked to write",
+                "target": "code based on original product requirements and design"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "continuously improves",
+                "target": "code using its own historical execution and debugging memory"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "writes and executes",
+                "target": "corresponding unit test cases"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "receives",
+                "target": "test results"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "debugs",
+                "target": "code before resuming programming"
+            },
+            {
+                "subject": "testing process",
+                "relationship": "continues until",
+                "target": "test is passed or maximum of 3 retries is reached"
+            },
+            {
+                "subject": "datasets",
+                "relationship": "include",
+                "target": "HumanEval and MBPP"
+            },
+            {
+                "subject": "HumanEval",
+                "relationship": "includes",
+                "target": "164 handwritten programming tasks"
+            },
+            {
+                "subject": "MBPP",
+                "relationship": "consists of",
+                "target": "427 Python tasks"
+            },
+            {
+                "subject": "SoftwareDev dataset",
+                "relationship": "is a collection of",
+                "target": "70 representative examples of software development tasks"
+            },
+            {
+                "subject": "SoftwareDev dataset",
+                "relationship": "offers",
+                "target": "robust testbed for authentic development tasks"
+            },
+            {
+                "subject": "SoftwareDev",
+                "relationship": "focuses on",
+                "target": "engineering aspects"
+            },
+            {
+                "subject": "SoftwareDev",
+                "relationship": "randomly selects",
+                "target": "seven representative tasks for evaluation"
+            },
+            {
+                "subject": "HuamnEval and MBPP",
+                "relationship": "follow",
+                "target": "unbiased version of Pass @ kas presented by"
+            },
+            {
+                "subject": "SoftwareDev",
+                "relationship": "prioritizes",
+                "target": "practical use"
+            },
+            {
+                "subject": "SoftwareDev",
+                "relationship": "evaluates performance through",
+                "target": "human evaluations or statistical analysis"
+            },
+            {
+                "subject": "Executability metric",
+                "relationship": "rates",
+                "target": "code from 1 to 4"
+            },
+            {
+                "subject": "Cost evaluations",
+                "relationship": "include",
+                "target": "running time, token usage, and expenses"
+            },
+            {
+                "subject": "Code Statistics",
+                "relationship": "includes",
+                "target": "code files, lines of code per file, and total code lines"
+            },
+            {
+                "subject": "Productivity",
+                "relationship": "is defined as",
+                "target": "number of token usage divided by number of lines of code"
+            },
+            {
+                "subject": "Human Revision Cost",
+                "relationship": "quantified by",
+                "target": "number of rounds of revision needed"
+            },
+            {
+                "subject": "method",
+                "relationship": "compares with",
+                "target": "recent domain-specific LLMs in code generation field"
+            },
+            {
+                "subject": "method",
+                "relationship": "compares with",
+                "target": "general domain LLMs"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "provided by",
+                "target": "Dong et al."
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "modifies",
+                "target": "role-based prompts to generate code suitable for target problem"
+            },
+            {
+                "subject": "agents",
+                "relationship": "enhances communication efficiency",
+                "target": "information"
+            },
+            {
+                "subject": "information",
+                "relationship": "leads to",
+                "target": "information overload"
+            },
+            {
+                "subject": "agent",
+                "relationship": "prefers to receive",
+                "target": "task-related information"
+            },
+            {
+                "subject": "agent",
+                "relationship": "avoids",
+                "target": "distractions through irrelevant details"
+            },
+            {
+                "subject": "management",
+                "relationship": "plays a crucial role in",
+                "target": "dissemination of information"
+            },
+            {
+                "subject": "solution",
+                "relationship": "offers",
+                "target": "subscription mechanism"
+            },
+            {
+                "subject": "agents",
+                "relationship": "utilize",
+                "target": "role-specific interests"
+            },
+            {
+                "subject": "agent",
+                "relationship": "selects",
+                "target": "information to follow"
+            },
+            {
+                "subject": "agent",
+                "relationship": "based on",
+                "target": "role profiles"
+            },
+            {
+                "subject": "agent",
+                "relationship": "activates",
+                "target": "action"
+            },
+            {
+                "subject": "agent",
+                "relationship": "receives",
+                "target": "prerequisite dependencies"
+            },
+            {
+                "subject": "Architect",
+                "relationship": "mainly focuses on",
+                "target": "PRDs"
+            },
+            {
+                "subject": "Product Manager",
+                "relationship": "provides",
+                "target": "PRDs"
+            },
+            {
+                "subject": "QA Engineer",
+                "relationship": "documents",
+                "target": "might be of lesser concern"
+            },
+            {
+                "subject": "iterative programming",
+                "relationship": "plays important roles in",
+                "target": "debugging and optimization"
+            },
+            {
+                "subject": "methods",
+                "relationship": "lack",
+                "target": "self-correction mechanism"
+            },
+            {
+                "subject": "existing methods",
+                "relationship": "leads to",
+                "target": "unsuccessful code generation"
+            },
+            {
+                "subject": "previous work",
+                "relationship": "introduced",
+                "target": "non-executable code review and self-reflection"
+            },
+            {
+                "subject": "previous work",
+                "relationship": "faces challenges in",
+                "target": "code executability and runtime correctness"
+            },
+            {
+                "subject": "MetaGPT implementations",
+                "relationship": "overlooked",
+                "target": "certain errors"
+            },
+            {
+                "subject": "LLM hallucinations",
+                "relationship": "leads to",
+                "target": "unsuccessful code generation"
+            },
+            {
+                "subject": "code generation",
+                "relationship": "introduces",
+                "target": "executable feedback mechanism"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "writes code based on",
+                "target": "product requirements and design"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "continuously improves code using",
+                "target": "historical execution and debugging memory"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "writes and executes",
+                "target": "unit test cases"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "receives",
+                "target": "test results"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "initiates",
+                "target": "additional development tasks"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "debugs",
+                "target": "code"
+            },
+            {
+                "subject": "Engineer",
+                "relationship": "resumes",
+                "target": "programming"
+            },
+            {
+                "subject": "testing process",
+                "relationship": "continues until",
+                "target": "test is passed or a maximum of 3 retries is reached"
+            },
+            {
+                "subject": "experiments",
+                "relationship": "use",
+                "target": "two public benchmarks"
+            },
+            {
+                "subject": "public benchmarks",
+                "relationship": "include",
+                "target": "HumanEval"
+            },
+            {
+                "subject": "public benchmarks",
+                "relationship": "include",
+                "target": "MBPP"
+            },
+            {
+                "subject": "public benchmarks",
+                "relationship": "include",
+                "target": "SoftwareDev"
+            },
+            {
+                "subject": "SoftwareDev dataset",
+                "relationship": "is a collection of",
+                "target": "representative examples of software development tasks"
+            },
+            {
+                "subject": "SoftwareDev dataset",
+                "relationship": "includes",
+                "target": "diverse scopes"
+            },
+            {
+                "subject": "SoftwareDev dataset",
+                "relationship": "offers",
+                "target": "robust testbed for authentic development tasks"
+            },
+            {
+                "subject": "SoftwareDev dataset",
+                "relationship": "focuses on",
+                "target": "engineering aspects"
+            },
+            {
+                "subject": "comparisons",
+                "relationship": "involve",
+                "target": "evaluation metrics"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "Pass @ k"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "executability"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "cost"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "code statistics"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "productivity"
+            },
+            {
+                "subject": "evaluation metrics",
+                "relationship": "include",
+                "target": "human revision cost"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "AlphaCode"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "Incoder"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "CodeGeeX"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "CodeGen"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "CodeX"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "CodeT"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "PaLM"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "include",
+                "target": "GPT-4"
+            },
+            {
+                "subject": "baselines",
+                "relationship": "are provided by",
+                "target": "Dong et al."
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is modified to generate code suitable for",
+                "target": "target problem"
+            }
+        ],
+        "timestamp": "2024-01-14T17:22:16.326234"
+    },
+    {
+        "file_id": "2308.00352",
+        "article": "Chunk # 4.\nWith the SoftwareDev\nbenchmark, we provide a comprehensive comparison between MetaGPT, AutoGPT (Torantulino\net al., 2023), LangChain (Chase, 2022) with Python Read-Eval-Print Loop (REPL) tool3, Agent-\nVerse (Chen et al., 2023), and ChatDev (Qian et al., 2023) 4.2 M AINRESULT\nAlphaCode(1.1B)\nIncoder (6.7B)\nCodeGeeX (13B)17.1\n—15.2 17.6 18.926.9\nCodeGeeX-Mono(16.1B)32.938.6\nGPT-467.0\n—\nMetaGPT\n(w/o Feedback)81.7 82.3Pass@1 of MBPP  and HumanEval (%)\nPaLM Coder(540B)36.047.0\nCodex (175B)47.058.1\nCodex + CodeT65.8 67.7\nHumanEval\nMBPP\nMetaGPT85.9 87.7\nFigure 4: Pass rates on the MBPP and HumanEval with a single attempt Performance Figure 4 demonstrates that MetaGPT outperforms all preceding approaches in both\nHumanEval and MBPP benchmarks When MetaGPT collaborates with GPT-4, it significantly im-\nproves the Pass @ kin the HumanEval benchmark compared to GPT-4 It achieves 85.9% and 87.7%\nin these two public benchmarks Moreover, as shown in Table 1, MetaGPT outperforms ChatDev on\nthe challenging SoftwareDev dataset in nearly all metrics For example, considering the executabil-\nity, MetaGPT achieves a score of 3.75, which is very close to 4 (flawless) Besides, it takes less time\n(503 seconds), clearly less than ChatDev Considering the code statistic and the cost of human revi-\nsion, it also significantly outperforms ChatDev Although MetaGPT requires more tokens (24,613\nor 31,255 compared to 19,292), it needs only 126.5/124.3 tokens to generate one line of code In\ncontrast, ChatDev uses 248.9 tokens These results highlight the benefits of SOPs in collabora-\ntions between multiple agents Additionally, we demonstrate the autonomous software generation\ncapabilities of MetaGPT through visualization samples (Figure 5) For additional experiments and\nanalysis, please refer to Appendix C 3https://en.wikipedia.org/wiki/Read–eval–print loop\n7Preprint\nFigure 5: Demo softwares developed by MetaGPT Table 1: The statistical analysis on SoftwareDev Statistical Index ChatDev MetaGPT w/o Feedback MetaGPT\n(A)Executability 2.25 3.67 3.75\n(B)Cost#1: Running Times (s) 762 503 541\n(B)Cost#2: Token Usage 19,292 24,613 31,255\n(C)Code Statistic#1: Code Files 1.9 4.6 5.1\n(C)Code Statistic#2: Lines of Code per File 40.8 42.3 49.3\n(C)Code Statistic#3: Total Code Lines 77.5 194.6 251.4\n(D)Productivity 248.9 126.5 124.3\n(E)Human Revision Cost 2.5 2.25 0.83\n4.3 C APABILITIES ANALYSIS\nCompared to open-source baseline methods such as AutoGPT and autonomous agents such as\nAgentVerse and ChatDev, MetaGPT offers functions for software engineering tasks As presented\nin Table 2, our framework encompasses a wide range of abilities to handle complex and specialized\ndevelopment tasks efficiently Incorporating SOPs (e.g., role-play expertise, structured communi-\ncation, streamlined workflow) can significantly improve code generation Other baseline methods\ncan easily integrate SOP-like designs to improve their performance, similar to injecting chain-of-\nthought (Wei et al., 2022) in LLMs 4.4 A BLATION STUDY\nThe Effectiveness of Roles To understand the impact of different roles on the final results, we\nperform two tasks that involve generating effective code and calculating average statistics When we\nexclude certain roles, unworkable codes are generated As indicated by Table 3, the addition of roles\ndifferent from just the Engineer consistently improves both revisions and executability While more\nroles slightly increase the expenses, the overall performance improves noticeably, demonstrating the\neffectiveness of the various roles 8Preprint\nTable 2: Comparison of capabilities for MetaGPT and other approaches ‘!’ indicates the\npresence of a specific feature in the corresponding framework, ‘ %’ its absence Framework Capabiliy AutoGPT LangChain AgentVerse ChatDev MetaGPT\nPRD generation % % % %  Tenical design genenration % % % %  API interface generation % % % %  Code generation      Precompilation execution % % % %  Role-based task management % % %   Code review % %    Table 3: Ablation study on roles ‘#’ denotes ‘The number of’, ‘Product’ denotes ‘Product man-\nager’, and ‘Project’ denotes ‘Project manager’ ‘ !’ indicates the addition of a specific role ‘Revi-\nsions’ refers to ‘Human Revision Cost’ Engineer Product Architect Project #Agents #Lines Expense Revisions Executability\n % % % 1 83.0 $ 0.915 10 1.0\n  % % 2 112.0 $ 1.059 6.5 2.0\n   % 3 143.0 $ 1.204 4.0 2.5\n  %  3 205.0 $ 1.251 3.5 2.0\n    4 191.0 $ 1.385 2.5 4.0\nThe Effectiveness of Executable Feedback Mechanism As shown in Figure 4, adding executable\nfeedback into MetaGPT leads to a significant improvement of 4.2% and 5.4% in Pass @1 on Hu-\nmanEval and MBPP, respectively Besides, Table 1 shows that the feedback mechanism improves\nfeasibility (3.67 to 3.75) and reduces the cost of human revisions (2.25 to 0.83) These results\nillustrate how our designed feedback mechanism can produce higher-quality code Additional quan-\ntitative results of MetaGPT and MetaGPT without executable feedback are shown in Table 4 and\nTable 6 5 C ONCLUSION\nThis work introduces MetaGPT, a novel meta-programming framework that leverages SOPs to en-\nhance the problem-solving capabilities of multi-agent systems based on Large Language Models\n(LLMs)",
+        "summary": "Summary 4: In the SoftwareDev benchmark, MetaGPT outperforms AutoGPT, LangChain, AgentVerse, and ChatDev. It achieves high scores in HumanEval and MBPP benchmarks. MetaGPT also outperforms ChatDev on the SoftwareDev dataset, demonstrating better executability and faster performance. It requires more tokens but generates fewer lines of code compared to ChatDev. MetaGPT incorporates SOPs to improve code generation and offers functions for software engineering tasks. The addition of different roles enhances revisions and executability. Moreover, the executable feedback mechanism significantly improves code quality. MetaGPT is a powerful meta-programming framework based on LLMs that enhances problem-solving capabilities.",
+        "clean_entities": [
+            "MetaGPT",
+            "AutoGPT",
+            "LangChain",
+            "Python Read-Eval-Print Loop (REPL)",
+            "Agent-Verse",
+            "ChatDev",
+            "AlphaCode",
+            "Incoder",
+            "CodeGeeX",
+            "CodeGeeX-Mono",
+            "GPT-4",
+            "PaLM Coder",
+            "Codex",
+            "CodeT",
+            "MBPP",
+            "HumanEval",
+            "Figure 4",
+            "Figure 5",
+            "Table 1",
+            "Table 2",
+            "Table 3",
+            "Table 4",
+            "Table 6",
+            "LLMs",
+            "SoftwareDev",
+            "benchmark",
+            "comparison",
+            "approach",
+            "performance",
+            "results",
+            "metrics",
+            "executability",
+            "time",
+            "cost",
+            "code statistic",
+            "productivity",
+            "human revision cost",
+            "capabilities analysis",
+            "ablation study",
+            "roles",
+            "feedback mechanism",
+            "conclusion",
+            "MetaGPT",
+            "MetaGPT outperforms other approaches in HumanEval and MBPP benchmarks",
+            "MetaGPT performs better than ChatDev in the SoftwareDev dataset",
+            "MetaGPT requires more tokens but generates fewer lines of code compared to ChatDev",
+            "MetaGPT offers functions for software engineering tasks",
+            "The effectiveness of roles in improving code generation",
+            "The effectiveness of the executable feedback mechanism in improving code quality",
+            "Conclusion on MetaGPT as a meta-programming framework based on LLMs",
+            "Torantulino et al.",
+            "Chase",
+            "Chen et al.",
+            "Qian et al.",
+            "Wei et al."
+        ],
+        "dirty_entities": [
+            "Entities:",
+            "",
+            "Keywords:",
+            "",
+            "Key Phrases:",
+            "AutoGPT",
+            "LangChain",
+            "Python REPL tool",
+            "Agent-Verse",
+            "and ChatDev compared in the SoftwareDev benchmark",
+            "",
+            "References:",
+            "2023",
+            "2022",
+            "2023",
+            "2023",
+            "2022"
+        ],
+        "references": {
+            "urls": [
+                "https://books.google.co.uk/books?id=DVlsAQAAQBAJ",
+                "https://en.wikipedia.org/wiki/Read–eval–print_loop",
+                "https://books.google.co.uk/books?id=MHIQBAAAQBAJ",
+                "https://en.wikipedia.org/w/index.php?title=Metaprogramming",
+                "https://doi.org/10.1145/280765.280867",
+                "http://beta.deepwisdom.ai",
+                "https://doi.org/10.1016/S0065-2458(08)60418-0",
+                "https://github.com/Significant-Gravitas/Auto-GPT",
+                "https://github.com/hwchase17/langchain",
+                "https://github.com/Significant-Gravitas/",
+                "https://github.com/geekan/MetaGPT",
+                "https://en.wikipedia.org/wiki/Chinese_whispers",
+                "https://doi.org/10.1016/",
+                "https://books.google.co.uk/"
+            ],
+            "references": "Document infos:\n- CreationDate = D:20231107023142Z\n- Creator = LaTeX with hyperref\n- ModDate = D:20231107023142Z\n- PTEX.Fullbanner = This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5\n- Pages = 26\n- Producer = pdfTeX-1.40.25\n- Trapped = False\n\nReferences: 40\n- URL: 40\n\nURL References:\n- https://books.google.co.uk/books?id=DVlsAQAAQBAJ\n- picker.py\n- https://en.wikipedia.org/wiki/Read–eval–print_loop\n- https://books.google.co.uk/books?id=MHIQBAAAQBAJ\n- test.py\n- tools.py\n- 2303.08896\n- https://en.wikipedia.org/w/index.php?title=Metaprogramming\n- https://doi.org/10.1145/280765.280867\n- http://beta.deepwisdom.ai\n- en.wikipedia.org/wiki/Read–eval–print\n- 10.1016/S0065-2458(08)60418-0\n- cs.LO/0309048\n- en.wikipedia.org/wiki/Chinese\n- 2204.05999\n- gui.py\n- 2002.08155\n- 2306.08568\n- 1511.09249\n- en.wikipedia.org/w/index.php?title=Metaprogramming\n- 2308.11432\n- 2308.12950\n- https://doi.org/10.1016/S0065-2458(08)60418-0\n- https://github.com/Significant-Gravitas/Auto-GPT\n- tests.py\n- 2310.02304\n- tk.Tk\n- https://github.com/hwchase17/langchain\n- https://github.com/Significant-Gravitas/\n- beta.deepwisdom.ai\n- 2305.17066\n- canvas.py\n- https://github.com/geekan/MetaGPT\n- https://en.wikipedia.org/wiki/Chinese_whispers\n- 2305.16960\n- main.py\n- doi.org/10.1145/280765.280867\n- https://doi.org/10.1016/\n- https://books.google.co.uk/\n- 2309.16797"
+        },
+        "topics": [
+            {
+                "topic": "MetaGPT's performance in the SoftwareDev benchmark",
+                "justification": "MetaGPT outperforms AutoGPT, LangChain, AgentVerse, and ChatDev in the SoftwareDev benchmark."
+            },
+            {
+                "topic": "MetaGPT's performance in HumanEval and MBPP benchmarks",
+                "justification": "MetaGPT achieves high scores in the HumanEval and MBPP benchmarks."
+            },
+            {
+                "topic": "Comparison between MetaGPT and ChatDev in the SoftwareDev dataset",
+                "justification": "MetaGPT outperforms ChatDev in terms of executability and performance on the SoftwareDev dataset."
+            },
+            {
+                "topic": "MetaGPT's token requirements and code generation efficiency compared to ChatDev",
+                "justification": "MetaGPT requires more tokens but generates fewer lines of code compared to ChatDev."
+            },
+            {
+                "topic": "MetaGPT's incorporation of SOPs and functions for software engineering tasks",
+                "justification": "MetaGPT incorporates SOPs to improve code generation and offers functions specifically designed for software engineering tasks."
+            },
+            {
+                "topic": "The impact of different roles and the executable feedback mechanism on MetaGPT's revisions and executability",
+                "justification": "The addition of different roles enhances revisions and executability, while the executable feedback mechanism significantly improves code quality."
+            },
+            {
+                "topic": "MetaGPT as a powerful meta-programming framework based on LLMs",
+                "justification": "MetaGPT is a powerful meta-programming framework that enhances problem-solving capabilities and is based on LLMs (Large Language Models)."
+            }
+        ],
+        "hypothetical_questions": [
+            {
+                "question_type": "Content-Based Question",
+                "question": "How does MetaGPT compare to AutoGPT, LangChain, AgentVerse, and ChatDev in the SoftwareDev benchmark?"
+            },
+            {
+                "question_type": "Analytical Question",
+                "question": "What are the factors that contribute to MetaGPT's high scores in the HumanEval and MBPP benchmarks?"
+            },
+            {
+                "question_type": "Creative/Scenario-Based Question",
+                "question": "Imagine you are a software developer. How could MetaGPT's incorporation of SOPs and different roles enhance your code revisions and executability?"
+            },
+            {
+                "question_type": "Contextual/Relational Question",
+                "question": "How does MetaGPT's token requirement and code generation compare to ChatDev in the SoftwareDev dataset?"
+            },
+            {
+                "question_type": "User-Interactive Question",
+                "question": "As a user, how do you think the executable feedback mechanism in MetaGPT could improve the quality of your code?"
+            }
+        ],
+        "knowledge_triplets": [
+            {
+                "subject": "MetaGPT",
+                "relationship": "outperforms",
+                "target": "other approaches"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "performs better than",
+                "target": "ChatDev"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "requires",
+                "target": "more tokens"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "generates",
+                "target": "fewer lines of code"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "offers",
+                "target": "functions for software engineering tasks"
+            },
+            {
+                "subject": "roles",
+                "relationship": "improve",
+                "target": "code generation"
+            },
+            {
+                "subject": "executable feedback mechanism",
+                "relationship": "improves",
+                "target": "code quality"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is",
+                "target": "a meta-programming framework"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "outperforms",
+                "target": "other approaches"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "performs better than",
+                "target": "ChatDev"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "requires",
+                "target": "more tokens"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "generates",
+                "target": "fewer lines of code"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "offers",
+                "target": "functions for software engineering tasks"
+            },
+            {
+                "subject": "roles",
+                "relationship": "improve",
+                "target": "code generation"
+            },
+            {
+                "subject": "executable feedback mechanism",
+                "relationship": "improves",
+                "target": "code quality"
+            },
+            {
+                "subject": "MetaGPT",
+                "relationship": "is",
+                "target": "a meta-programming framework"
+            }
+        ],
+        "timestamp": "2024-01-14T17:23:12.440277"
+    }
+]

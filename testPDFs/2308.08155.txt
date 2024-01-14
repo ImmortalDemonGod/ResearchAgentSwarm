@@ -1,0 +1,59 @@
+Document infos:
+- CreationDate = D:20231005000756Z
+- Creator = LaTeX with hyperref
+- ModDate = D:20231005000756Z
+- PTEX.Fullbanner = This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5
+- Pages = 43
+- Producer = pdfTeX-1.40.25
+- Trapped = False
+
+References: 43
+- URL: 41
+- ARXIV: 2
+
+URL References:
+- openai.com/blog/function-calling-and-other-api-updates
+- 2305.15334
+- mailto:auto-gen@outlook.com
+- https://huggingface.co/docs/transformers/
+- 1312.5602
+- 2309.07864
+- https://github.com/jerryjliu/llama_index
+- https://huggingface.co/docs/transformers/transformers_agents
+- 2308.11432
+- 2108.11601
+- 1708.04782
+- Coffee.py
+- github.com/microsoft/autogen
+- https://python.langchain.com/en/latest/index.html
+- https://github.com/chroma-core/chroma
+- 2304.07590
+- 2305.16291
+- 1706.05125
+- 2210.03629
+- https://arxiv.org/
+- https://minimaxir.com/2023/07/langchain-problem/
+- https://docs.agpt.co/
+- 2307.03875
+- https://python.langchain.com/en/latest/index
+- 2307.16877
+- 2308.00352
+- https://openai.com/blog/chatgpt-plugins
+- https://github.com/microsoft/semantic-kernel
+- 1802.08802
+- https://openai.com/blog/function-calling-and-other-api-updates
+- 2304.03442
+- coffee.py
+- 2305.17126
+- 2305.14325
+- skills.In
+- 2306.01337
+- https://github.com/guidance-ai/guidance
+- https://github.com/microsoft/autogen
+- 2103.03874
+- 2303.17491
+- https://github.com/yoheinakajima/babyagi
+
+ARXIV References:
+- 2010.03768
+- 1908.10084

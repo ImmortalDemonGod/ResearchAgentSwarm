@@ -1,0 +1,40 @@
+Document infos:
+- CreationDate = D:20231013003536Z
+- Creator = LaTeX with hyperref
+- ModDate = D:20231013003536Z
+- PTEX.Fullbanner = This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5
+- Pages = 15
+- Producer = pdfTeX-1.40.25
+- Trapped = False
+
+References: 27
+- URL: 27
+
+URL References:
+- https://api.semanticscholar.org/CorpusID
+- 1901.02860
+- https://docs.sillytavern.app/usage/core-concepts/characterdesign
+- 2112.07916
+- 2307.09288
+- https://memgpt.ai
+- 2001.04451
+- 2304.03442
+- 2308.03688
+- 2302.04761
+- 2302.14502
+- https://api.semanticscholar.org/CorpusID:254877499
+- 2112.09118
+- 2007.01282
+- 2107.07567
+- 2004.04906
+- key.So
+- 2004.05150
+- 2108.12409
+- 2210.03629
+- 2306.05685
+- 2307.03172
+- 2109.10862
+- 2112.09332
+- 2302.00083
+- https://docs.sillytavern
+- 1810.04805

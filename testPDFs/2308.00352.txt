@@ -1,0 +1,53 @@
+Document infos:
+- CreationDate = D:20231107023142Z
+- Creator = LaTeX with hyperref
+- ModDate = D:20231107023142Z
+- PTEX.Fullbanner = This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5
+- Pages = 26
+- Producer = pdfTeX-1.40.25
+- Trapped = False
+
+References: 40
+- URL: 40
+
+URL References:
+- https://books.google.co.uk/books?id=DVlsAQAAQBAJ
+- picker.py
+- https://en.wikipedia.org/wiki/Read–eval–print_loop
+- https://books.google.co.uk/books?id=MHIQBAAAQBAJ
+- test.py
+- tools.py
+- 2303.08896
+- https://en.wikipedia.org/w/index.php?title=Metaprogramming
+- https://doi.org/10.1145/280765.280867
+- http://beta.deepwisdom.ai
+- en.wikipedia.org/wiki/Read–eval–print
+- 10.1016/S0065-2458(08)60418-0
+- cs.LO/0309048
+- en.wikipedia.org/wiki/Chinese
+- 2204.05999
+- gui.py
+- 2002.08155
+- 2306.08568
+- 1511.09249
+- en.wikipedia.org/w/index.php?title=Metaprogramming
+- 2308.11432
+- 2308.12950
+- https://doi.org/10.1016/S0065-2458(08)60418-0
+- https://github.com/Significant-Gravitas/Auto-GPT
+- tests.py
+- 2310.02304
+- tk.Tk
+- https://github.com/hwchase17/langchain
+- https://github.com/Significant-Gravitas/
+- beta.deepwisdom.ai
+- 2305.17066
+- canvas.py
+- https://github.com/geekan/MetaGPT
+- https://en.wikipedia.org/wiki/Chinese_whispers
+- 2305.16960
+- main.py
+- doi.org/10.1145/280765.280867
+- https://doi.org/10.1016/
+- https://books.google.co.uk/
+- 2309.16797
