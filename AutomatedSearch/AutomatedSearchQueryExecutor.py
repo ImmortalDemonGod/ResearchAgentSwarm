@@ -7,13 +7,13 @@ import time
 import playsound
 
 def get_file_path():
-    json_files = [f for f in os.listdir("jsons/") if f.endswith('.json')]
-    text_files = [f for f in os.listdir("jsons/") if f.endswith('.txt')]
+    json_files = [f for f in os.listdir("AutomatedSearch/jsons/") if f.endswith('.json')]
+    text_files = [f for f in os.listdir("AutomatedSearch/jsons/") if f.endswith('.txt')]
     available_files = [file for file in json_files if file.replace('.json', '.txt') not in text_files]
     for i, file in enumerate(available_files):
         print(f"{i+1}. {file}")
     choice = int(input("Choose a file by number: ")) - 1
-    return "jsons/" + available_files[choice]
+    return "AutomatedSearch/jsons/" + available_files[choice]
 
 def get_delay_setting():
     print("Choose a delay setting: bard (60 seconds), bing (2 minutes), gptresearcher (2 minutes), or custom.")
@@ -48,26 +48,27 @@ def perform_searches(queries, search_box, search_button, delay, get_started):
             input()
         if get_started:
             # Scroll to the top of the page
-            pyautogui.scroll(6000)
+            pyautogui.click(get_started)
+            pyautogui.press('home')
             time.sleep(2)
             pyautogui.click(get_started)
+            #pyautogui.scroll(6000*10)
+            time.sleep(2)
+            #pyautogui.click(get_started)
             time.sleep(2)
         pyautogui.click(search_box)
         pyautogui.click(search_box)
         if previous_query:
             query_length = len(previous_query)
             pyautogui.press('backspace', presses=query_length*2)
-        if previous_query:
-            query_length = len(previous_query)
-            pyautogui.press('backspace', presses=query_length*2)
-        pyautogui.typewrite(query)
+        pyautogui.typewrite(query, interval=0.1)
         pyautogui.press('enter')
         print(f"Searching for: {query}")
         previous_query = query
         time.sleep(2)
-        pyautogui.press('enter')
+        #pyautogui.press('enter')
         time.sleep(2)
-        pyautogui.press('enter')   
+        #pyautogui.press('enter')   
         pyautogui.click(search_button) # can be redundant but just in case
         time.sleep(delay)  # Wait for the search to complete
     print("All searches are complete.")
