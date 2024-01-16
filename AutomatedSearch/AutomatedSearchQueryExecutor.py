@@ -23,7 +23,7 @@ def get_delay_setting():
     elif setting == "bing":
         return 80, 'bing'
     elif setting == "gptresearcher":
-        return 130, 'gptresearcher'
+        return 265, 'gptresearcher'
     elif setting == "custom":
         delay = input("Enter the delay in seconds: ")
         return int(delay), 'custom'
@@ -42,13 +42,9 @@ def get_search_enter_coordinates():
 def perform_searches(queries, search_box, search_button, delay, get_started):
     previous_query = None
     for i, query in enumerate(queries):
-        if i > 0 and i % 25 == 0:
-            playsound.playsound('done_sound.mp3')
-            print("Pause for user input. Press any key to continue...")
-            input()
         if get_started:
             # Scroll to the top of the page
-            pyautogui.click(get_started)
+            pyautogui.click(search_box)
             pyautogui.press('home')
             time.sleep(2)
             pyautogui.click(get_started)
