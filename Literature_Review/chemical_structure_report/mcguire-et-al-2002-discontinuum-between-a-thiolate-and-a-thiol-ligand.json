@@ -1,0 +1,335 @@
+[
+    {
+        "file_id": "mcguire-et-al-2002-discontinuum-between-a-thiolate-and-a-thiol-ligand",
+        "article": "Chunk # 0.\n# Discontinuum between a Thiolate and a Thiol Ligand\n\nDanny G McGuire, Masood A Khan, Michael T Ashby\n\n# Abstract\n\nThe effect of H-bond donation to the thiolate ligand of (_y_S-C,H,F)Fe(CO),SR (**1**) to give H-bond adducts (**1**-**H**O) and eventually protonation to give [(_y_S-C,H,F)Fe(CO)2(HSR)] * (**1**H+) has been investigated experimentally and computationally The electronic structures of 1(**R = Me**), several derivatives of 1(**R = Me**)-**H**X, and 1(**R = Me**)H+ have been investigated using DFT (density functional theory) computational methods As previously suggested, these calculations indicate the HOMO of 1 is Fed\\(\\pi\\)-Sp\\(\\pi\\) antibonding and largely sulfur in character The calculations indicate the electronic structure of **1** is not altered markedly by H-bond donation to the S center, but protonation results in a reorganization of the electronic structure of 1**H+ and a HOMO that is largely metal in character The reduction of Fe-S distances upon protonation of 1(**R = Ph**) to give 1(**R = Ph**)H+-**BF\\({}_{4}^{-}\\)**(2.282(2) and 2.258(2) A, respectively), as determined by single-crystal X-ray crystallography, also indicates diminished Fed\\(\\pi\\)-Sp\\(\\pi\\) antibonding Using the carbonyl stretching frequencies as a gauge of the donor ability of the thiolate ligand, we conclude that H-bonding has a continuous effect on the donor properties of the thiolate ligand of **1** (i.e., is a function of the _pK_a of the H-bond donor) A discontinuous effect results when the p_K_a of **1** is reached and the complex is protonated For our study of **1**, the maximal effect of H-bonding is about 30% of protonation Because the position of acid-base equilibrium depends on the relative basicities of the thiolate ligand and the conjugate base of the H-bond donor (and the relative heats of solvation of the acids and their conjugate bases), a true continuum of effects can be anticipated only for systems that are pK-matched in their given environments Thus, when the conjugate base of the H-bond donor is a stronger base than the thiolate ligand (as in the present case), H-bond donation has a relatively small effect, but protonation triggers a large, discontinuous effect on the electronic structure of **1** \n## Introduction\n\nThe observation of H-bonding to cysteine ligands in metalloproteins1 has fueled speculation that such dipole interaction may play a regulatory role This has prompted the development of many small molecule models that incorporate intramolecular NH\\(\\rightarrow\\)S hydrogen bonds.2-12 There is a consensus that dipole interactions decrease the donor properties of thiolate ligands,13 and thiolate ligands that are protonated presumably experience a limiting effect.14-18\n\n## References\n\n- Chung _et al._ 1991 Chung, W P.; Dewan, J C.; Walters, M A _J Am Chem Soc._**1991**, _113_, 525 \n- Ueno _et al._ 1998 Ueno, T.; Kousumi, Y.; Yoshizawakumagye, K.; Nakajima, K.; Ueyama, N.; Okamura, T.; Nakamura, A _J Am Chem Soc._**1998**, _120_, 12264 \n- Okamura _et al._ 1993 Okamura, T.; Ueyama, N.; Nakamura, A.; Ainscough, E W.; Brodie, A M.; Waters, J M _J Chem Soc., Chem Commun._**1993**, _1658._\n\n- Ueyama _et al._ 1998 Ueyama, N.; Nishikawa, N.; Yamada, Y.; Okamura, T.; Oka, S.; Sakurai, H.; Nakamura, A _J Am Chem._**1998**, _37_, 2415 \n- Ueyama _et al._ 1996 Ueyama, N.; Yamada, Y.; Okamura, T.; Kimura, S.; Nakamura, A _J Am Chem Soc._**1996**, _35_, 6473 \n- Ueno _et al._ 1999 Ueno, T.; Nishikawa, N.; Moriyama, S.; Adachi, S.; Lee, K.; Okamura, T.; Ueyama, N.; Nakamura, A _J Am Chem._**1999**, _38_, 1199 \n- Kapteini _et al._ 1996 Kapteini, G M.; Grove, D M.; Smets, W J J.; Kooijman, H.; Spek, A L.; Vankoten, G _Inorg Chem._**1996**, _35_, 534 \n- Ueno _et al._ 1996 Ueno, T.; Ueyama, N.; Nakamura, A _A Chem Soc., Dalton Trans._**1996**, _385_, 101 \n- Caulton _et al._ 1994 Caulton, K G _New J Chem._**1994**, _18_, 25 \n- Sellmann _et al._ 1996 Sellmann, D S.; Sutter, J _ACS Symp Ser._**1996**, _653_, 101 \n- Wander, S A.; Reisenbegnes, J H.; Kim, J S.; D'aensbourg, M Y _Inorg Chem._**1994**, _33_, 1421 \n- Treichel _et al._ 1991 Treichel, P M.; Schmidt, M S.; Crane, R A _Inorg Chem._**1991**, _30_, 379 \n#### Discontinuum between Thiolate and Thiol\n\nGiven the weakened donor properties of thiolate ligands that bear H-bonds, the redox potentials of metals are influenced, and this is of profound significance with respect to redox-active metalloproteins Most of our understanding of the effects of H-bonding to thiolates has been garnered from electrochemical measurements on the aforementioned model compounds.[3, 18, 19, 20, 21] Because such electrochemical experiments are carried out at high ionic strength, interpretation of the effects of H-bonding are complicated by the composite influence of the medium This has prompted us to explore the donor properties of dipole-perturbed thiolate ligands using spectroscopic probes.[22] The carbonyl ligand is a sensitive reporter of electronic changes that take place at metal centers",
+        "summary": "**SPR: Discontinuum between Thiolate and Thiol Ligand**\n\n- H-bonding to thiolate ligands weakens their donor properties, affecting redox potentials in metalloproteins.\n- Electrochemical measurements on model compounds have provided insights into the effects of H-bonding.\n- Spectroscopic probes, such as the carbonyl ligand, can reveal electronic changes at metal centers.",
+        "clean_entities": [],
+        "dirty_entities": [
+            "Entities: Danny G McGuire",
+            "Masood A Khan",
+            "Michael T Ashby",
+            "H-bond donation",
+            "thiolate ligand",
+            "H-bond adducts",
+            "protonation",
+            "DFT (density functional theory)",
+            "electronic structures",
+            "derivatives",
+            "computational methods",
+            "HOMO",
+            "Fedπ-Spπ antibonding",
+            "sulfur",
+            "metal",
+            "Fe-S distances",
+            "X-ray crystallography",
+            "carbonyl stretching frequencies",
+            "donor ability",
+            "pK_a",
+            "acid-base equilibrium",
+            "conjugate base",
+            "heats of solvation",
+            "dipole interaction",
+            "regulatory role",
+            "metalloproteins",
+            "small molecule models",
+            "intramolecular NH→S hydrogen bonds",
+            "consensus",
+            "donor properties",
+            "protonated",
+            "dipole interactions",
+            "redox potentials",
+            "metals",
+            "redox-active metalloproteins",
+            "electrochemical measurements",
+            "ionic strength",
+            "spectroscopic probes",
+            "carbonyl ligand",
+            "metal centers",
+            "",
+            "Keywords: H-bond donation",
+            "thiolate ligand",
+            "H-bond adducts",
+            "protonation",
+            "DFT",
+            "electronic structures",
+            "derivatives",
+            "HOMO",
+            "Fedπ-Spπ antibonding",
+            "sulfur",
+            "metal",
+            "Fe-S distances",
+            "X-ray crystallography",
+            "carbonyl stretching frequencies",
+            "donor ability",
+            "pK_a",
+            "acid-base equilibrium",
+            "conjugate base",
+            "heats of solvation",
+            "dipole interaction",
+            "regulatory role",
+            "metalloproteins",
+            "small molecule models",
+            "intramolecular NH→S hydrogen bonds",
+            "consensus",
+            "redox potentials",
+            "redox-active metalloproteins",
+            "electrochemical measurements",
+            "ionic strength",
+            "spectroscopic probes",
+            "carbonyl ligand",
+            "metal centers",
+            "",
+            "Key Phrases: H-bond donation",
+            "thiolate ligand",
+            "H-bond adducts",
+            "protonation",
+            "electronic structures",
+            "computational methods",
+            "DFT",
+            "HOMO",
+            "Fedπ-Spπ antibonding",
+            "sulfur",
+            "metal",
+            "Fe-S distances",
+            "X-ray crystallography",
+            "carbonyl stretching frequencies",
+            "donor ability",
+            "pK_a",
+            "acid-base equilibrium",
+            "conjugate base",
+            "heats of solvation",
+            "dipole interaction",
+            "regulatory role",
+            "metalloproteins",
+            "small molecule models",
+            "intramolecular NH→S hydrogen bonds",
+            "redox potentials",
+            "redox-active metalloproteins",
+            "electrochemical measurements",
+            "ionic strength",
+            "spectroscopic probes",
+            "carbonyl ligand",
+            "metal centers",
+            "",
+            "References: Chung et al. 1991",
+            "Ueno et al. 1998",
+            "Okamura et al. 1993",
+            "Ueyama et al. 1998",
+            "Ueyama et al. 1996",
+            "Ueno et al. 1999",
+            "Kapteini et al. 1996",
+            "Ueno et al. 1996",
+            "Caulton 1994",
+            "Sellmann et al. 1996",
+            "Wander et al. 1994",
+            "Treichel et al. 1991",
+            "",
+            "Concepts: H-bond donation",
+            "thiolate ligands",
+            "H-bond adducts",
+            "protonation",
+            "electronic structures",
+            "DFT computational methods",
+            "HOMO",
+            "Fedπ-Spπ antibonding",
+            "sulfur character",
+            "metal character",
+            "Fe-S distances",
+            "X-ray crystallography",
+            "carbonyl ligand",
+            "donor ability",
+            "pK_a",
+            "acid-base equilibrium",
+            "conjugate base",
+            "heats of solvation",
+            "dipole interaction",
+            "regulatory role",
+            "metalloproteins",
+            "small molecule models",
+            "intramolecular NH→S hydrogen bonds",
+            "redox potentials",
+            "ionic strength",
+            "spectroscopic probes",
+            "metal centers"
+        ],
+        "references": {
+            "urls": [
+                "http://pubs.acs.org](http://pubs.acs.org)."
+            ],
+            "references": "\n\n- Chung _et al._ 1991 Chung, W. P.; Dewan, J. C.; Walters, M. A. _J. Am. Chem. Soc._**1991**, _113_, 525.\n\n- Ueno _et al._ 1998 Ueno, T.; Kousumi, Y.; Yoshizawakumagye, K.; Nakajima, K.; Ueyama, N.; Okamura, T.; Nakamura, A. _J. Am. Chem. Soc._**1998**, _120_, 12264.\n\n- Okamura _et al._ 1993 Okamura, T.; Ueyama, N.; Nakamura, A.; Ainscough, E. W.; Brodie, A. M.; Waters, J. M. _J. Chem. Soc., Chem. Commun._**1993**, _1658._\n\n- Ueyama _et al._ 1998 Ueyama, N.; Nishikawa, N.; Yamada, Y.; Okamura, T.; Oka, S.; Sakurai, H.; Nakamura, A. _J. Am. Chem._**1998**, _37_, 2415.\n\n- Ueyama _et al._ 1996 Ueyama, N.; Yamada, Y.; Okamura, T.; Kimura, S.; Nakamura, A. _J. Am. Chem. Soc._**1996**, _35_, 6473.\n\n- Ueno _et al._ 1999 Ueno, T.; Nishikawa, N.; Moriyama, S.; Adachi, S.; Lee, K.; Okamura, T.; Ueyama, N.; Nakamura, A. _J. Am. Chem._**1999**, _38_, 1199.\n\n- Kapteini _et al._ 1996 Kapteini, G. M.; Grove, D. M.; Smets, W. J. J.; Kooijman, H.; Spek, A. L.; Vankoten, G. _Inorg. Chem._**1996**, _35_, 534.\n\n- Ueno _et al._ 1996 Ueno, T.; Ueyama, N.; Nakamura, A. _A. Chem. Soc., Dalton Trans._**1996**, _385_, 101.\n\n- Caulton _et al._ 1994 Caulton, K. G. _New J. Chem._**1994**, _18_, 25.\n\n- Sellmann _et al._ 1996 Sellmann, D. S.; Sutter, J. _ACS Symp. Ser._**1996**, _653_, 101.\n\n- Wander, S. A.; Reisenbegnes, J. H.; Kim, J. S.; D'aensbourg, M. Y. _Inorg. Chem._**1994**, _33_, 1421.\n\n- Treichel _et al._ 1991 Treichel, P. M.; Schmidt, M. S.; Crane, R. A. _Inorg. Chem._**1991**, _30_, 379.\n\n#### Discontinuum between Thiolate and Thiol\n\nGiven the weakened donor properties of thiolate ligands that bear H-bonds, the redox potentials of metals are influenced, and this is of profound significance with respect to redox-active metalloproteins. Most of our understanding of the effects of H-bonding to thiolates has been garnered from electrochemical measurements on the aforementioned model compounds.[3, 18, 19, 20, 21] Because such electrochemical experiments are carried out at high ionic strength, interpretation of the effects of H-bonding are complicated by the composite influence of the medium. This has prompted us to explore the donor properties of dipole-perturbed thiolate ligands using spectroscopic probes.[22] The carbonyl ligand is a sensitive reporter of electronic changes that take place at metal centers. Indeed, carbonyl ligands in metalloproteins and their model compounds have offered considerable insight into the electronic structures of their metal centers.[23] Other studies have employed carbonyl ligands to explore the effect H-bonding to chloride ligands has on their ability to \\(\\pi\\)-stabilize unsaturated metal centers.[24] In the present study, we employ the electron-rich d\\({}^{6}\\) iron\\(-\\)thiolate complex **1** as a model for exploring the effects of Fe\\(-\\)S(R)\\({}^{\\bullet\\bullet}\\)H\\(-\\)X interactions on the donor properties of the thiolate ligand in low-dielectric solvents. Hydrogen-bond donors (**HX**) yield adducts of **1** in solution (**1\\({}^{\\bullet}\\)HX**) that may be observed under equilibrium conditions. Sufficiently acidic compounds protonate **1** to give a thiol complex (**1H\\({}^{+}\\)**). The effect of H-bond donation and eventual protonation of **1** (as reported by carbonyl stretching frequencies and modeled by density functional theory (DFT) calculation) is reported herein.\n\nwere derived from individual spectra of the authentic samples of **1(R = Ph)** and **1(R = Ph)**-HBF4.\n\n**Solutions of 1(R = Ph) with Incremental Concentrations of CCJCOOH.** Six CHCl2 solutions of **1(R = Ph)** (10 mM) with CCl3COOH (0, 10, 50, 100, 500, 1000 mM) were prepared under nitrogen (Figure 3).\n\n**Solutions of 1(R = Ph) with the Same Concentration of Various Carboxylic Acids.** Six CHCl2 solutions of **1(R = Ph)** (10 mM) with 150 mM CH3COOH, CCH2COOH, CCl3HCOOH, CCl3COOH, CF3COOH, and HBF4-O(CH3)2 were prepared under nitrogen (Figure S2).\n\n**Solutions of CpFe(CO)2X (X = ClJ) with CF3COOH.** Individual solutions of CpFe(CO)2X (X = ClJ) (10 mM) were prepared. The spectra that were obtained for these solutions were compared with spectra of individual CH2Cl2 solutions of CpFe(CO)2X (X = Cl,I) (10 mmol) that also contained CF3COOH (150 mM) (Table 4).\n\n**Solutions of 1(R = Ph) and CpFe(CO)2Cl in CH3Cl Solutions with Added Electrolyte.** Individual CH2Cl solutions of CpFe(CO)2X (X = SPh,Cl) (10 mM each) were prepared. The spectra that were measured for these solutions were compared with the spectra of CH2Cl2 solutions of CpFe(CO)2X (X = Cl,I) (10 mmol) that also contained (NBu4)(PF6) (1 M) (Table 4).\n\n**Solutions of 1(R = Ph) and CCl3COOH with Added Electrolyte.** Four CH2Cl2 solutions of **1(R = Ph)** (10 mM) with CCl3COOH (0, 50, 100, 250 mM) were prepared under nitrogen. Sufficient (NBu4)(PF6) was added to each of the solutions to give [CCl3COOH] + [(NBu4)(PF6)] = 1 M (1.00, 0.95, 0.90, and 0.75 M, respectively). The IR spectra of the resulting solutions are illustrated in Figure S3.\n\n**X-ray Crystal Structures of 1(R = Ph) and 1(R = Ph)**-HBF4-Crystals of 1(R = Ph) and 1(R = Ph)**-HBF4 suitable for analysis by X-ray diffraction were obtained by evaporation of a saturated pentane and CH2Cl2 solution, respectively, under nitrogen. The conditions that were employed to collect and process the X-ray data are summarized in Table 1. Data for both crystals were collected at -85 degC using a Siemens P4 diffractometer and Mo K\\(\\alpha\\) (l = 0.71075 A) radiation.30 The data were corrected for Lorentziand polarization effects, and empirical absorption corrections based on \\(\\psi\\) scans were applied.31 Both structures were solved by direct methods and refined by least-squares on \\(F^{2}\\) using all reflections using the SHELXTL (Siemens) system.32 For **1(R = Ph)**-HBF4,** the hydrogen atom bound to S was located in a difference map, and it was refined isotopically. All other hydrogen atoms were included with idealized parameters. Thermal ellipsoid drawings of **1(R = Ph)** and **1(R = Ph)**-HBF4 are illustrated in Figures 1 and 2, respectively. The hydrogen atom H(1) on the S atom of 1(R = Ph)**-HBF4 forms a H-bond with F(1) of the BF4-C4 anion as illustrated in Figure 2. Additional crystallographic results are summarized in Tables S1\\(-\\)S9.\n\nFootnote 31: **Sitemens XCSANS: X-ray Single-Crystal Analysis System.** Version 2.1; Siemens Analytical X-ray Instruments, Inc.: Madison, WI, 1994.\n\n**Electronic Structure and Geometry Calculations.** The molecular mechanics and molecular orbital calculations for **1(R = Me)**, **1(R = Ph)**-**HOOCF3, **1(R = Ph)**-HBF4,** and **1(R = Ph)**H**+ were performed with SPARTAN 5.0 running on a Silicon Graphics IRIS Indigo 2 Solid Impact with an R10000 processor. The initial geometries were optimized using the Merck molecular force field (MMFF). The resulting geometries were refined using the semiempirical PM3(tm) method. Final geometries were obtained at the pBP/DF* level by optimization of all metric parameters. The perturbative Becke-Perdew method (pBP) is analogous to the BP method, but the gradient correction is introduced only after convergence based on the local potential alone has been achieved. DN* is a Gaussian basis set similar to 6-31G*, except five pure d-type functions are\n\nFigure 1.: Thermal ellipsoid drawing of the crystal structure of **1(R = Ph)** at the 50% level with the labeling scheme.\n\nFigure 2.: Thermal ellipsoid drawing of the crystal structure of **1(R = Ph)**-HBF4 at the 50% level with the labeling scheme.\n\nused instead of six second-order Gaussians. The resulting coordinates of the computed structures of **1**(**R = Me**), **1**(**R = Ph**)**-**HOOCF3**, **1**(**R = Ph**)**-**HBF4**, and **1**(**R = Ph**)**H**+ are available as Supporting Information (Tables S10-S13). Computed metric data for **1**(**R = Me**) and **1**(**R = Me**)**H**+ are compared with experimental data for **1**(**R = Ph**) and **1**(**R = Ph**)**-**HBF4** in Table 3. Computed vibrational frequencies are summarized in Table 4.\n\n## Results and Discussion\n\n**Model System.** We will begin by explaining our choice of metal thiolate complex, solvent system, and H-bond donors that were employed in this study. We have previously shown that the organometallic complexes CpFe(CO)2SR (**1**) are highly electron-rich, as evidenced by the high-lying first ionization potentials (IPs) observed in their gas-phase photoelectron spectra and the fact that they readily react with electrophiles such as alkyl halides [33] and electron-deficient alkynes. [34] The highest occupied molecular orbitals (HOMOs) of these complexes are Fed\\(\\pi\\)-Sp\\(\\pi\\) antibonding and largely sulfur in character. Free-energy relationships have been observed between the HOMO IPs and the carbonyl stretching frequencies with respect to the rates of Sn2 electrophilic attack on sulfur. [33, 34] Thus, the carbonyl stretching frequencies are direct reporters of the nucleophilicity of the sulfur. In the present study, we concern ourselves with the effects of dipolar H-bonding on the donor properties of the thiolate ligand. Because the addition of H-bond donors (Bronssted acids) to **1** can lead to decomposition of the complex, we employed relatively stable aryl derivative **1**(**R = Ph**) in this study. Alkyl derivatives of **1** tend to be less stable that aryl derivatives. It was desirable to employ nonpolar solvents in our measurements for two reasons. First, **1** is a relatively weak H-bond acceptor, and polar solvents tend to be competitive H-bond acceptors. Second, **1H**+ tends to undergo solvolysis with displacement of the relative weak thiol ligand. Thus, **1** has the added advantage (as an organometallic) of being soluble in nonpolar organic solvents. We initially employed CCl4 as a solvent because it has been extensively used to study H-bonding effects, [35] but we found **1**(**R = Ph**) decomposes (via an apparent chain-radical mechanism) in CCl4 to give the known dimer ([CpFe(CO))2)(2S(2Ph2)]2+. [36] We found no such problem with CH2Cl2. After investigating several classes of H-bond donors, we settled on carboxylic acids because they exhibited the appropriate range of H-bond donor ability and suitable solvent properties. We note from the outset that our discussion of the effects of adding carboxylic acids to CH2Cl2 solutions of **1** is restricted to analyzing trends. Whereas acid/base titrations in water can be treated quantitatively, the polar solutes that we employ have a significant effect on the properties of the solvents themselves. Furthermore, aggregation of polar solute molecules in nonpolar solvents can lead to localized effects. Accordingly, a quantitative analysis of the titration experiments that are described herein is not provided because of the inherent complexity of modeling dipolar reactions in a nonpolar environment.\n\n## Effect of Protonation on the Molecular Structure of 1.\n\nTo determine the effect of protonation on the molecular structure of **1** and to later calibrate the molecular orbital calculations, [CpFe(CO)2(HSPh)](BF4) (**1**(**R = Ph**)**-**HBF4**) was synthesized, and its molecular structure was determined by single-crystal X-ray crystallography. Apparently, the crystal structure of **1**(**R = Ph**)**-**HBF4** is the first of an Fe(II)-thiol complex to be reported, although there are several structures of Fe(III)-thiol complexes known, all porphyrin complexes. [37, 38] For the sake of comparison, we also determined the structure of **1**(**R = Ph**). The structure of **1**(**R = Et**) has been reported previously. [39] The structures of **1**(**R = Ph**) and **1**(**R = Ph**)**-**HBF4** are summarized in Tables 1 and 2. Thermal ellipsoid drawings of **1**(**R = Ph**) and **1**(**R = Ph**)**-**HBF4** are provided in Figures 1 and 2, respectively. Selected metric data for **1**(**R = Ph**) and **1**(**R = Ph**)**-**HBF4** are compared with relevant data from the literature in Table 3.\n\nto 2.258(2) A for **1(R = Ph)**-HBF4** to relief of the four-electron destabilization that results in Fed_p_-Sp_p_T_ antibonding in **1**. This interpretation is also supported by molecular orbital calculations that reproduce the observed trend in bond lengths (vide infra). We note a similar trend has been observed for (t-BuSH)Cr(CO)s versus its deprotonated analogue.40 Other metric data of interest include the position of the H atom bound to the S atom of **1(R = Ph)**-HBF4** which was located in a difference map and refined. The H atom is 1.35(7) A from the S atom and 2.20(8) A from a F atom of the BF4- counterion. The resulting S-H-**-**-**-** single of 147(3) suggests a nearly optimal dipolar interaction.41\n\nFootnote 40: Darensbourg, M. Y.; Longridge, E. M.; Payne, V.; Reienspies, J.; Riordan, C. G.; Springs, J. J.; Calabrese, J. C. _Inorg. Chem._**1990**, 29, 2721.\n\n**Effect of Protonation on the Spectra of 1.** Addition of 1 equiv of strong acids such as HBF4*OMe2 to solutions of **1(R = Ph)** in nonpolar solvents such as CH2Cl2 results in an immediate change in color from red to yellow, which corresponds to loss of the Fe-S LMCT band in the visible spectrum (cf. Figure 3, top). We have characterized the product of this reaction as the thiol complex [CpFe(CO)2-(HSPH)](BF4) (**1(R = Ph)**-HBF4**).28 There is a corresponding increase in the carbonyl stretching frequencies upon protonation of **1**, which is consistent with a reduction in the donor ability of the thiol ligand with respect to the thiolate (Figure 3, middle). To interpret the experiments that will be described in the next section, it was important to establish whether the presence of **1H**+ influences the spectra of **1**. The addition of less than 1 equiv of HBF4*OMe2 produces a mixture of **1** and **1H**+ (Figure S1). The carbonyl stretching frequencies of **1(R = Ph)** are unperturbed under such conditions, which indicates no association of **1** and **1H**+.\n\nFootnote 41: Jeffrey, G. A. _An Introduction to Hydrogen Bonding_; Oxford University Press: New York, 1997.\n\n**Effect of H-Bonding on the Spectra of 1.** The addition of relatively weak acids of different effective acidities results in changes in the electronic and vibrational spectra that can be attributed to the equilibria of eq 1. Thus, an increase in the concentration of CCl3COOH results in gradual loss of the Fe-S LMCT band in the electronic spectrum and a shift of the carbonyl vibrational modes to higher frequency. Rather than a discrete species, we intend **1**-**HX** to represent the continuum of change that takes place when the S-H-X H-bond is polarized from X to S. The absence of an isosbestic point at relatively low concentrations of carboxylic acid (before the appearance of **1H**+) and the fact that the bandwidth of the asymmetric carbonyl vibrational mode remains constant while its maximum shifts to higher frequency (Figure 3, bottom) provide evidence for a continuum of change rather than a shift in equilibrium between discrete species **1** and **1**-**HX**. Such a polarization is expected to depend on several factors, including the relative polarities of the SH and XH bonds and the abilities of the medium to stabilize the species involved. Therefore, one might expect the equilibrium to shift to the right with the effective acidity of HX.42 Indeed, for a given set of concentrations, we observe such a relationship experimentally (Table S2).\n\n**Maximum Effect of H-Bonding on the Donor Ability of a Thiolate Ligand.** Although the range of acidities of the H-bond donors that were employed in this study in CH2Cl2 was immense, the acidities of H-bond donors in an aqueous environment are more restricted (by the autoprotolysis of water). We note that amide NH bonds, which are the conventional donors to cysteine ligands in metalloproteins, are considerably less acidic than carboxylic acids.\n\nFigure 3.: Top: changes in the UV–visible spectra of **1(R = Ph)** in CH2Cl2 upon addition of trichloroacetic acid. Note the lack of isosbestic points. The spectrum of **1(R = Ph)**-HBF4** is shown for comparison. Middle: corresponding changes in the IR spectra of the same solutions that were used to collect the UV–vis spectra. Bottom: normalized IR data that illustrate a shift in frequency without significant change in line width.\n\n#### Discontinuum between Thiolate and Thiol\n\nHowever, acidity is defined not only by the chemical nature of the species but also by its environment. The acidites (and basicities) of particular functional groups are known to vary several orders of magnitude within proteins, which is due in large part to the dielectric environment.[43] For example, the presence of a metal can lower the p_K_s of the sulfhydryl group of cysteine by several p_K_ units.[44] For the present case, evolution from a nonpolar to a polar dielectric environment is simulated by simply varying the concentration of a given H-bond donor (because the H-bond donors are more polar than the solvent itself). Thus, discrete species such as **1**-**HX** are not observed when [HX] is varied. Instead, a continuum of change is observed that reflects the combined influences of H-bond donation to the thiolate ligand and the polarity of the solvent environment (Figure 3). Eventually, the solvent environment becomes sufficiently polar to stabilize the conjugate acids and bases, and ionization occurs (i.e., protonation of the thiolate takes place). Equilibrium mixtures of **1**-**HX** and **1H\\({}^{+}\\)** (Figure 3, middle) reveal the upper limit of the effect of H-bonding on the donor properties of the thiolate ligand of **1**. Further differentiation of the relative basicities of S and X simply results in proton transfer to the S. The effects of H-bonding are continuous only to the \"end point\" of acid titration, at which point protonation occurs and a discrete change in the donor properties of the thiolate ligand takes place. Interestingly, the upper limit of the effect of H-bonding does not appear to be sensitive to the nature of X-.\n\n**H-Bonding/Protonation versus Redox Potentials.** It would be useful to understand the relative impact of H-bonding versus protonation on the redox potential of **1**. Unfortunately, **1**+ rapidly dimerizes upon oxidation,[36] and irreversible cyclic voltammograms are obtained. Also, the thiol ligand of **1H\\({}^{+}\\)** is rapidly displaced by even weakly donating electrolytes. Furthermore, the aforementioned solvent dielectric effects complicate the interpretation. We have previously established a relationship between the first IP and _F_CO of **1**:[33]\n\n\\[\\text{IP}=2.68F_{\\text{CO}}-36.6 \\tag{1}\\]\n\nCorrelation between electrochemical and photoionization data generally yields empirical relationships of the form[45-49]\n\n\\[E_{1/2}=(0.6\\text{ to }0.8)\\text{IP}-(3.5\\text{ to }4.5) \\tag{2}\\]\n\nUsing the empirical formula\n\n\\[\\Delta E_{1/2}=\\lambda\\Delta F_{\\text{CO}}\\text{ (i.e., for }1.6\\leq\\lambda\\leq 2.1\\] \\[\\text{and the observed }\\Delta F_{\\text{CO}}=0.65\\text{ mdyn}/\\text{\\AA}) \\tag{3}\\]\n\nwe predict a shift of the oxidation potential of **1** by 1.0-1.3 V upon protonation. This range may be compared with the 500-700 mV positive shift that has been observed for model Fe[19] and Ni[18] complexes upon protonation. While the absolute values of \\(\\Delta E_{1/2}\\) predicted by eq 3 may not be accurate, we are more concerned here with the relative importance of H-bonding versus protonation. It has been reported that the redox potentials of model NiI-thiolate complexes are shifted by +250 mV in polar solvents that are capable of H-bonding versus nonpolar solvents.[20] Unfortunately, the corresponding effects of protonation are not known for these systems. Furthermore, similar dielectric effects are observed for the redox potentials of molecules that are not expected to be significant H-bond acceptors. Using the value of _F_CO = 16.46 mdyn/\\(\\text{\\AA}\\) that is observed for **1**-**TFA**, we estimate a maximal effect of 300 \\(\\leq\\Delta E_{1/2}\\leq\\) 400 mV for H-bonding to **1**. This corresponds to an effect for H-bonding that is about 30% of that observed upon protonation.\n\nIt is noteworthy that the observed interaction between **1** and H-bond donors is not simply a dielectric effect in that (NBu4)(PF6) does not affect _v_co. Furthermore, the corresponding iodide complex is not influenced by acid (Table 4). There is an effect of acid on _v_co of the chloride derivative (consistent with the harder character of Cl- vs \\(\\Gamma\\)-), albeit less significant than the effect on **1** under similar conditions. The series FpX may offer the opportunity to systematically investigate the effect of H-bond donation as a function of X. Although the addition of an \"innocent\" electrolyte such as (NBu4)(PF6) does not influence its spectra (Table 4), solvatochromism is observed for **1** (Table 5). There is an approximate linear dependence of \\(\\lambda_{\\text{max}}\\) on the dielectric constant of the solvent (Figure 5). This trend may be attributed to stabilization of the ground state (dipole stabilization of the antibonding HOMO of **1**, Figure 4) or Franck-Condon destabilization of the photoexcited state.[50] However,\n\n\\begin{table}\n\\begin{tabular}{c c c c c c c} \\hline  & & p_K_s & (in) & solv _v_co & obsd _F_CO (_k_d) & calcd _v_CO \\\\ cmpd & acid & water & (cm−1) & \\(J\\) & (mdyn/\\text{\\AA}) & (cm−1) \\\\ \\hline\n**1H\\({}^{+}\\)** & HBF\\({}_{c}\\) & \\textless{}0 & 2069 & 2027 & 16.93\\({}_{0.34}\\) & 2068 & 2031\\({}^{+}\\) \\\\\n**1-TFA** & F\\({}_{\\text{CO}}\\)CO\\({}_{\\text{H}}\\) & \\textless{}0.5 & 2040 & 1994 & 16.43\\({}_{0.37}\\) & 2035 & 1993 \\\\\n**1-TCA** & Cl\\({}_{\\text{CO}}\\)CO\\({}_{\\text{H}}\\) & 0.7 & 2039 & 1993 & 16.41\\({}_{0.37}\\) & \\\\\n**1-DCA** & Cl\\({}_{\\text{CO}}\\)CO\\({}_{\\text{H}}\\) & 1.5 & 2035 & 1990 & 16.35\\({}_{0.36}\\) & 0.36\\({}_{0.38}\\) & \\\\\n**1-CAA** & Cl\\({}_{\\text{H}}\\)CO\\({}_{\\text{OH}}\\) & 2.9 & 2033 & 1986 & 16.30\\({}_{0.30}\\) & 0.38\\({}_{0.36}\\) & \\\\\n**1-AcOH** & H\\({}_{\\text{CO}}\\)CO\\({}_{\\text{H}}\\) & 4.8 & 2032 & 1985 & 16.29\\({}_{0.38}\\) & 2032 & 1990 \\\\\n**1** & none & & & 2032 & 1985 & 16.29\\({}_{0.38}\\) & 2025 & 1980 \\\\\n**FpCl\\({}^{+}\\)** & none & & & 2053 & 2007 & 16.64\\({}_{0.37}\\) & \\\\\n**FpCl\\({}^{+}\\)** & F\\({}_{\\text{CO}}\\)OH\\({}_{\\text{F}}\\) & \\textless{}0.5 & 2058 & 2014 & 16.74\\({}_{0.36}\\) & \\\\\n**FpCl** & (NBu4)(PF6) & & & 2053 & 2007 & 16.64\\({}_{0.37}\\) & \\\\\n**FpCl** & none & & 2041 & 1996 & 16.45\\({}_{0.36}\\) & 0.36\\({}_{0.36}\\) & \\\\\n**FpCl** & F\\({}_{\\text{CO}}\\)OH & \\textless{}0.5 & 2041 & 1996 & 16.45\\({}_{0.36}\\) & \\\\ \\end{tabular}\n\\end{table}\nTable 4: Experimental\\({}^{\\text{a}}\\) (R = Ph) and Computed\\({}^{\\text{a}}\\) (R = Me) Carbonyl Stretching Frequencies for (_η_3-C_sH_s)Fe(CO)\\({}_{\\text{H}}\\)/gSR), **1**, Its Hydrogen-Bonded Addutes, and Related Compoundsthe latter rationalization is suggested by the corresponding values of \\(n_{o}\\) that indicate specific solute\\(-\\)solvent interactions in the ground state that are not proportional to \\(E_{\\text{T}}^{\\text{N}}\\). It is noteworthy that all rubredoxins (Fe\\({}^{\\text{III}}\\)(cys)_l_) feature a conserved tyrosine with an arene group that is in close proximity to one of the cysteine ligands, and deletion of this residue affects the redox potential of the iron center.51 Thus, specific dipolar solute\\(-\\)solvent dipolar interactions other than hydrogen bonding are capable of modifying the redox properties of metal centers.\n\n## Conclusion\n\nWe conclude that when the conjugate base of the H-bond donor is a stronger base than the thiolate ligand (as in the present case), H-bond donation has a relatively small effect, but protonation results in a large, discontinuous effect on the electronic structure of **1**. Because protonation depends on the relative basicities of the thiolate ligand and the conjugate base of the H-bond donor, a true continuum of effects can be anticipated only for systems that are p_K_-matched.52-54 Such a match should permit low-barrier transformation of a \\(\\pi\\)-donor thiolate ligand55 into a \\(\\pi\\)-acceptor thiol ligand.56,57 We are currently exploring this hypothesis.\n\n## Acknowledgment\n\nThe financial support of the National Science Foundation (CHE-9612869), Oklahoma Center for the Advancement of Science and Technology (OCAST HR98-078), and the Petroleum Research Fund (ACS-PRF 35088-AC) is gratefully acknowledged. D.G.M. was the recipient of a Department of Education G.A.A.N.N. Fellowship.\n\n## Supporting Information Available\n\nTables of crystallographic data, fractional coordinates of the non-hydrogen atoms, anisotropic thermal parameters, hydrogen atom parameters, and selected interatomic distances and angles for **1(R = Ph)** and **1(R = Ph)**-**HBFd\\({}_{4}\\)**: DFT computed coordinates of **1(R = Me)**, **1(R = Me)**H\\({}^{+}\\)**, **1(R = Me)**-**TFA**, and **1(R = Me)**-**AcOH**; three figures (S1\\(-\\)S3). This material is available free of charge via the Internet at [http://pubs.acs.org](http://pubs.acs.org).\n\nICO11096G\n\n(51) Low, D. W.; Hill, M. G. _J. Am. Chem. Soc._**1998**, _120_, 11536.\n* (52) Chen, J. G.; McAllister, M. A.; Lee, J. K.; Houk, K. N. _J. Org. Chem._**1998**, _63_, 4611.\n* (53) Kumar, G. A.; McAllister, M. A. _J. Am. Chem. Soc._**1998**, _120_, 3159.\n* (54) Cleland, W. W.; Kreovyov, M. M. _Science_**1994**, _264_, 1887.\n* (55) Ashby, M. T. _Comments hors. Chem._**1990**, _10_, 297.\n* (56) Kravat, H. B.; Jacobsen, H.; Ziegler, T.; Boorman, P. M. _Organometallics_**1993**, _12_, 76.\n* (57) Jacobsen, H.; Kraatz, H. B.; Ziegler, T.; Boorman, P. M. _J. Am. Chem. Soc._**1992**, _114_, 7851.\n\nFigure 4: Highest occupied molecular orbitals (HOMOs) of various Brønsted acid adducts of **1(R = Me)** as calculated by the DFT method. Left to right: **1(R = Me)**, **1(R = Me)**-**TFA**, **1(R = Me)**-**HBFd\\({}_{4}\\)** and **1(R = Me)**H\\({}^{+}\\)**. Note that the HOMO is largely S in character until the H-bond is polarized toward S, at which time the HOMO becomes largely Fe in character (with concomitant increase in Cp character).\n\nFigure 5: Relationship between the dielectric constant of nonprotic solvents and \\(\\lambda_{\\text{max}}\\) of the LMCT band of **1(R = Ph)** and **1(R = C\\({}_{\\text{a}}\\)H\\({}_{\\text{x}}\\)-**_p_-**CF\\({}_{3}\\)**) (\\(\\bigcirc\\) and x, respectively).\n\n\\begin{table}\n\\begin{tabular}{l c c c} \\hline  & solvent polarity & UV\\(-\\)vis & IR\\({}^{\\text{a}}\\) \\\\ solvent & \\(E^{\\text{N}}\\) & (\\(\\lambda_{\\text{max}}\\), nm) & (\\(v_{\\text{CO}}\\), cm\\({}^{-1}\\)) \\\\ \\hline pentane & 0.009 & 582 & 2035, 1992 \\\\ benzene & 0.111 & 572 & 2039, 1985 \\\\ tetrahydrofuran & 0.207 & 564 & 2028, 1988 \\\\ dichloromethane & 0.309 & 560 & 2032, 1985 \\\\ acetone & 0.355 & 558 & 2039, 1980 \\\\ acetonitrile & 0.460 & 552 & 2031, 1983 \\\\\n1-pentanol & 0.568 & 550 & _2032_, 1987 \\\\ l-butanol & 0.602 & 550 & _2033_, 1990 \\\\ methanol & 0.762 & 542 & _2022_, 1985 \\\\\n2,2,2-trifluoroethanol & 0.898 & \\textless{}542 sh & 2045, _2005_ \\\\ \\end{tabular}\n\\end{table}\nTable 5: Spectroscopic Data for CpFe(CO)\\({}_{\\text{x}}\\)SPh (1(R = Ph)) in Various Solvents"
+        },
+        "topics": [
+            {
+                "topic": "Discontinuum between Thiolate and Thiol Ligand",
+                "justification": "The summary mentions the discontinuum between thiolate and thiol ligand and how it affects the donor properties and redox potentials in metalloproteins."
+            },
+            {
+                "topic": "Effects of H-bonding on Thiolate Ligands",
+                "justification": "The summary discusses how H-bonding weakens the donor properties of thiolate ligands and its impact on redox potentials in metalloproteins."
+            },
+            {
+                "topic": "Insights from Electrochemical Measurements",
+                "justification": "The summary mentions that electrochemical measurements on model compounds have provided insights into the effects of H-bonding on thiolate ligands."
+            },
+            {
+                "topic": "Spectroscopic Probes for Electronic Changes at Metal Centers",
+                "justification": "The summary mentions the use of spectroscopic probes, such as the carbonyl ligand, to reveal electronic changes at metal centers."
+            }
+        ],
+        "hypothetical_questions": [
+            {
+                "question_type": "Content-Based Question",
+                "question": "How does H-bonding to thiolate ligands impact their donor properties in metalloproteins?"
+            },
+            {
+                "question_type": "Analytical Question",
+                "question": "What insights have electrochemical measurements on model compounds provided regarding the effects of H-bonding on redox potentials?"
+            },
+            {
+                "question_type": "Creative/Scenario-Based Question",
+                "question": "Imagine a scenario where H-bonding to thiolate ligands does not weaken their donor properties. How would this affect the redox potentials in metalloproteins?"
+            },
+            {
+                "question_type": "Contextual/Relational Question",
+                "question": "How do spectroscopic probes, such as the carbonyl ligand, help reveal electronic changes at metal centers in the context of studying the effects of H-bonding on thiolate ligands?"
+            },
+            {
+                "question_type": "User-Interactive Question",
+                "question": "How would you design an experiment to investigate the impact of H-bonding on the donor properties of thiolate ligands in metalloproteins?"
+            }
+        ],
+        "knowledge_triplets": [
+            {
+                "subject": "H-bond donation",
+                "relationship": "influences",
+                "target": "thiolate ligand"
+            },
+            {
+                "subject": "thiolate ligands",
+                "relationship": "bear",
+                "target": "H-bonds"
+            },
+            {
+                "subject": "redox potentials",
+                "relationship": "influenced",
+                "target": "metals"
+            },
+            {
+                "subject": "H-bonding",
+                "relationship": "affects",
+                "target": "redox-active metalloproteins"
+            },
+            {
+                "subject": "H-bonding",
+                "relationship": "complicated",
+                "target": "electrochemical experiments"
+            },
+            {
+                "subject": "donor properties",
+                "relationship": "explored",
+                "target": "dipole-perturbed thiolate ligands"
+            },
+            {
+                "subject": "carbonyl ligand",
+                "relationship": "sensitive reporter",
+                "target": "electronic changes"
+            },
+            {
+                "subject": "H-bond donation",
+                "relationship": "to give",
+                "target": "thiolate ligand"
+            },
+            {
+                "subject": "thiolate ligand",
+                "relationship": "bear",
+                "target": "H-bonds"
+            },
+            {
+                "subject": "redox potentials",
+                "relationship": "influenced",
+                "target": "metals"
+            },
+            {
+                "subject": "metals",
+                "relationship": "of profound significance",
+                "target": "redox-active metalloproteins"
+            },
+            {
+                "subject": "H-bonding",
+                "relationship": "decrease",
+                "target": "donor properties"
+            },
+            {
+                "subject": "donor properties",
+                "relationship": "weakened",
+                "target": "thiolate ligands"
+            },
+            {
+                "subject": "thiolate ligands",
+                "relationship": "protonated",
+                "target": "limiting effect"
+            },
+            {
+                "subject": "H-bonding",
+                "relationship": "effect",
+                "target": "complicated"
+            },
+            {
+                "subject": "effects",
+                "relationship": "H-bonding",
+                "target": "composite influence"
+            },
+            {
+                "subject": "dipole-perturbed thiolate ligands",
+                "relationship": "electronic changes",
+                "target": "spectroscopic probes"
+            },
+            {
+                "subject": "carbonyl ligand",
+                "relationship": "reporter",
+                "target": "electronic changes"
+            },
+            {
+                "subject": "metal centers",
+                "relationship": "take place",
+                "target": "electronic changes"
+            },
+            {
+                "subject": "H-bond donation",
+                "relationship": "influences",
+                "target": "thiolate ligand"
+            },
+            {
+                "subject": "thiolate ligands",
+                "relationship": "bear",
+                "target": "H-bonds"
+            },
+            {
+                "subject": "redox potentials",
+                "relationship": "influenced",
+                "target": "metals"
+            },
+            {
+                "subject": "H-bonding",
+                "relationship": "affects",
+                "target": "redox-active metalloproteins"
+            },
+            {
+                "subject": "H-bonding",
+                "relationship": "complicated",
+                "target": "electrochemical experiments"
+            },
+            {
+                "subject": "donor properties",
+                "relationship": "explored",
+                "target": "dipole-perturbed thiolate ligands"
+            },
+            {
+                "subject": "carbonyl ligand",
+                "relationship": "sensitive reporter",
+                "target": "electronic changes"
+            }
+        ],
+        "timestamp": "2024-01-16T12:39:45.607248"
+    }
+]
