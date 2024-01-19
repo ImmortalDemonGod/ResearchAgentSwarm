@@ -1,6 +1,6 @@
 import time
 import pyautogui
-import playsound
+#import playsound
 
 def get_search_box_coordinates():
     """
@@ -71,7 +71,7 @@ def main():
         print("Skipping the evaluate notes step.")
     else:
         evaluate_notes_with_claude(coordinates)
-    playsound.playsound('AutomatedSearch/done_sound.mp3')
+    #playsound.playsound('AutomatedSearch/done_sound.mp3')
 
     # Prompt to check if the file with overlooked points is ready
     if input("Is the file with overlooked points ready? (yes/no): ").lower() == 'yes':
@@ -81,7 +81,7 @@ def main():
     else:
         print("Please prepare the file and run the script again.")
 
-    playsound.playsound('AutomatedSearch/done_sound.mp3')
+    #playsound.playsound('AutomatedSearch/done_sound.mp3')
     print("All tasks are complete.")
 
 if __name__ == "__main__":

@@ -4,7 +4,7 @@ from click import clear
 import pyautogui
 import json
 import time
-import playsound
+#import playsound
 
 def get_file_path():
     json_files = [f for f in os.listdir("AutomatedSearch/jsons/") if f.endswith('.json')]
@@ -68,7 +68,7 @@ def perform_searches(queries, search_box, search_button, delay, get_started):
         pyautogui.click(search_button) # can be redundant but just in case
         time.sleep(delay)  # Wait for the search to complete
     print("All searches are complete.")
-    playsound.playsound('done_sound.mp3')
+    #playsound.playsound('done_sound.mp3')
 
 def read_queries_from_file(file_path):
     with open(file_path, 'r') as file:
