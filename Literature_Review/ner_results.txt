@@ -1,1 +1,671 @@
 []
+ > tts_models/en/ljspeech/vits is already downloaded.
+ > Using model: vits
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:0
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:None
+ | > fft_size:1024
+ | > power:None
+ | > preemphasis:0.0
+ | > griffin_lim_iters:None
+ | > signal_norm:None
+ | > symmetric_norm:None
+ | > mel_fmin:0
+ | > mel_fmax:None
+ | > pitch_fmin:None
+ | > pitch_fmax:None
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:1.0
+ | > clip_norm:True
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Text: Recent Advances in X-ray
+Crystallography Improving
+Resolution and Reliability
+Introduction
+X-ray crystallography is a pivotal technique in structural biology, allowing
+scientists to determine the atomic structure of molecules. Over the years,
+this method has contributed significantly to our understanding of molecular
+biology and has been instrumental in drug discovery and materials science.
+However, the technique has faced limitations, particularly in resolution and
+sample damage due to X-ray exposure. Recent advancements in X-ray
+crystallography aim to overcome these challenges, enhancing both the
+resolution and reliability of the obtained structures. This report delves into
+the latest developments in the field, highlighting their impact on scientific
+research.
+Apochromatic X-ray Focusing and Virtual
+Lenses
+One of the significant advancements in X-ray crystallography is the
+development of apochromatic X-ray focusing (Phys.org, 2018). This
+technique improves the resolution of X-ray imaging by minimizing chromatic
+aberration, which is a dispersion of X-ray wavelengths that can blur the
+resulting image. By using novel diffractive lenses, high-resolution imaging of
+biological materials without prior alteration has been achieved, with little to
+no damage to the sample (Phys.org, 2023). This method is particularly
+promising for next-generation light sources like the planned upgrade project
+PETRA IV .
+Furthermore, the introduction of virtual lenses has enhanced X-ray
+microscopy (Phys.org, 2023). These lenses do not suffer from the physical
+limitations of traditional lenses and can improve the imaging process by
+correcting aberrations and focusing X-rays more efficiently.
+Time-Resolved Macromolecular
+Crystallography
+The field of macromolecular crystallography has seen a new era with the
+introduction of time-resolved methods. These methods capture intermediate
+structures along reaction pathways, providing insights into the dynamic
+processes within molecules (Nature Methods, 2021). The use of photo-
+triggered serial rotation measurements and drop-on-demand systems for
+serial crystal mixing has been a step toward making time-resolved
+macromolecular crystallography more widely accessible. This advancement
+ > Text splitted to sentences.
+['Recent Advances in X-ray', 'Crystallography Improving', 'Resolution and Reliability', 'Introduction', 'X-ray crystallography is a pivotal technique in structural biology, allowing', 'scientists to determine the atomic structure of molecules.', 'Over the years,', 'this method has contributed significantly to our understanding of molecular', 'biology and has been instrumental in drug discovery and materials science.', 'However, the technique has faced limitations, particularly in resolution and', 'sample damage due to X-ray exposure.', 'Recent advancements in X-ray', 'crystallography aim to overcome these challenges, enhancing both the', 'resolution and reliability of the obtained structures.', 'This report delves into', 'the latest developments in the field, highlighting their impact on scientific', 'research.', 'Apochromatic X-ray Focusing and Virtual', 'Lenses', 'One of the significant advancements in X-ray crystallography is the', 'development of apochromatic X-ray focusing (Phys.org, 2018).', 'This', 'technique improves the resolution of X-ray imaging by minimizing chromatic', 'aberration, which is a dispersion of X-ray wavelengths that can blur the', 'resulting image.', 'By using novel diffractive lenses, high-resolution imaging of', 'biological materials without prior alteration has been achieved, with little to', 'no damage to the sample (Phys.org, 2023).', 'This method is particularly', 'promising for next-generation light sources like the planned upgrade project', 'PETRA IV .', 'Furthermore, the introduction of virtual lenses has enhanced X-ray', 'microscopy (Phys.org, 2023).', 'These lenses do not suffer from the physical', 'limitations of traditional lenses and can improve the imaging process by', 'correcting aberrations and focusing X-rays more efficiently.', 'Time-Resolved Macromolecular', 'Crystallography', 'The field of macromolecular crystallography has seen a new era with the', 'introduction of time-resolved methods.', 'These methods capture intermediate', 'structures along reaction pathways, providing insights into the dynamic', 'processes within molecules (Nature Methods, 2021).', 'The use of photo-', 'triggered serial rotation measurements and drop-on-demand systems for', 'serial crystal mixing has been a step toward making time-resolved', 'macromolecular crystallography more widely accessible.', 'This advancement']
+ > Processing time: 42.46617603302002
+ > Real-time factor: 0.22971369577617953
+ > Saving output to AUDIO_OUTPUTS/page_0.wav
+ > tts_models/en/ljspeech/vits is already downloaded.
+ > Using model: vits
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:0
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:None
+ | > fft_size:1024
+ | > power:None
+ | > preemphasis:0.0
+ | > griffin_lim_iters:None
+ | > signal_norm:None
+ | > symmetric_norm:None
+ | > mel_fmin:0
+ | > mel_fmax:None
+ | > pitch_fmin:None
+ | > pitch_fmax:None
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:1.0
+ | > clip_norm:True
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Text: is crucial for understanding the relationship between molecular motion and
+biological function.
+X-ray Microscopy and Electron Diffraction
+X-ray microscopy has also progressed, with the ability to perform 3D
+imaging of biological organisms at nano- to microscale resolution (NCBI,
+2023). This technology surpasses the diffraction limit of conventional
+microscopes by using shorter wavelength X-ray photons. Additionally, the
+development of transmission soft X-ray microscopes can generate 3D cell
+imaging at nanoscale resolution, bridging the gap between cryoelectron
+tomography and fluorescence superresolution microscopy.
+Advances in electron diffraction complement these improvements in X-ray
+crystallography. The rise in structures determined by new methods has led
+to challenges associated with data storage, analysis, and accessibility.
+Repositories like the coherent X-ray imaging data bank are now providing
+resources for depositing the vast amounts of data collected at X-ray free
+electron laser facilities (NCBI, 2023).
+High-Speed Data Collection and Compact X-
+ray Sources
+The use of fast detectors has become routine in crystallography, allowing for
+the collection of multiple diffraction patterns per crystal and improving the
+signal-to-noise ratio, particularly at high resolution (NCBI, 2023). This has
+been advantageous for de novo structure determination and for acquiring
+information about ligand binding. The development of compact X-ray
+sources that deliver high-repetition bright X-ray beams in a conventional
+laboratory setting has further enabled large-scale screening efforts for
+ligand binding at dedicated serial crystallography beamlines.
+Synchrotron Facilities and Novel Diffraction
+Techniques
+Synchrotron facilities have undergone enhancements, including better
+detectors, higher brilliance and microfocused beams, and improved remote-
+access options (IUCr Journals, 2023). New diffraction techniques, such as
+serial synchrotron methods and X-ray free-electron lasers, have expanded
+the field and introduced new approaches to structural science.
+Time-Resolved Single-Crystal X-ray
+Crystallography
+Time-resolved single-crystal X-ray crystallography has been a focus of recent
+research, with methods like the Hadamard transform enabling
+measurements of protein dynamics at standard synchrotron sources (Nature
+Methods, 2014). This approach has the potential to capture ultrafast protein
+ > Text splitted to sentences.
+['is crucial for understanding the relationship between molecular motion and', 'biological function.', 'X-ray Microscopy and Electron Diffraction', 'X-ray microscopy has also progressed, with the ability to perform 3D', 'imaging of biological organisms at nano- to microscale resolution (NCBI,', '2023).', 'This technology surpasses the diffraction limit of conventional', 'microscopes by using shorter wavelength X-ray photons.', 'Additionally, the', 'development of transmission soft X-ray microscopes can generate 3D cell', 'imaging at nanoscale resolution, bridging the gap between cryoelectron', 'tomography and fluorescence superresolution microscopy.', 'Advances in electron diffraction complement these improvements in X-ray', 'crystallography.', 'The rise in structures determined by new methods has led', 'to challenges associated with data storage, analysis, and accessibility.', 'Repositories like the coherent X-ray imaging data bank are now providing', 'resources for depositing the vast amounts of data collected at X-ray free', 'electron laser facilities (NCBI, 2023).', 'High-Speed Data Collection and Compact X-', 'ray Sources', 'The use of fast detectors has become routine in crystallography, allowing for', 'the collection of multiple diffraction patterns per crystal and improving the', 'signal-to-noise ratio, particularly at high resolution (NCBI, 2023).', 'This has', 'been advantageous for de novo structure determination and for acquiring', 'information about ligand binding.', 'The development of compact X-ray', 'sources that deliver high-repetition bright X-ray beams in a conventional', 'laboratory setting has further enabled large-scale screening efforts for', 'ligand binding at dedicated serial crystallography beamlines.', 'Synchrotron Facilities and Novel Diffraction', 'Techniques', 'Synchrotron facilities have undergone enhancements, including better', 'detectors, higher brilliance and microfocused beams, and improved remote-', 'access options (IUCr Journals, 2023).', 'New diffraction techniques, such as', 'serial synchrotron methods and X-ray free-electron lasers, have expanded', 'the field and introduced new approaches to structural science.', 'Time-Resolved Single-Crystal X-ray', 'Crystallography', 'Time-resolved single-crystal X-ray crystallography has been a focus of recent', 'research, with methods like the Hadamard transform enabling', 'measurements of protein dynamics at standard synchrotron sources (Nature', 'Methods, 2014).', 'This approach has the potential to capture ultrafast protein']
+ > Processing time: 43.71582317352295
+ > Real-time factor: 0.22541876065812316
+ > Saving output to AUDIO_OUTPUTS/page_1.wav
+ > tts_models/en/ljspeech/vits is already downloaded.
+ > Using model: vits
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:0
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:None
+ | > fft_size:1024
+ | > power:None
+ | > preemphasis:0.0
+ | > griffin_lim_iters:None
+ | > signal_norm:None
+ | > symmetric_norm:None
+ | > mel_fmin:0
+ | > mel_fmax:None
+ | > pitch_fmin:None
+ | > pitch_fmax:None
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:1.0
+ | > clip_norm:True
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Text: movements, which can be crucial for understanding enzymatic processes
+and drug interactions.
+Challenges in Low Resolution Crystallography
+Despite these advancements, challenges remain in solving and refining
+structures at low resolutions. Many macromolecular crystals, especially
+those of large molecules or multicomponent assemblies, diffract X-rays to
+resolutions worse than 3.5Å. Recent efforts have been directed toward more
+robust ways to incorporate additional data, such as electron microscopy or
+small-angle X-ray or neutron scattering, as restraints to aid in low-resolution
+structure determination (NCBI, 2010).
+Conclusion
+The recent advancements in X-ray crystallography have significantly
+improved the resolution and reliability of structural data. From
+apochromatic X-ray focusing to time-resolved methods and high-speed data
+collection, these developments are propelling the field forward. As the
+technology continues to evolve, we can expect further enhancements that
+will deepen our understanding of molecular structures and their functions,
+with broad implications for science and technology.
+References
+Nature Methods. (2021). A new era of synchrotron-enabled
+macromolecular crystallography. https://www.nature.com/articles/
+s41592-021-01146-y
+Phys.org. (2018). Apochromatic X-ray focusing. https://phys.org/news/
+2023-05-high-resolution-x-ray-imaging-technique.html
+Phys.org. (2023). Virtual lens improves X-ray microscopy. https://
+phys.org/news/2023-05-high-resolution-x-ray-imaging-technique.html
+NCBI. (2023). X-Ray Microscopy. https://www.ncbi.nlm.nih.gov/pmc/
+articles/PMC8724686/
+NCBI. (2023). Advances in electron diffraction. https://
+www.ncbi.nlm.nih.gov/pmc/articles/PMC7289006/
+IUCr Journals. (2023). The field of crystallography is dynamic and
+continues to grow. https://journals.iucr.org/d/issues/2023/03/00/cb5142/
+Nature Methods. (2014). Time-resolved crystallography using the
+Hadamard transform. https://www.nature.com/subjects/x-ray-
+crystallography/nmeth
+NCBI. (2010). Challenges in low resolution crystallography. https://
+www.ncbi.nlm.nih.gov/pmc/articles/PMC2998839/• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+ > Text splitted to sentences.
+['movements, which can be crucial for understanding enzymatic processes', 'and drug interactions.', 'Challenges in Low Resolution Crystallography', 'Despite these advancements, challenges remain in solving and refining', 'structures at low resolutions.', 'Many macromolecular crystals, especially', 'those of large molecules or multicomponent assemblies, diffract X-rays to', 'resolutions worse than 3.5Å.', 'Recent efforts have been directed toward more', 'robust ways to incorporate additional data, such as electron microscopy or', 'small-angle X-ray or neutron scattering, as restraints to aid in low-resolution', 'structure determination (NCBI, 2010).', 'Conclusion', 'The recent advancements in X-ray crystallography have significantly', 'improved the resolution and reliability of structural data.', 'From', 'apochromatic X-ray focusing to time-resolved methods and high-speed data', 'collection, these developments are propelling the field forward.', 'As the', 'technology continues to evolve, we can expect further enhancements that', 'will deepen our understanding of molecular structures and their functions,', 'with broad implications for science and technology.', 'References', 'Nature Methods.', '(2021).', 'A new era of synchrotron-enabled', 'macromolecular crystallography.', 'https://www.nature.com/articles/', 's41592-021-01146-y', 'Phys.org.', '(2018).', 'Apochromatic X-ray focusing.', 'https://phys.org/news/', '2023-05-high-resolution-x-ray-imaging-technique.html', 'Phys.org.', '(2023).', 'Virtual lens improves X-ray microscopy.', 'https://', 'phys.org/news/2023-05-high-resolution-x-ray-imaging-technique.html', 'NCBI.', '(2023).', 'X-Ray Microscopy.', 'https://www.ncbi.nlm.nih.gov/pmc/', 'articles/PMC8724686/', 'NCBI.', '(2023).', 'Advances in electron diffraction.', 'https://', 'www.ncbi.nlm.nih.gov/pmc/articles/PMC7289006/', 'IUCr Journals.', '(2023).', 'The field of crystallography is dynamic and', 'continues to grow.', 'https://journals.iucr.org/d/issues/2023/03/00/cb5142/', 'Nature Methods.', '(2014).', 'Time-resolved crystallography using the', 'Hadamard transform.', 'https://www.nature.com/subjects/x-ray-', 'crystallography/nmeth', 'NCBI.', '(2010).', 'Challenges in low resolution crystallography.', 'https://', 'www.ncbi.nlm.nih.gov/pmc/articles/PMC2998839/•', '•', '•', '•', '•', '•', '•', '•']
+Traceback (most recent call last):
+  File "/Users/tomriddle1/Documents/GitHub/ResearchAgentSwarm/.conda/bin/tts", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/tomriddle1/Documents/GitHub/ResearchAgentSwarm/.conda/lib/python3.11/site-packages/TTS/bin/synthesize.py", line 468, in main
+    wav = synthesizer.tts(
+          ^^^^^^^^^^^^^^^^
+  File "/Users/tomriddle1/Documents/GitHub/ResearchAgentSwarm/.conda/lib/python3.11/site-packages/TTS/utils/synthesizer.py", line 398, in tts
+    outputs = synthesis(
+              ^^^^^^^^^^
+  File "/Users/tomriddle1/Documents/GitHub/ResearchAgentSwarm/.conda/lib/python3.11/site-packages/TTS/tts/utils/synthesis.py", line 221, in synthesis
+    outputs = run_model_torch(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/tomriddle1/Documents/GitHub/ResearchAgentSwarm/.conda/lib/python3.11/site-packages/TTS/tts/utils/synthesis.py", line 53, in run_model_torch
+    outputs = _func(
+              ^^^^^^
+  File "/Users/tomriddle1/Documents/GitHub/ResearchAgentSwarm/.conda/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tomriddle1/Documents/GitHub/ResearchAgentSwarm/.conda/lib/python3.11/site-packages/TTS/tts/models/vits.py", line 1150, in inference
+    attn = generate_path(w_ceil.squeeze(1), attn_mask.squeeze(1).transpose(1, 2))
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+An error occurred: Command 'tts --text "movements, which can be crucial for understanding enzymatic processes
+and drug interactions.
+Challenges in Low Resolution Crystallography
+Despite these advancements, challenges remain in solving and refining
+structures at low resolutions. Many macromolecular crystals, especially
+those of large molecules or multicomponent assemblies, diffract X-rays to
+resolutions worse than 3.5Å. Recent efforts have been directed toward more
+robust ways to incorporate additional data, such as electron microscopy or
+small-angle X-ray or neutron scattering, as restraints to aid in low-resolution
+structure determination (NCBI, 2010).
+Conclusion
+The recent advancements in X-ray crystallography have significantly
+improved the resolution and reliability of structural data. From
+apochromatic X-ray focusing to time-resolved methods and high-speed data
+collection, these developments are propelling the field forward. As the
+technology continues to evolve, we can expect further enhancements that
+will deepen our understanding of molecular structures and their functions,
+with broad implications for science and technology.
+References
+Nature Methods. (2021). A new era of synchrotron-enabled
+macromolecular crystallography. https://www.nature.com/articles/
+s41592-021-01146-y
+Phys.org. (2018). Apochromatic X-ray focusing. https://phys.org/news/
+2023-05-high-resolution-x-ray-imaging-technique.html
+Phys.org. (2023). Virtual lens improves X-ray microscopy. https://
+phys.org/news/2023-05-high-resolution-x-ray-imaging-technique.html
+NCBI. (2023). X-Ray Microscopy. https://www.ncbi.nlm.nih.gov/pmc/
+articles/PMC8724686/
+NCBI. (2023). Advances in electron diffraction. https://
+www.ncbi.nlm.nih.gov/pmc/articles/PMC7289006/
+IUCr Journals. (2023). The field of crystallography is dynamic and
+continues to grow. https://journals.iucr.org/d/issues/2023/03/00/cb5142/
+Nature Methods. (2014). Time-resolved crystallography using the
+Hadamard transform. https://www.nature.com/subjects/x-ray-
+crystallography/nmeth
+NCBI. (2010). Challenges in low resolution crystallography. https://
+www.ncbi.nlm.nih.gov/pmc/articles/PMC2998839/• 
+• 
+• 
+• 
+• 
+• 
+• 
+• " --model_name "tts_models/en/ljspeech/vits" --out_path AUDIO_OUTPUTS/page_2.wav' returned non-zero exit status 1.
+ > tts_models/en/ljspeech/vits is already downloaded.
+ > Using model: vits
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:0
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:None
+ | > fft_size:1024
+ | > power:None
+ | > preemphasis:0.0
+ | > griffin_lim_iters:None
+ | > signal_norm:None
+ | > symmetric_norm:None
+ | > mel_fmin:0
+ | > mel_fmax:None
+ | > pitch_fmin:None
+ | > pitch_fmax:None
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:1.0
+ | > clip_norm:True
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Text: movements, which can be crucial for understanding enzymatic processes
+and drug interactions.
+Challenges in Low Resolution Crystallography
+Despite these advancements, challenges remain in solving and refining
+structures at low resolutions. Many macromolecular crystals, especially
+those of large molecules or multicomponent assemblies, diffract X-rays to
+resolutions worse than 3.5Å. Recent efforts have been directed toward more
+robust ways to incorporate additional data, such as electron microscopy or
+small-angle X-ray or neutron scattering, as restraints to aid in low-resolution
+structure determination (NCBI, 2010).
+Conclusion
+The recent advancements in X-ray crystallography have significantly
+improved the resolution and reliability of structural data. From
+apochromatic X-ray focusing to time-resolved methods and high-speed data
+collection, these developments are propelling the field forward. As the
+technology continues to evolve, we can expect further enhancements that
+will deepen our understanding of molecular structures and their functions,
+with broad implications for science and technology.
+References
+Nature Methods. (2021). A new era of synchrotron-enabled
+macromolecular crystallography. https://www.nature.com/articles/
+s41592-021-01146-y
+Phys.org. (2018). Apochromatic X-ray focusing. https://phys.org/news/
+2023-05-high-resolution-x-ray-imaging-technique.html
+Phys.org. (2023). Virtual lens improves X-ray microscopy. https://
+phys.org/news/2023-05-high-resolution-x-ray-imaging-technique.html
+NCBI. (2023). X-Ray Microscopy. https://www.ncbi.nlm.nih.gov/pmc/
+articles/PMC8724686/
+NCBI. (2023). Advances in electron diffraction. https://
+www.ncbi.nlm.nih.gov/pmc/articles/PMC7289006/
+IUCr Journals. (2023). The field of crystallography is dynamic and
+continues to grow. https://journals.iucr.org/d/issues/2023/03/00/cb5142/
+Nature Methods. (2014). Time-resolved crystallography using the
+Hadamard transform. https://www.nature.com/subjects/x-ray-
+crystallography/nmeth
+NCBI. (2010). Challenges in low resolution crystallography
+ > Text splitted to sentences.
+['movements, which can be crucial for understanding enzymatic processes', 'and drug interactions.', 'Challenges in Low Resolution Crystallography', 'Despite these advancements, challenges remain in solving and refining', 'structures at low resolutions.', 'Many macromolecular crystals, especially', 'those of large molecules or multicomponent assemblies, diffract X-rays to', 'resolutions worse than 3.5Å.', 'Recent efforts have been directed toward more', 'robust ways to incorporate additional data, such as electron microscopy or', 'small-angle X-ray or neutron scattering, as restraints to aid in low-resolution', 'structure determination (NCBI, 2010).', 'Conclusion', 'The recent advancements in X-ray crystallography have significantly', 'improved the resolution and reliability of structural data.', 'From', 'apochromatic X-ray focusing to time-resolved methods and high-speed data', 'collection, these developments are propelling the field forward.', 'As the', 'technology continues to evolve, we can expect further enhancements that', 'will deepen our understanding of molecular structures and their functions,', 'with broad implications for science and technology.', 'References', 'Nature Methods.', '(2021).', 'A new era of synchrotron-enabled', 'macromolecular crystallography.', 'https://www.nature.com/articles/', 's41592-021-01146-y', 'Phys.org.', '(2018).', 'Apochromatic X-ray focusing.', 'https://phys.org/news/', '2023-05-high-resolution-x-ray-imaging-technique.html', 'Phys.org.', '(2023).', 'Virtual lens improves X-ray microscopy.', 'https://', 'phys.org/news/2023-05-high-resolution-x-ray-imaging-technique.html', 'NCBI.', '(2023).', 'X-Ray Microscopy.', 'https://www.ncbi.nlm.nih.gov/pmc/', 'articles/PMC8724686/', 'NCBI.', '(2023).', 'Advances in electron diffraction.', 'https://', 'www.ncbi.nlm.nih.gov/pmc/articles/PMC7289006/', 'IUCr Journals.', '(2023).', 'The field of crystallography is dynamic and', 'continues to grow.', 'https://journals.iucr.org/d/issues/2023/03/00/cb5142/', 'Nature Methods.', '(2014).', 'Time-resolved crystallography using the', 'Hadamard transform.', 'https://www.nature.com/subjects/x-ray-', 'crystallography/nmeth', 'NCBI.', '(2010).', 'Challenges in low resolution crystallography']
+ > Processing time: 54.00562620162964
+ > Real-time factor: 0.2281796692239468
+ > Saving output to AUDIO_OUTPUTS/page_2.wav
+ > tts_models/en/ljspeech/vits is already downloaded.
+ > Using model: vits
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:0
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:None
+ | > fft_size:1024
+ | > power:None
+ | > preemphasis:0.0
+ | > griffin_lim_iters:None
+ | > signal_norm:None
+ | > symmetric_norm:None
+ | > mel_fmin:0
+ | > mel_fmax:None
+ | > pitch_fmin:None
+ | > pitch_fmax:None
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:1.0
+ | > clip_norm:True
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Text: Unique Properties of Metal-
+Thiolate Complexes for Catalysis
+and Materials Science
+Metal-thiolate complexes have garnered significant attention in the fields of
+catalysis and materials science due to their unique photophysical properties
+and versatility as precursors for the synthesis of well-defined metal
+nanoclusters. These complexes exhibit a range of structural configurations
+and electronic properties that can be finely tuned, making them suitable for
+various applications, including catalysis, sensing, and the development of
+new materials.
+Photophysical Properties and Sensing
+Applications
+One of the remarkable features of metal-thiolate complexes is their
+photoluminescence (PL), which can be modulated by external stimuli such as
+pH changes. A study on copper-thiolate complexes demonstrated that these
+complexes could exhibit switchable PL properties, transitioning from cyan to
+light green emission upon a shift from basic to acidic pH (Sahoo, Bera, Saha,
+& Goswami, 2022). This pH-responsive behavior is not only intriguing from a
+fundamental perspective but also practical for applications such as pH and
+CO2 sensing. The ability to switch between two distinct structural states at
+different pH levels is a testament to the dynamic nature of metal-thiolate
+complexes and their potential for creating responsive materials.
+Catalytic Applications
+The catalytic properties of metal-thiolate complexes are equally impressive.
+The same copper-thiolate complex mentioned earlier displayed a significant
+enhancement in catalytic activity when switched from one form to another.
+The reduction of 4-nitrophenol and the oxidation of 3,3′,5,5′-
+tetramethylbenzidine (TMB) were both catalyzed more effectively by the
+complex in its acidic form (Complex A) compared to its basic form (Complex
+B). The catalytic activity was enhanced by over 1000 times, following
+pseudo-first-order kinetics (Sahoo et al., 2022). This redox switchable
+behavior underscores the potential of metal-thiolate complexes as powerful
+candidates for catalysis, where control over the reaction environment can
+lead to dramatic changes in activity.
+Structural and Redox Properties
+The structural and redox properties of metal-thiolate complexes are central
+to their function. Complex A, for example, was found to be resistant to high
+concentrations of a strong reducing agent and had an intermediate oxidation
+ > Text splitted to sentences.
+['Unique Properties of Metal-', 'Thiolate Complexes for Catalysis', 'and Materials Science', 'Metal-thiolate complexes have garnered significant attention in the fields of', 'catalysis and materials science due to their unique photophysical properties', 'and versatility as precursors for the synthesis of well-defined metal', 'nanoclusters.', 'These complexes exhibit a range of structural configurations', 'and electronic properties that can be finely tuned, making them suitable for', 'various applications, including catalysis, sensing, and the development of', 'new materials.', 'Photophysical Properties and Sensing', 'Applications', 'One of the remarkable features of metal-thiolate complexes is their', 'photoluminescence (PL), which can be modulated by external stimuli such as', 'pH changes.', 'A study on copper-thiolate complexes demonstrated that these', 'complexes could exhibit switchable PL properties, transitioning from cyan to', 'light green emission upon a shift from basic to acidic pH (Sahoo, Bera, Saha,', '& Goswami, 2022).', 'This pH-responsive behavior is not only intriguing from a', 'fundamental perspective but also practical for applications such as pH and', 'CO2 sensing.', 'The ability to switch between two distinct structural states at', 'different pH levels is a testament to the dynamic nature of metal-thiolate', 'complexes and their potential for creating responsive materials.', 'Catalytic Applications', 'The catalytic properties of metal-thiolate complexes are equally impressive.', 'The same copper-thiolate complex mentioned earlier displayed a significant', 'enhancement in catalytic activity when switched from one form to another.', 'The reduction of 4-nitrophenol and the oxidation of 3,3′,5,5′-', 'tetramethylbenzidine (TMB) were both catalyzed more effectively by the', 'complex in its acidic form (Complex A) compared to its basic form (Complex', 'B).', 'The catalytic activity was enhanced by over 1000 times, following', 'pseudo-first-order kinetics (Sahoo et al., 2022).', 'This redox switchable', 'behavior underscores the potential of metal-thiolate complexes as powerful', 'candidates for catalysis, where control over the reaction environment can', 'lead to dramatic changes in activity.', 'Structural and Redox Properties', 'The structural and redox properties of metal-thiolate complexes are central', 'to their function.', 'Complex A, for example, was found to be resistant to high', 'concentrations of a strong reducing agent and had an intermediate oxidation']
+ > Processing time: 44.197423219680786
+ > Real-time factor: 0.23123924707056656
+ > Saving output to AUDIO_OUTPUTS/page_3.wav
+ > tts_models/en/ljspeech/vits is already downloaded.
+ > Using model: vits
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:0
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:None
+ | > fft_size:1024
+ | > power:None
+ | > preemphasis:0.0
+ | > griffin_lim_iters:None
+ | > signal_norm:None
+ | > symmetric_norm:None
+ | > mel_fmin:0
+ | > mel_fmax:None
+ | > pitch_fmin:None
+ | > pitch_fmax:None
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:1.0
+ | > clip_norm:True
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Text: state of copper (Cu+) with good thermodynamic stability (Sahoo et al.,
+2022). These properties are crucial for applications that require stability
+under harsh conditions, such as industrial catalysis or environmental
+sensing.
+Synthesis of Metal Nanoclusters
+Metal-thiolate complexes serve as precursors for the synthesis of metal
+nanoclusters, which are of great interest due to their size-dependent
+electronic and optical properties. The controlled synthesis of these
+nanoclusters is essential for their application in catalysis and materials
+science. Studies have shown that metal-ligand complexes play critical roles
+in the synthesis of various metal nanoclusters, with thiolate ligands being
+particularly important for the formation of gold nanoclusters (Kim, Chang,
+Kang et al., 2023).
+Ligand Exchange and Cluster Growth
+The chemistry of thiolate ligands with metals like gold is complex and
+involves various mechanisms, including ligand exchange and cluster growth.
+These processes are essential for understanding the formation rate and
+growth mechanisms of metal nanoclusters, which in turn influence their
+physicochemical properties and catalytic applications (Coordination
+Chemistry Reviews, 2021).
+Conclusion
+Metal-thiolate complexes are multifaceted entities with a plethora of
+applications in catalysis and materials science. Their unique photophysical
+properties enable them to function as sensors, while their structural and
+redox characteristics make them robust catalysts. The ability to switch
+between different structural states allows for controlled catalytic activity,
+which is a highly desirable trait in industrial processes. Furthermore, their
+role as precursors in the synthesis of metal nanoclusters opens up avenues
+for creating materials with tailored properties for specific applications.
+The ongoing research into the structure-property relationships of metal-
+thiolate complexes is crucial for harnessing their full potential. As we
+continue to unravel the complexities of these compounds, we can expect to
+see more innovative applications that leverage their unique characteristics.
+The versatility and adaptability of metal-thiolate complexes make them a
+valuable asset in the quest for advanced materials and efficient catalytic
+processes.
+References
+Sahoo, S. R., Bera, D., Saha, S., & Goswami, N. (2022). Switchable
+catalysis and CO2 sensing by reduction resistant, luminescent copper–• 
+ > Text splitted to sentences.
+['state of copper (Cu+) with good thermodynamic stability (Sahoo et al.,', '2022).', 'These properties are crucial for applications that require stability', 'under harsh conditions, such as industrial catalysis or environmental', 'sensing.', 'Synthesis of Metal Nanoclusters', 'Metal-thiolate complexes serve as precursors for the synthesis of metal', 'nanoclusters, which are of great interest due to their size-dependent', 'electronic and optical properties.', 'The controlled synthesis of these', 'nanoclusters is essential for their application in catalysis and materials', 'science.', 'Studies have shown that metal-ligand complexes play critical roles', 'in the synthesis of various metal nanoclusters, with thiolate ligands being', 'particularly important for the formation of gold nanoclusters (Kim, Chang,', 'Kang et al., 2023).', 'Ligand Exchange and Cluster Growth', 'The chemistry of thiolate ligands with metals like gold is complex and', 'involves various mechanisms, including ligand exchange and cluster growth.', 'These processes are essential for understanding the formation rate and', 'growth mechanisms of metal nanoclusters, which in turn influence their', 'physicochemical properties and catalytic applications (Coordination', 'Chemistry Reviews, 2021).', 'Conclusion', 'Metal-thiolate complexes are multifaceted entities with a plethora of', 'applications in catalysis and materials science.', 'Their unique photophysical', 'properties enable them to function as sensors, while their structural and', 'redox characteristics make them robust catalysts.', 'The ability to switch', 'between different structural states allows for controlled catalytic activity,', 'which is a highly desirable trait in industrial processes.', 'Furthermore, their', 'role as precursors in the synthesis of metal nanoclusters opens up avenues', 'for creating materials with tailored properties for specific applications.', 'The ongoing research into the structure-property relationships of metal-', 'thiolate complexes is crucial for harnessing their full potential.', 'As we', 'continue to unravel the complexities of these compounds, we can expect to', 'see more innovative applications that leverage their unique characteristics.', 'The versatility and adaptability of metal-thiolate complexes make them a', 'valuable asset in the quest for advanced materials and efficient catalytic', 'processes.', 'References', 'Sahoo, S. R., Bera, D., Saha, S., & Goswami, N. (2022).', 'Switchable', 'catalysis and CO2 sensing by reduction resistant, luminescent copper–•']
+ > Processing time: 45.92707681655884
+ > Real-time factor: 0.2367634123669519
+ > Saving output to AUDIO_OUTPUTS/page_4.wav
+ > tts_models/en/ljspeech/vits is already downloaded.
+ > Using model: vits
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:0
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:None
+ | > fft_size:1024
+ | > power:None
+ | > preemphasis:0.0
+ | > griffin_lim_iters:None
+ | > signal_norm:None
+ | > symmetric_norm:None
+ | > mel_fmin:0
+ | > mel_fmax:None
+ | > pitch_fmin:None
+ | > pitch_fmax:None
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:1.0
+ | > clip_norm:True
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Text: thiolate complexes. Nanoscale, 14, 18051. https://doi.org/10.1039/
+D2NR05396A
+Kim, J. S., Chang, H., Kang, S., et al. (2023). Critical roles of metal–
+ligand complexes in the controlled synthesis of various metal
+nanoclusters. Nature Communications, 14, 3201. https://doi.org/
+10.1038/s41467-023-38955-y
+Coordination Chemistry Reviews. (2021). Roles of thiolate ligands in
+the synthesis, properties and catalytic application of gold nanoclusters.
+https://www.sciencedirect.com/science/article/pii/S0010854518300535• 
+• 
+ > Text splitted to sentences.
+['thiolate complexes.', 'Nanoscale, 14, 18051.', 'https://doi.org/10.1039/', 'D2NR05396A', 'Kim, J. S., Chang, H., Kang, S., et al. (2023).', 'Critical roles of metal–', 'ligand complexes in the controlled synthesis of various metal', 'nanoclusters.', 'Nature Communications, 14, 3201.', 'https://doi.org/', '10.1038/s41467-023-38955-y', 'Coordination Chemistry Reviews.', '(2021).', 'Roles of thiolate ligands in', 'the synthesis, properties and catalytic application of gold nanoclusters.', 'https://www.sciencedirect.com/science/article/pii/S0010854518300535•', '•']
+ > Processing time: 22.048648834228516
+ > Real-time factor: 0.2628506169900881
+ > Saving output to AUDIO_OUTPUTS/page_5.wav
+ > tts_models/en/ljspeech/vits is already downloaded.
+ > Using model: vits
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:0
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:None
+ | > fft_size:1024
+ | > power:None
+ | > preemphasis:0.0
+ | > griffin_lim_iters:None
+ | > signal_norm:None
+ | > symmetric_norm:None
+ | > mel_fmin:0
+ | > mel_fmax:None
+ | > pitch_fmin:None
+ | > pitch_fmax:None
+ | > spec_gain:20.0
+ | > stft_pad_mode:reflect
+ | > max_norm:1.0
+ | > clip_norm:True
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Text: Limitations in Understanding
+Hydrogen Bonding in Complex
+Environments
+Introduction
+Hydrogen bonding is a fundamental interaction that plays a critical role in
+the structure and function of a wide range of materials and biological
+systems. Despite its importance, our understanding of hydrogen bonding in
+complex environments remains limited. This report delves into the
+challenges and limitations faced by scientists in unraveling the intricacies of
+hydrogen bonding within various contexts, from gas-phase complex anions
+to hydrogen-bonded organic frameworks (HOFs), and in the presence of
+molecular crowding.
+Challenges in Complex Environments
+Gas-Phase Complex Anions
+Recent studies have highlighted the existence of hydrogen bond networks
+(HBNs) in complex anions formed between α-cyclodextrin (α-CD) and
+benzoic acids in the gas phase (Lai et al., 2022). While these findings
+provide valuable insights, they also underscore the difficulty in isolating
+HBNs from complicated backgrounds to study their characteristics. The
+transition dynamics of these anions, as revealed through electrospray
+ionization and collision activation, point to the unexpected dominance of
+certain dissociation pathways. However, the cooperative stretching
+dynamics of HBNs in these systems are not fully understood, and the
+stability of the complex anions formed from more acidic benzoic acids
+presents an area where our knowledge is still evolving (Lai et al., 2022).
+Hydrogen-Bonded Organic Frameworks
+The development of HOFs has been initially hindered by the relatively weak
+hydrogen-bonding interactions, leading to the collapse of many HOFs upon
+guest solvent removal. Although recent designs incorporating large π-
+conjugated systems have improved the thermal stability of HOFs and
+accelerated electron transfer during redox reactions, the full potential of
+these materials is yet to be realized (Gao et al., 2022). The introduction of
+metal nanoparticles into HOFs, while broadening their applications, also
+introduces the risk of coordination interactions that can affect phase purity
+(Gao et al., 2022). The complexity of these systems and the delicate balance
+of interactions present significant challenges in fully understanding and
+harnessing the capabilities of HOFs.
+ > Text splitted to sentences.
+['Limitations in Understanding', 'Hydrogen Bonding in Complex', 'Environments', 'Introduction', 'Hydrogen bonding is a fundamental interaction that plays a critical role in', 'the structure and function of a wide range of materials and biological', 'systems.', 'Despite its importance, our understanding of hydrogen bonding in', 'complex environments remains limited.', 'This report delves into the', 'challenges and limitations faced by scientists in unraveling the intricacies of', 'hydrogen bonding within various contexts, from gas-phase complex anions', 'to hydrogen-bonded organic frameworks (HOFs), and in the presence of', 'molecular crowding.', 'Challenges in Complex Environments', 'Gas-Phase Complex Anions', 'Recent studies have highlighted the existence of hydrogen bond networks', '(HBNs) in complex anions formed between α-cyclodextrin (α-CD) and', 'benzoic acids in the gas phase (Lai et al., 2022).', 'While these findings', 'provide valuable insights, they also underscore the difficulty in isolating', 'HBNs from complicated backgrounds to study their characteristics.', 'The', 'transition dynamics of these anions, as revealed through electrospray', 'ionization and collision activation, point to the unexpected dominance of', 'certain dissociation pathways.', 'However, the cooperative stretching', 'dynamics of HBNs in these systems are not fully understood, and the', 'stability of the complex anions formed from more acidic benzoic acids', 'presents an area where our knowledge is still evolving (Lai et al., 2022).', 'Hydrogen-Bonded Organic Frameworks', 'The development of HOFs has been initially hindered by the relatively weak', 'hydrogen-bonding interactions, leading to the collapse of many HOFs upon', 'guest solvent removal.', 'Although recent designs incorporating large π-', 'conjugated systems have improved the thermal stability of HOFs and', 'accelerated electron transfer during redox reactions, the full potential of', 'these materials is yet to be realized (Gao et al., 2022).', 'The introduction of', 'metal nanoparticles into HOFs, while broadening their applications, also', 'introduces the risk of coordination interactions that can affect phase purity', '(Gao et al., 2022).', 'The complexity of these systems and the delicate balance', 'of interactions present significant challenges in fully understanding and', 'harnessing the capabilities of HOFs.']
