@@ -1,1 +1,1092 @@
-[{"file_id": "1993NatureBryan", "article": "Chunk # 0.\nUniversity of Groningen\n\nUniversity Medical Center Groningen\n\nUniversity of Groningen\n\n## 1 Introduction\n\nThe study of the influence \n\n## 1.1 Conducting charge-transfer salts based on neutral \\(\\pi\\)-radicals\n\nC D Bryan\\({}^{\\star}\\), A W Cordes\\({}^{\\star}\\), R M Fleming\\({}^{\\dagger}\\), N A George\\({}^{\\ddagger}\\), S H Glarum\\({}^{\\dagger}\\), R C Haddon\\({}^{\\dagger}\\), R T Oakley\\({}^{\\ddagger}\\), T T M Palstra\\({}^{\\dagger}\\), A S Perel\\({}^{\\dagger}\\), L F Schneemeyer\\({}^{\\dagger}\\) & J V Waszczak\\({}^{\\dagger}\\)\n\nMost molecular conductors rely on charge transfer to create carriers For example, the ET salts' are hole-doped whereas the \\(C_{\\alpha}\\) salts\\({}^{\\rm 2}\\) are electron-doped Neutral radical species in which bands are formed by \\(\\pi\\)-orbital overlap would be expected to have half-filled bands and thus to be conducting\\({}^{\\star}\\), but no such metals have yet been reported Here we report the synthesis and characterization of a molecular conductor which combines both of these approaches: energy bands are formed from one-dimensional stacks of neutral \\(\\pi\\)-radicals, and the material is rendered conducting by electron transfer from the conduction band following doping with an acceptor The radical species is the 1,4-charge-bis(dithiadiazole)) diradical 1,4-([S\\({}_{3}\\)N\\({}_{2}\\)C)\\({}_{4}\\)H\\({}_{4}\\)(CN\\({}_{3}\\)S\\({}_{2}\\)] (2 in Fig 1), reaction of which widline vapour leads to crystals of [2][] At low temperatures this compound is essentially a diamagnetic insulator, but above 200 K the conductivity and magnetic susceptibility increase markedly, and at room temperature the conductivity reaches 100 S cm\\({}^{-1}\\), which is comparable to that shown by conventional molecular charge-transfer salts \nThe preparation of synthetic conductors usually involves the oxidation or reduction of a closed-shell molecule to generate a mixed-valence or charge-transfer salt\\({}^{\\rm 1-2}\\) We have been interested in an alternative approach, namely the use of neutral \\(\\pi\\)-radicals, in which the requirement for a partially filled energy band is inherently fulfilled\\({}^{\\rm 3}\\) There are, however, few \\(\\pi\\)-radicals with sufficient stability and flexibility\\({}^{\\rm 4}\\) Initially we examined variants of the phenanely radical\\({}^{\\rm 7}\\), but recent advances in heterocyclic chemistry have provided a variety of potentially useful \\(\\pi\\)-radical building blocks\\({}^{\\rm 1,1,2}\\) One objective has been to generate materials consisting of molecular stacks or columns, and for several choices of the R-group in 1 (Fig 1, E = S, Se), this packing arrangement has been realized\\({}^{\\rm 11,13}\\) By definition, however, neutral radicals give rise to a half-filled electronic energy band, which in a one-dimensional packing arrangement is prone to a Peierls instability (essentially a dimerization process) driven by charge density waves (CDWs) Because the radicals tend to dimerize, we have attempted to stabilize the metallic state by applying pressure and by preparing materials in which two- and three-dimensional interactions are enhanced Several small-band-gap semiconductors of this kind (with E = Se) have been characterized\\({}^{\\rm 11,13,15}\\), but no truly metallic compound has yet been realized \nAn alternative strategy for stabilizing the metallic state involves doping the energy band away from the half-filling which is characteristic of the neutral state We have now found that the oxidation of the 1,4-phenylene-bridged bifunctional radical 2 (Fig 1, red 4) with iodine produces a highly conductive mixed-valence salt of formula [2][][] The preparation requires heating a mixture of 2 (1.0 mmol and I\\({}_{2}\\) (0.5 mmol) in a sealed, evacuated (1 mMTorr) pyrex tube (25 \\(\\times\\) 250 mmol) Slow fractional sublimation along a temperature gradient (225 \\({}^{\\circ}\\)C to 160 \\({}^{\\circ}\\)C over 100 nm) affords, after several days, luminous silver black needles with elemental composition C\\({}_{4}\\)H\\({}_{4}\\)N\\({}_{4}\\)S\\({}_{4}\\)I (yield \\(\\sim\\) 70%) \nThe crystal structure (Fig 2) consists of columns of uniformly spaced (3.415(2) A) molecules of 2 interspersed by columns of disordered iodutes running along the \\(x\\)-axis Perpendicular to the stacking direction the heterocyclic rings lie in dove-tailed arrays running parallel to the \\(y\\)-axis Within the CN\\({}_{3}\\)S\\({}_{2}\\) rings, the S-S (2.066(1) A) and S-N (1.616(2) A) bonds are between those seen in the neutral dimer of 2 (ref [14]) and its di-cation [2]\\({}^{\\rm 2+}\\) (ref [15]), but closer to the former, implying an oxidation state (per ring) of \\(<\\)0.5 \nThe magnetic susceptibility of [2][] was determined between 4 K and the decomposition point using the Faraday technique (Fig 3) At low temperatures there is a small Curie tail due to\n\nFigure 1.1: The molecular structures of the neutral radical dithiadiazole (1), where E is S or Se, and the 1.4-phenylene-bis(dithiadiazole) diradical (2) \ndefects in the crystal Above 180 K there is a steep rise in the paramagnetism, which becomes almost linear above room temperature An electron spin resonance study of crystals of [2][I] showed the same rise in susceptibility, with a large increase in the linewidth from 20 G at 100 K to 130 G at room temperature The \\(g\\)-value of 2.013 was about the same as that observed for 2 (ref [14]) \nSingle crystals of [2][I] were wired for four-point conductivity measurements along the stacking axis (\\(x\\)) Gold pads were first evaporated onto the crystals Wires were attached to the pads with gold or silver paint, for experiments below or above room temperature, respectively", "summary": "Summary 5: The University of Groningen and the University Medical Center Groningen are the subjects of the provided information. The content discusses the synthesis and characterization of a molecular conductor based on neutral \u03c0-radicals, which play a significant role in molecular conductors. These charge-transfer salts rely on the transfer of electrons between acceptor and donor molecules to create energy bands. The compound combines hole-doped and electron-doped approaches and is prepared by oxidizing a phenylene-bridged bifunctional radical with iodine. The crystal structure consists of columns of the compound interspersed with columns of disordered iodutes. The compound exhibits paramagnetism, high conductivity (reaching 100 S cm\\(^{-1}\\)), and a half-filled electronic energy band. Doping with acceptors enhances the conductivity by facilitating oxidation or reduction processes. The study explores the influence of conductivity, charge transfer, and band structures on the stability and flexibility of materials. Techniques such as electron spin resonance and Faraday measurements are used to study the crystal structure and magnetic susceptibility of these mixed-valence salts. Conductivity measurements provide insights into the influence of charge transfer on the electronic properties of these materials, while the dimerization process and the formation of charge density waves affect their packing arrangement and stability. Heterocyclic chemistry and the Peierls instability contribute to the formation of charge density waves in these materials. Small-band-gap semiconductors (with E = Se) have been characterized, but no truly metallic compound has yet been realized. The Faraday technique and electron spin resonance measurements provide insights into the behavior of these materials. Various researchers, such as C. D. Bryan, A. W. Cordes, R. M. Fleming, N. A. George, S. H. Glarum, R. C. Haddon, R. T. Oakley, T. T. M. Palstra, A. S. Perel, L. F. Schneemeyer, and J. V. Waszczak, have made significant contributions to this field. The influence of charge transfer, bands, stacks, and packing arrangements on the stability and flexibility of these materials is well-studied. The dimerization process and half-filling of energy bands are relevant to the metallic state and oxidation states in these materials.", "clean_entities": ["University of Groningen", "University Medical Center Groningen", "Conducting charge-transfer salts", "Neutral pi-radicals", "Molecular conductors", "Energy bands", "Electron transfer", "Acceptors", "Doping", "Oxidation", "Reduction", "Mixed-valence salt", "Crystal structure", "Magnetic susceptibility", "Electron spin resonance", "Conductivity measurements", "ET salts", "C_alpha salts", "Neutral pi-radicals", "Energy bands", "Conducting charge-transfer salts", "Electron transfer", "Doping with an acceptor", "Molecular charge-transfer salts", "Neutral pi-radicals", "Phenanely radical", "Heterocyclic chemistry", "Peierls instability", "Charge density waves", "Small-band-gap semiconductors", "Mixed-valence salt", "Crystal structure", "Magnetic susceptibility", "Faraday technique", "Electron spin resonance", "Conductivity measurements", "C D Bryan", "A W Cordes", "R M Fleming", "N A George", "S H Glarum", "R C Haddon", "R T Oakley", "T T M Palstra", "A S Perel", "L F Schneemeyer", "J V Waszczak", "Influence", "Conductivity", "Charge transfer", "Bands", "Stacks", "Materials", "Energy band", "Stability", "Flexibility", "Packing arrangement", "Dimerization process", "Charge density waves", "Metallic state", "Half-filling", "Oxidation state"], "dirty_entities": ["Entities:", "", "Keywords:", "", "Key Phrases:", "", "References:", "", "Abstract Concepts:"], "references": "", "topics": [{"topic": "Synthesis and characterization of molecular conductor based on neutral \u03c0-radicals", "justification": "The content discusses the synthesis and characterization of a molecular conductor based on neutral \u03c0-radicals, which is the main focus of the summary."}, {"topic": "Charge-transfer salts and electron transfer between acceptor and donor molecules", "justification": "The summary mentions that the compound relies on the transfer of electrons between acceptor and donor molecules to create energy bands, highlighting the importance of charge-transfer salts and electron transfer."}, {"topic": "Crystal structure and composition of the compound", "justification": "The summary mentions that the crystal structure consists of columns of the compound interspersed with columns of disordered iodutes, indicating the relevance of the crystal structure and composition."}, {"topic": "Paramagnetism, high conductivity, and half-filled electronic energy band", "justification": "The summary states that the compound exhibits paramagnetism, high conductivity, and a half-filled electronic energy band, highlighting important characteristics of the compound."}, {"topic": "Influence of conductivity, charge transfer, and band structures on stability and flexibility of materials", "justification": "The summary mentions that the study explores the influence of conductivity, charge transfer, and band structures on the stability and flexibility of materials, indicating the significance of these factors."}, {"topic": "Techniques used to study crystal structure, magnetic susceptibility, and electronic properties", "justification": "The summary mentions the use of techniques such as electron spin resonance and Faraday measurements to study the crystal structure, magnetic susceptibility, and electronic properties of the compound, indicating the relevance of these techniques."}, {"topic": "Formation of charge density waves and dimerization process in materials", "justification": "The summary mentions that the dimerization process and the formation of charge density waves affect the packing arrangement and stability of the materials, highlighting their importance."}, {"topic": "Contributions of various researchers in the field", "justification": "The summary mentions the contributions of various researchers in the field, indicating the relevance of their work."}], "hypothetical_questions": [{"question_type": "Content-Based Question", "question": "How do neutral \u03c0-radicals play a significant role in molecular conductors?"}, {"question_type": "Analytical Question", "question": "What techniques are used to study the crystal structure and magnetic susceptibility of mixed-valence salts?"}, {"question_type": "Creative/Scenario-Based Question", "question": "If a truly metallic compound were to be realized in these materials, how might it impact the field of molecular conductors?"}, {"question_type": "Contextual/Relational Question", "question": "How does the dimerization process and the formation of charge density waves affect the packing arrangement and stability of these materials?"}, {"question_type": "User-Interactive Question", "question": "How might the synthesis and characterization of a molecular conductor based on neutral \u03c0-radicals contribute to advancements in energy storage technology?"}], "knowledge_triplets": [{"subject": "University of Groningen", "relationship": "is affiliated with", "target": "University Medical Center Groningen"}, {"subject": "Conducting charge-transfer salts", "relationship": "relies on", "target": "charge transfer"}, {"subject": "ET salts", "relationship": "are", "target": "hole-doped"}, {"subject": "C_alpha salts", "relationship": "are", "target": "electron-doped"}, {"subject": "Neutral pi-radicals", "relationship": "have", "target": "half-filled bands"}, {"subject": "Neutral pi-radicals", "relationship": "are", "target": "conducting"}, {"subject": "1,4-charge-bis(dithiadiazole)) diradical 1,4-([S3N2C]4H4(CN3S2)]", "relationship": "is", "target": "the radical species"}, {"subject": "Materials", "relationship": "are", "target": "rendered conducting"}, {"subject": "Conductivity", "relationship": "reaches", "target": "100 S cm-1"}, {"subject": "Synthetic conductors", "relationship": "involve", "target": "oxidation or reduction"}, {"subject": "Neutral pi-radicals", "relationship": "fulfill", "target": "requirement for partially filled energy band"}, {"subject": "Neutral radicals", "relationship": "give rise to", "target": "half-filled electronic energy band"}, {"subject": "Neutral radicals", "relationship": "are prone to", "target": "Peierls instability"}, {"subject": "Peierls instability", "relationship": "is driven by", "target": "charge density waves"}, {"subject": "Metallic state", "relationship": "is stabilized by", "target": "applying pressure"}, {"subject": "Metallic state", "relationship": "is stabilized by", "target": "enhancing two- and three-dimensional interactions"}, {"subject": "Mixed-valence salt", "relationship": "is", "target": "highly conductive"}, {"subject": "Crystal structure", "relationship": "consists of", "target": "columns of uniformly spaced molecules"}, {"subject": "Heterocyclic rings", "relationship": "lie in", "target": "dove-tailed arrays"}, {"subject": "Magnetic susceptibility", "relationship": "increases", "target": "markedly"}, {"subject": "Electron spin resonance", "relationship": "shows", "target": "rise in susceptibility"}, {"subject": "Conductivity measurements", "relationship": "are performed along", "target": "the stacking axis"}, {"subject": "University of Groningen", "relationship": "is", "target": "conducting research"}, {"subject": "University of Groningen", "relationship": "is a part of", "target": "University Medical Center Groningen"}, {"subject": "University of Groningen", "relationship": "is a part of", "target": "University of Groningen"}, {"subject": "University of Groningen", "relationship": "is affiliated with", "target": "University Medical Center Groningen"}, {"subject": "Conducting charge-transfer salts", "relationship": "relies on", "target": "charge transfer"}, {"subject": "ET salts", "relationship": "are", "target": "hole-doped"}, {"subject": "C_alpha salts", "relationship": "are", "target": "electron-doped"}, {"subject": "Neutral pi-radicals", "relationship": "have", "target": "half-filled bands"}, {"subject": "Neutral pi-radicals", "relationship": "are", "target": "conducting"}, {"subject": "1,4-charge-bis(dithiadiazole)) diradical 1,4-([S3N2C]4H4(CN3S2)]", "relationship": "is", "target": "the radical species"}, {"subject": "Materials", "relationship": "are", "target": "rendered conducting"}, {"subject": "Conductivity", "relationship": "reaches", "target": "100 S cm-1"}, {"subject": "Synthetic conductors", "relationship": "involve", "target": "oxidation or reduction"}, {"subject": "Neutral pi-radicals", "relationship": "fulfill", "target": "requirement for partially filled energy band"}, {"subject": "Neutral radicals", "relationship": "give rise to", "target": "half-filled electronic energy band"}, {"subject": "Neutral radicals", "relationship": "are prone to", "target": "Peierls instability"}, {"subject": "Peierls instability", "relationship": "is driven by", "target": "charge density waves"}, {"subject": "Metallic state", "relationship": "is stabilized by", "target": "applying pressure"}, {"subject": "Metallic state", "relationship": "is stabilized by", "target": "enhancing two- and three-dimensional interactions"}, {"subject": "Mixed-valence salt", "relationship": "is", "target": "highly conductive"}, {"subject": "Crystal structure", "relationship": "consists of", "target": "columns of uniformly spaced molecules"}, {"subject": "Heterocyclic rings", "relationship": "lie in", "target": "dove-tailed arrays"}, {"subject": "Magnetic susceptibility", "relationship": "increases", "target": "markedly"}, {"subject": "Electron spin resonance", "relationship": "shows", "target": "rise in susceptibility"}, {"subject": "Conductivity measurements", "relationship": "are performed along", "target": "the stacking axis"}, {"subject": "University of Groningen", "relationship": "is", "target": "conducting research"}], "timestamp": "2024-02-01T23:41:02.253167"}, {"file_id": "1993NatureBryan", "article": "Chunk # 1.\nThe conductivity (Fig 4) is activated in the low temperature regime (\\(<\\) 200 K), and there are two points of inflection between 170 and 201 K; the low-temperature transition shows hysteresis (inset) From 210 K until decomposition the conductivity is weakly metallic The highest conductivity is attained at \\(\\sim\\) 350 K where \\(\\sigma\\) = 100 S cm\\({}^{-1}\\) At a pressure of 1.5 GPa the conductivity is increased by a factor of about four, and the low-temperature phase transition is suppressed \nLow-temperature X-ray diffraction was performed on a single crystal of [2][I] using a Cu K\\(\\alpha\\) rotating-anode X-ray source and a closed-cycle helium refrigerator A singly-bent pyrolytic graphite monochromator and a flat graphite analyser were used to increase the signal-to-noise ratio and minimize scattering from the cryostat Be windows This arrangement results in a symmetric resolution function with a resolution width of \\(\\sim\\)0.01 A\\({}^{-1}\\) Because of the large mosaic spread in crystals of [2][I], scans in any direction but the radial direction are expected to show additional broadening from the mosaic structure of the crystal \nA search for a low temperature superlattice was undertaken by scanning parallel to [\\(\\lambda\\)00], the chain axis, at various points\n\nFigure 4: The electrical conductivity of [2][I] as a function of temperature and applied pressure (\\(P\\)) \nFigure 5: a, Superlattice peaks observed for [2][I] along (\\(h\\)06) at 13 K b, Temperature dependence of the superlattice reflections for [2][I], intensity is given in arbitrary units Data for warming and cooling are shown by solid and open symbols respectively \nFigure 3: The magnetic susceptibility of [2][I] as a function of temperature A Curie\u2013Weiss fit to the low-temperature data gave a spin concentration of 0.04% on a per-molecule basis and the diamagnetism was found to be \\(-\\)197 p.p.m e.m.u mol\\({}^{-1}\\) Based on earlier solid-state magnetic susceptibility studies on undoped 2 (ref [14]) and using Pascal\u2019s constants the measured diamagnetism is consistent with the molecular formula \nin reciprocal space The results of scanning along [\\(\\langle 06\\rangle\\)] are shown in Fig 5\\(a\\) Small superlattice peaks marked with arrows can be seen at \\(h=\\pm\\,3\\) 8 and \\(h=\\pm\\,6\\).8 around the (006) Bragg reflection The third harmonic at \\(h=\\,9/8\\) was not observed, nor was the Bragg reflection at (106), which is absent because of the body-centred lattice Similar superlattice peaks were observed around nearly every major Bragg reflection in the (\\(\\langle 0kI\\rangle\\) zone, but were not observed around (00/I) Bragg reflections \nThe temperature dependence of the (3/8 0 6) and the (6/8 0 6) superlattice reflections are shown in Fig 5\\(b\\) The onset transition is near 200 K in agreement with the magnetic susceptibility and conductivity measurements and is taken as evidence of the formation of a CDW The increase of the intensity of the (3/8 0 6) reflection below the phase transition is quite steep, but apparently second order The increase of the intensity of the second-order superlattice peak below the transition is less steep, as is expected because its intensity should be proportional to the fourth power of the order parameter rather than the second power \nThere is an anomalous 'bump' in the intensity of the first-order satellite near 170 K on warming and a gradual decrease of the order parameter below 170 K on cooling There is some ambiguity in determining the intensity of an X-ray from a scan through a broad, mosaic peak, however similar hysteretic behavior, with a smaller range of hysteresis, is seen in the conductivity This could be the signature of an additional CDW phase transition, but a superlattice from a second CDW has not been seen The CDW wavevector is apparently commensurate at \\(h=3/8\\) at all temperatures in the range 10-300 K, however the low \\(q\\)-resolution of this experiment may have failed to detect a region of incommensurability near the phase transition \nIn a one-dimensional conductor the CDW wavevector gives the band-filling directly[16], and thus we infer three-eighth-full conduction band(s) in [2][1] In our previous studies of neutral biradicals such as 2, the two dithiadiazolyl rings (1) were uncoupled and the biradicals could be treated as containing independent spin systems If this argument is extended to [2][1] then every molecule of 2 is involved in two independent conduction bands each of which contains three-quarters of an electron per molecule for a net charge transfer of one-quarter of an electron per dithiadioxyl ring to give [2][1][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][99][100][101][11][12][13][141][15][162][163][164][165][166][167][168][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][200][201][202][203][204][205][206][207][208][209][200][200][201][200][201][200][202][203][204][205][206][207][208][209][200][201][200][200][200][201][200][200][201][200][200][201][200][20", "summary": "The conductivity of [2][I] is activated at low temperatures (<200 K) with two points of inflection between 170 and 201 K. The conductivity is weakly metallic from 210 K until decomposition. The highest conductivity is achieved at approximately 350 K with a value of 100 S cm\\(^{-1}\\). At a pressure of 1.5 GPa, the conductivity is increased by a factor of about four, and the low-temperature phase transition is suppressed.\n\nLow-temperature X-ray diffraction was performed on a single crystal of [2][I] using a Cu K\\(\\alpha\\) rotating-anode X-ray source and a closed-cycle helium refrigerator. The measurements utilized a symmetric resolution function with a resolution width of approximately 0.01 A\\(^{-1}\\). Scans in any direction other than the radial direction are expected to show additional broadening due to the mosaic structure of the crystal.\n\nA search for a low-temperature superlattice was conducted by scanning parallel to [\\(\\lambda\\)00], the chain axis, at various points.\n\nThe magnetic susceptibility of [2][I] as a function of temperature indicates a spin concentration of 0.04% per molecule and a diamagnetism of -197 p.p.m e.m.u mol\\(^{-1}\\), consistent with the molecular formula. Superlattice peaks were observed around major Bragg reflections in the (\\(\\langle 0kI\\rangle\\) zone, but not around (00/I) Bragg reflections.\n\nThe temperature dependence of the (3/8 0 6) and (6/8 0 6) superlattice reflections suggests the formation of a charge density wave (CDW) with an onset transition near 200 K. The intensity of the (3/8 0 6) reflection increases steeply below the transition, while the intensity of the second-order superlattice peak increases less steeply.\n\nThere is an anomalous 'bump' in the intensity of the first-order satellite near 170 K on warming, and a gradual decrease of the order parameter below 170 K on cooling. This could be indicative of an additional CDW phase transition, although a superlattice from a second CDW has not been observed. The CDW wavevector is apparently commensurate at \\(h=3/8\\) at all temperatures in the range 10-300 K.\n\nIn [2][I], each molecule is involved in two independent conduction bands, each containing three-quarters of an electron per molecule. This results in a net charge transfer of one-quarter of an electron per dithiadioxyl ring.", "clean_entities": [], "dirty_entities": ["Entities: conductivity", "temperature", "points of inflection", "low-temperature transition", "hysteresis", "decomposition", "metallic conductivity", "pressure", "GPa", "phase transition", "X-ray diffraction", "single crystal", "Cu K\\(\\alpha\\) rotating-anode X-ray source", "closed-cycle helium refrigerator", "pyrolytic graphite monochromator", "flat graphite analyser", "signal-to-noise ratio", "scattering", "cryostat", "Be windows", "mosaic spread", "crystal", "superlattice", "peaks", "temperature dependence", "intensity", "arbitrary units", "magnetic susceptibility", "Curie-Weiss fit", "spin concentration", "per-molecule basis", "diamagnetism", "reciprocal space", "scanning", "Bragg reflection", "body-centred lattice", "order parameter", "CDW", "X-ray scan", "mosaic peak", "CDW phase transition", "CDW wavevector", "band-filling", "biradicals", "spin systems", "conduction bands", "charge transfer", "", "Keywords: conductivity", "temperature", "points of inflection", "low-temperature transition", "hysteresis", "metallic conductivity", "pressure", "GPa", "phase transition", "X-ray diffraction", "single crystal", "Cu K\\(\\alpha\\) rotating-anode X-ray source", "closed-cycle helium refrigerator", "pyrolytic graphite monochromator", "flat graphite analyser", "signal-to-noise ratio", "scattering", "cryostat", "Be windows", "mosaic spread", "crystal", "superlattice", "peaks", "temperature dependence", "intensity", "arbitrary units", "magnetic susceptibility", "Curie-Weiss fit", "spin concentration", "per-molecule basis", "diamagnetism", "reciprocal space", "scanning", "Bragg reflection", "body-centred lattice", "order parameter", "CDW", "X-ray scan", "mosaic peak", "CDW phase transition", "CDW wavevector", "band-filling", "biradicals", "spin systems", "conduction bands", "charge transfer", "", "Key Phrases: low temperature regime", "conductivity is weakly metallic", "highest conductivity", "pressure of 1.5 GPa", "low-temperature phase transition", "X-ray diffraction", "single crystal", "Cu K\\(\\alpha\\) rotating-anode X-ray source", "closed-cycle helium refrigerator", "symmetric resolution function", "mosaic structure of the crystal", "low temperature superlattice", "scanning parallel to [\\(\\lambda\\)00]", "chain axis", "superlattice peaks observed", "temperature dependence of the superlattice reflections", "onset transition", "formation of a CDW", "intensity of the first-order satellite", "CDW wavevector", "band-filling directly", "independent conduction bands", "net charge transfer", "", "References: Fig 4", "inset", "Figure 4", "Figure 5", "Fig 5\\(a\\)", "Fig 5\\(b\\)", "Figure 3", "ref [14]", "Fig 5\\(a\\)", "Fig 5\\(b\\)", "", "Abstract Concepts: conductivity", "temperature dependence", "phase transition", "hysteresis", "X-ray diffraction", "superlattice", "magnetic susceptibility", "CDW", "CDW wavevector", "band-filling", "charge transfer", "", "Final Output: conductivity", "temperature", "points of inflection", "low-temperature transition", "hysteresis", "decomposition", "metallic conductivity", "pressure", "GPa", "phase transition", "X-ray diffraction", "single crystal", "Cu K\\(\\alpha\\) rotating-anode X-ray source", "closed-cycle helium refrigerator", "pyrolytic graphite monochromator", "flat graphite analyser", "signal-to-noise ratio", "scattering", "cryostat", "Be windows", "mosaic spread", "crystal", "superlattice", "peaks", "temperature dependence", "intensity", "arbitrary units", "magnetic susceptibility", "Curie-Weiss fit", "spin concentration", "per-molecule basis", "diamagnetism", "reciprocal space", "scanning", "Bragg reflection", "body-centred lattice", "order parameter", "CDW", "X-ray scan", "mosaic peak", "CDW phase transition", "CDW wavevector", "band-filling", "biradicals", "spin systems", "conduction bands", "charge transfer"], "references": "", "topics": [{"topic": "Conductivity of [2][I] at low temperatures", "justification": "The summary mentions the conductivity of [2][I] at low temperatures and provides specific temperature ranges and values."}, {"topic": "Metallic conductivity of [2][I] from 210 K until decomposition", "justification": "The summary states that the conductivity of [2][I] is weakly metallic from 210 K until decomposition, indicating a distinct behavior."}, {"topic": "Increase in conductivity of [2][I] at a pressure of 1.5 GPa", "justification": "The summary mentions that the conductivity of [2][I] is increased by a factor of about four at a pressure of 1.5 GPa, indicating a significant effect."}, {"topic": "Low-temperature phase transition suppression in [2][I]", "justification": "The summary states that the low-temperature phase transition in [2][I] is suppressed at a pressure of 1.5 GPa, indicating a change in behavior."}, {"topic": "Low-temperature X-ray diffraction of [2][I]", "justification": "The summary mentions the use of low-temperature X-ray diffraction on [2][I] and provides details about the experimental setup."}, {"topic": "Search for low-temperature superlattice in [2][I]", "justification": "The summary mentions a search for a low-temperature superlattice in [2][I] and provides information about the scanning direction."}, {"topic": "Magnetic susceptibility of [2][I] as a function of temperature", "justification": "The summary discusses the magnetic susceptibility of [2][I] and provides information about the spin concentration and diamagnetism."}, {"topic": "Formation of a charge density wave (CDW) in [2][I]", "justification": "The summary mentions the formation of a charge density wave (CDW) in [2][I] and provides details about the temperature dependence of superlattice reflections."}, {"topic": "Anomalous 'bump' in the intensity of the first-order satellite near 170 K", "justification": "The summary describes an anomalous 'bump' in the intensity of the first-order satellite near 170 K and suggests a possible additional phase transition."}, {"topic": "Net charge transfer in [2][I]", "justification": "The summary mentions the net charge transfer in [2][I] and provides information about the involvement of each molecule in two independent conduction bands."}], "hypothetical_questions": [{"question_type": "Content-Based Question", "question": "How does the conductivity of [2][I] change at different temperatures and pressures?"}, {"question_type": "Analytical Question", "question": "What is the significance of the inflection points in the conductivity of [2][I] between 170 and 201 K?"}, {"question_type": "Creative/Scenario-Based Question", "question": "If the conductivity of [2][I] at 350 K is 100 S cm\\(^{-1}\\), how would the material behave in terms of conductivity at even higher temperatures?"}, {"question_type": "Contextual/Relational Question", "question": "How does the formation of a charge density wave (CDW) in [2][I] relate to its conductivity properties?"}, {"question_type": "User-Interactive Question", "question": "How might the conductivity of [2][I] be affected if the pressure is increased beyond 1.5 GPa?"}], "knowledge_triplets": [{"subject": "conductivity", "relationship": "activated in", "target": "low-temperature regime"}, {"subject": "conductivity", "relationship": "shows", "target": "hysteresis"}, {"subject": "conductivity", "relationship": "is weakly metallic", "target": "From 210 K until decomposition"}, {"subject": "conductivity", "relationship": "highest", "target": "attained at \\(\\sim\\"}, {"subject": "conductivity", "relationship": "is increased by a factor of about four", "target": "at a pressure of 1.5 GPa"}, {"subject": "conductivity", "relationship": "is suppressed", "target": "the low-temperature phase transition"}, {"subject": "X-ray diffraction", "relationship": "performed on", "target": "single crystal of [2][I]"}, {"subject": "X-ray diffraction", "relationship": "using", "target": "Cu K\\(\\alpha\\"}, {"subject": "X-ray diffraction", "relationship": "using", "target": "singly-bent pyrolytic graphite monochromator and a flat graphite analyser"}, {"subject": "X-ray diffraction", "relationship": "results in", "target": "symmetric resolution function with a resolution width of \\(\\sim\\"}, {"subject": "X-ray diffraction", "relationship": "expected to show", "target": "additional broadening from the mosaic structure of the crystal"}, {"subject": "search", "relationship": "undertaken", "target": "for a low temperature superlattice"}, {"subject": "search", "relationship": "scanning parallel to [\\(\\lambda\\)00]", "target": "the chain axis, at various points"}, {"subject": "Figure 4", "relationship": "shows", "target": "electrical conductivity of [2][I] as a function of temperature and applied pressure (\\(P\\"}, {"subject": "Figure 5a", "relationship": "shows", "target": "superlattice peaks observed for [2][I] along (\\(h\\"}, {"subject": "Figure 5b", "relationship": "shows", "target": "temperature dependence of the superlattice reflections for [2][I]"}, {"subject": "Figure 3", "relationship": "shows", "target": "magnetic susceptibility of [2][I] as a function of temperature"}, {"subject": "superlattice peaks", "relationship": "observed around", "target": "nearly every major Bragg reflection in the (\\(\\langle 0kI\\rangle\\"}, {"subject": "superlattice peaks", "relationship": "not observed around", "target": "(00/I"}, {"subject": "superlattice peaks", "relationship": "not observed around", "target": "(106"}, {"subject": "temperature dependence", "relationship": "shown by", "target": "(3/8 0 6"}, {"subject": "onset transition", "relationship": "near 200 K", "target": "evidence of the formation of a CDW"}, {"subject": "conductivity", "relationship": "shows similar hysteretic behavior", "target": "with a smaller range of hysteresis"}, {"subject": "molecule of 2", "relationship": "involved in", "target": "two independent conduction bands each of which contains three-quarters of an electron per molecule"}, {"subject": "molecule of 2", "relationship": "gives", "target": "net charge transfer of one-quarter of an electron per dithiadioxyl ring"}, {"subject": "conductivity", "relationship": "activated in", "target": "low temperature regime"}, {"subject": "conductivity", "relationship": "has", "target": "two points of inflection"}, {"subject": "low-temperature transition", "relationship": "shows", "target": "hysteresis"}, {"subject": "conductivity", "relationship": "is attained at", "target": "350 K"}, {"subject": "conductivity", "relationship": "is increased by", "target": "a factor of about four"}, {"subject": "X-ray diffraction", "relationship": "was performed on", "target": "a single crystal"}, {"subject": "X-ray diffraction", "relationship": "used", "target": "Cu K\\(\\alpha\\"}, {"subject": "X-ray diffraction", "relationship": "used", "target": "closed-cycle helium refrigerator"}, {"subject": "X-ray diffraction", "relationship": "used", "target": "pyrolytic graphite monochromator"}, {"subject": "X-ray diffraction", "relationship": "used", "target": "flat graphite analyser"}, {"subject": "X-ray diffraction", "relationship": "results in", "target": "symmetric resolution function"}, {"subject": "X-ray diffraction", "relationship": "results in", "target": "resolution width of 0.01 A\\({}^{-1}\\"}, {"subject": "X-ray diffraction", "relationship": "shows", "target": "scattering from the cryostat Be windows"}, {"subject": "X-ray diffraction", "relationship": "shows", "target": "additional broadening from the mosaic structure of the crystal"}, {"subject": "low temperature superlattice", "relationship": "was undertaken by", "target": "scanning parallel to [\\(\\lambda\\"}, {"subject": "superlattice peaks", "relationship": "observed for", "target": "[2][I]"}, {"subject": "temperature dependence", "relationship": "of the superlattice reflections", "target": "is shown in Fig 5\\(b\\"}, {"subject": "magnetic susceptibility", "relationship": "gives", "target": "spin concentration of 0.04%"}, {"subject": "magnetic susceptibility", "relationship": "gives", "target": "diamagnetism of -197 p.p.m e.m.u mol\\({}^{-1}\\"}, {"subject": "magnetic susceptibility", "relationship": "is consistent with", "target": "the molecular formula"}, {"subject": "scanning", "relationship": "along [\\(\\langle 06\\rangle\\)]", "target": "shows, superlattice peaks"}, {"subject": "superlattice peaks", "relationship": "can be seen at", "target": "\\(h=\\pm\\,3\\"}, {"subject": "superlattice peaks", "relationship": "were observed around", "target": "nearly every major Bragg reflection"}, {"subject": "temperature dependence", "relationship": "of the superlattice reflections", "target": "is near 200 K"}, {"subject": "increase of intensity", "relationship": "of the (3/8 0 6) reflection", "target": "is quite steep"}, {"subject": "increase of intensity", "relationship": "of the second-order superlattice peak", "target": "is less steep"}, {"subject": "intensity of the first-order satellite", "relationship": "has", "target": "an anomalous 'bump' near 170 K"}, {"subject": "CDW wavevector", "relationship": "is apparently commensurate at", "target": "\\(h=3/8\\"}, {"subject": "CDW wavevector", "relationship": "gives", "target": "the band-filling directly"}, {"subject": "independent conduction bands", "relationship": "contain", "target": "three-eighth-full conduction band(s"}, {"subject": "biradicals", "relationship": "contain", "target": "independent spin systems"}, {"subject": "charge transfer", "relationship": "is", "target": "one-quarter of an electron per dithiadioxyl ring"}, {"subject": "conductivity", "relationship": "is activated in", "target": "low temperature regime"}, {"subject": "conductivity", "relationship": "has", "target": "two points of inflection"}, {"subject": "low-temperature transition", "relationship": "shows", "target": "hysteresis"}, {"subject": "conductivity", "relationship": "is attained at", "target": "350 K"}, {"subject": "conductivity", "relationship": "is increased by", "target": "a factor of about four"}, {"subject": "X-ray diffraction", "relationship": "was performed on", "target": "a single crystal"}, {"subject": "X-ray diffraction", "relationship": "used", "target": "Cu K\\(\\alpha\\"}, {"subject": "X-ray diffraction", "relationship": "used", "target": "closed-cycle helium refrigerator"}, {"subject": "X-ray diffraction", "relationship": "used", "target": "pyrolytic graphite monochromator"}, {"subject": "X-ray diffraction", "relationship": "used", "target": "flat graphite analyser"}, {"subject": "X-ray diffraction", "relationship": "results in", "target": "symmetric resolution function"}, {"subject": "X-ray diffraction", "relationship": "results in", "target": "resolution width of 0.01 A\\({}^{-1}\\"}, {"subject": "X-ray diffraction", "relationship": "shows", "target": "scattering from the cryostat Be windows"}, {"subject": "X-ray diffraction", "relationship": "shows", "target": "additional broadening from the mosaic structure of the crystal"}, {"subject": "low temperature superlattice", "relationship": "was undertaken by", "target": "scanning parallel to [\\(\\lambda\\"}, {"subject": "superlattice peaks", "relationship": "observed for", "target": "[2][I]"}, {"subject": "temperature dependence", "relationship": "of the superlattice reflections", "target": "is shown in Fig 5\\(b\\"}, {"subject": "magnetic susceptibility", "relationship": "gives", "target": "spin concentration of 0.04%"}, {"subject": "magnetic susceptibility", "relationship": "gives", "target": "diamagnetism of -197 p.p.m e.m.u mol\\({}^{-1}\\"}, {"subject": "magnetic susceptibility", "relationship": "is consistent with", "target": "the molecular formula"}, {"subject": "scanning", "relationship": "along [\\(\\langle 06\\rangle\\)]", "target": "shows, superlattice peaks"}, {"subject": "superlattice peaks", "relationship": "can be seen at", "target": "\\(h=\\pm\\,3\\"}, {"subject": "superlattice peaks", "relationship": "were observed around", "target": "nearly every major Bragg reflection"}, {"subject": "temperature dependence", "relationship": "of the superlattice reflections", "target": "is near 200 K"}, {"subject": "increase of intensity", "relationship": "of the (3/8 0 6) reflection", "target": "is quite steep"}, {"subject": "increase of intensity", "relationship": "of the second-order superlattice peak", "target": "is less steep"}, {"subject": "intensity of the first-order satellite", "relationship": "has", "target": "an anomalous 'bump' near 170 K"}, {"subject": "CDW wavevector", "relationship": "is apparently commensurate at", "target": "\\(h=3/8\\"}, {"subject": "CDW wavevector", "relationship": "gives", "target": "the band-filling directly"}, {"subject": "independent conduction bands", "relationship": "contain", "target": "three-eighth-full conduction band(s"}, {"subject": "biradicals", "relationship": "contain", "target": "independent spin systems"}, {"subject": "charge transfer", "relationship": "is", "target": "one-quarter of an electron per dithiadioxyl ring"}], "timestamp": "2024-02-01T23:42:11.574253"}]
+[
+    {
+        "file_id": "1993NatureBryan",
+        "article": "Chunk # 0.\nUniversity of Groningen\n\nUniversity Medical Center Groningen\n\nUniversity of Groningen\n\n## 1 Introduction\n\nThe study of the influence \n\n## 1.1 Conducting charge-transfer salts based on neutral \\(\\pi\\)-radicals\n\nC D Bryan\\({}^{\\star}\\), A W Cordes\\({}^{\\star}\\), R M Fleming\\({}^{\\dagger}\\), N A George\\({}^{\\ddagger}\\), S H Glarum\\({}^{\\dagger}\\), R C Haddon\\({}^{\\dagger}\\), R T Oakley\\({}^{\\ddagger}\\), T T M Palstra\\({}^{\\dagger}\\), A S Perel\\({}^{\\dagger}\\), L F Schneemeyer\\({}^{\\dagger}\\) & J V Waszczak\\({}^{\\dagger}\\)\n\nMost molecular conductors rely on charge transfer to create carriers For example, the ET salts' are hole-doped whereas the \\(C_{\\alpha}\\) salts\\({}^{\\rm 2}\\) are electron-doped Neutral radical species in which bands are formed by \\(\\pi\\)-orbital overlap would be expected to have half-filled bands and thus to be conducting\\({}^{\\star}\\), but no such metals have yet been reported Here we report the synthesis and characterization of a molecular conductor which combines both of these approaches: energy bands are formed from one-dimensional stacks of neutral \\(\\pi\\)-radicals, and the material is rendered conducting by electron transfer from the conduction band following doping with an acceptor The radical species is the 1,4-charge-bis(dithiadiazole)) diradical 1,4-([S\\({}_{3}\\)N\\({}_{2}\\)C)\\({}_{4}\\)H\\({}_{4}\\)(CN\\({}_{3}\\)S\\({}_{2}\\)] (2 in Fig 1), reaction of which widline vapour leads to crystals of [2][] At low temperatures this compound is essentially a diamagnetic insulator, but above 200 K the conductivity and magnetic susceptibility increase markedly, and at room temperature the conductivity reaches 100 S cm\\({}^{-1}\\), which is comparable to that shown by conventional molecular charge-transfer salts \nThe preparation of synthetic conductors usually involves the oxidation or reduction of a closed-shell molecule to generate a mixed-valence or charge-transfer salt\\({}^{\\rm 1-2}\\) We have been interested in an alternative approach, namely the use of neutral \\(\\pi\\)-radicals, in which the requirement for a partially filled energy band is inherently fulfilled\\({}^{\\rm 3}\\) There are, however, few \\(\\pi\\)-radicals with sufficient stability and flexibility\\({}^{\\rm 4}\\) Initially we examined variants of the phenanely radical\\({}^{\\rm 7}\\), but recent advances in heterocyclic chemistry have provided a variety of potentially useful \\(\\pi\\)-radical building blocks\\({}^{\\rm 1,1,2}\\) One objective has been to generate materials consisting of molecular stacks or columns, and for several choices of the R-group in 1 (Fig 1, E = S, Se), this packing arrangement has been realized\\({}^{\\rm 11,13}\\) By definition, however, neutral radicals give rise to a half-filled electronic energy band, which in a one-dimensional packing arrangement is prone to a Peierls instability (essentially a dimerization process) driven by charge density waves (CDWs) Because the radicals tend to dimerize, we have attempted to stabilize the metallic state by applying pressure and by preparing materials in which two- and three-dimensional interactions are enhanced Several small-band-gap semiconductors of this kind (with E = Se) have been characterized\\({}^{\\rm 11,13,15}\\), but no truly metallic compound has yet been realized \nAn alternative strategy for stabilizing the metallic state involves doping the energy band away from the half-filling which is characteristic of the neutral state We have now found that the oxidation of the 1,4-phenylene-bridged bifunctional radical 2 (Fig 1, red 4) with iodine produces a highly conductive mixed-valence salt of formula [2][][] The preparation requires heating a mixture of 2 (1.0 mmol and I\\({}_{2}\\) (0.5 mmol) in a sealed, evacuated (1 mMTorr) pyrex tube (25 \\(\\times\\) 250 mmol) Slow fractional sublimation along a temperature gradient (225 \\({}^{\\circ}\\)C to 160 \\({}^{\\circ}\\)C over 100 nm) affords, after several days, luminous silver black needles with elemental composition C\\({}_{4}\\)H\\({}_{4}\\)N\\({}_{4}\\)S\\({}_{4}\\)I (yield \\(\\sim\\) 70%) \nThe crystal structure (Fig 2) consists of columns of uniformly spaced (3.415(2) A) molecules of 2 interspersed by columns of disordered iodutes running along the \\(x\\)-axis Perpendicular to the stacking direction the heterocyclic rings lie in dove-tailed arrays running parallel to the \\(y\\)-axis Within the CN\\({}_{3}\\)S\\({}_{2}\\) rings, the S-S (2.066(1) A) and S-N (1.616(2) A) bonds are between those seen in the neutral dimer of 2 (ref [14]) and its di-cation [2]\\({}^{\\rm 2+}\\) (ref [15]), but closer to the former, implying an oxidation state (per ring) of \\(<\\)0.5 \nThe magnetic susceptibility of [2][] was determined between 4 K and the decomposition point using the Faraday technique (Fig 3) At low temperatures there is a small Curie tail due to\n\nFigure 1.1: The molecular structures of the neutral radical dithiadiazole (1), where E is S or Se, and the 1.4-phenylene-bis(dithiadiazole) diradical (2) \ndefects in the crystal Above 180 K there is a steep rise in the paramagnetism, which becomes almost linear above room temperature An electron spin resonance study of crystals of [2][I] showed the same rise in susceptibility, with a large increase in the linewidth from 20 G at 100 K to 130 G at room temperature The \\(g\\)-value of 2.013 was about the same as that observed for 2 (ref [14]) \nSingle crystals of [2][I] were wired for four-point conductivity measurements along the stacking axis (\\(x\\)) Gold pads were first evaporated onto the crystals Wires were attached to the pads with gold or silver paint, for experiments below or above room temperature, respectively",
+        "summary": "Summary 5: The University of Groningen and the University Medical Center Groningen are the subjects of the provided information. The content discusses the synthesis and characterization of a molecular conductor based on neutral π-radicals, which play a significant role in molecular conductors. These charge-transfer salts rely on the transfer of electrons between acceptor and donor molecules to create energy bands. The compound combines hole-doped and electron-doped approaches and is prepared by oxidizing a phenylene-bridged bifunctional radical with iodine. The crystal structure consists of columns of the compound interspersed with columns of disordered iodutes. The compound exhibits paramagnetism, high conductivity (reaching 100 S cm\\(^{-1}\\)), and a half-filled electronic energy band. Doping with acceptors enhances the conductivity by facilitating oxidation or reduction processes. The study explores the influence of conductivity, charge transfer, and band structures on the stability and flexibility of materials. Techniques such as electron spin resonance and Faraday measurements are used to study the crystal structure and magnetic susceptibility of these mixed-valence salts. Conductivity measurements provide insights into the influence of charge transfer on the electronic properties of these materials, while the dimerization process and the formation of charge density waves affect their packing arrangement and stability. Heterocyclic chemistry and the Peierls instability contribute to the formation of charge density waves in these materials. Small-band-gap semiconductors (with E = Se) have been characterized, but no truly metallic compound has yet been realized. The Faraday technique and electron spin resonance measurements provide insights into the behavior of these materials. Various researchers, such as C. D. Bryan, A. W. Cordes, R. M. Fleming, N. A. George, S. H. Glarum, R. C. Haddon, R. T. Oakley, T. T. M. Palstra, A. S. Perel, L. F. Schneemeyer, and J. V. Waszczak, have made significant contributions to this field. The influence of charge transfer, bands, stacks, and packing arrangements on the stability and flexibility of these materials is well-studied. The dimerization process and half-filling of energy bands are relevant to the metallic state and oxidation states in these materials.",
+        "clean_entities": [
+            "University of Groningen",
+            "University Medical Center Groningen",
+            "Conducting charge-transfer salts",
+            "Neutral pi-radicals",
+            "Molecular conductors",
+            "Energy bands",
+            "Electron transfer",
+            "Acceptors",
+            "Doping",
+            "Oxidation",
+            "Reduction",
+            "Mixed-valence salt",
+            "Crystal structure",
+            "Magnetic susceptibility",
+            "Electron spin resonance",
+            "Conductivity measurements",
+            "ET salts",
+            "C_alpha salts",
+            "Neutral pi-radicals",
+            "Energy bands",
+            "Conducting charge-transfer salts",
+            "Electron transfer",
+            "Doping with an acceptor",
+            "Molecular charge-transfer salts",
+            "Neutral pi-radicals",
+            "Phenanely radical",
+            "Heterocyclic chemistry",
+            "Peierls instability",
+            "Charge density waves",
+            "Small-band-gap semiconductors",
+            "Mixed-valence salt",
+            "Crystal structure",
+            "Magnetic susceptibility",
+            "Faraday technique",
+            "Electron spin resonance",
+            "Conductivity measurements",
+            "C D Bryan",
+            "A W Cordes",
+            "R M Fleming",
+            "N A George",
+            "S H Glarum",
+            "R C Haddon",
+            "R T Oakley",
+            "T T M Palstra",
+            "A S Perel",
+            "L F Schneemeyer",
+            "J V Waszczak",
+            "Influence",
+            "Conductivity",
+            "Charge transfer",
+            "Bands",
+            "Stacks",
+            "Materials",
+            "Energy band",
+            "Stability",
+            "Flexibility",
+            "Packing arrangement",
+            "Dimerization process",
+            "Charge density waves",
+            "Metallic state",
+            "Half-filling",
+            "Oxidation state"
+        ],
+        "dirty_entities": [
+            "Entities:",
+            "",
+            "Keywords:",
+            "",
+            "Key Phrases:",
+            "",
+            "References:",
+            "",
+            "Abstract Concepts:"
+        ],
+        "references": "",
+        "topics": [
+            {
+                "topic": "Synthesis and characterization of molecular conductor based on neutral π-radicals",
+                "justification": "The content discusses the synthesis and characterization of a molecular conductor based on neutral π-radicals, which is the main focus of the summary."
+            },
+            {
+                "topic": "Charge-transfer salts and electron transfer between acceptor and donor molecules",
+                "justification": "The summary mentions that the compound relies on the transfer of electrons between acceptor and donor molecules to create energy bands, highlighting the importance of charge-transfer salts and electron transfer."
+            },
+            {
+                "topic": "Crystal structure and composition of the compound",
+                "justification": "The summary mentions that the crystal structure consists of columns of the compound interspersed with columns of disordered iodutes, indicating the relevance of the crystal structure and composition."
+            },
+            {
+                "topic": "Paramagnetism, high conductivity, and half-filled electronic energy band",
+                "justification": "The summary states that the compound exhibits paramagnetism, high conductivity, and a half-filled electronic energy band, highlighting important characteristics of the compound."
+            },
+            {
+                "topic": "Influence of conductivity, charge transfer, and band structures on stability and flexibility of materials",
+                "justification": "The summary mentions that the study explores the influence of conductivity, charge transfer, and band structures on the stability and flexibility of materials, indicating the significance of these factors."
+            },
+            {
+                "topic": "Techniques used to study crystal structure, magnetic susceptibility, and electronic properties",
+                "justification": "The summary mentions the use of techniques such as electron spin resonance and Faraday measurements to study the crystal structure, magnetic susceptibility, and electronic properties of the compound, indicating the relevance of these techniques."
+            },
+            {
+                "topic": "Formation of charge density waves and dimerization process in materials",
+                "justification": "The summary mentions that the dimerization process and the formation of charge density waves affect the packing arrangement and stability of the materials, highlighting their importance."
+            },
+            {
+                "topic": "Contributions of various researchers in the field",
+                "justification": "The summary mentions the contributions of various researchers in the field, indicating the relevance of their work."
+            }
+        ],
+        "hypothetical_questions": [
+            {
+                "question_type": "Content-Based Question",
+                "question": "How do neutral π-radicals play a significant role in molecular conductors?"
+            },
+            {
+                "question_type": "Analytical Question",
+                "question": "What techniques are used to study the crystal structure and magnetic susceptibility of mixed-valence salts?"
+            },
+            {
+                "question_type": "Creative/Scenario-Based Question",
+                "question": "If a truly metallic compound were to be realized in these materials, how might it impact the field of molecular conductors?"
+            },
+            {
+                "question_type": "Contextual/Relational Question",
+                "question": "How does the dimerization process and the formation of charge density waves affect the packing arrangement and stability of these materials?"
+            },
+            {
+                "question_type": "User-Interactive Question",
+                "question": "How might the synthesis and characterization of a molecular conductor based on neutral π-radicals contribute to advancements in energy storage technology?"
+            }
+        ],
+        "knowledge_triplets": [
+            {
+                "subject": "University of Groningen",
+                "relationship": "is affiliated with",
+                "target": "University Medical Center Groningen"
+            },
+            {
+                "subject": "Conducting charge-transfer salts",
+                "relationship": "relies on",
+                "target": "charge transfer"
+            },
+            {
+                "subject": "ET salts",
+                "relationship": "are",
+                "target": "hole-doped"
+            },
+            {
+                "subject": "C_alpha salts",
+                "relationship": "are",
+                "target": "electron-doped"
+            },
+            {
+                "subject": "Neutral pi-radicals",
+                "relationship": "have",
+                "target": "half-filled bands"
+            },
+            {
+                "subject": "Neutral pi-radicals",
+                "relationship": "are",
+                "target": "conducting"
+            },
+            {
+                "subject": "1,4-charge-bis(dithiadiazole)) diradical 1,4-([S3N2C]4H4(CN3S2)]",
+                "relationship": "is",
+                "target": "the radical species"
+            },
+            {
+                "subject": "Materials",
+                "relationship": "are",
+                "target": "rendered conducting"
+            },
+            {
+                "subject": "Conductivity",
+                "relationship": "reaches",
+                "target": "100 S cm-1"
+            },
+            {
+                "subject": "Synthetic conductors",
+                "relationship": "involve",
+                "target": "oxidation or reduction"
+            },
+            {
+                "subject": "Neutral pi-radicals",
+                "relationship": "fulfill",
+                "target": "requirement for partially filled energy band"
+            },
+            {
+                "subject": "Neutral radicals",
+                "relationship": "give rise to",
+                "target": "half-filled electronic energy band"
+            },
+            {
+                "subject": "Neutral radicals",
+                "relationship": "are prone to",
+                "target": "Peierls instability"
+            },
+            {
+                "subject": "Peierls instability",
+                "relationship": "is driven by",
+                "target": "charge density waves"
+            },
+            {
+                "subject": "Metallic state",
+                "relationship": "is stabilized by",
+                "target": "applying pressure"
+            },
+            {
+                "subject": "Metallic state",
+                "relationship": "is stabilized by",
+                "target": "enhancing two- and three-dimensional interactions"
+            },
+            {
+                "subject": "Mixed-valence salt",
+                "relationship": "is",
+                "target": "highly conductive"
+            },
+            {
+                "subject": "Crystal structure",
+                "relationship": "consists of",
+                "target": "columns of uniformly spaced molecules"
+            },
+            {
+                "subject": "Heterocyclic rings",
+                "relationship": "lie in",
+                "target": "dove-tailed arrays"
+            },
+            {
+                "subject": "Magnetic susceptibility",
+                "relationship": "increases",
+                "target": "markedly"
+            },
+            {
+                "subject": "Electron spin resonance",
+                "relationship": "shows",
+                "target": "rise in susceptibility"
+            },
+            {
+                "subject": "Conductivity measurements",
+                "relationship": "are performed along",
+                "target": "the stacking axis"
+            },
+            {
+                "subject": "University of Groningen",
+                "relationship": "is",
+                "target": "conducting research"
+            },
+            {
+                "subject": "University of Groningen",
+                "relationship": "is a part of",
+                "target": "University Medical Center Groningen"
+            },
+            {
+                "subject": "University of Groningen",
+                "relationship": "is a part of",
+                "target": "University of Groningen"
+            },
+            {
+                "subject": "University of Groningen",
+                "relationship": "is affiliated with",
+                "target": "University Medical Center Groningen"
+            },
+            {
+                "subject": "Conducting charge-transfer salts",
+                "relationship": "relies on",
+                "target": "charge transfer"
+            },
+            {
+                "subject": "ET salts",
+                "relationship": "are",
+                "target": "hole-doped"
+            },
+            {
+                "subject": "C_alpha salts",
+                "relationship": "are",
+                "target": "electron-doped"
+            },
+            {
+                "subject": "Neutral pi-radicals",
+                "relationship": "have",
+                "target": "half-filled bands"
+            },
+            {
+                "subject": "Neutral pi-radicals",
+                "relationship": "are",
+                "target": "conducting"
+            },
+            {
+                "subject": "1,4-charge-bis(dithiadiazole)) diradical 1,4-([S3N2C]4H4(CN3S2)]",
+                "relationship": "is",
+                "target": "the radical species"
+            },
+            {
+                "subject": "Materials",
+                "relationship": "are",
+                "target": "rendered conducting"
+            },
+            {
+                "subject": "Conductivity",
+                "relationship": "reaches",
+                "target": "100 S cm-1"
+            },
+            {
+                "subject": "Synthetic conductors",
+                "relationship": "involve",
+                "target": "oxidation or reduction"
+            },
+            {
+                "subject": "Neutral pi-radicals",
+                "relationship": "fulfill",
+                "target": "requirement for partially filled energy band"
+            },
+            {
+                "subject": "Neutral radicals",
+                "relationship": "give rise to",
+                "target": "half-filled electronic energy band"
+            },
+            {
+                "subject": "Neutral radicals",
+                "relationship": "are prone to",
+                "target": "Peierls instability"
+            },
+            {
+                "subject": "Peierls instability",
+                "relationship": "is driven by",
+                "target": "charge density waves"
+            },
+            {
+                "subject": "Metallic state",
+                "relationship": "is stabilized by",
+                "target": "applying pressure"
+            },
+            {
+                "subject": "Metallic state",
+                "relationship": "is stabilized by",
+                "target": "enhancing two- and three-dimensional interactions"
+            },
+            {
+                "subject": "Mixed-valence salt",
+                "relationship": "is",
+                "target": "highly conductive"
+            },
+            {
+                "subject": "Crystal structure",
+                "relationship": "consists of",
+                "target": "columns of uniformly spaced molecules"
+            },
+            {
+                "subject": "Heterocyclic rings",
+                "relationship": "lie in",
+                "target": "dove-tailed arrays"
+            },
+            {
+                "subject": "Magnetic susceptibility",
+                "relationship": "increases",
+                "target": "markedly"
+            },
+            {
+                "subject": "Electron spin resonance",
+                "relationship": "shows",
+                "target": "rise in susceptibility"
+            },
+            {
+                "subject": "Conductivity measurements",
+                "relationship": "are performed along",
+                "target": "the stacking axis"
+            },
+            {
+                "subject": "University of Groningen",
+                "relationship": "is",
+                "target": "conducting research"
+            }
+        ],
+        "timestamp": "2024-02-01T23:41:02.253167"
+    },
+    {
+        "file_id": "1993NatureBryan",
+        "article": "Chunk # 1.\nThe conductivity (Fig 4) is activated in the low temperature regime (\\(<\\) 200 K), and there are two points of inflection between 170 and 201 K; the low-temperature transition shows hysteresis (inset) From 210 K until decomposition the conductivity is weakly metallic The highest conductivity is attained at \\(\\sim\\) 350 K where \\(\\sigma\\) = 100 S cm\\({}^{-1}\\) At a pressure of 1.5 GPa the conductivity is increased by a factor of about four, and the low-temperature phase transition is suppressed \nLow-temperature X-ray diffraction was performed on a single crystal of [2][I] using a Cu K\\(\\alpha\\) rotating-anode X-ray source and a closed-cycle helium refrigerator A singly-bent pyrolytic graphite monochromator and a flat graphite analyser were used to increase the signal-to-noise ratio and minimize scattering from the cryostat Be windows This arrangement results in a symmetric resolution function with a resolution width of \\(\\sim\\)0.01 A\\({}^{-1}\\) Because of the large mosaic spread in crystals of [2][I], scans in any direction but the radial direction are expected to show additional broadening from the mosaic structure of the crystal \nA search for a low temperature superlattice was undertaken by scanning parallel to [\\(\\lambda\\)00], the chain axis, at various points\n\nFigure 4: The electrical conductivity of [2][I] as a function of temperature and applied pressure (\\(P\\)) \nFigure 5: a, Superlattice peaks observed for [2][I] along (\\(h\\)06) at 13 K b, Temperature dependence of the superlattice reflections for [2][I], intensity is given in arbitrary units Data for warming and cooling are shown by solid and open symbols respectively \nFigure 3: The magnetic susceptibility of [2][I] as a function of temperature A Curie–Weiss fit to the low-temperature data gave a spin concentration of 0.04% on a per-molecule basis and the diamagnetism was found to be \\(-\\)197 p.p.m e.m.u mol\\({}^{-1}\\) Based on earlier solid-state magnetic susceptibility studies on undoped 2 (ref [14]) and using Pascal’s constants the measured diamagnetism is consistent with the molecular formula \nin reciprocal space The results of scanning along [\\(\\langle 06\\rangle\\)] are shown in Fig 5\\(a\\) Small superlattice peaks marked with arrows can be seen at \\(h=\\pm\\,3\\) 8 and \\(h=\\pm\\,6\\).8 around the (006) Bragg reflection The third harmonic at \\(h=\\,9/8\\) was not observed, nor was the Bragg reflection at (106), which is absent because of the body-centred lattice Similar superlattice peaks were observed around nearly every major Bragg reflection in the (\\(\\langle 0kI\\rangle\\) zone, but were not observed around (00/I) Bragg reflections \nThe temperature dependence of the (3/8 0 6) and the (6/8 0 6) superlattice reflections are shown in Fig 5\\(b\\) The onset transition is near 200 K in agreement with the magnetic susceptibility and conductivity measurements and is taken as evidence of the formation of a CDW The increase of the intensity of the (3/8 0 6) reflection below the phase transition is quite steep, but apparently second order The increase of the intensity of the second-order superlattice peak below the transition is less steep, as is expected because its intensity should be proportional to the fourth power of the order parameter rather than the second power \nThere is an anomalous 'bump' in the intensity of the first-order satellite near 170 K on warming and a gradual decrease of the order parameter below 170 K on cooling There is some ambiguity in determining the intensity of an X-ray from a scan through a broad, mosaic peak, however similar hysteretic behavior, with a smaller range of hysteresis, is seen in the conductivity This could be the signature of an additional CDW phase transition, but a superlattice from a second CDW has not been seen The CDW wavevector is apparently commensurate at \\(h=3/8\\) at all temperatures in the range 10-300 K, however the low \\(q\\)-resolution of this experiment may have failed to detect a region of incommensurability near the phase transition \nIn a one-dimensional conductor the CDW wavevector gives the band-filling directly[16], and thus we infer three-eighth-full conduction band(s) in [2][1] In our previous studies of neutral biradicals such as 2, the two dithiadiazolyl rings (1) were uncoupled and the biradicals could be treated as containing independent spin systems If this argument is extended to [2][1] then every molecule of 2 is involved in two independent conduction bands each of which contains three-quarters of an electron per molecule for a net charge transfer of one-quarter of an electron per dithiadioxyl ring to give [2][1][1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][99][100][101][11][12][13][141][15][162][163][164][165][166][167][168][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][200][201][202][203][204][205][206][207][208][209][200][200][201][200][201][200][202][203][204][205][206][207][208][209][200][201][200][200][200][201][200][200][201][200][200][201][200][20",
+        "summary": "The conductivity of [2][I] is activated at low temperatures (<200 K) with two points of inflection between 170 and 201 K. The conductivity is weakly metallic from 210 K until decomposition. The highest conductivity is achieved at approximately 350 K with a value of 100 S cm\\(^{-1}\\). At a pressure of 1.5 GPa, the conductivity is increased by a factor of about four, and the low-temperature phase transition is suppressed.\n\nLow-temperature X-ray diffraction was performed on a single crystal of [2][I] using a Cu K\\(\\alpha\\) rotating-anode X-ray source and a closed-cycle helium refrigerator. The measurements utilized a symmetric resolution function with a resolution width of approximately 0.01 A\\(^{-1}\\). Scans in any direction other than the radial direction are expected to show additional broadening due to the mosaic structure of the crystal.\n\nA search for a low-temperature superlattice was conducted by scanning parallel to [\\(\\lambda\\)00], the chain axis, at various points.\n\nThe magnetic susceptibility of [2][I] as a function of temperature indicates a spin concentration of 0.04% per molecule and a diamagnetism of -197 p.p.m e.m.u mol\\(^{-1}\\), consistent with the molecular formula. Superlattice peaks were observed around major Bragg reflections in the (\\(\\langle 0kI\\rangle\\) zone, but not around (00/I) Bragg reflections.\n\nThe temperature dependence of the (3/8 0 6) and (6/8 0 6) superlattice reflections suggests the formation of a charge density wave (CDW) with an onset transition near 200 K. The intensity of the (3/8 0 6) reflection increases steeply below the transition, while the intensity of the second-order superlattice peak increases less steeply.\n\nThere is an anomalous 'bump' in the intensity of the first-order satellite near 170 K on warming, and a gradual decrease of the order parameter below 170 K on cooling. This could be indicative of an additional CDW phase transition, although a superlattice from a second CDW has not been observed. The CDW wavevector is apparently commensurate at \\(h=3/8\\) at all temperatures in the range 10-300 K.\n\nIn [2][I], each molecule is involved in two independent conduction bands, each containing three-quarters of an electron per molecule. This results in a net charge transfer of one-quarter of an electron per dithiadioxyl ring.",
+        "clean_entities": [],
+        "dirty_entities": [
+            "Entities: conductivity",
+            "temperature",
+            "points of inflection",
+            "low-temperature transition",
+            "hysteresis",
+            "decomposition",
+            "metallic conductivity",
+            "pressure",
+            "GPa",
+            "phase transition",
+            "X-ray diffraction",
+            "single crystal",
+            "Cu K\\(\\alpha\\) rotating-anode X-ray source",
+            "closed-cycle helium refrigerator",
+            "pyrolytic graphite monochromator",
+            "flat graphite analyser",
+            "signal-to-noise ratio",
+            "scattering",
+            "cryostat",
+            "Be windows",
+            "mosaic spread",
+            "crystal",
+            "superlattice",
+            "peaks",
+            "temperature dependence",
+            "intensity",
+            "arbitrary units",
+            "magnetic susceptibility",
+            "Curie-Weiss fit",
+            "spin concentration",
+            "per-molecule basis",
+            "diamagnetism",
+            "reciprocal space",
+            "scanning",
+            "Bragg reflection",
+            "body-centred lattice",
+            "order parameter",
+            "CDW",
+            "X-ray scan",
+            "mosaic peak",
+            "CDW phase transition",
+            "CDW wavevector",
+            "band-filling",
+            "biradicals",
+            "spin systems",
+            "conduction bands",
+            "charge transfer",
+            "",
+            "Keywords: conductivity",
+            "temperature",
+            "points of inflection",
+            "low-temperature transition",
+            "hysteresis",
+            "metallic conductivity",
+            "pressure",
+            "GPa",
+            "phase transition",
+            "X-ray diffraction",
+            "single crystal",
+            "Cu K\\(\\alpha\\) rotating-anode X-ray source",
+            "closed-cycle helium refrigerator",
+            "pyrolytic graphite monochromator",
+            "flat graphite analyser",
+            "signal-to-noise ratio",
+            "scattering",
+            "cryostat",
+            "Be windows",
+            "mosaic spread",
+            "crystal",
+            "superlattice",
+            "peaks",
+            "temperature dependence",
+            "intensity",
+            "arbitrary units",
+            "magnetic susceptibility",
+            "Curie-Weiss fit",
+            "spin concentration",
+            "per-molecule basis",
+            "diamagnetism",
+            "reciprocal space",
+            "scanning",
+            "Bragg reflection",
+            "body-centred lattice",
+            "order parameter",
+            "CDW",
+            "X-ray scan",
+            "mosaic peak",
+            "CDW phase transition",
+            "CDW wavevector",
+            "band-filling",
+            "biradicals",
+            "spin systems",
+            "conduction bands",
+            "charge transfer",
+            "",
+            "Key Phrases: low temperature regime",
+            "conductivity is weakly metallic",
+            "highest conductivity",
+            "pressure of 1.5 GPa",
+            "low-temperature phase transition",
+            "X-ray diffraction",
+            "single crystal",
+            "Cu K\\(\\alpha\\) rotating-anode X-ray source",
+            "closed-cycle helium refrigerator",
+            "symmetric resolution function",
+            "mosaic structure of the crystal",
+            "low temperature superlattice",
+            "scanning parallel to [\\(\\lambda\\)00]",
+            "chain axis",
+            "superlattice peaks observed",
+            "temperature dependence of the superlattice reflections",
+            "onset transition",
+            "formation of a CDW",
+            "intensity of the first-order satellite",
+            "CDW wavevector",
+            "band-filling directly",
+            "independent conduction bands",
+            "net charge transfer",
+            "",
+            "References: Fig 4",
+            "inset",
+            "Figure 4",
+            "Figure 5",
+            "Fig 5\\(a\\)",
+            "Fig 5\\(b\\)",
+            "Figure 3",
+            "ref [14]",
+            "Fig 5\\(a\\)",
+            "Fig 5\\(b\\)",
+            "",
+            "Abstract Concepts: conductivity",
+            "temperature dependence",
+            "phase transition",
+            "hysteresis",
+            "X-ray diffraction",
+            "superlattice",
+            "magnetic susceptibility",
+            "CDW",
+            "CDW wavevector",
+            "band-filling",
+            "charge transfer",
+            "",
+            "Final Output: conductivity",
+            "temperature",
+            "points of inflection",
+            "low-temperature transition",
+            "hysteresis",
+            "decomposition",
+            "metallic conductivity",
+            "pressure",
+            "GPa",
+            "phase transition",
+            "X-ray diffraction",
+            "single crystal",
+            "Cu K\\(\\alpha\\) rotating-anode X-ray source",
+            "closed-cycle helium refrigerator",
+            "pyrolytic graphite monochromator",
+            "flat graphite analyser",
+            "signal-to-noise ratio",
+            "scattering",
+            "cryostat",
+            "Be windows",
+            "mosaic spread",
+            "crystal",
+            "superlattice",
+            "peaks",
+            "temperature dependence",
+            "intensity",
+            "arbitrary units",
+            "magnetic susceptibility",
+            "Curie-Weiss fit",
+            "spin concentration",
+            "per-molecule basis",
+            "diamagnetism",
+            "reciprocal space",
+            "scanning",
+            "Bragg reflection",
+            "body-centred lattice",
+            "order parameter",
+            "CDW",
+            "X-ray scan",
+            "mosaic peak",
+            "CDW phase transition",
+            "CDW wavevector",
+            "band-filling",
+            "biradicals",
+            "spin systems",
+            "conduction bands",
+            "charge transfer"
+        ],
+        "references": "",
+        "topics": [
+            {
+                "topic": "Conductivity of [2][I] at low temperatures",
+                "justification": "The summary mentions the conductivity of [2][I] at low temperatures and provides specific temperature ranges and values."
+            },
+            {
+                "topic": "Metallic conductivity of [2][I] from 210 K until decomposition",
+                "justification": "The summary states that the conductivity of [2][I] is weakly metallic from 210 K until decomposition, indicating a distinct behavior."
+            },
+            {
+                "topic": "Increase in conductivity of [2][I] at a pressure of 1.5 GPa",
+                "justification": "The summary mentions that the conductivity of [2][I] is increased by a factor of about four at a pressure of 1.5 GPa, indicating a significant effect."
+            },
+            {
+                "topic": "Low-temperature phase transition suppression in [2][I]",
+                "justification": "The summary states that the low-temperature phase transition in [2][I] is suppressed at a pressure of 1.5 GPa, indicating a change in behavior."
+            },
+            {
+                "topic": "Low-temperature X-ray diffraction of [2][I]",
+                "justification": "The summary mentions the use of low-temperature X-ray diffraction on [2][I] and provides details about the experimental setup."
+            },
+            {
+                "topic": "Search for low-temperature superlattice in [2][I]",
+                "justification": "The summary mentions a search for a low-temperature superlattice in [2][I] and provides information about the scanning direction."
+            },
+            {
+                "topic": "Magnetic susceptibility of [2][I] as a function of temperature",
+                "justification": "The summary discusses the magnetic susceptibility of [2][I] and provides information about the spin concentration and diamagnetism."
+            },
+            {
+                "topic": "Formation of a charge density wave (CDW) in [2][I]",
+                "justification": "The summary mentions the formation of a charge density wave (CDW) in [2][I] and provides details about the temperature dependence of superlattice reflections."
+            },
+            {
+                "topic": "Anomalous 'bump' in the intensity of the first-order satellite near 170 K",
+                "justification": "The summary describes an anomalous 'bump' in the intensity of the first-order satellite near 170 K and suggests a possible additional phase transition."
+            },
+            {
+                "topic": "Net charge transfer in [2][I]",
+                "justification": "The summary mentions the net charge transfer in [2][I] and provides information about the involvement of each molecule in two independent conduction bands."
+            }
+        ],
+        "hypothetical_questions": [
+            {
+                "question_type": "Content-Based Question",
+                "question": "How does the conductivity of [2][I] change at different temperatures and pressures?"
+            },
+            {
+                "question_type": "Analytical Question",
+                "question": "What is the significance of the inflection points in the conductivity of [2][I] between 170 and 201 K?"
+            },
+            {
+                "question_type": "Creative/Scenario-Based Question",
+                "question": "If the conductivity of [2][I] at 350 K is 100 S cm\\(^{-1}\\), how would the material behave in terms of conductivity at even higher temperatures?"
+            },
+            {
+                "question_type": "Contextual/Relational Question",
+                "question": "How does the formation of a charge density wave (CDW) in [2][I] relate to its conductivity properties?"
+            },
+            {
+                "question_type": "User-Interactive Question",
+                "question": "How might the conductivity of [2][I] be affected if the pressure is increased beyond 1.5 GPa?"
+            }
+        ],
+        "knowledge_triplets": [
+            {
+                "subject": "conductivity",
+                "relationship": "activated in",
+                "target": "low-temperature regime"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "shows",
+                "target": "hysteresis"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "is weakly metallic",
+                "target": "From 210 K until decomposition"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "highest",
+                "target": "attained at \\(\\sim\\"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "is increased by a factor of about four",
+                "target": "at a pressure of 1.5 GPa"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "is suppressed",
+                "target": "the low-temperature phase transition"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "performed on",
+                "target": "single crystal of [2][I]"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "using",
+                "target": "Cu K\\(\\alpha\\"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "using",
+                "target": "singly-bent pyrolytic graphite monochromator and a flat graphite analyser"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "results in",
+                "target": "symmetric resolution function with a resolution width of \\(\\sim\\"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "expected to show",
+                "target": "additional broadening from the mosaic structure of the crystal"
+            },
+            {
+                "subject": "search",
+                "relationship": "undertaken",
+                "target": "for a low temperature superlattice"
+            },
+            {
+                "subject": "search",
+                "relationship": "scanning parallel to [\\(\\lambda\\)00]",
+                "target": "the chain axis, at various points"
+            },
+            {
+                "subject": "Figure 4",
+                "relationship": "shows",
+                "target": "electrical conductivity of [2][I] as a function of temperature and applied pressure (\\(P\\"
+            },
+            {
+                "subject": "Figure 5a",
+                "relationship": "shows",
+                "target": "superlattice peaks observed for [2][I] along (\\(h\\"
+            },
+            {
+                "subject": "Figure 5b",
+                "relationship": "shows",
+                "target": "temperature dependence of the superlattice reflections for [2][I]"
+            },
+            {
+                "subject": "Figure 3",
+                "relationship": "shows",
+                "target": "magnetic susceptibility of [2][I] as a function of temperature"
+            },
+            {
+                "subject": "superlattice peaks",
+                "relationship": "observed around",
+                "target": "nearly every major Bragg reflection in the (\\(\\langle 0kI\\rangle\\"
+            },
+            {
+                "subject": "superlattice peaks",
+                "relationship": "not observed around",
+                "target": "(00/I"
+            },
+            {
+                "subject": "superlattice peaks",
+                "relationship": "not observed around",
+                "target": "(106"
+            },
+            {
+                "subject": "temperature dependence",
+                "relationship": "shown by",
+                "target": "(3/8 0 6"
+            },
+            {
+                "subject": "onset transition",
+                "relationship": "near 200 K",
+                "target": "evidence of the formation of a CDW"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "shows similar hysteretic behavior",
+                "target": "with a smaller range of hysteresis"
+            },
+            {
+                "subject": "molecule of 2",
+                "relationship": "involved in",
+                "target": "two independent conduction bands each of which contains three-quarters of an electron per molecule"
+            },
+            {
+                "subject": "molecule of 2",
+                "relationship": "gives",
+                "target": "net charge transfer of one-quarter of an electron per dithiadioxyl ring"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "activated in",
+                "target": "low temperature regime"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "has",
+                "target": "two points of inflection"
+            },
+            {
+                "subject": "low-temperature transition",
+                "relationship": "shows",
+                "target": "hysteresis"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "is attained at",
+                "target": "350 K"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "is increased by",
+                "target": "a factor of about four"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "was performed on",
+                "target": "a single crystal"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "used",
+                "target": "Cu K\\(\\alpha\\"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "used",
+                "target": "closed-cycle helium refrigerator"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "used",
+                "target": "pyrolytic graphite monochromator"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "used",
+                "target": "flat graphite analyser"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "results in",
+                "target": "symmetric resolution function"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "results in",
+                "target": "resolution width of 0.01 A\\({}^{-1}\\"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "shows",
+                "target": "scattering from the cryostat Be windows"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "shows",
+                "target": "additional broadening from the mosaic structure of the crystal"
+            },
+            {
+                "subject": "low temperature superlattice",
+                "relationship": "was undertaken by",
+                "target": "scanning parallel to [\\(\\lambda\\"
+            },
+            {
+                "subject": "superlattice peaks",
+                "relationship": "observed for",
+                "target": "[2][I]"
+            },
+            {
+                "subject": "temperature dependence",
+                "relationship": "of the superlattice reflections",
+                "target": "is shown in Fig 5\\(b\\"
+            },
+            {
+                "subject": "magnetic susceptibility",
+                "relationship": "gives",
+                "target": "spin concentration of 0.04%"
+            },
+            {
+                "subject": "magnetic susceptibility",
+                "relationship": "gives",
+                "target": "diamagnetism of -197 p.p.m e.m.u mol\\({}^{-1}\\"
+            },
+            {
+                "subject": "magnetic susceptibility",
+                "relationship": "is consistent with",
+                "target": "the molecular formula"
+            },
+            {
+                "subject": "scanning",
+                "relationship": "along [\\(\\langle 06\\rangle\\)]",
+                "target": "shows, superlattice peaks"
+            },
+            {
+                "subject": "superlattice peaks",
+                "relationship": "can be seen at",
+                "target": "\\(h=\\pm\\,3\\"
+            },
+            {
+                "subject": "superlattice peaks",
+                "relationship": "were observed around",
+                "target": "nearly every major Bragg reflection"
+            },
+            {
+                "subject": "temperature dependence",
+                "relationship": "of the superlattice reflections",
+                "target": "is near 200 K"
+            },
+            {
+                "subject": "increase of intensity",
+                "relationship": "of the (3/8 0 6) reflection",
+                "target": "is quite steep"
+            },
+            {
+                "subject": "increase of intensity",
+                "relationship": "of the second-order superlattice peak",
+                "target": "is less steep"
+            },
+            {
+                "subject": "intensity of the first-order satellite",
+                "relationship": "has",
+                "target": "an anomalous 'bump' near 170 K"
+            },
+            {
+                "subject": "CDW wavevector",
+                "relationship": "is apparently commensurate at",
+                "target": "\\(h=3/8\\"
+            },
+            {
+                "subject": "CDW wavevector",
+                "relationship": "gives",
+                "target": "the band-filling directly"
+            },
+            {
+                "subject": "independent conduction bands",
+                "relationship": "contain",
+                "target": "three-eighth-full conduction band(s"
+            },
+            {
+                "subject": "biradicals",
+                "relationship": "contain",
+                "target": "independent spin systems"
+            },
+            {
+                "subject": "charge transfer",
+                "relationship": "is",
+                "target": "one-quarter of an electron per dithiadioxyl ring"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "is activated in",
+                "target": "low temperature regime"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "has",
+                "target": "two points of inflection"
+            },
+            {
+                "subject": "low-temperature transition",
+                "relationship": "shows",
+                "target": "hysteresis"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "is attained at",
+                "target": "350 K"
+            },
+            {
+                "subject": "conductivity",
+                "relationship": "is increased by",
+                "target": "a factor of about four"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "was performed on",
+                "target": "a single crystal"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "used",
+                "target": "Cu K\\(\\alpha\\"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "used",
+                "target": "closed-cycle helium refrigerator"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "used",
+                "target": "pyrolytic graphite monochromator"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "used",
+                "target": "flat graphite analyser"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "results in",
+                "target": "symmetric resolution function"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "results in",
+                "target": "resolution width of 0.01 A\\({}^{-1}\\"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "shows",
+                "target": "scattering from the cryostat Be windows"
+            },
+            {
+                "subject": "X-ray diffraction",
+                "relationship": "shows",
+                "target": "additional broadening from the mosaic structure of the crystal"
+            },
+            {
+                "subject": "low temperature superlattice",
+                "relationship": "was undertaken by",
+                "target": "scanning parallel to [\\(\\lambda\\"
+            },
+            {
+                "subject": "superlattice peaks",
+                "relationship": "observed for",
+                "target": "[2][I]"
+            },
+            {
+                "subject": "temperature dependence",
+                "relationship": "of the superlattice reflections",
+                "target": "is shown in Fig 5\\(b\\"
+            },
+            {
+                "subject": "magnetic susceptibility",
+                "relationship": "gives",
+                "target": "spin concentration of 0.04%"
+            },
+            {
+                "subject": "magnetic susceptibility",
+                "relationship": "gives",
+                "target": "diamagnetism of -197 p.p.m e.m.u mol\\({}^{-1}\\"
+            },
+            {
+                "subject": "magnetic susceptibility",
+                "relationship": "is consistent with",
+                "target": "the molecular formula"
+            },
+            {
+                "subject": "scanning",
+                "relationship": "along [\\(\\langle 06\\rangle\\)]",
+                "target": "shows, superlattice peaks"
+            },
+            {
+                "subject": "superlattice peaks",
+                "relationship": "can be seen at",
+                "target": "\\(h=\\pm\\,3\\"
+            },
+            {
+                "subject": "superlattice peaks",
+                "relationship": "were observed around",
+                "target": "nearly every major Bragg reflection"
+            },
+            {
+                "subject": "temperature dependence",
+                "relationship": "of the superlattice reflections",
+                "target": "is near 200 K"
+            },
+            {
+                "subject": "increase of intensity",
+                "relationship": "of the (3/8 0 6) reflection",
+                "target": "is quite steep"
+            },
+            {
+                "subject": "increase of intensity",
+                "relationship": "of the second-order superlattice peak",
+                "target": "is less steep"
+            },
+            {
+                "subject": "intensity of the first-order satellite",
+                "relationship": "has",
+                "target": "an anomalous 'bump' near 170 K"
+            },
+            {
+                "subject": "CDW wavevector",
+                "relationship": "is apparently commensurate at",
+                "target": "\\(h=3/8\\"
+            },
+            {
+                "subject": "CDW wavevector",
+                "relationship": "gives",
+                "target": "the band-filling directly"
+            },
+            {
+                "subject": "independent conduction bands",
+                "relationship": "contain",
+                "target": "three-eighth-full conduction band(s"
+            },
+            {
+                "subject": "biradicals",
+                "relationship": "contain",
+                "target": "independent spin systems"
+            },
+            {
+                "subject": "charge transfer",
+                "relationship": "is",
+                "target": "one-quarter of an electron per dithiadioxyl ring"
+            }
+        ],
+        "timestamp": "2024-02-01T23:42:11.574253"
+    }
+]
