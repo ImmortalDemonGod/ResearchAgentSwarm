@@ -1,0 +1,44 @@
+# Report: The Use of Percoll and Polyvinylpyrrolidone for Mitochondrial Isolation in Mitochondrial Proteomics
+
+## Introduction
+Mitochondria are essential organelles involved in various cellular processes, including energy production, metabolism, and signaling. The study of mitochondria and their proteome is crucial for understanding their functions and their role in human diseases. To perform comprehensive mitochondrial proteomics, it is important to isolate pure mitochondria free from contamination by other organelles. This report focuses on the use of Percoll and Polyvinylpyrrolidone (PVP) in the detailed methodology for mitochondrial isolation and its contribution to mitochondrial proteomics.
+
+## Mitochondrial Isolation Techniques
+Isolation of pure mitochondria is a critical step in mitochondrial proteomics. Various techniques have been developed to isolate mitochondria from different tissues and cell types. These techniques can be categorized into macroscale, microscale, and nanoscale based on their sampling resolution.
+
+### Macroscale Techniques
+Macroscale techniques involve the release of mitochondria from organs or large tissue samples through physical disruption. Manual homogenization is commonly used, but it may result in low reproducibility and affect mitochondrial integrity and yield. One of the macroscale techniques mentioned in the provided information is the use of differential centrifugation and discontinuous Percoll density gradient centrifugation to isolate mitochondria from rat forebrains and brain subregions [^1]. Percoll density gradient centrifugation is central to obtaining preparations that contain little contamination with synaptosomes and myelin. This technique allows for the isolation of well-coupled mitochondria with high rates of respiratory activity. The procedure requires an initial setup time of 45-75 minutes and between 1 and 3 hours for mitochondrial isolation [^1].
+
+### Microscale Techniques
+Microscale techniques are most useful for small-scale studies investigating mitochondrial heterogeneity or specific mechanisms in mitochondrial dysfunction at the tissue and organ level. These techniques include laser capture microdissection (LCM) and optical trapping (OT) [^2]. LCM and OT are exciting techniques for isolating mitochondria within a specific cell, demonstrating not only the means to retain cellular provenance but also demonstrating cellular and subcellular precision [^2]. However, laser-induced damage to mitochondria and mitochondrial DNA damage when targeting smaller areas limits the effectiveness of LCM and OT in serial sampling and isolating mitochondria from smaller subcellular foci [^2].
+
+### Nanoscale Techniques
+Nanoscale techniques show great promise in enabling mitochondrial isolation at the subcellular level. Nanoprobe-based techniques, such as FluidFM, nanoneedles, and nanostraws, offer the potential for longitudinal analysis of mitochondria from cells and high-throughput isolation with a similar level of precision [^2]. These techniques utilize nanoscale structures to sample and isolate mitochondria at the cellular and subcellular level [^2].
+
+## Percoll Density Gradient Centrifugation
+Percoll density gradient centrifugation is a widely used technique for the isolation of mitochondria. Percoll is a colloidal silica particle coated with polyvinylpyrrolidone (PVP) that forms a density gradient when centrifuged. The density gradient allows for the separation of different cellular components based on their density.
+
+The use of Percoll density gradient centrifugation in mitochondrial isolation has several advantages. It helps to obtain preparations with minimal contamination from other organelles, such as synaptosomes and myelin [^1]. This is particularly important in studies where pure mitochondria are required for accurate analysis. The technique also allows for the isolation of well-coupled mitochondria with high rates of respiratory activity [^1]. The isolated mitochondria are suitable for various studies in mitochondrial proteomics.
+
+## Polyvinylpyrrolidone (PVP) in Mitochondrial Isolation
+Polyvinylpyrrolidone (PVP) is a polymer that has been used in mitochondrial isolation protocols. PVP has been shown to be an effective additive to the isolation medium for preserving the activity of various enzymes in mitochondria [^3]. In a study on the activity of a mitochondrial fraction from apple peel, the addition of PVP to the isolation medium improved the preservation of enzyme activity [^3]. The optimal concentration of PVP varied for different enzymes, indicating its role in maintaining enzyme activity during the isolation process [^3].
+
+PVP has also been used in the isolation of mitochondria from human liver cell lines (HepG2) [^4]. A comparison of three methods for mitochondrial isolation, including two commercially available kits (Qproteome and MITOISO2) and a manual method, showed that the manual method resulted in higher yields of total mitochondrial protein and mtDNA copy numbers [^4]. However, the isolated mitochondria by the Qproteome kit showed higher activity, and the integrity of the inner membrane of the isolated mitochondria was significantly higher compared to the other two methods [^4]. PVP may have contributed to the preservation of mitochondrial activity and integrity during the isolation process.
+
+## Contribution to Mitochondrial Proteomics
+The use of Percoll and PVP in mitochondrial isolation contributes to the detailed methodology for mitochondrial proteomics by providing a means to obtain pure and well-coupled mitochondria with high rates of respiratory activity. Pure mitochondria free from contamination with other organelles are crucial for accurate analysis of the mitochondrial proteome.
+
+Isolated mitochondria can be used for various proteomic analyses, including the identification and quantification of mitochondrial proteins. Proteomic studies have revealed the remarkable complexity of mitochondrial protein organization and the interactions between different protein machineries involved in various functions [^5]. The preprotein translocases on the mitochondrial membranes not only deliver newly synthesized proteins to their final mitochondrial destination but also cooperate with other mitochondrial protein complexes [^5]. These protein networks form membrane contact sites with other cellular compartments, such as the endoplasmic reticulum, and play a crucial role in integrating mitochondria with cellular function [^5].
+
+Mitochondrial proteomics studies have provided insights into the involvement of mitochondria in primary and secondary metabolism [^6]. The comparison of mitochondrial proteomes among different plant species, such as citrus species, has highlighted conserved and unique metabolic pathways that contribute to differential quality attributes and postharvest storage performance [^6]. These studies have expanded our understanding of the role of mitochondria in fruit quality and have identified novel mitochondrial metabolic pathways in plants [^6].
+
+## Conclusion
+The use of Percoll and Polyvinylpyrrolidone (PVP) in mitochondrial isolation techniques, such as Percoll density gradient centrifugation, contributes to the detailed methodology for mitochondrial proteomics. These techniques allow for the isolation of pure mitochondria with minimal contamination from other organelles and well-coupled mitochondria with high rates of respiratory activity. The addition of PVP to the isolation medium helps to preserve enzyme activity and maintain the integrity of the inner mitochondrial membrane. The isolated mitochondria can be used for comprehensive proteomic analyses, providing insights into the organization and functions of mitochondrial proteins. These studies contribute to our understanding of mitochondrial biology and their role in cellular processes and human diseases.
+
+## References
+1. [Isolation of mitochondria from rat brain using Percoll density gradient centrifugation](https://www.nature.com/articles/nprot.2008.105)
+2. [Mitochondrial isolation: when size matters](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7931255/)
+3. [Effect of polyvinylpyrrolidone on the activity of enzymes of the mitochondria](https://www.sciencedirect.com/science/article/pii/S0031942200862354)
+4. [Comparison of Three methods for mitochondria isolation from human liver cell line (HepG2)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4833849/)
+5. [Protein networks in mitochondrial biology](https://pubmed.ncbi.nlm.nih.gov/30626975/)
+6. [Isolation of mitochondria from the pulp of four citrus species for mitochondrial proteomics](https://www.nature.com/articles/s41438-021-00470-w)
